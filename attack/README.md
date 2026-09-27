@@ -3,6 +3,10 @@
 Goal: a second nice number (explicit, or proved to exist) or a proof that 69
 in base 10 is the only one. Nothing else counts.
 
+**2026-09-27 review:** [Five next hypotheses and research priorities](NEXT_HYPOTHESES.md)
+assesses these results alongside `critique/` and the earlier research. It
+proposes bounded intermediate tests; those new tests have not been run.
+
 Five hypotheses run in parallel, one folder each. Each folder gets a
 `REPORT.md` with the verdict, the numbers behind it, and code.
 
