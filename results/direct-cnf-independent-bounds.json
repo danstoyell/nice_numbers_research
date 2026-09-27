@@ -1,0 +1,10 @@
+{
+  "bases": [
+    4,
+    10,
+    128,
+    512
+  ],
+  "status": "passed",
+  "verifier": "scripts/verify.py candidate_intervals"
+}

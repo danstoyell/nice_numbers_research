@@ -1,0 +1,60 @@
+{
+  "backend": "cadical300",
+  "base": 4,
+  "cnf_path": "/private/tmp/nice-direct-4-86397/instance.cnf",
+  "distinct": "pairwise",
+  "encoding": "karatsuba",
+  "export": {
+    "arithmetic_clauses": 52,
+    "arithmetic_variables": 17,
+    "clauses": 92,
+    "cnf_bytes": 871,
+    "cube_length": 2,
+    "cube_width": 6,
+    "elapsed_seconds": 0.0016608749865554273,
+    "leaf_bits": 16,
+    "lower": "2",
+    "n_bit_variables": {
+      "0": 2,
+      "1": 3
+    },
+    "n_width": 2,
+    "observed_peak_rss_mb": 3.875,
+    "residue_filter": false,
+    "reused_from": "results/direct-cnf-base4.json",
+    "rss_limit_mb": 1536,
+    "square_length": 2,
+    "square_width": 4,
+    "status": "exported",
+    "upper": "2",
+    "variables": 29,
+    "wall_limit_seconds": 120,
+    "wall_seconds": 0.2593262500013225,
+    "worker_exit_code": 0
+  },
+  "seed": 20260924,
+  "solve": {
+    "backend": "cadical300",
+    "backend_seed": 20260924,
+    "conflict_budget": 100000,
+    "load_seconds": 0.0023647090420126915,
+    "loaded_clauses": 2,
+    "loaded_variables": 29,
+    "observed_peak_rss_mb": 4.21875,
+    "python_sat_version": "1.9.dev15",
+    "rss_limit_mb": 1536,
+    "solve_seconds": 1.2582982890307903e-05,
+    "statistics": {
+      "conflicts": 0,
+      "decisions": 0,
+      "propagations": 29,
+      "restarts": 0
+    },
+    "status": "unsat",
+    "wall_limit_seconds": 60,
+    "wall_seconds": 0.25970533303916454,
+    "worker_exit_code": 0
+  },
+  "source_distinct": "occupancy",
+  "source_encoding": "direct_streamed_karatsuba"
+}

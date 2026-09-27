@@ -1,0 +1,7626 @@
+{
+  "modulus": 4050,
+  "max_cube_position": 8,
+  "certificates": [
+    {
+      "template": 1,
+      "base_residue_mod_4050": 70,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 16,
+        "constant": -54067
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 101,
+        "q_coefficient": 1272
+      },
+      "square_carry": 11,
+      "next_square_carry": 14,
+      "minimum_q": 1,
+      "minimum_base": 4120,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1931
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 9
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": -3186
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 5075
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": -11043
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 12932
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": -21627
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 23516
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 89100,
+          "constant": -34965
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 20250,
+          "constant": 36854
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 64800,
+          "constant": -52947
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 44550,
+          "constant": 54836
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 462,
+          "constant": 84
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 348,
+          "constant": -75
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 33750,
+          "constant": -17214
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 2700,
+          "constant": 17834
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 21600,
+          "constant": -17646
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 14850,
+          "constant": 18266
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 160,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 16,
+        "constant": -11524
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": -1,
+        "q_coefficient": 438
+      },
+      "square_carry": 22,
+      "next_square_carry": 19,
+      "minimum_q": 1,
+      "minimum_base": 4210,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1841
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 30
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": -3456
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 7775
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": -8964
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 13283
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 438,
+          "constant": -4
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 372,
+          "constant": 31
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 9450,
+          "constant": -3694
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 27000,
+          "constant": 5124
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 21600,
+          "constant": -2992
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 14850,
+          "constant": 4422
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 250,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 78,
+        "q_coefficient": 1182
+      },
+      "square_carry": 23,
+      "next_square_carry": 17,
+      "minimum_q": 1,
+      "minimum_base": 4300,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1751
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 49
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 1404
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 5345
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 372,
+          "constant": 25
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 438,
+          "constant": 20
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 5400,
+          "constant": -807
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 31050,
+          "constant": 3047
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": 462
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 1778
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 340,
+      "cube_position_from_units": 3,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -36505
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": -11,
+        "q_coefficient": 528
+      },
+      "square_carry": 25,
+      "next_square_carry": 22,
+      "minimum_q": 1,
+      "minimum_base": 4390,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1661
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 64
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 324
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 8855
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": -9153
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 18332
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": -18927
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 28106
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 89100,
+          "constant": -29025
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 20250,
+          "constant": 38204
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 528,
+          "constant": -14
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 282,
+          "constant": 77
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": -10921
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 13971
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": -9679
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 12729
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 430,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 16,
+        "constant": -11524
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 111,
+        "q_coefficient": 894
+      },
+      "square_carry": 32,
+      "next_square_carry": 35,
+      "minimum_q": 1,
+      "minimum_base": 4480,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1571
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 84
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": -2376
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 13985
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": -4644
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 16253
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 84,
+          "constant": 22
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 726,
+          "constant": 59
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 33750,
+          "constant": -33
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 2700,
+          "constant": 3893
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 21600,
+          "constant": -1545
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 14850,
+          "constant": 5405
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 520,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 25,
+        "constant": -11542
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 31,
+        "q_coefficient": 384
+      },
+      "square_carry": 16,
+      "next_square_carry": 13,
+      "minimum_q": 1,
+      "minimum_base": 4570,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1481
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 102
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 7344
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 6695
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 1458
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 12581
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 384,
+          "constant": 28
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 426,
+          "constant": 71
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 21600,
+          "constant": -1300
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 14850,
+          "constant": 5970
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 33750,
+          "constant": 482
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 2700,
+          "constant": 4188
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 610,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 13,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 248,
+        "q_coefficient": 1614
+      },
+      "square_carry": -7,
+      "next_square_carry": -4,
+      "minimum_q": 1,
+      "minimum_base": 4660,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1391
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 121
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 3834
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 12635
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 804,
+          "constant": 123
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 6,
+          "constant": -6
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 29700,
+          "constant": 3333
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 6750,
+          "constant": 2147
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 17550,
+          "constant": 1281
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 18900,
+          "constant": 4199
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 700,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 4,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 56,
+        "q_coefficient": 366
+      },
+      "square_carry": 13,
+      "next_square_carry": 19,
+      "minimum_q": 1,
+      "minimum_base": 4750,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1301
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 139
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": -1296
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 20195
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 366,
+          "constant": 53
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 444,
+          "constant": 82
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 29700,
+          "constant": 3542
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 6750,
+          "constant": 2748
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 5400,
+          "constant": -427
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 31050,
+          "constant": 6717
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 790,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 1,
+        "q_coefficient": 42
+      },
+      "square_carry": -2,
+      "next_square_carry": -5,
+      "minimum_q": 1,
+      "minimum_base": 4840,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1211
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 157
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 13284
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 8045
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 42,
+          "constant": -2
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 768,
+          "constant": 155
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 1832
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 5268
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": 4424
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 2676
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 880,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 13,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 166,
+        "q_coefficient": 798
+      },
+      "square_carry": 43,
+      "next_square_carry": 40,
+      "minimum_q": 1,
+      "minimum_base": 4930,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1121
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 175
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 7344
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 16415
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 798,
+          "constant": 163
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 12,
+          "constant": 8
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 5400,
+          "constant": -418
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 31050,
+          "constant": 8328
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 17550,
+          "constant": 2444
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 18900,
+          "constant": 5466
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 970,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 16,
+        "constant": -11524
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 22,
+        "q_coefficient": 168
+      },
+      "square_carry": 7,
+      "next_square_carry": 4,
+      "minimum_q": 1,
+      "minimum_base": 5020,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1031
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 192
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": -216
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 26405
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": 3996
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 22193
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 168,
+          "constant": 19
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 642,
+          "constant": 170
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 9450,
+          "constant": -1804
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 27000,
+          "constant": 10524
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 21600,
+          "constant": 1328
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 14850,
+          "constant": 7392
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1060,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 385,
+        "q_coefficient": 1452
+      },
+      "square_carry": 8,
+      "next_square_carry": 2,
+      "minimum_q": 1,
+      "minimum_base": 5110,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -941
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 211
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 19224
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 9395
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 642,
+          "constant": 170
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 168,
+          "constant": 37
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 5400,
+          "constant": 273
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 31050,
+          "constant": 9257
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": 6402
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 3128
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1150,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 10,
+        "constant": -22327
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 480,
+        "q_coefficient": 1578
+      },
+      "square_carry": -4,
+      "next_square_carry": -1,
+      "minimum_q": 1,
+      "minimum_base": 5200,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -851
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 227
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 10854
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 20195
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": -3483
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 34532
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": -10827
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 41876
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 768,
+          "constant": 247
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 42,
+          "constant": -22
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 25650,
+          "constant": 66
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 10800,
+          "constant": 10274
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 13500,
+          "constant": -3606
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 22950,
+          "constant": 13946
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1240,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 4,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 433,
+        "q_coefficient": 1398
+      },
+      "square_carry": 8,
+      "next_square_carry": 11,
+      "minimum_q": 1,
+      "minimum_base": 5290,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -761
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 247
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 864
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 32615
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 588,
+          "constant": 182
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 222,
+          "constant": 61
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 4233
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 6917
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 5400,
+          "constant": 291
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 31050,
+          "constant": 10859
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1330,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 7,
+        "constant": -54049
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 98,
+        "q_coefficient": 546
+      },
+      "square_carry": 22,
+      "next_square_carry": 28,
+      "minimum_q": 2,
+      "minimum_base": 9430,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -671
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 261
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 25164
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 10745
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 21708
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 14201
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": -9045
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 44954
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 16200,
+          "constant": -31185
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 93150,
+          "constant": 67094
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 28350,
+          "constant": -44739
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 81000,
+          "constant": 80648
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 546,
+          "constant": 95
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 264,
+          "constant": 166
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 33750,
+          "constant": -7159
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 2700,
+          "constant": 19119
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 9450,
+          "constant": -14908
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 27000,
+          "constant": 26868
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1420,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 7,
+        "constant": -11533
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 462,
+        "q_coefficient": 1272
+      },
+      "square_carry": 14,
+      "next_square_carry": 17,
+      "minimum_q": 1,
+      "minimum_base": 5470,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -581
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 282
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 14364
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 23975
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": -1593
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 39932
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 462,
+          "constant": 175
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 348,
+          "constant": 104
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 21600,
+          "constant": 3954
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 14850,
+          "constant": 8816
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 9450,
+          "constant": -528
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 27000,
+          "constant": 13298
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1510,
+      "cube_position_from_units": 3,
+      "cube_digit_numerator": {
+        "base_coefficient": 13,
+        "constant": -36505
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 373,
+        "q_coefficient": 858
+      },
+      "square_carry": 35,
+      "next_square_carry": 38,
+      "minimum_q": 1,
+      "minimum_base": 5560,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -491
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 298
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 1944
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 38825
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": 12636
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 28133
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": -7236
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 48005
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 52650,
+          "constant": -16875
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 56700,
+          "constant": 57644
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 48,
+          "constant": 68
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 762,
+          "constant": 229
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 29700,
+          "constant": -870
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 6750,
+          "constant": 14450
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 17550,
+          "constant": -5622
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 18900,
+          "constant": 19202
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1600,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 116,
+        "q_coefficient": 312
+      },
+      "square_carry": 13,
+      "next_square_carry": 10,
+      "minimum_q": 1,
+      "minimum_base": 5650,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -401
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 319
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 31104
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 12095
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 312,
+          "constant": 113
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 498,
+          "constant": 202
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 5342
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 9048
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": 10364
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 4026
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1690,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 13,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 213,
+        "q_coefficient": 528
+      },
+      "square_carry": 28,
+      "next_square_carry": 25,
+      "minimum_q": 1,
+      "minimum_base": 5740,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -311
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 337
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 17874
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 27755
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 528,
+          "constant": 210
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 282,
+          "constant": 123
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 5400,
+          "constant": 662
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 31050,
+          "constant": 14538
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 17550,
+          "constant": 5954
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 18900,
+          "constant": 9246
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1870,
+      "cube_position_from_units": 5,
+      "cube_digit_numerator": {
+        "base_coefficient": 19,
+        "constant": -74977
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 173,
+        "q_coefficient": 618
+      },
+      "square_carry": 31,
+      "next_square_carry": 28,
+      "minimum_q": 2,
+      "minimum_base": 9970,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -131
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 368
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 37044
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 13445
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 35208
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 15281
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": -3645
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 54134
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 16200,
+          "constant": -29025
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 93150,
+          "constant": 79514
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 28350,
+          "constant": -40959
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 81000,
+          "constant": 91448
+        },
+        {
+          "name": "cube_digit_5_nonnegative",
+          "slope": 76950,
+          "constant": -39447
+        },
+        {
+          "name": "cube_digit_5_below_base",
+          "slope": 32400,
+          "constant": 89936
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 618,
+          "constant": 170
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 192,
+          "constant": 199
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 13500,
+          "constant": -18985
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 22950,
+          "constant": 35805
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 25650,
+          "constant": -13153
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 10800,
+          "constant": 29973
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 1960,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 10,
+        "constant": -22327
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 665,
+        "q_coefficient": 1308
+      },
+      "square_carry": 11,
+      "next_square_carry": 14,
+      "minimum_q": 1,
+      "minimum_base": 6010,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -41
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 389
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 21384
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 31535
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": 2187
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 50732
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": -2727
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 55646
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 498,
+          "constant": 270
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 312,
+          "constant": 117
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 25650,
+          "constant": 5196
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 10800,
+          "constant": 12434
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 13500,
+          "constant": -906
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 22950,
+          "constant": 18536
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2050,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 4,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 576,
+        "q_coefficient": 1128
+      },
+      "square_carry": 23,
+      "next_square_carry": 26,
+      "minimum_q": 0,
+      "minimum_base": 2050,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 49
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 409
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 4104
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 51245
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 318,
+          "constant": 163
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 492,
+          "constant": 242
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 7743
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 10697
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 5400,
+          "constant": 1371
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 31050,
+          "constant": 17069
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2140,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 25,
+        "constant": -11542
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 42,
+        "q_coefficient": 114
+      },
+      "square_carry": 1,
+      "next_square_carry": -2,
+      "minimum_q": 0,
+      "minimum_base": 2140,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 139
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 426
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 42984
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 14795
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 41958
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 15821
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 114,
+          "constant": 39
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 696,
+          "constant": 384
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 21600,
+          "constant": 7340
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 14850,
+          "constant": 11910
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 33750,
+          "constant": 13982
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 2700,
+          "constant": 5268
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2230,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 13,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 745,
+        "q_coefficient": 1344
+      },
+      "square_carry": 8,
+      "next_square_carry": 11,
+      "minimum_q": 0,
+      "minimum_base": 2230,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 229
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 445
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 24894
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 35315
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 534,
+          "constant": 296
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 276,
+          "constant": 145
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 29700,
+          "constant": 15213
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 6750,
+          "constant": 4847
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 17550,
+          "constant": 8301
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 18900,
+          "constant": 11759
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2320,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 4,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 357,
+        "q_coefficient": 636
+      },
+      "square_carry": 28,
+      "next_square_carry": 34,
+      "minimum_q": 0,
+      "minimum_base": 2320,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 319
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 463
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 5184
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 57455
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 636,
+          "constant": 354
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 174,
+          "constant": 105
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 29700,
+          "constant": 15422
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 6750,
+          "constant": 5448
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 5400,
+          "constant": 1733
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 31050,
+          "constant": 19137
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2410,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 339,
+        "q_coefficient": 582
+      },
+      "square_carry": 28,
+      "next_square_carry": 25,
+      "minimum_q": 0,
+      "minimum_base": 2410,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 409
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 481
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 48924
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 16145
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 582,
+          "constant": 336
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 228,
+          "constant": 141
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 8852
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 12828
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": 16304
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 5376
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2500,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 13,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 152,
+        "q_coefficient": 258
+      },
+      "square_carry": 13,
+      "next_square_carry": 10,
+      "minimum_q": 0,
+      "minimum_base": 2500,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 499
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 499
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 28404
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 39095
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 258,
+          "constant": 149
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 552,
+          "constant": 346
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 5400,
+          "constant": 1742
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 31050,
+          "constant": 20748
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 17550,
+          "constant": 9464
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 18900,
+          "constant": 13026
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2590,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 25,
+        "constant": -54058
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 927,
+        "q_coefficient": 1326
+      },
+      "square_carry": 14,
+      "next_square_carry": 8,
+      "minimum_q": 2,
+      "minimum_base": 10690,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 589
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 513
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 6264
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 63665
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": 29916
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 40013
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 3564
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 66365
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 52650,
+          "constant": -2835
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 56700,
+          "constant": 72764
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 101250,
+          "constant": 10692
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 8100,
+          "constant": 59237
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 516,
+          "constant": 406
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 294,
+          "constant": 107
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 9450,
+          "constant": -11751
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 27000,
+          "constant": 35051
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 33750,
+          "constant": 3558
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 2700,
+          "constant": 19742
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2680,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 10,
+        "constant": -22345
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 969,
+        "q_coefficient": 1416
+      },
+      "square_carry": 5,
+      "next_square_carry": 8,
+      "minimum_q": 0,
+      "minimum_base": 2680,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 679
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 533
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 54864
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 17495
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 55458
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 16901
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 4455
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 67904
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 606,
+          "constant": 430
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 204,
+          "constant": 101
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 25650,
+          "constant": 9750
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 10800,
+          "constant": 14360
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 13500,
+          "constant": 1488
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 22950,
+          "constant": 22622
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2770,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 10,
+        "constant": -22327
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 742,
+        "q_coefficient": 1038
+      },
+      "square_carry": 26,
+      "next_square_carry": 29,
+      "minimum_q": 0,
+      "minimum_base": 2770,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 769
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 551
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 31914
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 42875
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": 7857
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 66932
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 5373
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 69416
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 228,
+          "constant": 185
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 582,
+          "constant": 364
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 25650,
+          "constant": 10326
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 10800,
+          "constant": 14594
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 13500,
+          "constant": 1794
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 22950,
+          "constant": 23126
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2860,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 4,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 611,
+        "q_coefficient": 858
+      },
+      "square_carry": 38,
+      "next_square_carry": 41,
+      "minimum_q": 0,
+      "minimum_base": 2860,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 859
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 571
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 7344
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 69875
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 48,
+          "constant": 36
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 762,
+          "constant": 531
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 11253
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 14477
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 5400,
+          "constant": 2451
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 31050,
+          "constant": 23279
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 2950,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 25,
+        "constant": -11542
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 458,
+        "q_coefficient": 654
+      },
+      "square_carry": 31,
+      "next_square_carry": 28,
+      "minimum_q": 0,
+      "minimum_base": 2950,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 949
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 588
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 60804
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 18845
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 62208
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 17441
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 654,
+          "constant": 455
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 156,
+          "constant": 130
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 21600,
+          "constant": 11660
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 14850,
+          "constant": 14880
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 33750,
+          "constant": 20732
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 2700,
+          "constant": 5808
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3040,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 7,
+        "constant": -11533
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 351,
+        "q_coefficient": 492
+      },
+      "square_carry": 19,
+      "next_square_carry": 25,
+      "minimum_q": 0,
+      "minimum_base": 3040,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1039
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 606
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 35424
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 46655
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": 9747
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 72332
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 492,
+          "constant": 348
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 318,
+          "constant": 255
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 33750,
+          "constant": 21263
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 2700,
+          "constant": 6087
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 9450,
+          "constant": 3254
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 27000,
+          "constant": 24096
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3130,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 4,
+        "constant": -4096
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 67,
+        "q_coefficient": 96
+      },
+      "square_carry": -2,
+      "next_square_carry": 4,
+      "minimum_q": 0,
+      "minimum_base": 3130,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1129
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 625
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 8424
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 76085
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 96,
+          "constant": 64
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 714,
+          "constant": 557
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 29700,
+          "constant": 21362
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 6750,
+          "constant": 6798
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 5400,
+          "constant": 2813
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 31050,
+          "constant": 25347
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3220,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 25,
+        "constant": -11542
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 684,
+        "q_coefficient": 840
+      },
+      "square_carry": 41,
+      "next_square_carry": 35,
+      "minimum_q": 0,
+      "minimum_base": 3220,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1219
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 642
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 66744
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 20195
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 68958
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 17981
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 30,
+          "constant": 37
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 780,
+          "constant": 602
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 9450,
+          "constant": 3891
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 27000,
+          "constant": 25079
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 33750,
+          "constant": 22980
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 2700,
+          "constant": 5990
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3310,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 16,
+        "constant": -54067
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 898,
+        "q_coefficient": 1002
+      },
+      "square_carry": 26,
+      "next_square_carry": 29,
+      "minimum_q": 1,
+      "minimum_base": 7360,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1309
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 657
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 38934
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 50435
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": 11637
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 77732
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 10773
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 78596
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 89100,
+          "constant": 36315
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 20250,
+          "constant": 53054
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 64800,
+          "constant": -1107
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 44550,
+          "constant": 90476
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 192,
+          "constant": 233
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 618,
+          "constant": 424
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 33750,
+          "constant": 9786
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 2700,
+          "constant": 19994
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 21600,
+          "constant": -366
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 14850,
+          "constant": 30146
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3400,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 16,
+        "constant": -11524
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 576,
+        "q_coefficient": 708
+      },
+      "square_carry": 37,
+      "next_square_carry": 34,
+      "minimum_q": 0,
+      "minimum_base": 3400,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1399
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 678
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 9504
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 82295
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": 42876
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 48923
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 708,
+          "constant": 573
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 102,
+          "constant": 102
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 9450,
+          "constant": 3866
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 27000,
+          "constant": 26724
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 21600,
+          "constant": 14288
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 14850,
+          "constant": 16302
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3490,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 791,
+        "q_coefficient": 912
+      },
+      "square_carry": 38,
+      "next_square_carry": 32,
+      "minimum_q": 0,
+      "minimum_base": 3490,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1489
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 697
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 72684
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 21545
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 102,
+          "constant": 90
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 708,
+          "constant": 603
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 5400,
+          "constant": 3513
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 31050,
+          "constant": 27887
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": 24222
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 7178
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3580,
+      "cube_position_from_units": 3,
+      "cube_digit_numerator": {
+        "base_coefficient": 22,
+        "constant": -36505
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 650,
+        "q_coefficient": 798
+      },
+      "square_carry": 40,
+      "next_square_carry": 37,
+      "minimum_q": 0,
+      "minimum_base": 3580,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1579
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 712
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 42444
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 54215
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 28350,
+          "constant": 13527
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 81000,
+          "constant": 83132
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 13473
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 83186
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 89100,
+          "constant": 42255
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 20250,
+          "constant": 54404
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 798,
+          "constant": 647
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 12,
+          "constant": 64
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 3119
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 29091
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 29700,
+          "constant": 14081
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 6750,
+          "constant": 18129
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3670,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 25,
+        "constant": -54058
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 71,
+        "q_coefficient": 168
+      },
+      "square_carry": 4,
+      "next_square_carry": 1,
+      "minimum_q": 0,
+      "minimum_base": 3670,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1669
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 729
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 10584
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 88505
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": 47196
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 51893
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 14364
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 84725
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 52650,
+          "constant": 11205
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 56700,
+          "constant": 87884
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 101250,
+          "constant": 37692
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 8100,
+          "constant": 61397
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 168,
+          "constant": 68
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 642,
+          "constant": 661
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 21600,
+          "constant": 1328
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 14850,
+          "constant": 31692
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 33750,
+          "constant": 12560
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 2700,
+          "constant": 20460
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3760,
+      "cube_position_from_units": 3,
+      "cube_digit_numerator": {
+        "base_coefficient": 4,
+        "constant": -36505
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 1401,
+        "q_coefficient": 1452
+      },
+      "square_carry": 5,
+      "next_square_carry": 8,
+      "minimum_q": 2,
+      "minimum_base": 11860,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1759
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 748
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 78624
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 22895
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 82458
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 19061
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 15255
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 86264
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 16200,
+          "constant": -21465
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 93150,
+          "constant": 122984
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 642,
+          "constant": 646
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 168,
+          "constant": 101
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 17550,
+          "constant": 4350
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 18900,
+          "constant": 29480
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 5400,
+          "constant": -7152
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 31050,
+          "constant": 40982
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3850,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 13,
+        "constant": -4096
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 1026,
+        "q_coefficient": 1074
+      },
+      "square_carry": 23,
+      "next_square_carry": 26,
+      "minimum_q": 0,
+      "minimum_base": 3850,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1849
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 769
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 52650,
+          "constant": 45954
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 56700,
+          "constant": 57995
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 264,
+          "constant": 253
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 546,
+          "constant": 512
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 29700,
+          "constant": 27093
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 6750,
+          "constant": 7547
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 17550,
+          "constant": 15321
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 18900,
+          "constant": 19319
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 3940,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 10,
+        "constant": -22336
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 1357,
+        "q_coefficient": 1362
+      },
+      "square_carry": 8,
+      "next_square_carry": 11,
+      "minimum_q": 0,
+      "minimum_base": 3940,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1939
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 785
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 16200,
+          "constant": 11664
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 93150,
+          "constant": 94715
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 64800,
+          "constant": 51516
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 44550,
+          "constant": 54863
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 40500,
+          "constant": 17064
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 68850,
+          "constant": 89315
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 552,
+          "constant": 566
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 258,
+          "constant": 217
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 25650,
+          "constant": 17733
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 10800,
+          "constant": 17717
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 13500,
+          "constant": 5691
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 22950,
+          "constant": 29759
+        }
+      ]
+    },
+    {
+      "template": 1,
+      "base_residue_mod_4050": 4030,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 25,
+        "constant": -11542
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 852,
+        "q_coefficient": 840
+      },
+      "square_carry": 41,
+      "next_square_carry": 35,
+      "minimum_q": 0,
+      "minimum_base": 4030,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 2029
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 804
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 89100,
+          "constant": 84564
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 20250,
+          "constant": 24245
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 101250,
+          "constant": 89208
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 8100,
+          "constant": 19601
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 30,
+          "constant": 43
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 780,
+          "constant": 758
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 9450,
+          "constant": 5781
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 27000,
+          "constant": 30479
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 33750,
+          "constant": 29730
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 2700,
+          "constant": 6530
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 40,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 2,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 21,
+        "q_coefficient": 1518
+      },
+      "square_carry": -1,
+      "next_square_carry": 5,
+      "minimum_q": 1,
+      "minimum_base": 4090,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1961
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 7
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -4833
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 5912
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 708,
+          "constant": 10
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 102,
+          "constant": -7
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 27000,
+          "constant": -1146
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 9450,
+          "constant": 1496
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 2700,
+          "constant": -1605
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 33750,
+          "constant": 1955
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 130,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 11,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 41,
+        "q_coefficient": 1086
+      },
+      "square_carry": 29,
+      "next_square_carry": 26,
+      "minimum_q": 1,
+      "minimum_base": 4180,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1871
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 25
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": -3483
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 6992
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 276,
+          "constant": 12
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 534,
+          "constant": 9
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 2700,
+          "constant": -1326
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 33750,
+          "constant": 2486
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 14850,
+          "constant": -1164
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 21600,
+          "constant": 2324
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 220,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 17,
+        "constant": -24503
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 4,
+        "q_coefficient": 768
+      },
+      "square_carry": 34,
+      "next_square_carry": 37,
+      "minimum_q": 1,
+      "minimum_base": 4270,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1781
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 41
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": -513
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 6452
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": -7965
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 13904
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -20763
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 26702
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 768,
+          "constant": 1
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 42,
+          "constant": 38
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 35100,
+          "constant": -6487
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 1350,
+          "constant": 8457
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 22950,
+          "constant": -6919
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 13500,
+          "constant": 8889
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 310,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 17,
+        "constant": -24494
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 132,
+        "q_coefficient": 1266
+      },
+      "square_carry": 17,
+      "next_square_carry": 14,
+      "minimum_q": 1,
+      "minimum_base": 4360,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1691
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 59
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -4293
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 12662
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": -8667
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 17036
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -19224
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 27593
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 456,
+          "constant": 67
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 354,
+          "constant": -10
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 10800,
+          "constant": -7113
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 25650,
+          "constant": 9893
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 22950,
+          "constant": -6411
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 13500,
+          "constant": 9191
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 400,
+      "cube_position_from_units": 3,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -39347
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 191,
+        "q_coefficient": 1356
+      },
+      "square_carry": 11,
+      "next_square_carry": 8,
+      "minimum_q": 1,
+      "minimum_base": 4450,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1601
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 76
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": -513
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 11312
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": -11016
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 21815
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -17685
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 28484
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 81000,
+          "constant": -31347
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 28350,
+          "constant": 42146
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 546,
+          "constant": 108
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 264,
+          "constant": -33
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 14850,
+          "constant": -11424
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 21600,
+          "constant": 15014
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": -10452
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 14042
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 490,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 131,
+        "q_coefficient": 1032
+      },
+      "square_carry": 29,
+      "next_square_carry": 26,
+      "minimum_q": 1,
+      "minimum_base": 4540,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1511
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 97
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 4887
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 8342
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 222,
+          "constant": 30
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 588,
+          "constant": 63
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 14850,
+          "constant": 384
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 21600,
+          "constant": 4016
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": 1626
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 2774
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 580,
+      "cube_position_from_units": 5,
+      "cube_digit_numerator": {
+        "base_coefficient": 26,
+        "constant": -79178
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 336,
+        "q_coefficient": 1536
+      },
+      "square_carry": -1,
+      "next_square_carry": -4,
+      "minimum_q": 2,
+      "minimum_base": 8680,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1421
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 110
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -3753
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 19412
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": -4887
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 20546
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -14634
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 30293
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 44550,
+          "constant": -32967
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 64800,
+          "constant": 48626
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 93150,
+          "constant": -44226
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 16200,
+          "constant": 59885
+        },
+        {
+          "name": "cube_digit_5_nonnegative",
+          "slope": 105300,
+          "constant": -64098
+        },
+        {
+          "name": "cube_digit_5_below_base",
+          "slope": 4050,
+          "constant": 79757
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 726,
+          "constant": 217
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 84,
+          "constant": -106
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 22950,
+          "constant": -22881
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 13500,
+          "constant": 28091
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 35100,
+          "constant": -21369
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 1350,
+          "constant": 26579
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 670,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 14,
+        "constant": -57575
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": -34,
+        "q_coefficient": 318
+      },
+      "square_carry": 10,
+      "next_square_carry": 13,
+      "minimum_q": 1,
+      "minimum_base": 4720,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1331
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 129
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 2457
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 15632
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": -9666
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 27755
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -13095
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 31184
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 81000,
+          "constant": -25947
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 28350,
+          "constant": 44036
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 56700,
+          "constant": -48195
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 52650,
+          "constant": 66284
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 318,
+          "constant": -37
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 492,
+          "constant": 166
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 31050,
+          "constant": -14281
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 5400,
+          "constant": 20301
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 18900,
+          "constant": -16063
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 17550,
+          "constant": 22083
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 760,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 23,
+        "constant": -13025
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 120,
+        "q_coefficient": 750
+      },
+      "square_carry": 40,
+      "next_square_carry": 34,
+      "minimum_q": 1,
+      "minimum_base": 4810,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1241
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 150
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 10287
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 10232
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 4455
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 16064
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 750,
+          "constant": 117
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 60,
+          "constant": 30
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 6750,
+          "constant": -3301
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 29700,
+          "constant": 10131
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 31050,
+          "constant": 1478
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 5400,
+          "constant": 5352
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 850,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 2,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 268,
+        "q_coefficient": 1248
+      },
+      "square_carry": 14,
+      "next_square_carry": 20,
+      "minimum_q": 1,
+      "minimum_base": 4900,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1151
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 169
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -3213
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 26162
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 438,
+          "constant": 95
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 372,
+          "constant": 70
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 27000,
+          "constant": 4254
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 9450,
+          "constant": 3386
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 2700,
+          "constant": -1065
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 33750,
+          "constant": 8705
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 940,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 11,
+        "constant": -4913
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 36,
+        "q_coefficient": 192
+      },
+      "square_carry": 4,
+      "next_square_carry": 7,
+      "minimum_q": 1,
+      "minimum_base": 4990,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -1061
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 187
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 5427
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 19952
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 192,
+          "constant": 33
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 618,
+          "constant": 150
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 27000,
+          "constant": 4403
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 9450,
+          "constant": 4047
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 14850,
+          "constant": 1811
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 21600,
+          "constant": 6639
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1030,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 17,
+        "constant": -24503
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 89,
+        "q_coefficient": 498
+      },
+      "square_carry": 19,
+      "next_square_carry": 22,
+      "minimum_q": 1,
+      "minimum_base": 5080,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -971
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 203
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 15687
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 12122
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 10665
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 17144
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -6993
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 34802
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 498,
+          "constant": 86
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 312,
+          "constant": 115
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 35100,
+          "constant": 533
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 1350,
+          "constant": 8727
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 22950,
+          "constant": -2329
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 13500,
+          "constant": 11589
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1120,
+      "cube_position_from_units": 6,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -104156
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 543,
+        "q_coefficient": 1410
+      },
+      "square_carry": 8,
+      "next_square_carry": 5,
+      "minimum_q": 3,
+      "minimum_base": 13270,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -881
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 217
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -2673
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 32912
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 2673
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 27566
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -5454
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 35693
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 44550,
+          "constant": -27027
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 64800,
+          "constant": 57266
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 93150,
+          "constant": -31806
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 16200,
+          "constant": 62045
+        },
+        {
+          "name": "cube_digit_5_nonnegative",
+          "slope": 105300,
+          "constant": -50058
+        },
+        {
+          "name": "cube_digit_5_below_base",
+          "slope": 4050,
+          "constant": 80297
+        },
+        {
+          "name": "cube_digit_6_nonnegative",
+          "slope": 81000,
+          "constant": -81756
+        },
+        {
+          "name": "cube_digit_6_below_base",
+          "slope": 28350,
+          "constant": 111995
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 600,
+          "constant": 316
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 210,
+          "constant": -97
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 14850,
+          "constant": -30387
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 21600,
+          "constant": 40457
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": -27255
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 37325
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1210,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 5,
+        "constant": -13016
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 155,
+        "q_coefficient": 588
+      },
+      "square_carry": 28,
+      "next_square_carry": 31,
+      "minimum_q": 1,
+      "minimum_base": 5260,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -791
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 240
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 8397
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 24272
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": -6966
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 39635
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 588,
+          "constant": 152
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 222,
+          "constant": 85
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 18900,
+          "constant": 1082
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 17550,
+          "constant": 9798
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 6750,
+          "constant": -2320
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 29700,
+          "constant": 13200
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1300,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 424,
+        "q_coefficient": 1302
+      },
+      "square_carry": 14,
+      "next_square_carry": 11,
+      "minimum_q": 1,
+      "minimum_base": 5350,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -701
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 259
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 21087
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 14012
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 492,
+          "constant": 161
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 318,
+          "constant": 94
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 14850,
+          "constant": 3354
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 21600,
+          "constant": 8336
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": 7026
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 4664
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1390,
+      "cube_position_from_units": 5,
+      "cube_digit_numerator": {
+        "base_coefficient": 26,
+        "constant": -79178
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 458,
+        "q_coefficient": 996
+      },
+      "square_carry": 29,
+      "next_square_carry": 26,
+      "minimum_q": 1,
+      "minimum_base": 5440,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -611
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 272
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -2133
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 39662
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 6453
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 31076
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": -864
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 38393
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 44550,
+          "constant": -24057
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 64800,
+          "constant": 61586
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 93150,
+          "constant": -25596
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 16200,
+          "constant": 63125
+        },
+        {
+          "name": "cube_digit_5_nonnegative",
+          "slope": 105300,
+          "constant": -43038
+        },
+        {
+          "name": "cube_digit_5_below_base",
+          "slope": 4050,
+          "constant": 80567
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 186,
+          "constant": 177
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 624,
+          "constant": 96
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 22950,
+          "constant": -18291
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 13500,
+          "constant": 30791
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 35100,
+          "constant": -14349
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 1350,
+          "constant": 26849
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1480,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 5,
+        "constant": -13016
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 507,
+        "q_coefficient": 1338
+      },
+      "square_carry": 8,
+      "next_square_carry": 14,
+      "minimum_q": 1,
+      "minimum_base": 5530,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -521
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 294
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 11367
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 28592
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": -5616
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 45575
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 528,
+          "constant": 208
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 282,
+          "constant": 83
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 31050,
+          "constant": 7233
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 5400,
+          "constant": 6077
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 6750,
+          "constant": -1866
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 29700,
+          "constant": 15176
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1570,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -4913
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 24,
+        "q_coefficient": 84
+      },
+      "square_carry": 4,
+      "next_square_carry": -2,
+      "minimum_q": 1,
+      "minimum_base": 5620,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -431
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 313
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 26487
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 15902
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 84,
+          "constant": 21
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 726,
+          "constant": 288
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 2700,
+          "constant": -817
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 33750,
+          "constant": 14937
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": 8822
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 5298
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1660,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 2,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 407,
+        "q_coefficient": 978
+      },
+      "square_carry": 29,
+      "next_square_carry": 35,
+      "minimum_q": 1,
+      "minimum_base": 5710,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -341
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 331
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -1593
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 46412
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 168,
+          "constant": 72
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 642,
+          "constant": 255
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 27000,
+          "constant": 9654
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 9450,
+          "constant": 5276
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 2700,
+          "constant": -525
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 33750,
+          "constant": 15455
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1750,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 11,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 592,
+        "q_coefficient": 1356
+      },
+      "square_carry": 14,
+      "next_square_carry": 11,
+      "minimum_q": 1,
+      "minimum_base": 5800,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -251
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 349
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 14337
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 32912
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 546,
+          "constant": 239
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 264,
+          "constant": 106
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 2700,
+          "constant": -246
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 33750,
+          "constant": 15986
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 14850,
+          "constant": 4776
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 21600,
+          "constant": 10964
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1840,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 17,
+        "constant": -24503
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 66,
+        "q_coefficient": 228
+      },
+      "square_carry": 4,
+      "next_square_carry": 7,
+      "minimum_q": 1,
+      "minimum_base": 5890,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -161
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 365
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 31887
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 17792
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 29295
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 20384
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 6777
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 42902
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 228,
+          "constant": 63
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 582,
+          "constant": 300
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 35100,
+          "constant": 7553
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 1350,
+          "constant": 8997
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 22950,
+          "constant": 2261
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 13500,
+          "constant": 14289
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 1930,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 17,
+        "constant": -24494
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 767,
+        "q_coefficient": 1536
+      },
+      "square_carry": 2,
+      "next_square_carry": -1,
+      "minimum_q": 1,
+      "minimum_base": 5980,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": -71
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 383
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -1053
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 53162
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 14013
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 38096
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 8316
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 43793
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 726,
+          "constant": 378
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 84,
+          "constant": 3
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 10800,
+          "constant": -2793
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 25650,
+          "constant": 20153
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 22950,
+          "constant": 2769
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 13500,
+          "constant": 14591
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2020,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 5,
+        "constant": -13016
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 138,
+        "q_coefficient": 318
+      },
+      "square_carry": 13,
+      "next_square_carry": 16,
+      "minimum_q": 1,
+      "minimum_base": 6070,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 19
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 402
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 17307
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 37232
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": -2916
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 57455
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 318,
+          "constant": 135
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 492,
+          "constant": 264
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 18900,
+          "constant": 4862
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 17550,
+          "constant": 13308
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 6750,
+          "constant": -970
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 29700,
+          "constant": 19140
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2110,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 825,
+        "q_coefficient": 1572
+      },
+      "square_carry": -1,
+      "next_square_carry": -4,
+      "minimum_q": 0,
+      "minimum_base": 2110,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 109
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 421
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 37287
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 19682
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 762,
+          "constant": 400
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 48,
+          "constant": 17
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 14850,
+          "constant": 6324
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 21600,
+          "constant": 12656
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": 12426
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 6554
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2200,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 14,
+        "constant": -13007
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 481,
+        "q_coefficient": 852
+      },
+      "square_carry": 41,
+      "next_square_carry": 38,
+      "minimum_q": 1,
+      "minimum_base": 6250,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 199
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 438
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": -513
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 59912
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 17793
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 41606
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 42,
+          "constant": 38
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 768,
+          "constant": 397
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 6750,
+          "constant": -444
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 29700,
+          "constant": 20234
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 18900,
+          "constant": 5928
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 17550,
+          "constant": 13862
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2290,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 5,
+        "constant": -13016
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 622,
+        "q_coefficient": 1068
+      },
+      "square_carry": 23,
+      "next_square_carry": 29,
+      "minimum_q": 1,
+      "minimum_base": 6340,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 289
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 456
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 20277
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 41552
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": -1566
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 63395
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 258,
+          "constant": 161
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 552,
+          "constant": 292
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 31050,
+          "constant": 13443
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 5400,
+          "constant": 7157
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 6750,
+          "constant": -516
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 29700,
+          "constant": 21116
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2380,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -4913
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 358,
+        "q_coefficient": 624
+      },
+      "square_carry": 34,
+      "next_square_carry": 28,
+      "minimum_q": 1,
+      "minimum_base": 6430,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 379
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 475
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 42687
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 21572
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 624,
+          "constant": 355
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 186,
+          "constant": 116
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 2700,
+          "constant": -277
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 33750,
+          "constant": 21687
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": 14222
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 7188
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2470,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 23,
+        "constant": -57566
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 933,
+        "q_coefficient": 1392
+      },
+      "square_carry": 8,
+      "next_square_carry": 5,
+      "minimum_q": 1,
+      "minimum_base": 6520,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 469
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 489
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": 27
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 66662
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 21573
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 45116
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 17496
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 49193
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 44550,
+          "constant": -12177
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 64800,
+          "constant": 78866
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 93150,
+          "constant": -756
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 16200,
+          "constant": 67445
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 582,
+          "constant": 436
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 228,
+          "constant": 53
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 18900,
+          "constant": -7437
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 17550,
+          "constant": 29657
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 31050,
+          "constant": -255
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 5400,
+          "constant": 22475
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2560,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 11,
+        "constant": -4913
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 522,
+        "q_coefficient": 816
+      },
+      "square_carry": 44,
+      "next_square_carry": 41,
+      "minimum_q": 0,
+      "minimum_base": 2560,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 559
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 511
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 23247
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 45872
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 6,
+          "constant": 7
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 804,
+          "constant": 500
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 2700,
+          "constant": 294
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 33750,
+          "constant": 22736
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 14850,
+          "constant": 7746
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 21600,
+          "constant": 15284
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2650,
+      "cube_position_from_units": 3,
+      "cube_digit_numerator": {
+        "base_coefficient": 2,
+        "constant": -39347
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 172,
+        "q_coefficient": 354
+      },
+      "square_carry": 16,
+      "next_square_carry": 19,
+      "minimum_q": 5,
+      "minimum_base": 22900,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 649
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 526
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 48087
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 23462
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 47925
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 23624
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 20547
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 51002
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 8100,
+          "constant": -34047
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 101250,
+          "constant": 105596
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 354,
+          "constant": 169
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 456,
+          "constant": 356
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 14850,
+          "constant": -3625
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 21600,
+          "constant": 27465
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 2700,
+          "constant": -11347
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 33750,
+          "constant": 35187
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2740,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 17,
+        "constant": -24494
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 709,
+        "q_coefficient": 996
+      },
+      "square_carry": 32,
+      "next_square_carry": 29,
+      "minimum_q": 1,
+      "minimum_base": 6790,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 739
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 545
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": 567
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 73412
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 25353
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 48626
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 22086
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 51893
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 186,
+          "constant": 158
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 624,
+          "constant": 385
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 10800,
+          "constant": -633
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 25650,
+          "constant": 25283
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 22950,
+          "constant": 7359
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 13500,
+          "constant": 17291
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2830,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 5,
+        "constant": -13016
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 13,
+        "q_coefficient": 48
+      },
+      "square_carry": -2,
+      "next_square_carry": 1,
+      "minimum_q": 0,
+      "minimum_base": 2830,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 829
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 564
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 26217
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 50192
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": 1134
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 75275
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 48,
+          "constant": 10
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 762,
+          "constant": 551
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 18900,
+          "constant": 8642
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 17550,
+          "constant": 16818
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 6750,
+          "constant": 380
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 29700,
+          "constant": 25080
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 2920,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 23,
+        "constant": -13025
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 866,
+        "q_coefficient": 1176
+      },
+      "square_carry": 20,
+      "next_square_carry": 17,
+      "minimum_q": 0,
+      "minimum_base": 2920,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 919
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 582
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 53487
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 25352
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 54135
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 24704
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 366,
+          "constant": 279
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 444,
+          "constant": 300
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 18900,
+          "constant": 9510
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 17550,
+          "constant": 16760
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 31050,
+          "constant": 18042
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 5400,
+          "constant": 8228
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3010,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 14,
+        "constant": -13007
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 852,
+        "q_coefficient": 1122
+      },
+      "square_carry": 26,
+      "next_square_carry": 23,
+      "minimum_q": 0,
+      "minimum_base": 3010,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1009
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 600
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": 1107
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 80162
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 29133
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 52136
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 312,
+          "constant": 247
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 498,
+          "constant": 350
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 6750,
+          "constant": 906
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 29700,
+          "constant": 26174
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 18900,
+          "constant": 9708
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 17550,
+          "constant": 17372
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3100,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 14,
+        "constant": -57575
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 819,
+        "q_coefficient": 960
+      },
+      "square_carry": 35,
+      "next_square_carry": 32,
+      "minimum_q": 3,
+      "minimum_base": 15250,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1099
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 615
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 29187
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 54512
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": 2484
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 81215
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 28215
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 55484
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 81000,
+          "constant": 22653
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 28350,
+          "constant": 61046
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 56700,
+          "constant": -14175
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 52650,
+          "constant": 97874
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 150,
+          "constant": 196
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 660,
+          "constant": 419
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 6750,
+          "constant": -13800
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 29700,
+          "constant": 41690
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 18900,
+          "constant": -4728
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 17550,
+          "constant": 32618
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3190,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 23,
+        "constant": -13025
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 570,
+        "q_coefficient": 750
+      },
+      "square_carry": 40,
+      "next_square_carry": 34,
+      "minimum_q": 0,
+      "minimum_base": 3190,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1189
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 636
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 58887
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 27242
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 60345
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 25784
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 750,
+          "constant": 567
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 60,
+          "constant": 66
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 6750,
+          "constant": 749
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 29700,
+          "constant": 27951
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 31050,
+          "constant": 20108
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 5400,
+          "constant": 8592
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3280,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 14,
+        "constant": -13007
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 543,
+        "q_coefficient": 696
+      },
+      "square_carry": 31,
+      "next_square_carry": 34,
+      "minimum_q": 0,
+      "minimum_base": 3280,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1279
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 654
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": 1647
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 86912
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 32913
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 55646
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 696,
+          "constant": 540
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 114,
+          "constant": 111
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 31050,
+          "constant": 20585
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 5400,
+          "constant": 8925
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 18900,
+          "constant": 10973
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 17550,
+          "constant": 18537
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3370,
+      "cube_position_from_units": 2,
+      "cube_digit_numerator": {
+        "base_coefficient": 17,
+        "constant": -24485
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 819,
+        "q_coefficient": 942
+      },
+      "square_carry": 35,
+      "next_square_carry": 32,
+      "minimum_q": 0,
+      "minimum_base": 3370,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1369
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 671
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 32157
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 58832
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": 3834
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 87155
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 32805
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 58184
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 132,
+          "constant": 142
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 678,
+          "constant": 527
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 10800,
+          "constant": 1050
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 25650,
+          "constant": 29270
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 22950,
+          "constant": 10932
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 13500,
+          "constant": 19388
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3460,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 5,
+        "constant": -57557
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 1181,
+        "q_coefficient": 1284
+      },
+      "square_carry": 11,
+      "next_square_carry": 17,
+      "minimum_q": 5,
+      "minimum_base": 23710,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1459
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 687
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 64287
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 29132
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 66555
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 26864
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 34317
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 59102
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 8100,
+          "constant": -32427
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 101250,
+          "constant": 125846
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 20250,
+          "constant": -40257
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 89100,
+          "constant": 133676
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 474,
+          "constant": 486
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 336,
+          "constant": 201
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 31050,
+          "constant": 7566
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 5400,
+          "constant": 23564
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 6750,
+          "constant": -13413
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 29700,
+          "constant": 44543
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3550,
+      "cube_position_from_units": 3,
+      "cube_digit_numerator": {
+        "base_coefficient": 11,
+        "constant": -39347
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 298,
+        "q_coefficient": 408
+      },
+      "square_carry": 16,
+      "next_square_carry": 19,
+      "minimum_q": 1,
+      "minimum_base": 7600,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1549
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 706
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": 2187
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 93662
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 36693
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 59156
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 35856
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 59993
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 44550,
+          "constant": -297
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 64800,
+          "constant": 96146
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 408,
+          "constant": 295
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 402,
+          "constant": 410
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 27000,
+          "constant": 10325
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 9450,
+          "constant": 21615
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 14850,
+          "constant": -97
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 21600,
+          "constant": 32037
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3640,
+      "cube_position_from_units": 5,
+      "cube_digit_numerator": {
+        "base_coefficient": 26,
+        "constant": -79169
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 1448,
+        "q_coefficient": 1482
+      },
+      "square_carry": 2,
+      "next_square_carry": -1,
+      "minimum_q": 1,
+      "minimum_base": 7690,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1639
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 722
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 35127
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 63152
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": 5184
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 93095
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 37395
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 60884
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 81000,
+          "constant": 33453
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 28350,
+          "constant": 64826
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 56700,
+          "constant": -6615
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 52650,
+          "constant": 104894
+        },
+        {
+          "name": "cube_digit_5_nonnegative",
+          "slope": 105300,
+          "constant": 15471
+        },
+        {
+          "name": "cube_digit_5_below_base",
+          "slope": 4050,
+          "constant": 82808
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 672,
+          "constant": 717
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 138,
+          "constant": 6
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 22950,
+          "constant": -5538
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 13500,
+          "constant": 38288
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 35100,
+          "constant": 5154
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 1350,
+          "constant": 27596
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3730,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 5,
+        "constant": -57557
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 256,
+        "q_coefficient": 372
+      },
+      "square_carry": 16,
+      "next_square_carry": 19,
+      "minimum_q": 4,
+      "minimum_base": 19930,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1729
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 741
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 69687
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 31022
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 93150,
+          "constant": 72765
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 16200,
+          "constant": 27944
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 38907
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 61802
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 8100,
+          "constant": -31887
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 101250,
+          "constant": 132596
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 20250,
+          "constant": -38907
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 89100,
+          "constant": 139616
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 372,
+          "constant": 253
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 438,
+          "constant": 488
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 18900,
+          "constant": -2005
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 17550,
+          "constant": 35565
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 6750,
+          "constant": -12967
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 29700,
+          "constant": 46527
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3820,
+      "cube_position_from_units": 1,
+      "cube_digit_numerator": {
+        "base_coefficient": 14,
+        "constant": -13007
+      },
+      "square_half": "high",
+      "square_position": {
+        "constant": 1331,
+        "q_coefficient": 1392
+      },
+      "square_carry": 11,
+      "next_square_carry": 8,
+      "minimum_q": 0,
+      "minimum_base": 3820,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1819
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 762
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 8100,
+          "constant": 2727
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 101250,
+          "constant": 100412
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 56700,
+          "constant": 40473
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 52650,
+          "constant": 62666
+        },
+        {
+          "name": "square_position_after_peak",
+          "slope": 582,
+          "constant": 564
+        },
+        {
+          "name": "square_position_before_top",
+          "slope": 228,
+          "constant": 195
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 6750,
+          "constant": 2256
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 29700,
+          "constant": 32114
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 18900,
+          "constant": 13488
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 17550,
+          "constant": 20882
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 3910,
+      "cube_position_from_units": 4,
+      "cube_digit_numerator": {
+        "base_coefficient": 14,
+        "constant": -57575
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 481,
+        "q_coefficient": 588
+      },
+      "square_carry": 25,
+      "next_square_carry": 28,
+      "minimum_q": 1,
+      "minimum_base": 7960,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1909
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 777
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 44550,
+          "constant": 38097
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 64800,
+          "constant": 67472
+        },
+        {
+          "name": "cube_digit_1_nonnegative",
+          "slope": 20250,
+          "constant": 6534
+        },
+        {
+          "name": "cube_digit_1_below_base",
+          "slope": 89100,
+          "constant": 99035
+        },
+        {
+          "name": "cube_digit_2_nonnegative",
+          "slope": 68850,
+          "constant": 41985
+        },
+        {
+          "name": "cube_digit_2_below_base",
+          "slope": 40500,
+          "constant": 63584
+        },
+        {
+          "name": "cube_digit_3_nonnegative",
+          "slope": 81000,
+          "constant": 38853
+        },
+        {
+          "name": "cube_digit_3_below_base",
+          "slope": 28350,
+          "constant": 66716
+        },
+        {
+          "name": "cube_digit_4_nonnegative",
+          "slope": 56700,
+          "constant": -2835
+        },
+        {
+          "name": "cube_digit_4_below_base",
+          "slope": 52650,
+          "constant": 108404
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 588,
+          "constant": 478
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 222,
+          "constant": 299
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 31050,
+          "constant": 10559
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 5400,
+          "constant": 24621
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 18900,
+          "constant": -943
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 17550,
+          "constant": 36123
+        }
+      ]
+    },
+    {
+      "template": 2,
+      "base_residue_mod_4050": 4000,
+      "cube_position_from_units": 0,
+      "cube_digit_numerator": {
+        "base_coefficient": 20,
+        "constant": -4913
+      },
+      "square_half": "low",
+      "square_position": {
+        "constant": 341,
+        "q_coefficient": 354
+      },
+      "square_carry": 19,
+      "next_square_carry": 13,
+      "minimum_q": 0,
+      "minimum_base": 4000,
+      "linear_conditions": [
+        {
+          "name": "base_at_least_2001",
+          "slope": 4050,
+          "constant": 1999
+        },
+        {
+          "name": "cube_position_below_L",
+          "slope": 810,
+          "constant": 799
+        },
+        {
+          "name": "cube_digit_0_nonnegative",
+          "slope": 81000,
+          "constant": 75087
+        },
+        {
+          "name": "cube_digit_0_below_base",
+          "slope": 28350,
+          "constant": 32912
+        },
+        {
+          "name": "square_position_at_least_3",
+          "slope": 354,
+          "constant": 338
+        },
+        {
+          "name": "square_position_below_low_end",
+          "slope": 456,
+          "constant": 457
+        },
+        {
+          "name": "carry_0_lower",
+          "slope": 2700,
+          "constant": 803
+        },
+        {
+          "name": "carry_0_upper",
+          "slope": 33750,
+          "constant": 35187
+        },
+        {
+          "name": "carry_1_lower",
+          "slope": 27000,
+          "constant": 25022
+        },
+        {
+          "name": "carry_1_upper",
+          "slope": 9450,
+          "constant": 10968
+        }
+      ]
+    }
+  ],
+  "uncovered_classes": [
+    [
+      1,
+      1780
+    ]
+  ],
+  "finite_gap_requested": false,
+  "finite_gap_checks": [],
+  "largest_certificate_threshold": 23710,
+  "elapsed_seconds": 0.2809398749959655
+}

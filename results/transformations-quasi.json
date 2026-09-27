@@ -1,0 +1,131 @@
+{
+  "quasi_seed_search": {
+    "2": 1,
+    "5": 20,
+    "6": 30,
+    "8": 448,
+    "9": 648,
+    "12": 19008,
+    "14": 499408
+  },
+  "seeds": [
+    {
+      "number": 20,
+      "base": 6
+    },
+    {
+      "number": 174,
+      "base": 8
+    },
+    {
+      "number": 500,
+      "base": 9
+    }
+  ],
+  "transform_instances": 168,
+  "length_valid_instances": 148,
+  "solutions": [],
+  "within_two_missing_digits": [
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "offset",
+      "number": "4",
+      "base": 5,
+      "unique_digits": 4
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "offset",
+      "number": "9",
+      "base": 7,
+      "unique_digits": 5
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "offset",
+      "number": "12",
+      "base": 7,
+      "unique_digits": 6
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "offset",
+      "number": "13",
+      "base": 7,
+      "unique_digits": 5
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "offset",
+      "number": "20",
+      "base": 8,
+      "unique_digits": 6
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "offset",
+      "number": "21",
+      "base": 8,
+      "unique_digits": 6
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "offset",
+      "number": "22",
+      "base": 8,
+      "unique_digits": 6
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "power",
+      "number": "20",
+      "base": 8,
+      "unique_digits": 6
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "power",
+      "number": "400",
+      "base": 13,
+      "unique_digits": 11
+    },
+    {
+      "seed": {
+        "number": 20,
+        "base": 6
+      },
+      "family": "quadratic",
+      "number": "400",
+      "base": 13,
+      "unique_digits": 11
+    }
+  ],
+  "scope": "All quasi-nice seeds through base 14; finite stated transformations only."
+}

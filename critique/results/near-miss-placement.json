@@ -1,0 +1,22 @@
+{
+ "scope": "Deficiency-2 near misses in bases 20-35 (exhaustive lists)",
+ "events": 162,
+ "duplicate_placement_observed": {
+  "square": 49,
+  "cube": 97,
+  "split": 156
+ },
+ "duplicate_placement_exchangeable_expectation": {
+  "square": 46.17033007024708,
+  "cube": 105.12316564422662,
+  "split": 150.706504285527
+ },
+ "zero_missing": {
+  "observed": 11,
+  "naive_expected": 11.78766404623424
+ },
+ "top_digit_missing": {
+  "observed": 9,
+  "naive_expected": 11.78766404623424
+ }
+}

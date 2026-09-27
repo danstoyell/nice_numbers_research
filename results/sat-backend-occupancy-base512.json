@@ -1,0 +1,43 @@
+{
+  "backend": "cadical300",
+  "base": 512,
+  "cnf_path": "/private/tmp/nice-sat-512-cadical300-64477/instance.cnf",
+  "distinct": "occupancy",
+  "encoding": "karatsuba",
+  "export": {
+    "build_seconds": 2.249479375022929,
+    "config": {
+      "base": 512,
+      "bit_widths": {
+        "cube": 2763,
+        "digit": 9,
+        "n": 921,
+        "square": 1845
+      },
+      "cube_length": 307,
+      "digit_sum_residue_count": 4,
+      "distinct_encoding": "occupancy_decoder",
+      "encoding": "karatsuba",
+      "karatsuba_leaf_bits": 16,
+      "lower": "2215827865120445285436604169234485268788427414982608644747394113713414456189281304992986194038624093815384393617798347846350945898212351959632084639523021319185153902243763020549247279516306127414463752183841820368271691660401046407456843466086176161485977628013706077372678144",
+      "memory_limit_mb": 1024,
+      "pin_n_digits": 0,
+      "residue_filter": true,
+      "sat_search": "cdcl",
+      "seed": 20260924,
+      "square_length": 205,
+      "timeout_ms": 1000,
+      "upper": "17726622920963562283492833353875882150307419319860869157979152909707315649514250439943889552308992750523075148942386782770807567185698815677056677116184170553481231217950104164393978236130449019315710017470734562946173533283208371259654747728689409291887821024109648618981425151",
+      "z3_version": "5.1.0"
+    },
+    "last_completed_status": "built",
+    "observed_peak_rss_mb": 1547.6875,
+    "reason": "rss_limit",
+    "rss_limit_mb": 1536,
+    "status": "unknown",
+    "wall_limit_seconds": 60,
+    "wall_seconds": 5.512512958026491,
+    "worker_exit_code": -15
+  },
+  "seed": 20260924
+}

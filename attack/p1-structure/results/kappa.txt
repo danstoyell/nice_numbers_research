@@ -1,0 +1,6 @@
+    b    L   h   d | varying output digits (kappa = varying/h; generic uses h = L)
+  200   40   6   3 | bottom=58 (k=9.67)  top=54 (k=9.00)  middle=82 (k=13.67)  generic=200 (k=5.00)
+  200   40  10   7 | bottom=92 (k=9.20)  top=90 (k=9.00)  middle=122 (k=12.20)  generic=200 (k=5.00)
+  500  100   8   5 | bottom=74 (k=9.25)  top=40 (k=5.00)  middle=73 (k=9.12)  generic=500 (k=5.00)
+ 1000  200  10   7 | bottom=93 (k=9.30)  top=90 (k=9.00)  middle=93 (k=9.30)  generic=1000 (k=5.00)
+ 1000  200  20   7 | bottom=183 (k=9.15)  top=180 (k=9.00)  middle=183 (k=9.15)  generic=1000 (k=5.00)

@@ -1,0 +1,1304 @@
+{
+  "scope": "Necessary conditions only; no full nice-number search",
+  "root_formulas_verified_for_bases": [
+    2,
+    2000
+  ],
+  "suffix_depth": 3,
+  "suffix_enumeration": [
+    {
+      "base": 6,
+      "depth": 3,
+      "survivors": 1,
+      "first": 5
+    },
+    {
+      "base": 7,
+      "depth": 3,
+      "survivors": 10,
+      "first": 6
+    },
+    {
+      "base": 8,
+      "depth": 3,
+      "survivors": 13,
+      "first": 7
+    },
+    {
+      "base": 9,
+      "depth": 3,
+      "survivors": 53,
+      "first": 5
+    },
+    {
+      "base": 10,
+      "depth": 3,
+      "survivors": 126,
+      "first": 8
+    },
+    {
+      "base": 11,
+      "depth": 3,
+      "survivors": 234,
+      "first": 8
+    },
+    {
+      "base": 12,
+      "depth": 3,
+      "survivors": 211,
+      "first": 8
+    },
+    {
+      "base": 13,
+      "depth": 3,
+      "survivors": 512,
+      "first": 6
+    },
+    {
+      "base": 14,
+      "depth": 3,
+      "survivors": 628,
+      "first": 9
+    },
+    {
+      "base": 15,
+      "depth": 3,
+      "survivors": 738,
+      "first": 7
+    },
+    {
+      "base": 16,
+      "depth": 3,
+      "survivors": 908,
+      "first": 9
+    },
+    {
+      "base": 17,
+      "depth": 3,
+      "survivors": 1727,
+      "first": 9
+    },
+    {
+      "base": 18,
+      "depth": 3,
+      "survivors": 1279,
+      "first": 11
+    },
+    {
+      "base": 19,
+      "depth": 3,
+      "survivors": 2689,
+      "first": 11
+    },
+    {
+      "base": 20,
+      "depth": 3,
+      "survivors": 2740,
+      "first": 8
+    },
+    {
+      "base": 21,
+      "depth": 3,
+      "survivors": 3771,
+      "first": 9
+    },
+    {
+      "base": 22,
+      "depth": 3,
+      "survivors": 4171,
+      "first": 10
+    },
+    {
+      "base": 23,
+      "depth": 3,
+      "survivors": 5752,
+      "first": 9
+    },
+    {
+      "base": 24,
+      "depth": 3,
+      "survivors": 4883,
+      "first": 11
+    },
+    {
+      "base": 25,
+      "depth": 3,
+      "survivors": 6503,
+      "first": 11
+    },
+    {
+      "base": 26,
+      "depth": 3,
+      "survivors": 8501,
+      "first": 11
+    },
+    {
+      "base": 27,
+      "depth": 3,
+      "survivors": 9822,
+      "first": 11
+    },
+    {
+      "base": 28,
+      "depth": 3,
+      "survivors": 10218,
+      "first": 10
+    },
+    {
+      "base": 29,
+      "depth": 3,
+      "survivors": 13565,
+      "first": 10
+    },
+    {
+      "base": 30,
+      "depth": 3,
+      "survivors": 12454,
+      "first": 12
+    },
+    {
+      "base": 31,
+      "depth": 3,
+      "survivors": 17208,
+      "first": 11
+    },
+    {
+      "base": 32,
+      "depth": 3,
+      "survivors": 16811,
+      "first": 11
+    },
+    {
+      "base": 33,
+      "depth": 3,
+      "survivors": 20084,
+      "first": 11
+    },
+    {
+      "base": 34,
+      "depth": 3,
+      "survivors": 22716,
+      "first": 12
+    },
+    {
+      "base": 35,
+      "depth": 3,
+      "survivors": 25096,
+      "first": 14
+    },
+    {
+      "base": 36,
+      "depth": 3,
+      "survivors": 20075,
+      "first": 14
+    },
+    {
+      "base": 37,
+      "depth": 3,
+      "survivors": 32062,
+      "first": 12
+    },
+    {
+      "base": 38,
+      "depth": 3,
+      "survivors": 33380,
+      "first": 12
+    },
+    {
+      "base": 39,
+      "depth": 3,
+      "survivors": 35708,
+      "first": 12
+    },
+    {
+      "base": 40,
+      "depth": 3,
+      "survivors": 36016,
+      "first": 13
+    },
+    {
+      "base": 41,
+      "depth": 3,
+      "survivors": 45902,
+      "first": 13
+    },
+    {
+      "base": 42,
+      "depth": 3,
+      "survivors": 42059,
+      "first": 14
+    },
+    {
+      "base": 43,
+      "depth": 3,
+      "survivors": 53855,
+      "first": 13
+    },
+    {
+      "base": 44,
+      "depth": 3,
+      "survivors": 51441,
+      "first": 13
+    },
+    {
+      "base": 45,
+      "depth": 3,
+      "survivors": 53662,
+      "first": 14
+    },
+    {
+      "base": 46,
+      "depth": 3,
+      "survivors": 64599,
+      "first": 14
+    },
+    {
+      "base": 47,
+      "depth": 3,
+      "survivors": 73086,
+      "first": 14
+    },
+    {
+      "base": 48,
+      "depth": 3,
+      "survivors": 61501,
+      "first": 15
+    },
+    {
+      "base": 49,
+      "depth": 3,
+      "survivors": 72693,
+      "first": 15
+    },
+    {
+      "base": 50,
+      "depth": 3,
+      "survivors": 71034,
+      "first": 14
+    },
+    {
+      "base": 51,
+      "depth": 3,
+      "survivors": 92471,
+      "first": 14
+    },
+    {
+      "base": 52,
+      "depth": 3,
+      "survivors": 95009,
+      "first": 15
+    },
+    {
+      "base": 53,
+      "depth": 3,
+      "survivors": 108861,
+      "first": 15
+    },
+    {
+      "base": 54,
+      "depth": 3,
+      "survivors": 101239,
+      "first": 15
+    },
+    {
+      "base": 55,
+      "depth": 3,
+      "survivors": 120287,
+      "first": 15
+    },
+    {
+      "base": 56,
+      "depth": 3,
+      "survivors": 117831,
+      "first": 16
+    },
+    {
+      "base": 57,
+      "depth": 3,
+      "survivors": 133645,
+      "first": 15
+    },
+    {
+      "base": 58,
+      "depth": 3,
+      "survivors": 142260,
+      "first": 16
+    },
+    {
+      "base": 59,
+      "depth": 3,
+      "survivors": 155268,
+      "first": 16
+    },
+    {
+      "base": 60,
+      "depth": 3,
+      "survivors": 137775,
+      "first": 17
+    },
+    {
+      "base": 61,
+      "depth": 3,
+      "survivors": 173397,
+      "first": 16
+    },
+    {
+      "base": 62,
+      "depth": 3,
+      "survivors": 176671,
+      "first": 17
+    },
+    {
+      "base": 63,
+      "depth": 3,
+      "survivors": 170151,
+      "first": 17
+    },
+    {
+      "base": 64,
+      "depth": 3,
+      "survivors": 180003,
+      "first": 17
+    }
+  ],
+  "bases_with_no_suffix_survivors": [],
+  "compact_suffix_constructions": [
+    {
+      "depth": 1,
+      "coefficients_low_to_high": [
+        2
+      ],
+      "square_suffix_low_to_high": [
+        4
+      ],
+      "cube_suffix_low_to_high": [
+        8
+      ],
+      "valid_for_all_bases_above": 8
+    },
+    {
+      "depth": 2,
+      "coefficients_low_to_high": [
+        2,
+        3
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36
+      ],
+      "valid_for_all_bases_above": 36
+    },
+    {
+      "depth": 3,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66
+      ],
+      "valid_for_all_bases_above": 66
+    },
+    {
+      "depth": 4,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75
+      ],
+      "valid_for_all_bases_above": 75
+    },
+    {
+      "depth": 5,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81
+      ],
+      "valid_for_all_bases_above": 81
+    },
+    {
+      "depth": 6,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108
+      ],
+      "valid_for_all_bases_above": 108
+    },
+    {
+      "depth": 7,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148
+      ],
+      "valid_for_all_bases_above": 148
+    },
+    {
+      "depth": 8,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180
+      ],
+      "valid_for_all_bases_above": 180
+    },
+    {
+      "depth": 9,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213
+      ],
+      "valid_for_all_bases_above": 213
+    },
+    {
+      "depth": 10,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250
+      ],
+      "valid_for_all_bases_above": 250
+    },
+    {
+      "depth": 11,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294
+      ],
+      "valid_for_all_bases_above": 294
+    },
+    {
+      "depth": 12,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351
+      ],
+      "valid_for_all_bases_above": 351
+    },
+    {
+      "depth": 13,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424
+      ],
+      "valid_for_all_bases_above": 424
+    },
+    {
+      "depth": 14,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39,
+        30
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424,
+        468
+      ],
+      "valid_for_all_bases_above": 468
+    },
+    {
+      "depth": 15,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39,
+        30,
+        34
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424,
+        468,
+        489
+      ],
+      "valid_for_all_bases_above": 489
+    },
+    {
+      "depth": 16,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39,
+        30,
+        34,
+        40
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424,
+        468,
+        489,
+        563
+      ],
+      "valid_for_all_bases_above": 563
+    },
+    {
+      "depth": 17,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39,
+        30,
+        34,
+        40,
+        51
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424,
+        468,
+        489,
+        563,
+        669
+      ],
+      "valid_for_all_bases_above": 669
+    },
+    {
+      "depth": 18,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39,
+        30,
+        34,
+        40,
+        51,
+        38
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424,
+        468,
+        489,
+        563,
+        669,
+        738
+      ],
+      "valid_for_all_bases_above": 738
+    },
+    {
+      "depth": 19,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39,
+        30,
+        34,
+        40,
+        51,
+        38,
+        44
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424,
+        468,
+        489,
+        563,
+        669,
+        738,
+        754
+      ],
+      "valid_for_all_bases_above": 754
+    },
+    {
+      "depth": 20,
+      "coefficients_low_to_high": [
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3
+      ],
+      "square_suffix_low_to_high": [
+        4,
+        12,
+        13,
+        10,
+        11,
+        16,
+        19,
+        20,
+        23,
+        24,
+        28,
+        32,
+        39,
+        30,
+        34,
+        40,
+        51,
+        38,
+        44,
+        48
+      ],
+      "cube_suffix_low_to_high": [
+        8,
+        36,
+        66,
+        75,
+        81,
+        108,
+        148,
+        180,
+        213,
+        250,
+        294,
+        351,
+        424,
+        468,
+        489,
+        563,
+        669,
+        738,
+        754,
+        849
+      ],
+      "valid_for_all_bases_above": 849
+    }
+  ],
+  "local_condition_witnesses": [
+    {
+      "base": 100,
+      "depth": 5,
+      "n": "2154434690031883721759293567480101010302",
+      "total_digits": 100,
+      "distinct_digits": 63,
+      "is_nice": false
+    },
+    {
+      "base": 257,
+      "depth": 10,
+      "n": "806471993003911797300579187499086160967575168906218670090023635241981030149610790632499567578833100741114917594775096968063",
+      "total_digits": 257,
+      "distinct_digits": 78,
+      "is_nice": false
+    },
+    {
+      "base": 1000,
+      "depth": 20,
+      "n": "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000867003001001001003001001001003001002001002001002001001001003002",
+      "total_digits": 1000,
+      "distinct_digits": 145,
+      "is_nice": false
+    }
+  ],
+  "carry_free_digit_sum_limit": 2000000,
+  "carry_free_sum_equation_solutions": [
+    {
+      "digit_sum": 3,
+      "base": 9
+    }
+  ],
+  "digit_sum_roots_selected_bases": [
+    {
+      "base": 10,
+      "roots": 4,
+      "modulus": 9,
+      "last_digit_survivors": 6
+    },
+    {
+      "base": 45,
+      "roots": 2,
+      "modulus": 44,
+      "last_digit_survivors": 37
+    },
+    {
+      "base": 54,
+      "roots": 2,
+      "modulus": 53,
+      "last_digit_survivors": 46
+    },
+    {
+      "base": 57,
+      "roots": 6,
+      "modulus": 56,
+      "last_digit_survivors": 53
+    },
+    {
+      "base": 58,
+      "roots": 4,
+      "modulus": 57,
+      "last_digit_survivors": 54
+    },
+    {
+      "base": 60,
+      "roots": 2,
+      "modulus": 59,
+      "last_digit_survivors": 48
+    },
+    {
+      "base": 64,
+      "roots": 8,
+      "modulus": 63,
+      "last_digit_survivors": 55
+    },
+    {
+      "base": 80,
+      "roots": 2,
+      "modulus": 79,
+      "last_digit_survivors": 70
+    },
+    {
+      "base": 100,
+      "roots": 8,
+      "modulus": 99,
+      "last_digit_survivors": 82
+    },
+    {
+      "base": 120,
+      "roots": 4,
+      "modulus": 119,
+      "last_digit_survivors": 108
+    },
+    {
+      "base": 125,
+      "roots": 2,
+      "modulus": 124,
+      "last_digit_survivors": 119
+    },
+    {
+      "base": 128,
+      "roots": 2,
+      "modulus": 127,
+      "last_digit_survivors": 119
+    }
+  ]
+}

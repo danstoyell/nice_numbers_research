@@ -1,0 +1,6 @@
+bases 60-1000: 565 admissible, 405 have a sweet d; max over them of log10(F * c!/b^c) = -22.9 (upper bound on E even if every square were distinct)
+python3 sweet_spot.py 60 1000 2>&1  30.17s user 0.15s system 20% cpu 2:25.65 total
+head -3  0.00s user 0.00s system 0% cpu 2:25.65 total
+[73, 82, 89, 92, 94, 104, 110, 113, 122, 125, 128, 129, 134, 137, 138, 140, 145, 149, 150, 160, 162, 172, 173, 178, 180, 182, 184, 189, 193, 194, 197, 200, 202, 204, 205, 210, 214, 217, 222, 228]
+
+[exited with code 0]

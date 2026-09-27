@@ -1,0 +1,212 @@
+{
+  "purpose": "SAT solve time versus base where the answer is known",
+  "encoding": "scripts/direct_cnf.py Circuit, Horner digits, occupancy",
+  "solver": "cadical195",
+  "limit_seconds": 900.0,
+  "machine": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.3",
+  "rows": [
+    {
+      "base": 10,
+      "solver": "cadical195",
+      "lo": 47,
+      "hi": 99,
+      "interval_count": 53,
+      "filtered_count": 15,
+      "input_bits": 7,
+      "variables": 1097,
+      "clauses": 4138,
+      "limit_seconds": 900.0,
+      "result": "ALL_SOLUTIONS_FOUND",
+      "seconds": 0.07197200000518933,
+      "solutions": [
+        69
+      ],
+      "stats": {
+        "restarts": 186,
+        "conflicts": 5461,
+        "decisions": 8575,
+        "propagations": 700719
+      },
+      "harness": "first harness; completed before any timer mattered; machine otherwise idle"
+    },
+    {
+      "base": 12,
+      "solver": "cadical195",
+      "lo": 144,
+      "hi": 329,
+      "interval_count": 186,
+      "filtered_count": 17,
+      "input_bits": 9,
+      "variables": 1727,
+      "clauses": 6620,
+      "limit_seconds": 900.0,
+      "result": "UNSAT",
+      "seconds": 0.1718818750232458,
+      "solutions": [],
+      "stats": {
+        "restarts": 332,
+        "conflicts": 9501,
+        "decisions": 16829,
+        "propagations": 1582766
+      },
+      "harness": "first harness; completed before any timer mattered; machine otherwise idle"
+    },
+    {
+      "base": 13,
+      "solver": "cadical195",
+      "lo": 398,
+      "hi": 609,
+      "interval_count": 212,
+      "filtered_count": 30,
+      "input_bits": 10,
+      "variables": 2615,
+      "clauses": 10442,
+      "limit_seconds": 900.0,
+      "result": "UNSAT",
+      "seconds": 1.379222583025694,
+      "solutions": [],
+      "stats": {
+        "restarts": 1480,
+        "conflicts": 61296,
+        "decisions": 98627,
+        "propagations": 8866762
+      },
+      "harness": "first harness; completed before any timer mattered; machine otherwise idle"
+    },
+    {
+      "base": 14,
+      "solver": "cadical195",
+      "lo": 734,
+      "hi": 1138,
+      "interval_count": 405,
+      "filtered_count": 46,
+      "input_bits": 11,
+      "variables": 3041,
+      "clauses": 12197,
+      "limit_seconds": 900.0,
+      "result": "UNSAT",
+      "seconds": 1.821787166991271,
+      "solutions": [],
+      "stats": {
+        "restarts": 1967,
+        "conflicts": 68141,
+        "decisions": 116154,
+        "propagations": 12305694
+      },
+      "harness": "first harness; completed before any timer mattered; machine otherwise idle"
+    },
+    {
+      "base": 17,
+      "solver": "cadical195",
+      "lo": 4913,
+      "hi": 12632,
+      "interval_count": 7720,
+      "filtered_count": 425,
+      "input_bits": 14,
+      "variables": 4189,
+      "clauses": 16348,
+      "limit_seconds": 900.0,
+      "result": "UNSAT",
+      "seconds": 13.286724709032569,
+      "solutions": [],
+      "stats": {
+        "restarts": 4768,
+        "conflicts": 238779,
+        "decisions": 385721,
+        "propagations": 73156150
+      },
+      "harness": "first harness; completed before any timer mattered; machine otherwise idle"
+    },
+    {
+      "base": 18,
+      "solver": "cadical195",
+      "lo": 15285,
+      "hi": 24743,
+      "interval_count": 9459,
+      "filtered_count": 619,
+      "input_bits": 15,
+      "variables": 4749,
+      "clauses": 18618,
+      "limit_seconds": 900.0,
+      "result": "UNSAT",
+      "seconds": 18.456612290989142,
+      "solutions": [],
+      "stats": {
+        "restarts": 7526,
+        "conflicts": 238893,
+        "decisions": 453883,
+        "propagations": 105400653
+      },
+      "harness": "first harness; completed before any timer mattered; machine otherwise idle"
+    },
+    {
+      "base": 20,
+      "solver": "cadical195",
+      "lo": 58945,
+      "hi": 159999,
+      "interval_count": 101055,
+      "filtered_count": 7446,
+      "input_bits": 18,
+      "variables": 6568,
+      "clauses": 26077,
+      "limit_seconds": 900.0,
+      "result": "UNSAT",
+      "seconds": 158.48487691598712,
+      "solutions": [],
+      "stats": {
+        "restarts": 30474,
+        "conflicts": 722359,
+        "decisions": 1271684,
+        "propagations": 738902260
+      },
+      "harness": "first harness; completed before any timer mattered; machine otherwise idle"
+    },
+    {
+      "base": 22,
+      "solver": "cadical195",
+      "lo": 234256,
+      "hi": 656394,
+      "interval_count": 422139,
+      "filtered_count": 65787,
+      "input_bits": 20,
+      "variables": 9576,
+      "clauses": 39181,
+      "result": "TIMEOUT",
+      "seconds": 2400.04013858299,
+      "child_cpu_seconds_total": 2392.838744,
+      "limit_seconds": 2400.0,
+      "harness": "process-kill harness (fixed); machine otherwise idle except the paired SAT run"
+    },
+    {
+      "base": 24,
+      "solver": "cadical195",
+      "lo": 1625364,
+      "hi": 2760487,
+      "interval_count": 1135124,
+      "filtered_count": 74030,
+      "input_bits": 22,
+      "variables": 9473,
+      "clauses": 37832,
+      "result": "UNSAT",
+      "seconds": 1605.3193078329787,
+      "cpu_seconds": 1602.08301,
+      "solutions": [],
+      "stats": {
+        "restarts": 126628,
+        "conflicts": 2414217,
+        "decisions": 2959820,
+        "propagations": 7654679414
+      },
+      "child_cpu_seconds_total": 1602.124102,
+      "limit_seconds": 2400.0,
+      "harness": "process-kill harness (fixed); machine otherwise idle except the paired SAT run"
+    }
+  ],
+  "note": "Bases 10-20 from the first run (all finished well inside their limit, so the ineffective interrupt() timer never mattered). Bases 22 and 24 from the fixed process-kill harness, run concurrently as two single-threaded processes on a 10-core machine.",
+  "fit_log10_time_vs_log10_candidates_bases_13_up": {
+    "slope": 0.8254278429292484,
+    "intercept": -1.916143464544858,
+    "points": 6
+  }
+}

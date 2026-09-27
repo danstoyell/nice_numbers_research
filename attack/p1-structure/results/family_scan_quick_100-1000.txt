@@ -1,0 +1,6 @@
+b= 100 L= 20 | A: n=3000 mean=36.9 sd=4.8 min=24 | B: n=3000 mean=46.2 sd=15.0 min=25 | C: n=3000 mean=37.1 sd=6.2 min=24 | random: n=3000 mean=36.7 sd=3.0 min=25 
+b= 150 L= 30 | A: n=3000 mean=55.0 sd=4.4 min=40 | B: n=3000 mean=60.3 sd=14.3 min=40 | C: n=3000 mean=55.0 sd=4.6 min=39 | random: n=3000 mean=55.2 sd=3.8 min=41 
+b= 200 L= 40 | A: n=3000 mean=74.1 sd=9.1 min=56 | B: n=3000 mean=100.4 sd=35.4 min=56 | C: n=3000 mean=76.1 sd=15.4 min=56 | random: n=3000 mean=73.5 sd=4.4 min=57 
+b= 300 L= 60 | A: n=3000 mean=112.7 sd=11.5 min=84 | B: n=3000 mean=133.8 sd=33.2 min=81 | C: n=3000 mean=112.3 sd=11.7 min=87 | random: n=3000 mean=110.1 sd=5.6 min=92 
+b= 500 L=100 | A: n=3000 mean=191.3 sd=33.7 min=145 | B: n=3000 mean=293.0 sd=97.3 min=170 | C: n=3000 mean=201.0 sd=45.2 min=150 | random: n=3000 mean=184.1 sd=7.0 min=158 
+b=1000 L=200 | A: n=3000 mean=409.5 sd=114.6 min=303 | B: n=3000 mean=750.0 sd=175.1 min=391 | C: n=3000 mean=401.9 sd=101.6 min=310 | random: n=3000 mean=367.8 sd=9.9 min=335 

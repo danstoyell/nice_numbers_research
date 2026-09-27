@@ -1,0 +1,97 @@
+{
+  "seed": 20260924,
+  "karatsuba_validation": [
+    {
+      "widths": [
+        1,
+        1
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        3,
+        8
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        8,
+        8
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        9,
+        10
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        17,
+        17
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        23,
+        47
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        64,
+        65
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        179,
+        179
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        357,
+        179
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        921,
+        921
+      ],
+      "random_exact_products": 10
+    },
+    {
+      "widths": [
+        3,
+        4
+      ],
+      "symbolic_equivalence": "unsat"
+    },
+    {
+      "widths": [
+        5,
+        5
+      ],
+      "symbolic_equivalence": "unsat"
+    },
+    {
+      "widths": [
+        6,
+        7
+      ],
+      "symbolic_equivalence": "unsat"
+    }
+  ],
+  "sorting_network_checks": 301
+}

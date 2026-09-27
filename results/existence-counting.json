@@ -1,0 +1,181 @@
+{
+  "scope": "Exact counting identities and explicitly hypothetical random-string expectations",
+  "leading_legal_reference_exhaustion": {
+    "base": 4,
+    "legal_words": 144,
+    "pandigital_words": 12
+  },
+  "high_order_uniformity_counterexample": {
+    "base": 4,
+    "words": 64,
+    "uniform_marginal_order": 3,
+    "pandigital_words": 0
+  },
+  "inclusion_exclusion_scales": [
+    {
+      "base": 10,
+      "first_positive_odd_bonferroni_depth": 7,
+      "depth_fraction": 0.7,
+      "log10_reference_pandigital_probability": -3.445631999009912,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -4.60092220171454,
+      "log10_max_uniform_absolute_probability_error_sufficient": -6.455931955649724
+    },
+    {
+      "base": 32,
+      "first_positive_odd_bonferroni_depth": 25,
+      "depth_fraction": 0.78125,
+      "log10_reference_pandigital_probability": -12.745079713786069,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -16.561108863836516,
+      "log10_max_uniform_absolute_probability_error_sufficient": -22.37803957503347
+    },
+    {
+      "base": 64,
+      "first_positive_odd_bonferroni_depth": 49,
+      "depth_fraction": 0.765625,
+      "log10_reference_pandigital_probability": -26.492210873057125,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -34.178431959851125,
+      "log10_max_uniform_absolute_probability_error_sufficient": -45.75813059555192
+    },
+    {
+      "base": 100,
+      "first_positive_odd_bonferroni_depth": 77,
+      "depth_fraction": 0.77,
+      "log10_reference_pandigital_probability": -42.030040658786795,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -54.0700501561207,
+      "log10_max_uniform_absolute_probability_error_sufficient": -72.13304022518493
+    },
+    {
+      "base": 128,
+      "first_positive_odd_bonferroni_depth": 99,
+      "depth_fraction": 0.7734375,
+      "log10_reference_pandigital_probability": -54.13674294853166,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -69.56299306296545,
+      "log10_max_uniform_absolute_probability_error_sufficient": -92.66858239352125
+    },
+    {
+      "base": 256,
+      "first_positive_odd_bonferroni_depth": 199,
+      "depth_fraction": 0.77734375,
+      "log10_reference_pandigital_probability": -109.57604275750383,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -140.48213184139485,
+      "log10_max_uniform_absolute_probability_error_sufficient": -186.63972164748301
+    },
+    {
+      "base": 512,
+      "first_positive_odd_bonferroni_depth": 399,
+      "depth_fraction": 0.779296875,
+      "log10_reference_pandigital_probability": -220.6049807970517,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -282.4706286373776,
+      "log10_max_uniform_absolute_probability_error_sufficient": -374.73233857701007
+    },
+    {
+      "base": 1000,
+      "first_positive_odd_bonferroni_depth": 781,
+      "depth_fraction": 0.781,
+      "log10_reference_pandigital_probability": -432.39535621303185,
+      "log10_max_uniform_relative_avoidance_error_sufficient": -553.2776044053276,
+      "log10_max_uniform_absolute_probability_error_sufficient": -733.425351877013
+    }
+  ],
+  "corrected_reference_expectations": [
+    {
+      "base": 10,
+      "candidate_interval_size": "53",
+      "exact_filtered_candidates_one_last_digit_zero": "0",
+      "exact_filtered_candidates_both_last_digits_nonzero": "15",
+      "log10_corrected_reference_expected_count": -1.2975694635544737,
+      "log10_uncorrected_reference_expected_count": -1.7159610975224198,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 54,
+      "candidate_interval_size": "1462785585678486209",
+      "exact_filtered_candidates_one_last_digit_zero": "6133272895926567",
+      "exact_filtered_candidates_both_last_digits_nonzero": "40888485972843781",
+      "log10_corrected_reference_expected_count": -3.7797899440508633,
+      "log10_uncorrected_reference_expected_count": -4.0207643366721095,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 57,
+      "candidate_interval_size": "58781384190247319918",
+      "exact_filtered_candidates_one_last_digit_zero": "0",
+      "exact_filtered_candidates_both_last_digits_nonzero": "5856040154291556306",
+      "log10_corrected_reference_expected_count": -2.954357440443829,
+      "log10_uncorrected_reference_expected_count": -3.7078833708611776,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 64,
+      "candidate_interval_size": "37778931862957161709568",
+      "exact_filtered_candidates_one_last_digit_zero": "599665585126304154120",
+      "exact_filtered_candidates_both_last_digits_nonzero": "3523035312617036905456",
+      "log10_corrected_reference_expected_count": -3.0692006438545523,
+      "log10_uncorrected_reference_expected_count": -3.914851762833476,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 100,
+      "candidate_interval_size": "7845565309968116278240706433480649504740",
+      "exact_filtered_candidates_one_last_digit_zero": "0",
+      "exact_filtered_candidates_both_last_digits_nonzero": "519867761953442856416757921248818795465",
+      "log10_corrected_reference_expected_count": -1.3143286903388305,
+      "log10_uncorrected_reference_expected_count": -2.1353721032689306,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 120,
+      "candidate_interval_size": "63379651113315595138827539445636402370591760780546",
+      "exact_filtered_candidates_one_last_digit_zero": "35506807346395291394301142546575015333664851977",
+      "exact_filtered_candidates_both_last_digits_nonzero": "1881860789358950443897960554968475812684237154828",
+      "log10_corrected_reference_expected_count": -0.31448585615099023,
+      "log10_uncorrected_reference_expected_count": -0.8744058343001513,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 125,
+      "candidate_interval_size": "21175823681357508476708062516991049051284790039062500",
+      "exact_filtered_candidates_one_last_digit_zero": "54647286919632279939891774237396255616218813004032",
+      "exact_filtered_candidates_both_last_digits_nonzero": "270504070252179785702464282475111465300283124369960",
+      "log10_corrected_reference_expected_count": -0.22891848484208416,
+      "log10_uncorrected_reference_expected_count": -0.5131354559931385,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 128,
+      "candidate_interval_size": "300466070691337662147380507813058642332555408897613178",
+      "exact_filtered_candidates_one_last_digit_zero": "295734321546592187152933570682144333004483670174816",
+      "exact_filtered_candidates_both_last_digits_nonzero": "4103313711458966596746953293214752620437210923675574",
+      "log10_corrected_reference_expected_count": -0.38581305784012165,
+      "log10_uncorrected_reference_expected_count": -0.6589205837933703,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 150,
+      "candidate_interval_size": "155662128170035263812212330027161489829088934248968168690881424131",
+      "exact_filtered_candidates_one_last_digit_zero": "0",
+      "exact_filtered_candidates_both_last_digits_nonzero": "1755116612923887538285347076816317469213888654619238412085105990",
+      "log10_corrected_reference_expected_count": 1.7635029103280992,
+      "log10_uncorrected_reference_expected_count": 1.5353875162826394,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 200,
+      "candidate_interval_size": "91149778411716983156292447223031522566445405248235300607600271318108234956002202123919990443",
+      "exact_filtered_candidates_one_last_digit_zero": "45803908749606524199141933277905287721831861933786583219899633828195092942714674434130648",
+      "exact_filtered_candidates_both_last_digits_nonzero": "787827230493232216225241252379970948815508025261129231382273701844955598614692400267047152",
+      "log10_corrected_reference_expected_count": 6.913081576266583,
+      "log10_uncorrected_reference_expected_count": 6.650645124451324,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    },
+    {
+      "base": 512,
+      "candidate_interval_size": "15510795055843116998056229184641396881518991904878260513231758795993901193324969134950903358270368656707690755324588434924456621287486463717424592476661149234296077315706341143844730956614142891901246265286892742577901841622807324852197904262603233130401843396095942541608747008",
+      "exact_filtered_candidates_one_last_digit_zero": "11382677389317355918338720047437424325967949049568195092880449214281238644807951909210545517321699112065330789132525759484679516600405917600849749860563465680745653607416590858985859312583764353156491877656721679973998416063704005517757757531264603569277282335686846287873348",
+      "exact_filtered_candidates_both_last_digits_nonzero": "106001183188017876989529330441761014035576525524103816802449183307994034879774052154523205130058322981108392973796646135201077998341280107657913295576497274151943899219067002374305814848436305538769830610678220644757860249593243551384119117009901620738894691751083756055820540",
+      "log10_corrected_reference_expected_count": 57.1740566428513,
+      "log10_uncorrected_reference_expected_count": 56.58565492569281,
+      "warning": "Expectation in a conditional random-string model; actual solution count unknown"
+    }
+  ]
+}

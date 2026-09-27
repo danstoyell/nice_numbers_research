@@ -1,0 +1,25 @@
+deficiency-1 numbers:
+  base 10  n =               59  missing  6  repeated  3 (split; sq[0], cu[3])
+  base 15  n =             2494  missing 10  repeated  1 (split; sq[5], cu[5])
+  base 17  n =             6788  missing  5  repeated 13 (split; sq[5], cu[4])
+  base 17  n =             9278  missing  0  repeated  4 (cube; cu[6], cu[9])
+  base 20  n =           149652  missing  3  repeated  9 (split; sq[1], cu[4])
+  base 24  n =          1852215  missing 18  repeated  7 (split; sq[1], cu[0])
+  base 40  n =    4134931983708  missing 27  repeated  6 (cube; cu[11], cu[19])
+  base 45  n =  330169542960890  missing 43  repeated  9 (square; sq[6], sq[8])
+
+observed / expected (M1 x exact digit-sum coupling at r = 1, 2; M1 at r = 3, 4):
+  10-19 (small bases)      r=1: 4/2.4 = 1.643 (z +1.00)  r=2: 50/53.2 = 0.939 (z -0.44)  r=3: 476/463.3 = 1.027 (z +0.59)  r=4: 2105/2178.2 = 0.966 (z -1.57)
+  20-48 (critique sample)  r=1: 4/3.6 = 1.113 (z +0.21)  r=2: 423/489.2 = 0.865 (z -2.99)  r=3: 33430/33640.5 = 0.994 (z -1.15)  r=4: 1432803/1433361.1 = 1.000 (z -0.47)
+  49-50 (out of sample)    r=1: 0/0.1 = 0.000 (z -0.25)  r=2: 20/18.3 = 1.095 (z +0.41)  r=3: 2168/2171.0 = 0.999 (z -0.06)  r=4: 137280/137320.4 = 1.000 (z -0.11)
+  20-50                    r=1: 4/3.7 = 1.094 (z +0.18)  r=2: 443/507.5 = 0.873 (z -2.86)  r=3: 35598/35811.5 = 0.994 (z -1.13)  r=4: 1570083/1570681.5 = 1.000 (z -0.48)
+
+H0 (no suppression)             loglik -201.85
+Hc (constant rho=0.875 at r<=2)  loglik -197.65  (2 dlogL = 8.40, 1 extra parameter)
+Hg (rho_1<=rho_2<=rho_3, isotonic MLE) rho = 1: 0.875, 2: 0.875, 3: 0.994  loglik -197.02 (2 dlogL = 9.68)
+  P(def-1 count >= 4 | rho_1 = 1.0) = 0.496   (expected 3.66)
+  P(def-1 count >= 4 | rho_1 = 0.867) = 0.391   (expected 3.17)
+  P(def-1 count >= 4 | rho_1 = 0.5) = 0.113   (expected 1.83)
+  P(def-1 count >= 4 | rho_1 = 0.25) = 0.014   (expected 0.91)
+
+out-of-sample deficiency 2 (bases 49-50): 20 vs 18.26 expected, z = +0.41; Bayes factor (rho=1 : rho=0.867) = 1.53; P(z < -2 | rho = 0.867) = 0.047

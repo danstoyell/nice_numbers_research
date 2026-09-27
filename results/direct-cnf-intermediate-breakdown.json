@@ -1,0 +1,24 @@
+{
+  "decomposition": [
+    {
+      "base": 150,
+      "bounds_independently_verified": true,
+      "multiplication_and_bounds_variables": 259923,
+      "multiplication_and_bounds_clauses": 1105816,
+      "radix_conversion_variables": 1428305,
+      "radix_conversion_clauses": 5150146,
+      "occupancy_variables": 45000,
+      "occupancy_clauses": 135150
+    },
+    {
+      "base": 200,
+      "bounds_independently_verified": true,
+      "multiplication_and_bounds_variables": 460572,
+      "multiplication_and_bounds_clauses": 1961031,
+      "radix_conversion_variables": 1971260,
+      "radix_conversion_clauses": 7113592,
+      "occupancy_variables": 79600,
+      "occupancy_clauses": 239000
+    }
+  ]
+}

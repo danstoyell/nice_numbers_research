@@ -1,0 +1,1878 @@
+{
+ "source": "https://data.nicenumbers.net/cache_search_rate_daily?order=date.asc",
+ "fetched": "2026-09-26",
+ "rows": [
+  {
+   "date": "2026-06-29",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13197000000000
+  },
+  {
+   "date": "2026-06-29",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3897000000000
+  },
+  {
+   "date": "2026-06-30",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13198000000000
+  },
+  {
+   "date": "2026-06-30",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3903000000000
+  },
+  {
+   "date": "2026-07-01",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13198000000000
+  },
+  {
+   "date": "2026-07-01",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3907000000000
+  },
+  {
+   "date": "2026-07-02",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13202000000000
+  },
+  {
+   "date": "2026-07-02",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3914000000000
+  },
+  {
+   "date": "2026-07-03",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13203000000000
+  },
+  {
+   "date": "2026-07-03",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3905000000000
+  },
+  {
+   "date": "2026-07-04",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13205000000000
+  },
+  {
+   "date": "2026-07-04",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3910000000000
+  },
+  {
+   "date": "2026-07-05",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3912000000000
+  },
+  {
+   "date": "2026-07-05",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13199000000000
+  },
+  {
+   "date": "2026-07-06",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13206000000000
+  },
+  {
+   "date": "2026-07-06",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3908000000000
+  },
+  {
+   "date": "2026-07-07",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3908000000000
+  },
+  {
+   "date": "2026-07-07",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13204000000000
+  },
+  {
+   "date": "2026-07-08",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13203000000000
+  },
+  {
+   "date": "2026-07-08",
+   "search_mode": "detailed",
+   "username": "anvil",
+   "total_range": 9331000000000
+  },
+  {
+   "date": "2026-07-08",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 3000000000
+  },
+  {
+   "date": "2026-07-08",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 3912000000000
+  },
+  {
+   "date": "2026-07-09",
+   "search_mode": "detailed",
+   "username": "anvil",
+   "total_range": 20903000000000
+  },
+  {
+   "date": "2026-07-09",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13202000000000
+  },
+  {
+   "date": "2026-07-09",
+   "search_mode": "detailed",
+   "username": "jak",
+   "total_range": 2408000000000
+  },
+  {
+   "date": "2026-07-09",
+   "search_mode": "detailed",
+   "username": "vast-test",
+   "total_range": 31252000000000
+  },
+  {
+   "date": "2026-07-10",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13203000000000
+  },
+  {
+   "date": "2026-07-10",
+   "search_mode": "detailed",
+   "username": "vast-test",
+   "total_range": 3782000000000
+  },
+  {
+   "date": "2026-07-11",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 630000000000
+  },
+  {
+   "date": "2026-07-11",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13203000000000
+  },
+  {
+   "date": "2026-07-12",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13204000000000
+  },
+  {
+   "date": "2026-07-12",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 1583000000000
+  },
+  {
+   "date": "2026-07-13",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13201000000000
+  },
+  {
+   "date": "2026-07-13",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 1580000000000
+  },
+  {
+   "date": "2026-07-14",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13206000000000
+  },
+  {
+   "date": "2026-07-14",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 1147000000000
+  },
+  {
+   "date": "2026-07-15",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13202000000000
+  },
+  {
+   "date": "2026-07-16",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13200000000000
+  },
+  {
+   "date": "2026-07-17",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13202000000000
+  },
+  {
+   "date": "2026-07-18",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13195000000000
+  },
+  {
+   "date": "2026-07-19",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13203000000000
+  },
+  {
+   "date": "2026-07-20",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13205000000000
+  },
+  {
+   "date": "2026-07-21",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13209000000000
+  },
+  {
+   "date": "2026-07-22",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13202000000000
+  },
+  {
+   "date": "2026-07-23",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13204000000000
+  },
+  {
+   "date": "2026-07-24",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 953000000000
+  },
+  {
+   "date": "2026-07-24",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13203000000000
+  },
+  {
+   "date": "2026-07-25",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 1184000000000
+  },
+  {
+   "date": "2026-07-25",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13201000000000
+  },
+  {
+   "date": "2026-07-26",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13207000000000
+  },
+  {
+   "date": "2026-07-26",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 1118000000000
+  },
+  {
+   "date": "2026-07-27",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13202000000000
+  },
+  {
+   "date": "2026-07-28",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13208000000000
+  },
+  {
+   "date": "2026-07-29",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 945000000000
+  },
+  {
+   "date": "2026-07-29",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13207000000000
+  },
+  {
+   "date": "2026-07-30",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13203000000000
+  },
+  {
+   "date": "2026-07-30",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 1175000000000
+  },
+  {
+   "date": "2026-07-31",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13208000000000
+  },
+  {
+   "date": "2026-07-31",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 1184000000000
+  },
+  {
+   "date": "2026-08-01",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13204000000000
+  },
+  {
+   "date": "2026-08-01",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 1131000000000
+  },
+  {
+   "date": "2026-08-02",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 13207000000000
+  },
+  {
+   "date": "2026-08-02",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 82244000000000
+  },
+  {
+   "date": "2026-08-03",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 5030000000000
+  },
+  {
+   "date": "2026-08-03",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 287228252194155
+  },
+  {
+   "date": "2026-08-03",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 12936000000000
+  },
+  {
+   "date": "2026-08-04",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 296660000000000
+  },
+  {
+   "date": "2026-08-04",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 227000000000
+  },
+  {
+   "date": "2026-08-04",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 11940000000000
+  },
+  {
+   "date": "2026-08-05",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 11220000000000
+  },
+  {
+   "date": "2026-08-05",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 2000000000
+  },
+  {
+   "date": "2026-08-05",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 319330000000000
+  },
+  {
+   "date": "2026-08-06",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 286034000000000
+  },
+  {
+   "date": "2026-08-06",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 11213000000000
+  },
+  {
+   "date": "2026-08-07",
+   "search_mode": "niceonly",
+   "username": "anvil",
+   "total_range": 3233856000000000
+  },
+  {
+   "date": "2026-08-07",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 240755686061787
+  },
+  {
+   "date": "2026-08-07",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 3750000000000
+  },
+  {
+   "date": "2026-08-07",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 23580000000000
+  },
+  {
+   "date": "2026-08-08",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 98090000000000
+  },
+  {
+   "date": "2026-08-08",
+   "search_mode": "niceonly",
+   "username": "anvil",
+   "total_range": 8103387863881194
+  },
+  {
+   "date": "2026-08-08",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 11254000000000
+  },
+  {
+   "date": "2026-08-08",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 7230085000000000
+  },
+  {
+   "date": "2026-08-09",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 28233000000000
+  },
+  {
+   "date": "2026-08-09",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 11247000000000
+  },
+  {
+   "date": "2026-08-09",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 15289235000000000
+  },
+  {
+   "date": "2026-08-09",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 169779000000000
+  },
+  {
+   "date": "2026-08-10",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 12547311000000000
+  },
+  {
+   "date": "2026-08-10",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 73910000000000
+  },
+  {
+   "date": "2026-08-10",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1156000000000
+  },
+  {
+   "date": "2026-08-10",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 78436000000000
+  },
+  {
+   "date": "2026-08-11",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 13084700000000000
+  },
+  {
+   "date": "2026-08-11",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 220330000000000
+  },
+  {
+   "date": "2026-08-11",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 164952000000000
+  },
+  {
+   "date": "2026-08-12",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 10508306000000000
+  },
+  {
+   "date": "2026-08-12",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 24209000000000
+  },
+  {
+   "date": "2026-08-12",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 455866000000000
+  },
+  {
+   "date": "2026-08-13",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 428527000000000
+  },
+  {
+   "date": "2026-08-13",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 36210456462940365
+  },
+  {
+   "date": "2026-08-13",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 65779000000000
+  },
+  {
+   "date": "2026-08-14",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 111412000000000
+  },
+  {
+   "date": "2026-08-14",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 288762000000000
+  },
+  {
+   "date": "2026-08-14",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 40770730000000000
+  },
+  {
+   "date": "2026-08-15",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 98905000000000
+  },
+  {
+   "date": "2026-08-15",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 21497230000000000
+  },
+  {
+   "date": "2026-08-15",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 40000000000
+  },
+  {
+   "date": "2026-08-15",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 31560000000000
+  },
+  {
+   "date": "2026-08-16",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 637000000000
+  },
+  {
+   "date": "2026-08-16",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 6356200000000000
+  },
+  {
+   "date": "2026-08-16",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 84000000000
+  },
+  {
+   "date": "2026-08-16",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 4000000000
+  },
+  {
+   "date": "2026-08-16",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 2317900000000000
+  },
+  {
+   "date": "2026-08-17",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 269139000000000
+  },
+  {
+   "date": "2026-08-17",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 13269130000000000
+  },
+  {
+   "date": "2026-08-17",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 49238000000000
+  },
+  {
+   "date": "2026-08-17",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 674000000000
+  },
+  {
+   "date": "2026-08-17",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 117000000000
+  },
+  {
+   "date": "2026-08-17",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 16564660000000000
+  },
+  {
+   "date": "2026-08-18",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1366000000000
+  },
+  {
+   "date": "2026-08-18",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 11977550000000000
+  },
+  {
+   "date": "2026-08-18",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 1031260000000000
+  },
+  {
+   "date": "2026-08-18",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 98258000000000
+  },
+  {
+   "date": "2026-08-18",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 396504000000000
+  },
+  {
+   "date": "2026-08-19",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 24848240000000000
+  },
+  {
+   "date": "2026-08-19",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 26676000000000
+  },
+  {
+   "date": "2026-08-19",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 360100000000000
+  },
+  {
+   "date": "2026-08-20",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 123183750000000000
+  },
+  {
+   "date": "2026-08-20",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 121212000000000
+  },
+  {
+   "date": "2026-08-21",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 187476089780697692
+  },
+  {
+   "date": "2026-08-22",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 44245000000000
+  },
+  {
+   "date": "2026-08-22",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 522514000000000000
+  },
+  {
+   "date": "2026-08-23",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 148386000000000
+  },
+  {
+   "date": "2026-08-23",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 5485000000000
+  },
+  {
+   "date": "2026-08-23",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 129714688993488560
+  },
+  {
+   "date": "2026-08-24",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1339000000000
+  },
+  {
+   "date": "2026-08-24",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 101760000000000000
+  },
+  {
+   "date": "2026-08-24",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 16595000000000
+  },
+  {
+   "date": "2026-08-25",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 102030000000000000
+  },
+  {
+   "date": "2026-08-25",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1340000000000
+  },
+  {
+   "date": "2026-08-26",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 36680000000000000
+  },
+  {
+   "date": "2026-08-26",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 37629000000000
+  },
+  {
+   "date": "2026-08-26",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1341000000000
+  },
+  {
+   "date": "2026-08-26",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 102320000000000000
+  },
+  {
+   "date": "2026-08-27",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 97940000000000000
+  },
+  {
+   "date": "2026-08-27",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1341000000000
+  },
+  {
+   "date": "2026-08-27",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 30129000000000
+  },
+  {
+   "date": "2026-08-27",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 370000000000000
+  },
+  {
+   "date": "2026-08-27",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 60908000000000
+  },
+  {
+   "date": "2026-08-27",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 7560000000000000
+  },
+  {
+   "date": "2026-08-27",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 8739000000000
+  },
+  {
+   "date": "2026-08-28",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 91000000000
+  },
+  {
+   "date": "2026-08-28",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 103610000000000000
+  },
+  {
+   "date": "2026-08-28",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 83120000000000000
+  },
+  {
+   "date": "2026-08-28",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 11069000000000
+  },
+  {
+   "date": "2026-08-28",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 34412000000000
+  },
+  {
+   "date": "2026-08-28",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1343000000000
+  },
+  {
+   "date": "2026-08-29",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 220000000000000
+  },
+  {
+   "date": "2026-08-29",
+   "search_mode": "detailed",
+   "username": "asfaloth",
+   "total_range": 223000000000
+  },
+  {
+   "date": "2026-08-29",
+   "search_mode": "detailed",
+   "username": "anonymous",
+   "total_range": 1820000000000
+  },
+  {
+   "date": "2026-08-29",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1338000000000
+  },
+  {
+   "date": "2026-08-29",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 42748000000000
+  },
+  {
+   "date": "2026-08-29",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 96570000000000000
+  },
+  {
+   "date": "2026-08-29",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 355476000000000
+  },
+  {
+   "date": "2026-08-30",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1329000000000
+  },
+  {
+   "date": "2026-08-30",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43212000000000
+  },
+  {
+   "date": "2026-08-30",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 113230000000000000
+  },
+  {
+   "date": "2026-08-30",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 151960000000000
+  },
+  {
+   "date": "2026-08-31",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 97500000000000000
+  },
+  {
+   "date": "2026-08-31",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 207384000000000
+  },
+  {
+   "date": "2026-08-31",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1317000000000
+  },
+  {
+   "date": "2026-08-31",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 42699000000000
+  },
+  {
+   "date": "2026-09-01",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 164789000000000
+  },
+  {
+   "date": "2026-09-01",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 38391000000000
+  },
+  {
+   "date": "2026-09-01",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1317000000000
+  },
+  {
+   "date": "2026-09-01",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 96000000000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1319000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 35931000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "niceonly",
+   "username": "anvil",
+   "total_range": 270000000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "detailed",
+   "username": "anvil",
+   "total_range": 11921000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "detailed",
+   "username": "pailiah",
+   "total_range": 103000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 165186000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 110000000000000
+  },
+  {
+   "date": "2026-09-02",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 102790000000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "niceonly",
+   "username": "vast-pipeline-test",
+   "total_range": 26740000000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "detailed",
+   "username": "pailiah",
+   "total_range": 133000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "niceonly",
+   "username": "anvil",
+   "total_range": 9420000000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 26044000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "detailed",
+   "username": "wp-bench343",
+   "total_range": 8488000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "niceonly",
+   "username": "wp-bench343",
+   "total_range": 18270000000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "detailed",
+   "username": "anvil",
+   "total_range": 4792000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 10730000000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1318000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 96990000000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "niceonly",
+   "username": "pailiah",
+   "total_range": 5740000000000000
+  },
+  {
+   "date": "2026-09-03",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 18120000000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 18190000000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 2438695585678486208
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 38268000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 125587000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 9266000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "niceonly",
+   "username": "janzert",
+   "total_range": 46840000000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "detailed",
+   "username": "asfaloth",
+   "total_range": 2473000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "detailed",
+   "username": "pailiah",
+   "total_range": 235000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "niceonly",
+   "username": "pailiah",
+   "total_range": 3245860000000000000
+  },
+  {
+   "date": "2026-09-04",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 86506000000000
+  },
+  {
+   "date": "2026-09-05",
+   "search_mode": "detailed",
+   "username": "pailiah",
+   "total_range": 1160000000000
+  },
+  {
+   "date": "2026-09-05",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 148301000000000
+  },
+  {
+   "date": "2026-09-05",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 351500000000000000
+  },
+  {
+   "date": "2026-09-05",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1363000000000
+  },
+  {
+   "date": "2026-09-05",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 30100000000000000
+  },
+  {
+   "date": "2026-09-05",
+   "search_mode": "detailed",
+   "username": "anvil",
+   "total_range": 1784000000000
+  },
+  {
+   "date": "2026-09-06",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 30100000000000000
+  },
+  {
+   "date": "2026-09-06",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1366000000000
+  },
+  {
+   "date": "2026-09-06",
+   "search_mode": "detailed",
+   "username": "pailiah",
+   "total_range": 1159000000000
+  },
+  {
+   "date": "2026-09-06",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 364100000000000000
+  },
+  {
+   "date": "2026-09-06",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 164850000000000
+  },
+  {
+   "date": "2026-09-07",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 29400000000000000
+  },
+  {
+   "date": "2026-09-07",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 342100000000000000
+  },
+  {
+   "date": "2026-09-07",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 356763000000000
+  },
+  {
+   "date": "2026-09-07",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1367000000000
+  },
+  {
+   "date": "2026-09-07",
+   "search_mode": "detailed",
+   "username": "pailiah",
+   "total_range": 1103000000000
+  },
+  {
+   "date": "2026-09-08",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 36200000000000000
+  },
+  {
+   "date": "2026-09-08",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1361000000000
+  },
+  {
+   "date": "2026-09-08",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 392342000000000
+  },
+  {
+   "date": "2026-09-09",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 36400000000000000
+  },
+  {
+   "date": "2026-09-09",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 192662000000000
+  },
+  {
+   "date": "2026-09-09",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 2000000000
+  },
+  {
+   "date": "2026-09-09",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 577000000000
+  },
+  {
+   "date": "2026-09-09",
+   "search_mode": "niceonly",
+   "username": "demoux",
+   "total_range": 300000000000000
+  },
+  {
+   "date": "2026-09-10",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 143108000000000
+  },
+  {
+   "date": "2026-09-10",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 41698000000000
+  },
+  {
+   "date": "2026-09-10",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 9850000000000
+  },
+  {
+   "date": "2026-09-10",
+   "search_mode": "niceonly",
+   "username": "mayalaran",
+   "total_range": 22800000000000000
+  },
+  {
+   "date": "2026-09-11",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 101188000000000
+  },
+  {
+   "date": "2026-09-11",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43919000000000
+  },
+  {
+   "date": "2026-09-11",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 262900000000000
+  },
+  {
+   "date": "2026-09-12",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43947000000000
+  },
+  {
+   "date": "2026-09-12",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 111435000000000
+  },
+  {
+   "date": "2026-09-13",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43731765308454
+  },
+  {
+   "date": "2026-09-13",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 89988000000000
+  },
+  {
+   "date": "2026-09-14",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43556000000000
+  },
+  {
+   "date": "2026-09-14",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 155386000000000
+  },
+  {
+   "date": "2026-09-14",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 42199000000000
+  },
+  {
+   "date": "2026-09-14",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 70500000000000000
+  },
+  {
+   "date": "2026-09-14",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 159981000000000
+  },
+  {
+   "date": "2026-09-15",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43552000000000
+  },
+  {
+   "date": "2026-09-15",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 141977000000000
+  },
+  {
+   "date": "2026-09-15",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 473469000000000
+  },
+  {
+   "date": "2026-09-15",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 201949000000000
+  },
+  {
+   "date": "2026-09-15",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 493700000000000000
+  },
+  {
+   "date": "2026-09-16",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 95300000000000000
+  },
+  {
+   "date": "2026-09-16",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 378059000000000
+  },
+  {
+   "date": "2026-09-16",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43496000000000
+  },
+  {
+   "date": "2026-09-16",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 197661000000000
+  },
+  {
+   "date": "2026-09-16",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 108645000000000
+  },
+  {
+   "date": "2026-09-17",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 343657000000000
+  },
+  {
+   "date": "2026-09-17",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 3310000000000
+  },
+  {
+   "date": "2026-09-17",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43510000000000
+  },
+  {
+   "date": "2026-09-17",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 209070000000000
+  },
+  {
+   "date": "2026-09-18",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 316315000000000
+  },
+  {
+   "date": "2026-09-18",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 300983000000000
+  },
+  {
+   "date": "2026-09-18",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43524000000000
+  },
+  {
+   "date": "2026-09-18",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 3626000000000
+  },
+  {
+   "date": "2026-09-19",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 266171000000000
+  },
+  {
+   "date": "2026-09-19",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 107556000000000
+  },
+  {
+   "date": "2026-09-19",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 169119000000000
+  },
+  {
+   "date": "2026-09-19",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43442000000000
+  },
+  {
+   "date": "2026-09-19",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 39300000000000000
+  },
+  {
+   "date": "2026-09-19",
+   "search_mode": "detailed",
+   "username": "eventeo",
+   "total_range": 2000000000
+  },
+  {
+   "date": "2026-09-20",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43382000000000
+  },
+  {
+   "date": "2026-09-20",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 420051000000000
+  },
+  {
+   "date": "2026-09-20",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 4172000000000
+  },
+  {
+   "date": "2026-09-20",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 227685000000000
+  },
+  {
+   "date": "2026-09-21",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 4379000000000
+  },
+  {
+   "date": "2026-09-21",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43397000000000
+  },
+  {
+   "date": "2026-09-21",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 68282000000000
+  },
+  {
+   "date": "2026-09-21",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 271177000000000
+  },
+  {
+   "date": "2026-09-22",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43401000000000
+  },
+  {
+   "date": "2026-09-22",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 176735000000000
+  },
+  {
+   "date": "2026-09-22",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 66538000000000
+  },
+  {
+   "date": "2026-09-22",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 37571000000000
+  },
+  {
+   "date": "2026-09-22",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 10459000000000
+  },
+  {
+   "date": "2026-09-23",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 11938000000000
+  },
+  {
+   "date": "2026-09-23",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 205771000000000
+  },
+  {
+   "date": "2026-09-23",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 151568000000000
+  },
+  {
+   "date": "2026-09-23",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 151211000000000
+  },
+  {
+   "date": "2026-09-23",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43395000000000
+  },
+  {
+   "date": "2026-09-24",
+   "search_mode": "detailed",
+   "username": "asfaloth",
+   "total_range": 3434000000000
+  },
+  {
+   "date": "2026-09-24",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 11523000000000
+  },
+  {
+   "date": "2026-09-24",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 148617000000000
+  },
+  {
+   "date": "2026-09-24",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 94765252194155
+  },
+  {
+   "date": "2026-09-24",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43262048532792
+  },
+  {
+   "date": "2026-09-24",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 152520000000000
+  },
+  {
+   "date": "2026-09-25",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 76408000000000
+  },
+  {
+   "date": "2026-09-25",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 20500000000000000
+  },
+  {
+   "date": "2026-09-25",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43067000000000
+  },
+  {
+   "date": "2026-09-25",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 148443000000000
+  },
+  {
+   "date": "2026-09-25",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 10884000000000
+  },
+  {
+   "date": "2026-09-25",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 222364000000000
+  },
+  {
+   "date": "2026-09-26",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 110004000000000
+  },
+  {
+   "date": "2026-09-26",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 356676000000000
+  },
+  {
+   "date": "2026-09-26",
+   "search_mode": "niceonly",
+   "username": "wp-vast-fleet",
+   "total_range": 49900000000000000
+  },
+  {
+   "date": "2026-09-26",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 43063000000000
+  },
+  {
+   "date": "2026-09-26",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 143778000000000
+  },
+  {
+   "date": "2026-09-26",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 10890000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "niceonly",
+   "username": "wp-msd-0926-b",
+   "total_range": 6300000000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "detailed",
+   "username": "demoux",
+   "total_range": 69550000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "detailed",
+   "username": "mayalaran",
+   "total_range": 7199000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "niceonly",
+   "username": "wp-msd-0926-c",
+   "total_range": 10100000000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "detailed",
+   "username": "wp-vast-fleet",
+   "total_range": 25024000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "detailed",
+   "username": "janzert",
+   "total_range": 15808000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "niceonly",
+   "username": "wp-msd-0926-a",
+   "total_range": 17100000000000000
+  },
+  {
+   "date": "2026-09-27",
+   "search_mode": "detailed",
+   "username": "blockofdynamite",
+   "total_range": 1818000000000
+  }
+ ]
+}

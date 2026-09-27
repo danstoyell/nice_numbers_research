@@ -1,0 +1,15 @@
+b=300 random min deficiency=91
+  ('A', 'd^2<=b'): 13 members; rep_sq values [4, 4, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8] d values [11]
+  ('A', 'other'): 6 members; rep_sq values [4, 4, 6, 8, 10, 18] d values [19, 31, 161, 187]
+  ('A', 'sweet'): 4 members; rep_sq values [1, 1, 3, 6] d values [17]
+  ('B', 'd^2<=b'): 54 members; rep_sq values [2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4] d values [11]
+  ('C', 'other'): 8 members; rep_sq values [0, 1, 2, 2, 3, 4, 7, 8] d values [73, 91, 299, 301]
+b=500 random min deficiency=160
+  ('A', 'd^2<=b'): 20 members; rep_sq values [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 2] d values [19]
+  ('A', 'other'): 15 members; rep_sq values [0, 3, 6, 7, 8, 8, 14, 15, 17, 20, 22, 25] d values [23, 27, 29, 33, 43, 59, 81, 89, 141, 167]
+  ('A', 'sweet'): 5 members; rep_sq values [2, 2, 3, 8, 23] d values [17]
+  ('C', 'other'): 34 members; rep_sq values [0, 0, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2] d values [89, 167, 499, 501, 1497, 2809, 3507, 6867, 18203, 54609]
+b=1000 random min deficiency=335
+  ('A', 'other'): 97 members; rep_sq values [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1] d values [41, 43, 47, 49, 51, 53, 69, 81, 83, 87]
+  ('A', 'sweet'): 31 members; rep_sq values [0, 0, 0, 1, 1, 1, 1, 1, 1, 2, 2, 2] d values [23, 29]
+  ('C', 'other'): 118 members; rep_sq values [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1] d values [81, 101, 133, 189, 247, 259, 273, 297, 351, 407]

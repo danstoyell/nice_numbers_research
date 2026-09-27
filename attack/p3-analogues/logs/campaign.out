@@ -1,0 +1,24 @@
+=== k=2 b=24 start Sun Sep 27 10:10:35 PDT 2026
+B=24 K=2 SL=19 CL=29 J=5 S=183140352 T=29059 roots=2 chunks=2000 done=0 filters=1
+igits": 29, "count": 5321869364926, "J": 5, "chunks_total": 2000, "chunks_done": 2000, "perm_a": 4921175, "filters": true, "rho_done": 7962624, "rho_total": 7962624, "complete": true, "rho_pass": 5716887, "lanes": 11433774, "lane_steps": 332254038666, "hash_survivors": 1297845180, "thread_seconds": 1070.405, "observed": 6, "solutions": ["9402707085281", "9970741307144", "10338026074971", "10957030544901", "12745356312259", "12850463146172"], "python_verified": true, "done_chunks": "all", "wall_seconds_last_invocation": 214.70956229203148, "log": "attack/p3-analogues/logs/k2_b24_j5_c2000.log"}
+=== k=2 b=24 end Sun Sep 27 10:14:10 PDT 2026
+=== k=3 b=18 start Sun Sep 27 10:14:10 PDT 2026
+B=18 K=3 SL=22 CL=32 J=5 S=32122656 T=291844 roots=2 chunks=2000 done=0 filters=1
+7", "24189718777846", "24206369224816", "24208431995822", "24222409627957", "24228424798954", "24289366679403", "24301775160911", "24306240272588", "24314349095294", "24336217972338", "24351321346751", "24353970990925", "24358533725526", "24393449743429", "24432365352316", "24438252298143", "24441214774056", "24482109954778", "24491933710557", "24507655885208"], "python_verified": true, "done_chunks": "all", "m0_expected_full": 610.3893558364091, "m0_expected_covered": 610.3893558364091, "wall_seconds_last_invocation": 1187.5339215419954, "log": "attack/p3-analogues/logs/k3_b18_j5_c2000.log"}
+=== k=3 b=18 end Sun Sep 27 11:41:58 PDT 2026
+=== k=2 b=25 start Sun Sep 27 11:41:58 PDT 2026
+Traceback (most recent call last):
+  File "/Users/danstoyell/Desktop/projects/nicenumbers/attack/p3-analogues/run.py", line 177, in <module>
+    main()
+    ~~~~^^
+  File "/Users/danstoyell/Desktop/projects/nicenumbers/attack/p3-analogues/run.py", line 158, in main
+    exe = binary_for(b, k, s, c, j)
+  File "/Users/danstoyell/Desktop/projects/nicenumbers/attack/p3-analogues/run.py", line 78, in binary_for
+    subprocess.run(["clang", "-O3", "-mcpu=apple-m4", f"-DB={b}", f"-DK={k}", f"-DSL={s}",
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    f"-DCL={c}", f"-DJ={j}", "-o", str(out), str(src), "-lpthread"], check=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['clang', '-O3', '-mcpu=apple-m4', '-DB=25', '-DK=2', '-DSL=20', '-DCL=30', '-DJ=5', '-o', '/Users/danstoyell/Desktop/projects/nicenumbers/attack/p3-analogues/bin/knice_b25_k2_s20_c30_j5', '/Users/danstoyell/Desktop/projects/nicenumbers/attack/p3-analogues/knice.c', '-lpthread']' died with <Signals.SIGTERM: 15>.

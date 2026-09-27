@@ -1,0 +1,156 @@
+{
+ "scope": "Exact effect of the digit-sum identity on deficiency-1 and -2 rates, relative to uncoupled random strings",
+ "rows": [
+  {
+   "base": 20,
+   "deficiency_1_ratio": 0.95,
+   "deficiency_2_ratio": 1.0052525252525248
+  },
+  {
+   "base": 21,
+   "deficiency_1_ratio": 0.9523809523809523,
+   "deficiency_2_ratio": 1.0037161870192723
+  },
+  {
+   "base": 22,
+   "deficiency_1_ratio": 0.8636363636363635,
+   "deficiency_2_ratio": 1.0129657228017883
+  },
+  {
+   "base": 23,
+   "deficiency_1_ratio": 1.0434782608695652,
+   "deficiency_2_ratio": 0.9968944099378878
+  },
+  {
+   "base": 24,
+   "deficiency_1_ratio": 0.9583333333333333,
+   "deficiency_2_ratio": 1.0036182722749882
+  },
+  {
+   "base": 25,
+   "deficiency_1_ratio": 0.8,
+   "deficiency_2_ratio": 1.015950310559006
+  },
+  {
+   "base": 26,
+   "deficiency_1_ratio": 0.8076923076923078,
+   "deficiency_2_ratio": 1.0153670530382861
+  },
+  {
+   "base": 27,
+   "deficiency_1_ratio": 1.0370370370370372,
+   "deficiency_2_ratio": 0.9977387914230023
+  },
+  {
+   "base": 28,
+   "deficiency_1_ratio": 0.8928571428571428,
+   "deficiency_2_ratio": 1.0079287800806762
+  },
+  {
+   "base": 29,
+   "deficiency_1_ratio": 0.9655172413793102,
+   "deficiency_2_ratio": 1.0019624334174373
+  },
+  {
+   "base": 30,
+   "deficiency_1_ratio": 0.9666666666666667,
+   "deficiency_2_ratio": 1.002296918767506
+  },
+  {
+   "base": 31,
+   "deficiency_1_ratio": 1.032258064516129,
+   "deficiency_2_ratio": 0.9982809181919297
+  },
+  {
+   "base": 32,
+   "deficiency_1_ratio": 0.96875,
+   "deficiency_2_ratio": 1.0020146520146527
+  },
+  {
+   "base": 33,
+   "deficiency_1_ratio": 0.8787878787878788,
+   "deficiency_2_ratio": 1.0071961897631074
+  },
+  {
+   "base": 34,
+   "deficiency_1_ratio": 0.911764705882353,
+   "deficiency_2_ratio": 1.0053441479684657
+  },
+  {
+   "base": 35,
+   "deficiency_1_ratio": 1.0285714285714285,
+   "deficiency_2_ratio": 0.9986493506493507
+  },
+  {
+   "base": 36,
+   "deficiency_1_ratio": 0.9166666666666665,
+   "deficiency_2_ratio": 1.0047591852274866
+  },
+  {
+   "base": 37,
+   "deficiency_1_ratio": 0.918918918918919,
+   "deficiency_2_ratio": 1.0042106796823778
+  },
+  {
+   "base": 38,
+   "deficiency_1_ratio": 0.9736842105263159,
+   "deficiency_2_ratio": 1.0014217500938878
+  },
+  {
+   "base": 39,
+   "deficiency_1_ratio": 1.0256410256410258,
+   "deficiency_2_ratio": 0.998910998910999
+  },
+  {
+   "base": 40,
+   "deficiency_1_ratio": 0.9249999999999999,
+   "deficiency_2_ratio": 1.0038443935926726
+  },
+  {
+   "base": 41,
+   "deficiency_1_ratio": 0.8780487804878049,
+   "deficiency_2_ratio": 1.0058617144189692
+  },
+  {
+   "base": 42,
+   "deficiency_1_ratio": 0.9761904761904762,
+   "deficiency_2_ratio": 1.0011609602518696
+  },
+  {
+   "base": 43,
+   "deficiency_1_ratio": 1.0232558139534882,
+   "deficiency_2_ratio": 0.9991034343951839
+  },
+  {
+   "base": 44,
+   "deficiency_1_ratio": 0.9772727272727273,
+   "deficiency_2_ratio": 1.0010566860960584
+  },
+  {
+   "base": 45,
+   "deficiency_1_ratio": 0.9777777777777777,
+   "deficiency_2_ratio": 1.0008189226793878
+  },
+  {
+   "base": 46,
+   "deficiency_1_ratio": 0.8478260869565217,
+   "deficiency_2_ratio": 1.0067609735801955
+  },
+  {
+   "base": 47,
+   "deficiency_1_ratio": 1.0212765957446808,
+   "deficiency_2_ratio": 0.9992490613266581
+  },
+  {
+   "base": 48,
+   "deficiency_1_ratio": 0.9791666666666665,
+   "deficiency_2_ratio": 1.0008862475237192
+  }
+ ],
+ "summary": {
+  "deficiency_1_min": 0.8,
+  "deficiency_1_max": 1.0434782608695652,
+  "deficiency_2_min": 0.9968944099378878,
+  "deficiency_2_max": 1.015950310559006
+ }
+}

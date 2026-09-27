@@ -1,0 +1,230 @@
+{
+  "degree_one_t_three": [
+    {
+      "base": 17,
+      "family": "a*b**3+c, 1<=a,c<b",
+      "checked": 256,
+      "length_valid": 32,
+      "square_distinct": 0,
+      "square_survivors": [],
+      "solutions": []
+    },
+    {
+      "base": 18,
+      "family": "a*b**3+c, 1<=a,c<b",
+      "checked": 289,
+      "length_valid": 34,
+      "square_distinct": 0,
+      "square_survivors": [],
+      "solutions": []
+    },
+    {
+      "base": 19,
+      "family": "a*b**3+c, 1<=a,c<b",
+      "checked": 324,
+      "length_valid": 54,
+      "square_distinct": 0,
+      "square_survivors": [],
+      "solutions": []
+    },
+    {
+      "base": 20,
+      "family": "a*b**3+c, 1<=a,c<b",
+      "checked": 361,
+      "length_valid": 228,
+      "square_distinct": 4,
+      "square_survivors": [
+        {
+          "number": 128017,
+          "a": 16,
+          "c": 17,
+          "square_digits_most_significant_first": [
+            12,
+            16,
+            1,
+            7,
+            4,
+            0,
+            14,
+            9
+          ],
+          "cube_digits_most_significant_first": [
+            10,
+            4,
+            17,
+            12,
+            12,
+            17,
+            14,
+            13,
+            12,
+            12,
+            5,
+            13
+          ]
+        },
+        {
+          "number": 136016,
+          "a": 17,
+          "c": 16,
+          "square_digits_most_significant_first": [
+            14,
+            9,
+            1,
+            7,
+            4,
+            0,
+            12,
+            16
+          ],
+          "cube_digits_most_significant_first": [
+            12,
+            5,
+            14,
+            14,
+            13,
+            13,
+            12,
+            12,
+            16,
+            10,
+            4,
+            16
+          ]
+        },
+        {
+          "number": 136018,
+          "a": 17,
+          "c": 18,
+          "square_digits_most_significant_first": [
+            14,
+            9,
+            1,
+            10,
+            12,
+            0,
+            16,
+            4
+          ],
+          "cube_digits_most_significant_first": [
+            12,
+            5,
+            14,
+            19,
+            0,
+            8,
+            1,
+            6,
+            4,
+            14,
+            11,
+            12
+          ]
+        },
+        {
+          "number": 144017,
+          "a": 18,
+          "c": 17,
+          "square_digits_most_significant_first": [
+            16,
+            4,
+            1,
+            10,
+            12,
+            0,
+            14,
+            9
+          ],
+          "cube_digits_most_significant_first": [
+            14,
+            11,
+            14,
+            1,
+            6,
+            5,
+            19,
+            0,
+            6,
+            12,
+            5,
+            13
+          ]
+        }
+      ],
+      "solutions": []
+    }
+  ],
+  "degree_zero": [
+    {
+      "base": 2,
+      "number": 1,
+      "total_digits": 2,
+      "unique_digits": 1,
+      "nice": false
+    },
+    {
+      "base": 3,
+      "number": 1,
+      "total_digits": 2,
+      "unique_digits": 1,
+      "nice": false
+    },
+    {
+      "base": 3,
+      "number": 2,
+      "total_digits": 4,
+      "unique_digits": 2,
+      "nice": false
+    },
+    {
+      "base": 4,
+      "number": 1,
+      "total_digits": 2,
+      "unique_digits": 1,
+      "nice": false
+    },
+    {
+      "base": 4,
+      "number": 2,
+      "total_digits": 4,
+      "unique_digits": 3,
+      "nice": false
+    },
+    {
+      "base": 4,
+      "number": 3,
+      "total_digits": 5,
+      "unique_digits": 3,
+      "nice": false
+    },
+    {
+      "base": 5,
+      "number": 1,
+      "total_digits": 2,
+      "unique_digits": 1,
+      "nice": false
+    },
+    {
+      "base": 5,
+      "number": 2,
+      "total_digits": 3,
+      "unique_digits": 3,
+      "nice": false
+    },
+    {
+      "base": 5,
+      "number": 3,
+      "total_digits": 5,
+      "unique_digits": 4,
+      "nice": false
+    },
+    {
+      "base": 5,
+      "number": 4,
+      "total_digits": 5,
+      "unique_digits": 4,
+      "nice": false
+    }
+  ],
+  "solutions": []
+}

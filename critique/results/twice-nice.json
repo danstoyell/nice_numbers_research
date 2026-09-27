@@ -1,0 +1,417 @@
+{
+ "scope": "Twice-nice analogue: every digit exactly twice across n^2 and n^3",
+ "rows": [
+  {
+   "base": 5,
+   "lo": "15",
+   "hi": "24",
+   "square_digits": 4,
+   "cube_digits": 6,
+   "count": 10,
+   "digit_sum_classes": 3,
+   "model_expected": 0.31824,
+   "searched": true,
+   "seconds": 0.2730637500062585,
+   "observed": 0,
+   "solutions": [],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 6,
+   "lo": "36",
+   "hi": "65",
+   "square_digits": 5,
+   "cube_digits": 7,
+   "count": 30,
+   "digit_sum_classes": 2,
+   "model_expected": 0.14463305898491083,
+   "searched": true,
+   "seconds": 0.004730665998067707,
+   "observed": 0,
+   "solutions": [],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 7,
+   "lo": "130",
+   "hi": "179",
+   "square_digits": 6,
+   "cube_digits": 8,
+   "count": 50,
+   "digit_sum_classes": 4,
+   "model_expected": 0.17724066153491558,
+   "searched": true,
+   "seconds": 0.005427333991974592,
+   "observed": 1,
+   "solutions": [
+    "173"
+   ],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 9,
+   "lo": "1517",
+   "hi": "2186",
+   "square_digits": 7,
+   "cube_digits": 11,
+   "count": 670,
+   "digit_sum_classes": 3,
+   "model_expected": 0.14147871482516877,
+   "searched": true,
+   "seconds": 0.004998791962862015,
+   "observed": 0,
+   "solutions": [],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 10,
+   "lo": "4642",
+   "hi": "9999",
+   "square_digits": 8,
+   "cube_digits": 12,
+   "count": 5358,
+   "digit_sum_classes": 4,
+   "model_expected": 0.4225667990544,
+   "searched": true,
+   "seconds": 0.005757667007856071,
+   "observed": 1,
+   "solutions": [
+    "6534"
+   ],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 11,
+   "lo": "14641",
+   "hi": "32561",
+   "square_digits": 9,
+   "cube_digits": 13,
+   "count": 17921,
+   "digit_sum_classes": 4,
+   "model_expected": 0.4538665668656286,
+   "searched": true,
+   "seconds": 0.005921375006437302,
+   "observed": 0,
+   "solutions": [],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 12,
+   "lo": "71832",
+   "hi": "108687",
+   "square_digits": 10,
+   "cube_digits": 14,
+   "count": 36856,
+   "digit_sum_classes": 2,
+   "model_expected": 0.11016734456057618,
+   "searched": true,
+   "seconds": 0.007297959004063159,
+   "observed": 0,
+   "solutions": [],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 14,
+   "lo": "1296233",
+   "hi": "2012353",
+   "square_digits": 11,
+   "cube_digits": 17,
+   "count": 716121,
+   "digit_sum_classes": 2,
+   "model_expected": 0.19036841225037396,
+   "searched": true,
+   "seconds": 0.027605957991909236,
+   "observed": 1,
+   "solutions": [
+    "1641939"
+   ],
+   "python_bruteforce_agrees": true
+  },
+  {
+   "base": 15,
+   "lo": "4618673",
+   "hi": "11390624",
+   "square_digits": 12,
+   "cube_digits": 18,
+   "count": 6771952,
+   "digit_sum_classes": 4,
+   "model_expected": 1.0182516401648132,
+   "searched": true,
+   "seconds": 0.11454712500562891,
+   "observed": 1,
+   "solutions": [
+    "7218806"
+   ]
+  },
+  {
+   "base": 16,
+   "lo": "16777216",
+   "hi": "42275935",
+   "square_digits": 13,
+   "cube_digits": 19,
+   "count": 25498720,
+   "digit_sum_classes": 4,
+   "model_expected": 1.0594684697380217,
+   "searched": true,
+   "seconds": 0.5049213329912163,
+   "observed": 1,
+   "solutions": [
+    "32006130"
+   ]
+  },
+  {
+   "base": 17,
+   "lo": "99521747",
+   "hi": "159585272",
+   "square_digits": 14,
+   "cube_digits": 20,
+   "count": 60063526,
+   "digit_sum_classes": 5,
+   "model_expected": 0.9531750748321043,
+   "searched": true,
+   "seconds": 1.6432366659864783,
+   "observed": 1,
+   "solutions": [
+    "114542504"
+   ]
+  },
+  {
+   "base": 19,
+   "lo": "2385208823",
+   "hi": "3896296578",
+   "square_digits": 15,
+   "cube_digits": 23,
+   "count": 1511087756,
+   "digit_sum_classes": 8,
+   "model_expected": 2.9844198235877877,
+   "searched": true,
+   "seconds": 12.395802834013011,
+   "observed": 4,
+   "solutions": [
+    "2538864573",
+    "2835013373",
+    "2895211416",
+    "3714571043"
+   ]
+  },
+  {
+   "base": 20,
+   "lo": "9431120637",
+   "hi": "25599999999",
+   "square_digits": 16,
+   "cube_digits": 24,
+   "count": 16168879363,
+   "digit_sum_classes": 2,
+   "model_expected": 1.9946086721469936,
+   "searched": true,
+   "seconds": 148.27325533295516,
+   "observed": 4,
+   "solutions": [
+    "11302355902",
+    "14354028609",
+    "19794571393",
+    "20836371375"
+   ]
+  },
+  {
+   "base": 21,
+   "lo": "37822859361",
+   "hi": "104350401110",
+   "square_digits": 17,
+   "cube_digits": 25,
+   "count": 66527541750,
+   "digit_sum_classes": 6,
+   "model_expected": 7.2356860870666,
+   "searched": true,
+   "seconds": 629.9367977919756,
+   "observed": 5,
+   "solutions": [
+    "55056876615",
+    "55871180764",
+    "56711438444",
+    "60226749060",
+    "72003849760"
+   ]
+  },
+  {
+   "base": 22,
+   "lo": "257390662068",
+   "hi": "430853773030",
+   "square_digits": 18,
+   "cube_digits": 26,
+   "count": 173463110963,
+   "digit_sum_classes": 4,
+   "model_expected": 3.498037027202262,
+   "searched": true,
+   "seconds": 1653.2644256249769,
+   "observed": 5,
+   "solutions": [
+    "279564695073",
+    "322978806156",
+    "355675306532",
+    "405883732758",
+    "428953190595"
+   ]
+  },
+  {
+   "base": 24,
+   "lo": "7620291579446",
+   "hi": "12942160944371",
+   "square_digits": 19,
+   "cube_digits": 29,
+   "count": 5321869364926,
+   "digit_sum_classes": 2,
+   "model_expected": 3.972508373056346,
+   "searched": false
+  },
+  {
+   "base": 25,
+   "lo": "32615202840361",
+   "hi": "95367431640624",
+   "square_digits": 20,
+   "cube_digits": 30,
+   "count": 62752228800264,
+   "digit_sum_classes": 6,
+   "model_expected": 39.07170312392136,
+   "searched": false
+  },
+  {
+   "base": 26,
+   "lo": "141167095653376",
+   "hi": "418206965861613",
+   "square_digits": 21,
+   "cube_digits": 31,
+   "count": 277039870208238,
+   "digit_sum_classes": 6,
+   "model_expected": 49.50351503121068,
+   "searched": false
+  },
+  {
+   "base": 27,
+   "lo": "1069841704847422",
+   "hi": "1853020188851840",
+   "square_digits": 22,
+   "cube_digits": 32,
+   "count": 783178484004419,
+   "digit_sum_classes": 4,
+   "model_expected": 26.134196241315113,
+   "searched": false
+  },
+  {
+   "base": 29,
+   "lo": "37483831435122514",
+   "hi": "65701755819379863",
+   "square_digits": 23,
+   "cube_digits": 35,
+   "count": 28217924384257350,
+   "digit_sum_classes": 6,
+   "model_expected": 110.25454179000933,
+   "searched": false
+  },
+  {
+   "base": 30,
+   "lo": "171033548014733495",
+   "hi": "531440999999999999",
+   "square_digits": 24,
+   "cube_digits": 36,
+   "count": 360407451985266505,
+   "digit_sum_classes": 2,
+   "model_expected": 115.95288618128546,
+   "searched": false
+  },
+  {
+   "base": 31,
+   "lo": "787662783788549761",
+   "hi": "2474348629602095181",
+   "square_digits": 25,
+   "cube_digits": 37,
+   "count": 1686685845813545421,
+   "digit_sum_classes": 8,
+   "model_expected": 666.4684306489446,
+   "searched": false
+  },
+  {
+   "base": 32,
+   "lo": "6521908912666391107",
+   "hi": "11620720580245083921",
+   "square_digits": 26,
+   "cube_digits": 38,
+   "count": 5098811667578692815,
+   "digit_sum_classes": 2,
+   "model_expected": 132.9590086753501,
+   "searched": false
+  },
+  {
+   "base": 34,
+   "lo": "262856604729964918035",
+   "hi": "473113543054262371524",
+   "square_digits": 27,
+   "cube_digits": 41,
+   "count": 210256938324297453490,
+   "digit_sum_classes": 4,
+   "model_expected": 837.9428017397458,
+   "searched": false
+  },
+  {
+   "base": 35,
+   "lo": "1265503273191280505490",
+   "hi": "4139545122369384765624",
+   "square_digits": 28,
+   "cube_digits": 42,
+   "count": 2874041849178104260135,
+   "digit_sum_classes": 4,
+   "model_expected": 3149.920920344708,
+   "searched": false
+  },
+  {
+   "base": 36,
+   "lo": "6140942214464815497216",
+   "hi": "20276944431828684796742",
+   "square_digits": 29,
+   "cube_digits": 43,
+   "count": 14136002217363869299527,
+   "digit_sum_classes": 4,
+   "model_expected": 3776.808995286326,
+   "searched": false
+  },
+  {
+   "base": 37,
+   "lo": "54818228772029249669325",
+   "hi": "100067247259395197601598",
+   "square_digits": 30,
+   "cube_digits": 44,
+   "count": 45249018487365947932274,
+   "digit_sum_classes": 12,
+   "model_expected": 11556.32764262993,
+   "searched": false
+  },
+  {
+   "base": 39,
+   "lo": "2490714645353149308342250",
+   "hi": "4586711337877204382828927",
+   "square_digits": 31,
+   "cube_digits": 47,
+   "count": 2095996692524055074486678,
+   "digit_sum_classes": 4,
+   "model_expected": 13078.514610198576,
+   "searched": false
+  },
+  {
+   "base": 40,
+   "lo": "12558560558548149237779846",
+   "hi": "42949672959999999999999999",
+   "square_digits": 32,
+   "cube_digits": 48,
+   "count": 30391112401451850762220154,
+   "digit_sum_classes": 4,
+   "model_expected": 50777.86401189049,
+   "searched": false
+  }
+ ],
+ "totals_searched": {
+  "observed": 24,
+  "expected": 20.702208352814555,
+  "poisson_p_at_most_observed": 0.8014184111882242,
+  "poisson_p_at_least_observed": 0.26179943306376807
+ }
+}

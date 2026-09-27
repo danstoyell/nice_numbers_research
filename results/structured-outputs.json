@@ -1,0 +1,2112 @@
+{
+  "family": "full output word (a*j+c) mod b, gcd(a,b)=1; square block first",
+  "max_base": 500,
+  "rotation_validation_cases": 2906,
+  "permutations_tested": 13349176,
+  "modular_survivors": 0,
+  "seconds": 6.593325207999442,
+  "bases": [
+    {
+      "base": 2,
+      "square_length": 1,
+      "cube_length": 1,
+      "leading_legal_permutations": 0,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 4,
+      "square_length": 2,
+      "cube_length": 2,
+      "leading_legal_permutations": 4,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 5,
+      "square_length": 2,
+      "cube_length": 3,
+      "leading_legal_permutations": 12,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 8,
+      "square_length": 3,
+      "cube_length": 5,
+      "leading_legal_permutations": 24,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 9,
+      "square_length": 4,
+      "cube_length": 5,
+      "leading_legal_permutations": 42,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 10,
+      "square_length": 4,
+      "cube_length": 6,
+      "leading_legal_permutations": 32,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 12,
+      "square_length": 5,
+      "cube_length": 7,
+      "leading_legal_permutations": 40,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 13,
+      "square_length": 5,
+      "cube_length": 8,
+      "leading_legal_permutations": 132,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 14,
+      "square_length": 6,
+      "cube_length": 8,
+      "leading_legal_permutations": 72,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 17,
+      "square_length": 7,
+      "cube_length": 10,
+      "leading_legal_permutations": 240,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 18,
+      "square_length": 7,
+      "cube_length": 11,
+      "leading_legal_permutations": 96,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 20,
+      "square_length": 8,
+      "cube_length": 12,
+      "leading_legal_permutations": 144,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 22,
+      "square_length": 9,
+      "cube_length": 13,
+      "leading_legal_permutations": 200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 24,
+      "square_length": 10,
+      "cube_length": 14,
+      "leading_legal_permutations": 176,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 25,
+      "square_length": 10,
+      "cube_length": 15,
+      "leading_legal_permutations": 460,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 28,
+      "square_length": 11,
+      "cube_length": 17,
+      "leading_legal_permutations": 312,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 29,
+      "square_length": 12,
+      "cube_length": 17,
+      "leading_legal_permutations": 756,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 30,
+      "square_length": 12,
+      "cube_length": 18,
+      "leading_legal_permutations": 224,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 32,
+      "square_length": 13,
+      "cube_length": 19,
+      "leading_legal_permutations": 480,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 33,
+      "square_length": 13,
+      "cube_length": 20,
+      "leading_legal_permutations": 620,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 34,
+      "square_length": 14,
+      "cube_length": 20,
+      "leading_legal_permutations": 512,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 37,
+      "square_length": 15,
+      "cube_length": 22,
+      "leading_legal_permutations": 1260,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 38,
+      "square_length": 15,
+      "cube_length": 23,
+      "leading_legal_permutations": 648,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 40,
+      "square_length": 16,
+      "cube_length": 24,
+      "leading_legal_permutations": 608,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 42,
+      "square_length": 17,
+      "cube_length": 25,
+      "leading_legal_permutations": 480,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 44,
+      "square_length": 18,
+      "cube_length": 26,
+      "leading_legal_permutations": 840,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 45,
+      "square_length": 18,
+      "cube_length": 27,
+      "leading_legal_permutations": 1032,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 48,
+      "square_length": 19,
+      "cube_length": 29,
+      "leading_legal_permutations": 736,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 49,
+      "square_length": 20,
+      "cube_length": 29,
+      "leading_legal_permutations": 1974,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 50,
+      "square_length": 20,
+      "cube_length": 30,
+      "leading_legal_permutations": 960,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 52,
+      "square_length": 21,
+      "cube_length": 31,
+      "leading_legal_permutations": 1200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 53,
+      "square_length": 21,
+      "cube_length": 32,
+      "leading_legal_permutations": 2652,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 54,
+      "square_length": 22,
+      "cube_length": 32,
+      "leading_legal_permutations": 936,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 57,
+      "square_length": 23,
+      "cube_length": 34,
+      "leading_legal_permutations": 1980,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 58,
+      "square_length": 23,
+      "cube_length": 35,
+      "leading_legal_permutations": 1568,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 60,
+      "square_length": 24,
+      "cube_length": 36,
+      "leading_legal_permutations": 928,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 62,
+      "square_length": 25,
+      "cube_length": 37,
+      "leading_legal_permutations": 1800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 64,
+      "square_length": 26,
+      "cube_length": 38,
+      "leading_legal_permutations": 1984,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 65,
+      "square_length": 26,
+      "cube_length": 39,
+      "leading_legal_permutations": 3024,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 68,
+      "square_length": 27,
+      "cube_length": 41,
+      "leading_legal_permutations": 2112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 69,
+      "square_length": 28,
+      "cube_length": 41,
+      "leading_legal_permutations": 2948,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 70,
+      "square_length": 28,
+      "cube_length": 42,
+      "leading_legal_permutations": 1632,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 72,
+      "square_length": 29,
+      "cube_length": 43,
+      "leading_legal_permutations": 1680,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 73,
+      "square_length": 29,
+      "cube_length": 44,
+      "leading_legal_permutations": 5112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 74,
+      "square_length": 30,
+      "cube_length": 44,
+      "leading_legal_permutations": 2592,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 77,
+      "square_length": 31,
+      "cube_length": 46,
+      "leading_legal_permutations": 4500,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 78,
+      "square_length": 31,
+      "cube_length": 47,
+      "leading_legal_permutations": 1824,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 80,
+      "square_length": 32,
+      "cube_length": 48,
+      "leading_legal_permutations": 2496,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 82,
+      "square_length": 33,
+      "cube_length": 49,
+      "leading_legal_permutations": 3200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 84,
+      "square_length": 34,
+      "cube_length": 50,
+      "leading_legal_permutations": 1968,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 85,
+      "square_length": 34,
+      "cube_length": 51,
+      "leading_legal_permutations": 5312,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 88,
+      "square_length": 35,
+      "cube_length": 53,
+      "leading_legal_permutations": 3440,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 89,
+      "square_length": 36,
+      "cube_length": 53,
+      "leading_legal_permutations": 7656,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 90,
+      "square_length": 36,
+      "cube_length": 54,
+      "leading_legal_permutations": 2112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 92,
+      "square_length": 37,
+      "cube_length": 55,
+      "leading_legal_permutations": 3960,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 93,
+      "square_length": 37,
+      "cube_length": 56,
+      "leading_legal_permutations": 5460,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 94,
+      "square_length": 38,
+      "cube_length": 56,
+      "leading_legal_permutations": 4232,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 97,
+      "square_length": 39,
+      "cube_length": 58,
+      "leading_legal_permutations": 9120,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 98,
+      "square_length": 39,
+      "cube_length": 59,
+      "leading_legal_permutations": 4032,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 100,
+      "square_length": 40,
+      "cube_length": 60,
+      "leading_legal_permutations": 3920,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 102,
+      "square_length": 41,
+      "cube_length": 61,
+      "leading_legal_permutations": 3200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 104,
+      "square_length": 42,
+      "cube_length": 62,
+      "leading_legal_permutations": 4896,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 105,
+      "square_length": 42,
+      "cube_length": 63,
+      "leading_legal_permutations": 4944,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 108,
+      "square_length": 43,
+      "cube_length": 65,
+      "leading_legal_permutations": 3816,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 109,
+      "square_length": 44,
+      "cube_length": 65,
+      "leading_legal_permutations": 11556,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 110,
+      "square_length": 44,
+      "cube_length": 66,
+      "leading_legal_permutations": 4320,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 112,
+      "square_length": 45,
+      "cube_length": 67,
+      "leading_legal_permutations": 5280,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 113,
+      "square_length": 45,
+      "cube_length": 68,
+      "leading_legal_permutations": 12432,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 114,
+      "square_length": 46,
+      "cube_length": 68,
+      "leading_legal_permutations": 4032,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 117,
+      "square_length": 47,
+      "cube_length": 70,
+      "leading_legal_permutations": 8280,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 118,
+      "square_length": 47,
+      "cube_length": 71,
+      "leading_legal_permutations": 6728,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 120,
+      "square_length": 48,
+      "cube_length": 72,
+      "leading_legal_permutations": 3776,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 122,
+      "square_length": 49,
+      "cube_length": 73,
+      "leading_legal_permutations": 7200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 124,
+      "square_length": 50,
+      "cube_length": 74,
+      "leading_legal_permutations": 7320,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 125,
+      "square_length": 50,
+      "cube_length": 75,
+      "leading_legal_permutations": 12300,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 128,
+      "square_length": 51,
+      "cube_length": 77,
+      "leading_legal_permutations": 8064,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 129,
+      "square_length": 52,
+      "cube_length": 77,
+      "leading_legal_permutations": 10668,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 130,
+      "square_length": 52,
+      "cube_length": 78,
+      "leading_legal_permutations": 6144,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 132,
+      "square_length": 53,
+      "cube_length": 79,
+      "leading_legal_permutations": 5200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 133,
+      "square_length": 53,
+      "cube_length": 80,
+      "leading_legal_permutations": 14148,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 134,
+      "square_length": 54,
+      "cube_length": 80,
+      "leading_legal_permutations": 8712,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 137,
+      "square_length": 55,
+      "cube_length": 82,
+      "leading_legal_permutations": 18360,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 138,
+      "square_length": 55,
+      "cube_length": 83,
+      "leading_legal_permutations": 5984,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 140,
+      "square_length": 56,
+      "cube_length": 84,
+      "leading_legal_permutations": 6624,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 142,
+      "square_length": 57,
+      "cube_length": 85,
+      "leading_legal_permutations": 9800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 144,
+      "square_length": 58,
+      "cube_length": 86,
+      "leading_legal_permutations": 6816,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 145,
+      "square_length": 58,
+      "cube_length": 87,
+      "leading_legal_permutations": 16016,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 148,
+      "square_length": 59,
+      "cube_length": 89,
+      "leading_legal_permutations": 10512,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 149,
+      "square_length": 60,
+      "cube_length": 89,
+      "leading_legal_permutations": 21756,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 150,
+      "square_length": 60,
+      "cube_length": 90,
+      "leading_legal_permutations": 5920,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 152,
+      "square_length": 61,
+      "cube_length": 91,
+      "leading_legal_permutations": 10800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 153,
+      "square_length": 61,
+      "cube_length": 92,
+      "leading_legal_permutations": 14496,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 154,
+      "square_length": 62,
+      "cube_length": 92,
+      "leading_legal_permutations": 9120,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 157,
+      "square_length": 63,
+      "cube_length": 94,
+      "leading_legal_permutations": 24180,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 158,
+      "square_length": 63,
+      "cube_length": 95,
+      "leading_legal_permutations": 12168,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 160,
+      "square_length": 64,
+      "cube_length": 96,
+      "leading_legal_permutations": 10112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 162,
+      "square_length": 65,
+      "cube_length": 97,
+      "leading_legal_permutations": 8640,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 164,
+      "square_length": 66,
+      "cube_length": 98,
+      "leading_legal_permutations": 12960,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 165,
+      "square_length": 66,
+      "cube_length": 99,
+      "leading_legal_permutations": 13040,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 168,
+      "square_length": 67,
+      "cube_length": 101,
+      "leading_legal_permutations": 7968,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 169,
+      "square_length": 68,
+      "cube_length": 101,
+      "leading_legal_permutations": 26052,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 170,
+      "square_length": 68,
+      "cube_length": 102,
+      "leading_legal_permutations": 10752,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 172,
+      "square_length": 69,
+      "cube_length": 103,
+      "leading_legal_permutations": 14280,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 173,
+      "square_length": 69,
+      "cube_length": 104,
+      "leading_legal_permutations": 29412,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 174,
+      "square_length": 70,
+      "cube_length": 104,
+      "leading_legal_permutations": 9632,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 177,
+      "square_length": 71,
+      "cube_length": 106,
+      "leading_legal_permutations": 20300,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 178,
+      "square_length": 71,
+      "cube_length": 107,
+      "leading_legal_permutations": 15488,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 180,
+      "square_length": 72,
+      "cube_length": 108,
+      "leading_legal_permutations": 8544,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 182,
+      "square_length": 73,
+      "cube_length": 109,
+      "leading_legal_permutations": 12960,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 184,
+      "square_length": 74,
+      "cube_length": 110,
+      "leading_legal_permutations": 16016,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 185,
+      "square_length": 74,
+      "cube_length": 111,
+      "leading_legal_permutations": 26352,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 188,
+      "square_length": 75,
+      "cube_length": 113,
+      "leading_legal_permutations": 17112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 189,
+      "square_length": 76,
+      "cube_length": 113,
+      "leading_legal_permutations": 20196,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 190,
+      "square_length": 76,
+      "cube_length": 114,
+      "leading_legal_permutations": 13536,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 192,
+      "square_length": 77,
+      "cube_length": 115,
+      "leading_legal_permutations": 12160,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 193,
+      "square_length": 77,
+      "cube_length": 116,
+      "leading_legal_permutations": 36672,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 194,
+      "square_length": 78,
+      "cube_length": 116,
+      "leading_legal_permutations": 18432,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 197,
+      "square_length": 79,
+      "cube_length": 118,
+      "leading_legal_permutations": 38220,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 198,
+      "square_length": 79,
+      "cube_length": 119,
+      "leading_legal_permutations": 11760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 200,
+      "square_length": 80,
+      "cube_length": 120,
+      "leading_legal_permutations": 15840,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 202,
+      "square_length": 81,
+      "cube_length": 121,
+      "leading_legal_permutations": 20000,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 204,
+      "square_length": 82,
+      "cube_length": 122,
+      "leading_legal_permutations": 12928,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 205,
+      "square_length": 82,
+      "cube_length": 123,
+      "leading_legal_permutations": 32480,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 208,
+      "square_length": 83,
+      "cube_length": 125,
+      "leading_legal_permutations": 19776,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 209,
+      "square_length": 84,
+      "cube_length": 125,
+      "leading_legal_permutations": 37260,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 210,
+      "square_length": 84,
+      "cube_length": 126,
+      "leading_legal_permutations": 9984,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 212,
+      "square_length": 85,
+      "cube_length": 127,
+      "leading_legal_permutations": 21840,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 213,
+      "square_length": 85,
+      "cube_length": 128,
+      "leading_legal_permutations": 29540,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 214,
+      "square_length": 86,
+      "cube_length": 128,
+      "leading_legal_permutations": 22472,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 217,
+      "square_length": 87,
+      "cube_length": 130,
+      "leading_legal_permutations": 38700,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 218,
+      "square_length": 87,
+      "cube_length": 131,
+      "leading_legal_permutations": 23328,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 220,
+      "square_length": 88,
+      "cube_length": 132,
+      "leading_legal_permutations": 17440,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 222,
+      "square_length": 89,
+      "cube_length": 133,
+      "leading_legal_permutations": 15840,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 224,
+      "square_length": 90,
+      "cube_length": 134,
+      "leading_legal_permutations": 21312,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 225,
+      "square_length": 90,
+      "cube_length": 135,
+      "leading_legal_permutations": 26760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 228,
+      "square_length": 91,
+      "cube_length": 137,
+      "leading_legal_permutations": 16272,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 229,
+      "square_length": 92,
+      "cube_length": 137,
+      "leading_legal_permutations": 51756,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 230,
+      "square_length": 92,
+      "cube_length": 138,
+      "leading_legal_permutations": 20064,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 232,
+      "square_length": 93,
+      "cube_length": 139,
+      "leading_legal_permutations": 25760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 233,
+      "square_length": 93,
+      "cube_length": 140,
+      "leading_legal_permutations": 53592,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 234,
+      "square_length": 94,
+      "cube_length": 140,
+      "leading_legal_permutations": 16704,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 237,
+      "square_length": 95,
+      "cube_length": 142,
+      "leading_legal_permutations": 36660,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 238,
+      "square_length": 95,
+      "cube_length": 143,
+      "leading_legal_permutations": 22656,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 240,
+      "square_length": 96,
+      "cube_length": 144,
+      "leading_legal_permutations": 15232,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 242,
+      "square_length": 97,
+      "cube_length": 145,
+      "leading_legal_permutations": 26400,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 244,
+      "square_length": 98,
+      "cube_length": 146,
+      "leading_legal_permutations": 29040,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 245,
+      "square_length": 98,
+      "cube_length": 147,
+      "leading_legal_permutations": 40824,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 248,
+      "square_length": 99,
+      "cube_length": 149,
+      "leading_legal_permutations": 29520,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 249,
+      "square_length": 100,
+      "cube_length": 149,
+      "leading_legal_permutations": 40508,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 250,
+      "square_length": 100,
+      "cube_length": 150,
+      "leading_legal_permutations": 24800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 252,
+      "square_length": 101,
+      "cube_length": 151,
+      "leading_legal_permutations": 18000,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 253,
+      "square_length": 101,
+      "cube_length": 152,
+      "leading_legal_permutations": 55220,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 254,
+      "square_length": 102,
+      "cube_length": 152,
+      "leading_legal_permutations": 31752,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 257,
+      "square_length": 103,
+      "cube_length": 154,
+      "leading_legal_permutations": 65280,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 258,
+      "square_length": 103,
+      "cube_length": 155,
+      "leading_legal_permutations": 21504,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 260,
+      "square_length": 104,
+      "cube_length": 156,
+      "leading_legal_permutations": 24768,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 262,
+      "square_length": 105,
+      "cube_length": 157,
+      "leading_legal_permutations": 33800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 264,
+      "square_length": 106,
+      "cube_length": 158,
+      "leading_legal_permutations": 20960,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 265,
+      "square_length": 106,
+      "cube_length": 159,
+      "leading_legal_permutations": 54704,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 268,
+      "square_length": 107,
+      "cube_length": 161,
+      "leading_legal_permutations": 35112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 269,
+      "square_length": 108,
+      "cube_length": 161,
+      "leading_legal_permutations": 71556,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 270,
+      "square_length": 108,
+      "cube_length": 162,
+      "leading_legal_permutations": 19296,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 272,
+      "square_length": 109,
+      "cube_length": 163,
+      "leading_legal_permutations": 34560,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 273,
+      "square_length": 109,
+      "cube_length": 164,
+      "leading_legal_permutations": 39024,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 274,
+      "square_length": 110,
+      "cube_length": 164,
+      "leading_legal_permutations": 36992,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 277,
+      "square_length": 111,
+      "cube_length": 166,
+      "leading_legal_permutations": 75900,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 278,
+      "square_length": 111,
+      "cube_length": 167,
+      "leading_legal_permutations": 38088,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 280,
+      "square_length": 112,
+      "cube_length": 168,
+      "leading_legal_permutations": 26688,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 282,
+      "square_length": 113,
+      "cube_length": 169,
+      "leading_legal_permutations": 25760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 284,
+      "square_length": 114,
+      "cube_length": 170,
+      "leading_legal_permutations": 39480,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 285,
+      "square_length": 114,
+      "cube_length": 171,
+      "leading_legal_permutations": 40752,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 288,
+      "square_length": 115,
+      "cube_length": 173,
+      "leading_legal_permutations": 27456,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 289,
+      "square_length": 116,
+      "cube_length": 173,
+      "leading_legal_permutations": 78064,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 290,
+      "square_length": 116,
+      "cube_length": 174,
+      "leading_legal_permutations": 32256,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 292,
+      "square_length": 117,
+      "cube_length": 175,
+      "leading_legal_permutations": 41760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 293,
+      "square_length": 117,
+      "cube_length": 176,
+      "leading_legal_permutations": 84972,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 294,
+      "square_length": 118,
+      "cube_length": 176,
+      "leading_legal_permutations": 24528,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 297,
+      "square_length": 119,
+      "cube_length": 178,
+      "leading_legal_permutations": 53100,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 298,
+      "square_length": 119,
+      "cube_length": 179,
+      "leading_legal_permutations": 43808,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 300,
+      "square_length": 120,
+      "cube_length": 180,
+      "leading_legal_permutations": 23840,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 302,
+      "square_length": 121,
+      "cube_length": 181,
+      "leading_legal_permutations": 45000,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 304,
+      "square_length": 122,
+      "cube_length": 182,
+      "leading_legal_permutations": 43488,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 305,
+      "square_length": 122,
+      "cube_length": 183,
+      "leading_legal_permutations": 72720,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 308,
+      "square_length": 123,
+      "cube_length": 185,
+      "leading_legal_permutations": 36720,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 309,
+      "square_length": 124,
+      "cube_length": 185,
+      "leading_legal_permutations": 62628,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 310,
+      "square_length": 124,
+      "cube_length": 186,
+      "leading_legal_permutations": 36960,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 312,
+      "square_length": 125,
+      "cube_length": 187,
+      "leading_legal_permutations": 29760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 313,
+      "square_length": 125,
+      "cube_length": 188,
+      "leading_legal_permutations": 97032,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 314,
+      "square_length": 126,
+      "cube_length": 188,
+      "leading_legal_permutations": 48672,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 317,
+      "square_length": 127,
+      "cube_length": 190,
+      "leading_legal_permutations": 99540,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 318,
+      "square_length": 127,
+      "cube_length": 191,
+      "leading_legal_permutations": 32864,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 320,
+      "square_length": 128,
+      "cube_length": 192,
+      "leading_legal_permutations": 40704,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 322,
+      "square_length": 129,
+      "cube_length": 193,
+      "leading_legal_permutations": 42240,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 324,
+      "square_length": 130,
+      "cube_length": 194,
+      "leading_legal_permutations": 34776,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 325,
+      "square_length": 130,
+      "cube_length": 195,
+      "leading_legal_permutations": 77520,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 328,
+      "square_length": 131,
+      "cube_length": 197,
+      "leading_legal_permutations": 52160,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 329,
+      "square_length": 132,
+      "cube_length": 197,
+      "leading_legal_permutations": 90252,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 330,
+      "square_length": 132,
+      "cube_length": 198,
+      "leading_legal_permutations": 26240,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 332,
+      "square_length": 133,
+      "cube_length": 199,
+      "leading_legal_permutations": 54120,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 333,
+      "square_length": 133,
+      "cube_length": 200,
+      "leading_legal_permutations": 71496,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 334,
+      "square_length": 134,
+      "cube_length": 200,
+      "leading_legal_permutations": 55112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 337,
+      "square_length": 135,
+      "cube_length": 202,
+      "leading_legal_permutations": 112560,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 338,
+      "square_length": 135,
+      "cube_length": 203,
+      "leading_legal_permutations": 52416,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 340,
+      "square_length": 136,
+      "cube_length": 204,
+      "leading_legal_permutations": 43264,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 342,
+      "square_length": 137,
+      "cube_length": 205,
+      "leading_legal_permutations": 36720,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 344,
+      "square_length": 138,
+      "cube_length": 206,
+      "leading_legal_permutations": 57456,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 345,
+      "square_length": 138,
+      "cube_length": 207,
+      "leading_legal_permutations": 60368,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 348,
+      "square_length": 139,
+      "cube_length": 209,
+      "leading_legal_permutations": 38752,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 349,
+      "square_length": 140,
+      "cube_length": 209,
+      "leading_legal_permutations": 120756,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 350,
+      "square_length": 140,
+      "cube_length": 210,
+      "leading_legal_permutations": 41760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 352,
+      "square_length": 141,
+      "cube_length": 211,
+      "leading_legal_permutations": 56000,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 353,
+      "square_length": 141,
+      "cube_length": 212,
+      "leading_legal_permutations": 123552,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 354,
+      "square_length": 142,
+      "cube_length": 212,
+      "leading_legal_permutations": 40832,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 357,
+      "square_length": 143,
+      "cube_length": 214,
+      "leading_legal_permutations": 68160,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 358,
+      "square_length": 143,
+      "cube_length": 215,
+      "leading_legal_permutations": 63368,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 360,
+      "square_length": 144,
+      "cube_length": 216,
+      "leading_legal_permutations": 34368,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 362,
+      "square_length": 145,
+      "cube_length": 217,
+      "leading_legal_permutations": 64800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 364,
+      "square_length": 146,
+      "cube_length": 218,
+      "leading_legal_permutations": 52128,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 365,
+      "square_length": 146,
+      "cube_length": 219,
+      "leading_legal_permutations": 104544,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 368,
+      "square_length": 147,
+      "cube_length": 221,
+      "leading_legal_permutations": 64416,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 369,
+      "square_length": 148,
+      "cube_length": 221,
+      "leading_legal_permutations": 88080,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 370,
+      "square_length": 148,
+      "cube_length": 222,
+      "leading_legal_permutations": 52992,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 372,
+      "square_length": 149,
+      "cube_length": 223,
+      "leading_legal_permutations": 44400,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 373,
+      "square_length": 149,
+      "cube_length": 224,
+      "leading_legal_permutations": 138012,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 374,
+      "square_length": 150,
+      "cube_length": 224,
+      "leading_legal_permutations": 59520,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 377,
+      "square_length": 151,
+      "cube_length": 226,
+      "leading_legal_permutations": 126000,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 378,
+      "square_length": 151,
+      "cube_length": 227,
+      "leading_legal_permutations": 40608,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 380,
+      "square_length": 152,
+      "cube_length": 228,
+      "leading_legal_permutations": 54432,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 382,
+      "square_length": 153,
+      "cube_length": 229,
+      "leading_legal_permutations": 72200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 384,
+      "square_length": 154,
+      "cube_length": 230,
+      "leading_legal_permutations": 48896,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 385,
+      "square_length": 154,
+      "cube_length": 231,
+      "leading_legal_permutations": 91920,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 388,
+      "square_length": 155,
+      "cube_length": 233,
+      "leading_legal_permutations": 74112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 389,
+      "square_length": 156,
+      "cube_length": 233,
+      "leading_legal_permutations": 150156,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 390,
+      "square_length": 156,
+      "cube_length": 234,
+      "leading_legal_permutations": 37248,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 392,
+      "square_length": 157,
+      "cube_length": 235,
+      "leading_legal_permutations": 65520,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 393,
+      "square_length": 157,
+      "cube_length": 236,
+      "leading_legal_permutations": 101660,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 394,
+      "square_length": 158,
+      "cube_length": 236,
+      "leading_legal_permutations": 76832,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 397,
+      "square_length": 159,
+      "cube_length": 238,
+      "leading_legal_permutations": 156420,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 398,
+      "square_length": 159,
+      "cube_length": 239,
+      "leading_legal_permutations": 78408,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 400,
+      "square_length": 160,
+      "cube_length": 240,
+      "leading_legal_permutations": 63680,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 402,
+      "square_length": 161,
+      "cube_length": 241,
+      "leading_legal_permutations": 52800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 404,
+      "square_length": 162,
+      "cube_length": 242,
+      "leading_legal_permutations": 80400,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 405,
+      "square_length": 162,
+      "cube_length": 243,
+      "leading_legal_permutations": 87048,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 408,
+      "square_length": 163,
+      "cube_length": 245,
+      "leading_legal_permutations": 51968,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 409,
+      "square_length": 164,
+      "cube_length": 245,
+      "leading_legal_permutations": 166056,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 410,
+      "square_length": 164,
+      "cube_length": 246,
+      "leading_legal_permutations": 65280,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 412,
+      "square_length": 165,
+      "cube_length": 247,
+      "leading_legal_permutations": 83640,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 413,
+      "square_length": 165,
+      "cube_length": 248,
+      "leading_legal_permutations": 143028,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 414,
+      "square_length": 166,
+      "cube_length": 248,
+      "leading_legal_permutations": 54384,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 417,
+      "square_length": 167,
+      "cube_length": 250,
+      "leading_legal_permutations": 114540,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 418,
+      "square_length": 167,
+      "cube_length": 251,
+      "leading_legal_permutations": 74880,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 420,
+      "square_length": 168,
+      "cube_length": 252,
+      "leading_legal_permutations": 40128,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 422,
+      "square_length": 169,
+      "cube_length": 253,
+      "leading_legal_permutations": 88200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 424,
+      "square_length": 170,
+      "cube_length": 254,
+      "leading_legal_permutations": 87776,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 425,
+      "square_length": 170,
+      "cube_length": 255,
+      "leading_legal_permutations": 135360,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 428,
+      "square_length": 171,
+      "cube_length": 257,
+      "leading_legal_permutations": 90312,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 429,
+      "square_length": 172,
+      "cube_length": 257,
+      "leading_legal_permutations": 102480,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 430,
+      "square_length": 172,
+      "cube_length": 258,
+      "leading_legal_permutations": 71904,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 432,
+      "square_length": 173,
+      "cube_length": 259,
+      "leading_legal_permutations": 61920,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 433,
+      "square_length": 173,
+      "cube_length": 260,
+      "leading_legal_permutations": 186192,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 434,
+      "square_length": 174,
+      "cube_length": 260,
+      "leading_legal_permutations": 77760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 437,
+      "square_length": 175,
+      "cube_length": 262,
+      "leading_legal_permutations": 172260,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 438,
+      "square_length": 175,
+      "cube_length": 263,
+      "leading_legal_permutations": 62784,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 440,
+      "square_length": 176,
+      "cube_length": 264,
+      "leading_legal_permutations": 70080,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 442,
+      "square_length": 177,
+      "cube_length": 265,
+      "leading_legal_permutations": 84480,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 444,
+      "square_length": 178,
+      "cube_length": 266,
+      "leading_legal_permutations": 63648,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 445,
+      "square_length": 178,
+      "cube_length": 267,
+      "leading_legal_permutations": 155936,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 448,
+      "square_length": 179,
+      "cube_length": 269,
+      "leading_legal_permutations": 85632,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 449,
+      "square_length": 180,
+      "cube_length": 269,
+      "leading_legal_permutations": 200256,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 450,
+      "square_length": 180,
+      "cube_length": 270,
+      "leading_legal_permutations": 53760,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 452,
+      "square_length": 181,
+      "cube_length": 271,
+      "leading_legal_permutations": 100800,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 453,
+      "square_length": 181,
+      "cube_length": 272,
+      "leading_legal_permutations": 135300,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 454,
+      "square_length": 182,
+      "cube_length": 272,
+      "leading_legal_permutations": 102152,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 457,
+      "square_length": 183,
+      "cube_length": 274,
+      "leading_legal_permutations": 207480,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 458,
+      "square_length": 183,
+      "cube_length": 275,
+      "leading_legal_permutations": 103968,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 460,
+      "square_length": 184,
+      "cube_length": 276,
+      "leading_legal_permutations": 80608,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 462,
+      "square_length": 185,
+      "cube_length": 277,
+      "leading_legal_permutations": 55200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 464,
+      "square_length": 186,
+      "cube_length": 278,
+      "leading_legal_permutations": 103488,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 465,
+      "square_length": 186,
+      "cube_length": 279,
+      "leading_legal_permutations": 111120,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 468,
+      "square_length": 187,
+      "cube_length": 281,
+      "leading_legal_permutations": 67104,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 469,
+      "square_length": 188,
+      "cube_length": 281,
+      "leading_legal_permutations": 184932,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 470,
+      "square_length": 188,
+      "cube_length": 282,
+      "leading_legal_permutations": 86112,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 472,
+      "square_length": 189,
+      "cube_length": 283,
+      "leading_legal_permutations": 109040,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 473,
+      "square_length": 189,
+      "cube_length": 284,
+      "leading_legal_permutations": 197820,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 474,
+      "square_length": 190,
+      "cube_length": 284,
+      "leading_legal_permutations": 73632,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 477,
+      "square_length": 191,
+      "cube_length": 286,
+      "leading_legal_permutations": 148200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 478,
+      "square_length": 191,
+      "cube_length": 287,
+      "leading_legal_permutations": 113288,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 480,
+      "square_length": 192,
+      "cube_length": 288,
+      "leading_legal_permutations": 61184,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 482,
+      "square_length": 193,
+      "cube_length": 289,
+      "leading_legal_permutations": 115200,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 484,
+      "square_length": 194,
+      "cube_length": 290,
+      "leading_legal_permutations": 106040,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 485,
+      "square_length": 194,
+      "cube_length": 291,
+      "leading_legal_permutations": 185472,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 488,
+      "square_length": 195,
+      "cube_length": 293,
+      "leading_legal_permutations": 116640,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 489,
+      "square_length": 196,
+      "cube_length": 293,
+      "leading_legal_permutations": 157788,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 490,
+      "square_length": 196,
+      "cube_length": 294,
+      "leading_legal_permutations": 81984,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 492,
+      "square_length": 197,
+      "cube_length": 295,
+      "leading_legal_permutations": 78400,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 493,
+      "square_length": 197,
+      "cube_length": 296,
+      "leading_legal_permutations": 219968,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 494,
+      "square_length": 198,
+      "cube_length": 296,
+      "leading_legal_permutations": 106272,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 497,
+      "square_length": 199,
+      "cube_length": 298,
+      "leading_legal_permutations": 207900,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 498,
+      "square_length": 199,
+      "cube_length": 299,
+      "leading_legal_permutations": 81344,
+      "passed_mod_2_64": 0
+    },
+    {
+      "base": 500,
+      "square_length": 200,
+      "cube_length": 300,
+      "leading_legal_permutations": 99600,
+      "passed_mod_2_64": 0
+    }
+  ],
+  "solutions": [],
+  "scope": "Exhaustive only within this affine-permutation output family in the listed bases"
+}

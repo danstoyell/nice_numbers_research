@@ -1,0 +1,6 @@
+bases 2-1: 0 admissible, 0 have a sweet d; max over them of log10(F * c!/b^c) = -1000000000.0 (upper bound on E even if every square were distinct)
+b=104 sweet d=[9]: members=3000 P(rep_sq=0)=0.014; given rep_sq=0: rep_cu=16.1 (model 15.1) cross=18.0 (model 18.9) def=34.2, min def=28; random def=38.2 min 28
+b=200 sweet d=[11]: members=3000 P(rep_sq=0)=0.018; given rep_sq=0: rep_cu=30.9 (model 29.6) cross=34.5 (model 36.2) def=65.4, min def=55; random def=73.5 min 57
+b=500 sweet d=[17]: members=3000 P(rep_sq=0)=0.019; given rep_sq=0: rep_cu=73.8 (model 74.2) cross=87.4 (model 90.3) def=161.2, min def=144; random def=183.7 min 161
+
+[exited with code 144]

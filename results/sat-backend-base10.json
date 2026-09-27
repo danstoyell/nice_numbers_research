@@ -1,0 +1,90 @@
+{
+  "backend": "cadical300",
+  "base": 10,
+  "cnf_path": "/private/tmp/nice-sat-10-cadical300-64070/instance.cnf",
+  "distinct": "pairwise",
+  "encoding": "karatsuba",
+  "export": {
+    "clauses": 5971,
+    "cnf_bytes": 108992,
+    "config": {
+      "base": 10,
+      "bit_widths": {
+        "cube": 20,
+        "digit": 4,
+        "n": 7,
+        "square": 14
+      },
+      "cube_length": 6,
+      "digit_sum_residue_count": 4,
+      "distinct_encoding": "pairwise",
+      "encoding": "karatsuba",
+      "karatsuba_leaf_bits": 16,
+      "lower": "47",
+      "memory_limit_mb": 1024,
+      "pin_n_digits": 0,
+      "residue_filter": true,
+      "sat_search": "cdcl",
+      "seed": 20260924,
+      "square_length": 4,
+      "timeout_ms": 1000,
+      "upper": "99",
+      "z3_version": "5.1.0"
+    },
+    "elapsed_seconds": 0.04399862501304597,
+    "n_bit_variables": {
+      "0": 381,
+      "1": 382,
+      "2": 383,
+      "3": 384,
+      "4": 385,
+      "5": 386,
+      "6": 387
+    },
+    "observed_peak_rss_mb": 4.15625,
+    "rss_limit_mb": 1536,
+    "status": "exported",
+    "variables": 1268,
+    "wall_limit_seconds": 60,
+    "wall_seconds": 0.2598147080279887,
+    "worker_exit_code": 0
+  },
+  "seed": 20260924,
+  "solve": {
+    "backend": "cadical300",
+    "conflict_budget": 100000,
+    "cube_digits": [
+      3,
+      2,
+      8,
+      5,
+      0,
+      9
+    ],
+    "independently_valid": true,
+    "load_seconds": 0.006048874987754971,
+    "loaded_clauses": 5901,
+    "loaded_variables": 1268,
+    "n": "69",
+    "observed_peak_rss_mb": 1.359375,
+    "python_sat_version": "1.9.dev15",
+    "rss_limit_mb": 1536,
+    "solve_seconds": 0.017457167035900056,
+    "square_digits": [
+      4,
+      7,
+      6,
+      1
+    ],
+    "statistics": {
+      "conflicts": 1040,
+      "decisions": 2325,
+      "propagations": 91911,
+      "restarts": 58
+    },
+    "status": "sat",
+    "wall_limit_seconds": 60,
+    "wall_seconds": 0.258775666996371,
+    "worker_exit_code": 0
+  }
+}

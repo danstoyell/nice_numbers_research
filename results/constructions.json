@@ -1,0 +1,3914 @@
+{
+  "parameters": {
+    "max_base": 300,
+    "coefficient_max": 24,
+    "denominator_max": 64,
+    "output": "results/constructions.json"
+  },
+  "checked_bases": [
+    2,
+    4,
+    5,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    22,
+    24,
+    25,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    37,
+    38,
+    40,
+    42,
+    44,
+    45,
+    48,
+    49,
+    50,
+    52,
+    53,
+    54,
+    57,
+    58,
+    60,
+    62,
+    64,
+    65,
+    68,
+    69,
+    70,
+    72,
+    73,
+    74,
+    77,
+    78,
+    80,
+    82,
+    84,
+    85,
+    88,
+    89,
+    90,
+    92,
+    93,
+    94,
+    97,
+    98,
+    100,
+    102,
+    104,
+    105,
+    108,
+    109,
+    110,
+    112,
+    113,
+    114,
+    117,
+    118,
+    120,
+    122,
+    124,
+    125,
+    128,
+    129,
+    130,
+    132,
+    133,
+    134,
+    137,
+    138,
+    140,
+    142,
+    144,
+    145,
+    148,
+    149,
+    150,
+    152,
+    153,
+    154,
+    157,
+    158,
+    160,
+    162,
+    164,
+    165,
+    168,
+    169,
+    170,
+    172,
+    173,
+    174,
+    177,
+    178,
+    180,
+    182,
+    184,
+    185,
+    188,
+    189,
+    190,
+    192,
+    193,
+    194,
+    197,
+    198,
+    200,
+    202,
+    204,
+    205,
+    208,
+    209,
+    210,
+    212,
+    213,
+    214,
+    217,
+    218,
+    220,
+    222,
+    224,
+    225,
+    228,
+    229,
+    230,
+    232,
+    233,
+    234,
+    237,
+    238,
+    240,
+    242,
+    244,
+    245,
+    248,
+    249,
+    250,
+    252,
+    253,
+    254,
+    257,
+    258,
+    260,
+    262,
+    264,
+    265,
+    268,
+    269,
+    270,
+    272,
+    273,
+    274,
+    277,
+    278,
+    280,
+    282,
+    284,
+    285,
+    288,
+    289,
+    290,
+    292,
+    293,
+    294,
+    297,
+    298,
+    300
+  ],
+  "elapsed_seconds": 1.9156186250038445,
+  "counts": {
+    "two_blocks_plus": {
+      "generated": 98146,
+      "modular_survivors": 3033,
+      "length_valid_modular_survivors": 779
+    },
+    "near_power": {
+      "generated": 4148,
+      "modular_survivors": 322,
+      "length_valid_modular_survivors": 85
+    },
+    "stretch_69": {
+      "generated": 180,
+      "modular_survivors": 6,
+      "length_valid_modular_survivors": 1
+    },
+    "rational_fraction": {
+      "generated": 1133100,
+      "modular_survivors": 64002,
+      "length_valid_modular_survivors": 18039
+    },
+    "two_blocks_minus": {
+      "generated": 93998,
+      "modular_survivors": 6557,
+      "length_valid_modular_survivors": 1672
+    },
+    "arithmetic_digits": {
+      "generated": 138534,
+      "modular_survivors": 4166,
+      "length_valid_modular_survivors": 1120
+    }
+  },
+  "solutions": [
+    {
+      "base": 10,
+      "number": "69"
+    }
+  ],
+  "best_by_family_and_base": [
+    {
+      "number": "1",
+      "base": 2,
+      "unique_digits": 1,
+      "missing_count": 1,
+      "family": "near_power"
+    },
+    {
+      "number": "1",
+      "base": 2,
+      "unique_digits": 1,
+      "missing_count": 1,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2",
+      "base": 4,
+      "unique_digits": 3,
+      "missing_count": 1,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "2",
+      "base": 4,
+      "unique_digits": 3,
+      "missing_count": 1,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2",
+      "base": 4,
+      "unique_digits": 3,
+      "missing_count": 1,
+      "family": "near_power"
+    },
+    {
+      "number": "2",
+      "base": 4,
+      "unique_digits": 3,
+      "missing_count": 1,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "20",
+      "base": 8,
+      "unique_digits": 6,
+      "missing_count": 2,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "21",
+      "base": 8,
+      "unique_digits": 6,
+      "missing_count": 2,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "21",
+      "base": 8,
+      "unique_digits": 6,
+      "missing_count": 2,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "20",
+      "base": 8,
+      "unique_digits": 6,
+      "missing_count": 2,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "35",
+      "base": 9,
+      "unique_digits": 6,
+      "missing_count": 3,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "35",
+      "base": 9,
+      "unique_digits": 6,
+      "missing_count": 3,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "35",
+      "base": 9,
+      "unique_digits": 6,
+      "missing_count": 3,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "38",
+      "base": 9,
+      "unique_digits": 6,
+      "missing_count": 3,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "69",
+      "base": 10,
+      "unique_digits": 10,
+      "missing_count": 0,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "69",
+      "base": 10,
+      "unique_digits": 10,
+      "missing_count": 0,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "96",
+      "base": 10,
+      "unique_digits": 8,
+      "missing_count": 2,
+      "family": "near_power"
+    },
+    {
+      "number": "69",
+      "base": 10,
+      "unique_digits": 10,
+      "missing_count": 0,
+      "family": "stretch_69"
+    },
+    {
+      "number": "69",
+      "base": 10,
+      "unique_digits": 10,
+      "missing_count": 0,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "69",
+      "base": 10,
+      "unique_digits": 10,
+      "missing_count": 0,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "153",
+      "base": 12,
+      "unique_digits": 7,
+      "missing_count": 5,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "286",
+      "base": 12,
+      "unique_digits": 7,
+      "missing_count": 5,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "230",
+      "base": 12,
+      "unique_digits": 9,
+      "missing_count": 3,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "513",
+      "base": 13,
+      "unique_digits": 9,
+      "missing_count": 4,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "501",
+      "base": 13,
+      "unique_digits": 8,
+      "missing_count": 5,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "549",
+      "base": 13,
+      "unique_digits": 10,
+      "missing_count": 3,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "561",
+      "base": 13,
+      "unique_digits": 11,
+      "missing_count": 2,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "780",
+      "base": 14,
+      "unique_digits": 10,
+      "missing_count": 4,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "793",
+      "base": 14,
+      "unique_digits": 9,
+      "missing_count": 5,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "844",
+      "base": 14,
+      "unique_digits": 11,
+      "missing_count": 3,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "936",
+      "base": 14,
+      "unique_digits": 12,
+      "missing_count": 2,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "9831",
+      "base": 17,
+      "unique_digits": 9,
+      "missing_count": 8,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "9815",
+      "base": 17,
+      "unique_digits": 12,
+      "missing_count": 5,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5447",
+      "base": 17,
+      "unique_digits": 13,
+      "missing_count": 4,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "23324",
+      "base": 18,
+      "unique_digits": 13,
+      "missing_count": 5,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "23341",
+      "base": 18,
+      "unique_digits": 12,
+      "missing_count": 6,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "24700",
+      "base": 18,
+      "unique_digits": 12,
+      "missing_count": 6,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "24224",
+      "base": 18,
+      "unique_digits": 14,
+      "missing_count": 4,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "71991",
+      "base": 20,
+      "unique_digits": 15,
+      "missing_count": 5,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "144019",
+      "base": 20,
+      "unique_digits": 14,
+      "missing_count": 6,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "159998",
+      "base": 20,
+      "unique_digits": 7,
+      "missing_count": 13,
+      "family": "near_power"
+    },
+    {
+      "number": "93517",
+      "base": 20,
+      "unique_digits": 14,
+      "missing_count": 6,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "135755",
+      "base": 20,
+      "unique_digits": 18,
+      "missing_count": 2,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "468530",
+      "base": 22,
+      "unique_digits": 12,
+      "missing_count": 10,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "468503",
+      "base": 22,
+      "unique_digits": 12,
+      "missing_count": 10,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "280469",
+      "base": 22,
+      "unique_digits": 14,
+      "missing_count": 8,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "429471",
+      "base": 22,
+      "unique_digits": 17,
+      "missing_count": 5,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2322425",
+      "base": 24,
+      "unique_digits": 14,
+      "missing_count": 10,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2322447",
+      "base": 24,
+      "unique_digits": 15,
+      "missing_count": 9,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "2438459",
+      "base": 24,
+      "unique_digits": 15,
+      "missing_count": 9,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1706277",
+      "base": 24,
+      "unique_digits": 19,
+      "missing_count": 5,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "4296894",
+      "base": 25,
+      "unique_digits": 17,
+      "missing_count": 8,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "5468739",
+      "base": 25,
+      "unique_digits": 17,
+      "missing_count": 8,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "9765602",
+      "base": 25,
+      "unique_digits": 12,
+      "missing_count": 13,
+      "family": "near_power"
+    },
+    {
+      "number": "4933674",
+      "base": 25,
+      "unique_digits": 19,
+      "missing_count": 6,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "4222971",
+      "base": 25,
+      "unique_digits": 21,
+      "missing_count": 4,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "68841468",
+      "base": 28,
+      "unique_digits": 14,
+      "missing_count": 14,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "68841494",
+      "base": 28,
+      "unique_digits": 13,
+      "missing_count": 15,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "89899974",
+      "base": 28,
+      "unique_digits": 20,
+      "missing_count": 8,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "71391158",
+      "base": 28,
+      "unique_digits": 22,
+      "missing_count": 6,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "143578057",
+      "base": 29,
+      "unique_digits": 16,
+      "missing_count": 13,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "123066881",
+      "base": 29,
+      "unique_digits": 17,
+      "missing_count": 12,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "126703437",
+      "base": 29,
+      "unique_digits": 19,
+      "missing_count": 10,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "192442837",
+      "base": 29,
+      "unique_digits": 22,
+      "missing_count": 7,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "510299978",
+      "base": 30,
+      "unique_digits": 20,
+      "missing_count": 10,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "267300017",
+      "base": 30,
+      "unique_digits": 17,
+      "missing_count": 13,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "728999998",
+      "base": 30,
+      "unique_digits": 7,
+      "missing_count": 23,
+      "family": "near_power"
+    },
+    {
+      "number": "603310344",
+      "base": 30,
+      "unique_digits": 21,
+      "missing_count": 9,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "414775864",
+      "base": 30,
+      "unique_digits": 24,
+      "missing_count": 6,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2147483645",
+      "base": 32,
+      "unique_digits": 11,
+      "missing_count": 21,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2863311528",
+      "base": 32,
+      "unique_digits": 24,
+      "missing_count": 8,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "6457339868",
+      "base": 33,
+      "unique_digits": 15,
+      "missing_count": 18,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "6457339823",
+      "base": 33,
+      "unique_digits": 15,
+      "missing_count": 18,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5327305372",
+      "base": 33,
+      "unique_digits": 21,
+      "missing_count": 12,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6659131716",
+      "base": 33,
+      "unique_digits": 26,
+      "missing_count": 7,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "9268826511",
+      "base": 34,
+      "unique_digits": 15,
+      "missing_count": 19,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "15448044138",
+      "base": 34,
+      "unique_digits": 17,
+      "missing_count": 17,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "12781164176",
+      "base": 34,
+      "unique_digits": 21,
+      "missing_count": 13,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "15518262540",
+      "base": 34,
+      "unique_digits": 26,
+      "missing_count": 8,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "189863754281",
+      "base": 37,
+      "unique_digits": 12,
+      "missing_count": 25,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "189863754249",
+      "base": 37,
+      "unique_digits": 14,
+      "missing_count": 23,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "275488584621",
+      "base": 37,
+      "unique_digits": 27,
+      "missing_count": 10,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "572077912955",
+      "base": 38,
+      "unique_digits": 14,
+      "missing_count": 24,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "567103322413",
+      "base": 38,
+      "unique_digits": 28,
+      "missing_count": 10,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "3604479999978",
+      "base": 40,
+      "unique_digits": 18,
+      "missing_count": 22,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2785280000022",
+      "base": 40,
+      "unique_digits": 18,
+      "missing_count": 22,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "6553599999986",
+      "base": 40,
+      "unique_digits": 10,
+      "missing_count": 30,
+      "family": "near_power"
+    },
+    {
+      "number": "3860634845496",
+      "base": 40,
+      "unique_digits": 31,
+      "missing_count": 9,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "5434692682925",
+      "base": 40,
+      "unique_digits": 32,
+      "missing_count": 8,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "29047955989245",
+      "base": 42,
+      "unique_digits": 11,
+      "missing_count": 31,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "10402658837315",
+      "base": 42,
+      "unique_digits": 26,
+      "missing_count": 16,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "11619182395697",
+      "base": 42,
+      "unique_digits": 31,
+      "missing_count": 11,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "126434012626935",
+      "base": 44,
+      "unique_digits": 16,
+      "missing_count": 28,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "158792792734999",
+      "base": 44,
+      "unique_digits": 30,
+      "missing_count": 14,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "162663641976185",
+      "base": 44,
+      "unique_digits": 34,
+      "missing_count": 10,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "235411755468769",
+      "base": 45,
+      "unique_digits": 18,
+      "missing_count": 27,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "218596630078101",
+      "base": 45,
+      "unique_digits": 15,
+      "missing_count": 30,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "756680642578101",
+      "base": 45,
+      "unique_digits": 10,
+      "missing_count": 35,
+      "family": "near_power"
+    },
+    {
+      "number": "704307085705465",
+      "base": 45,
+      "unique_digits": 32,
+      "missing_count": 13,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "573612745180189",
+      "base": 45,
+      "unique_digits": 35,
+      "missing_count": 10,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "6763027302973435",
+      "base": 48,
+      "unique_digits": 13,
+      "missing_count": 35,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "6965703811555079",
+      "base": 48,
+      "unique_digits": 30,
+      "missing_count": 18,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "7950007605127961",
+      "base": 48,
+      "unique_digits": 33,
+      "missing_count": 15,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "17912549577014951",
+      "base": 49,
+      "unique_digits": 15,
+      "missing_count": 34,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "13027308783283575",
+      "base": 49,
+      "unique_digits": 17,
+      "missing_count": 32,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "14995681990827255",
+      "base": 49,
+      "unique_digits": 29,
+      "missing_count": 20,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "12516433929037175",
+      "base": 49,
+      "unique_digits": 34,
+      "missing_count": 15,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "31250000000000019",
+      "base": 50,
+      "unique_digits": 16,
+      "missing_count": 34,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "41015624999999978",
+      "base": 50,
+      "unique_digits": 19,
+      "missing_count": 31,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "97656249999999978",
+      "base": 50,
+      "unique_digits": 11,
+      "missing_count": 39,
+      "family": "near_power"
+    },
+    {
+      "number": "39900367034568929",
+      "base": 50,
+      "unique_digits": 36,
+      "missing_count": 14,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "74945494186046511",
+      "base": 50,
+      "unique_digits": 40,
+      "missing_count": 10,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "289110211898114063",
+      "base": 52,
+      "unique_digits": 11,
+      "missing_count": 41,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "433665317847171051",
+      "base": 52,
+      "unique_digits": 15,
+      "missing_count": 37,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "442168559373586191",
+      "base": 52,
+      "unique_digits": 32,
+      "missing_count": 20,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "246454606863966071",
+      "base": 52,
+      "unique_digits": 38,
+      "missing_count": 14,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "699549881462052217",
+      "base": 53,
+      "unique_digits": 13,
+      "missing_count": 40,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "1247754836646256561",
+      "base": 53,
+      "unique_digits": 36,
+      "missing_count": 17,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1252572422888133997",
+      "base": 53,
+      "unique_digits": 38,
+      "missing_count": 15,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2108325192649205749",
+      "base": 54,
+      "unique_digits": 16,
+      "missing_count": 38,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1945453506353414499",
+      "base": 54,
+      "unique_digits": 32,
+      "missing_count": 22,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "2033027864340305556",
+      "base": 54,
+      "unique_digits": 39,
+      "missing_count": 15,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "61907699679128403603",
+      "base": 57,
+      "unique_digits": 14,
+      "missing_count": 43,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "41271799786085602362",
+      "base": 57,
+      "unique_digits": 15,
+      "missing_count": 42,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "42383874748433891098",
+      "base": 57,
+      "unique_digits": 36,
+      "missing_count": 21,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "53465740631974530362",
+      "base": 57,
+      "unique_digits": 42,
+      "missing_count": 15,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "99946576000662151145",
+      "base": 58,
+      "unique_digits": 15,
+      "missing_count": 43,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "99946576000662151182",
+      "base": 58,
+      "unique_digits": 13,
+      "missing_count": 45,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "102146077442351084319",
+      "base": 58,
+      "unique_digits": 41,
+      "missing_count": 17,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "141387839220448896776",
+      "base": 58,
+      "unique_digits": 46,
+      "missing_count": 12,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "653034700799999999982",
+      "base": 60,
+      "unique_digits": 18,
+      "missing_count": 42,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2176782335999999999998",
+      "base": 60,
+      "unique_digits": 7,
+      "missing_count": 53,
+      "family": "near_power"
+    },
+    {
+      "number": "1992309256677966101694",
+      "base": 60,
+      "unique_digits": 42,
+      "missing_count": 18,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "669779180307692307692",
+      "base": 60,
+      "unique_digits": 45,
+      "missing_count": 15,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "9678800287193699463165",
+      "base": 62,
+      "unique_digits": 11,
+      "missing_count": 51,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "6665826086889291541058",
+      "base": 62,
+      "unique_digits": 32,
+      "missing_count": 30,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6667617975622326296847",
+      "base": 62,
+      "unique_digits": 46,
+      "missing_count": 16,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "61390764277305387778062",
+      "base": 64,
+      "unique_digits": 16,
+      "missing_count": 48,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "61390764277305387778034",
+      "base": 64,
+      "unique_digits": 17,
+      "missing_count": 47,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "57872488215363956461116",
+      "base": 64,
+      "unique_digits": 44,
+      "missing_count": 20,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "39917361968407567089354",
+      "base": 64,
+      "unique_digits": 46,
+      "missing_count": 18,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "96696154072797119140639",
+      "base": 65,
+      "unique_digits": 16,
+      "missing_count": 49,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "225117956352555448412895",
+      "base": 65,
+      "unique_digits": 45,
+      "missing_count": 20,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "190142017252390973772319",
+      "base": 65,
+      "unique_digits": 47,
+      "missing_count": 18,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "5317479841501376407404535",
+      "base": 68,
+      "unique_digits": 15,
+      "missing_count": 53,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5215220613780196091877535",
+      "base": 68,
+      "unique_digits": 46,
+      "missing_count": 22,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "11250354705402882824533945",
+      "base": 69,
+      "unique_digits": 17,
+      "missing_count": 52,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "9820946532949553745941001",
+      "base": 69,
+      "unique_digits": 47,
+      "missing_count": 22,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "7610534065419597204831773",
+      "base": 69,
+      "unique_digits": 49,
+      "missing_count": 20,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "20346692185470000000000024",
+      "base": 70,
+      "unique_digits": 15,
+      "missing_count": 55,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "17440021873259999999999982",
+      "base": 70,
+      "unique_digits": 18,
+      "missing_count": 52,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "67822307284899999999999998",
+      "base": 70,
+      "unique_digits": 7,
+      "missing_count": 63,
+      "family": "near_power"
+    },
+    {
+      "number": "27536341100968641041797941",
+      "base": 70,
+      "unique_digits": 47,
+      "missing_count": 23,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "66037509724771052631578946",
+      "base": 70,
+      "unique_digits": 50,
+      "missing_count": 20,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "402452788967166148425547771",
+      "base": 72,
+      "unique_digits": 12,
+      "missing_count": 60,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "136682079271867748521884152",
+      "base": 72,
+      "unique_digits": 50,
+      "missing_count": 22,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "610225070198732943368477066",
+      "base": 73,
+      "unique_digits": 14,
+      "missing_count": 59,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "854315098278226120715867846",
+      "base": 73,
+      "unique_digits": 16,
+      "missing_count": 57,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "869617810300956692212376739",
+      "base": 73,
+      "unique_digits": 54,
+      "missing_count": 19,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "928050627593906351372892171",
+      "base": 73,
+      "unique_digits": 53,
+      "missing_count": 20,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1919496959556568807767359475",
+      "base": 74,
+      "unique_digits": 16,
+      "missing_count": 58,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1951942517817474188685926659",
+      "base": 74,
+      "unique_digits": 45,
+      "missing_count": 29,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "2521469378825788611386708912",
+      "base": 74,
+      "unique_digits": 54,
+      "missing_count": 20,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "79326970506390402934145271549",
+      "base": 77,
+      "unique_digits": 14,
+      "missing_count": 63,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "73889234624903964023336926341",
+      "base": 77,
+      "unique_digits": 53,
+      "missing_count": 24,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "192534706538712389845673312247",
+      "base": 78,
+      "unique_digits": 15,
+      "missing_count": 63,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "120334191586695243653545820176",
+      "base": 78,
+      "unique_digits": 14,
+      "missing_count": 64,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "122846819840773987314248969516",
+      "base": 78,
+      "unique_digits": 52,
+      "missing_count": 26,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "110424316985437988293842046734",
+      "base": 78,
+      "unique_digits": 53,
+      "missing_count": 25,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "668503069687807999999999999981",
+      "base": 80,
+      "unique_digits": 18,
+      "missing_count": 62,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2814749767106559999999999999998",
+      "base": 80,
+      "unique_digits": 7,
+      "missing_count": 73,
+      "family": "near_power"
+    },
+    {
+      "number": "2741235232250227796827431501362",
+      "base": 80,
+      "unique_digits": 56,
+      "missing_count": 24,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1545352813313405490196078431371",
+      "base": 80,
+      "unique_digits": 58,
+      "missing_count": 22,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "16714047400090810278591238242327",
+      "base": 82,
+      "unique_digits": 14,
+      "missing_count": 68,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "8357023700045405139295619121132",
+      "base": 82,
+      "unique_digits": 14,
+      "missing_count": 68,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "12846965559923480602794637167495",
+      "base": 82,
+      "unique_digits": 58,
+      "missing_count": 24,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6852759434037232214222407679342",
+      "base": 82,
+      "unique_digits": 57,
+      "missing_count": 25,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "92163686089063219668757763850224",
+      "base": 84,
+      "unique_digits": 18,
+      "missing_count": 66,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "93498848793619542694297323268479",
+      "base": 84,
+      "unique_digits": 45,
+      "missing_count": 39,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "88117475480275078317446447388524",
+      "base": 84,
+      "unique_digits": 60,
+      "missing_count": 24,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "148502172472127894534301757812521",
+      "base": 85,
+      "unique_digits": 16,
+      "missing_count": 69,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "170777498342947078714447021484373",
+      "base": 85,
+      "unique_digits": 15,
+      "missing_count": 70,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "631134233006543551770782470703109",
+      "base": 85,
+      "unique_digits": 10,
+      "missing_count": 75,
+      "family": "near_power"
+    },
+    {
+      "number": "157962451174823683734013866675413",
+      "base": 85,
+      "unique_digits": 59,
+      "missing_count": 26,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "257128761595258484054763228804977",
+      "base": 85,
+      "unique_digits": 62,
+      "missing_count": 23,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "10243489721422247545994539928911862",
+      "base": 88,
+      "unique_digits": 15,
+      "missing_count": 73,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5690827623012359747774744404951064",
+      "base": 88,
+      "unique_digits": 14,
+      "missing_count": 74,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "9209983095633796005594069105943752",
+      "base": 88,
+      "unique_digits": 58,
+      "missing_count": 30,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "10655166613299737400088883141184923",
+      "base": 88,
+      "unique_digits": 63,
+      "missing_count": 25,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "26204972839977581511752963192378675",
+      "base": 89,
+      "unique_digits": 15,
+      "missing_count": 74,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "23446554646295730826305282856338786",
+      "base": 89,
+      "unique_digits": 15,
+      "missing_count": 74,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "22349812701777856567460576276448978",
+      "base": 89,
+      "unique_digits": 60,
+      "missing_count": 29,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "17900984736081176844103175514091995",
+      "base": 89,
+      "unique_digits": 63,
+      "missing_count": 26,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "35022081569299794899999999999999978",
+      "base": 90,
+      "unique_digits": 19,
+      "missing_count": 71,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "150094635296999120999999999999999998",
+      "base": 90,
+      "unique_digits": 7,
+      "missing_count": 83,
+      "family": "near_power"
+    },
+    {
+      "number": "141662352415145237797752808988764044",
+      "base": 90,
+      "unique_digits": 62,
+      "missing_count": 28,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "117346714868562949145454545454545456",
+      "base": 90,
+      "unique_digits": 65,
+      "missing_count": 25,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "445872705961239493477285196535431179",
+      "base": 92,
+      "unique_digits": 11,
+      "missing_count": 81,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "668809058941859240215927794803146735",
+      "base": 92,
+      "unique_digits": 14,
+      "missing_count": 78,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "686065694886863135598063998823145023",
+      "base": 92,
+      "unique_digits": 58,
+      "missing_count": 34,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "379817490263278087036205908159811734",
+      "base": 92,
+      "unique_digits": 65,
+      "missing_count": 27,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1374808926765318106399102458179555009",
+      "base": 93,
+      "unique_digits": 59,
+      "missing_count": 34,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "2477407442227305184705557420913722289",
+      "base": 93,
+      "unique_digits": 62,
+      "missing_count": 31,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "4924845650715173552055162200217354225",
+      "base": 94,
+      "unique_digits": 17,
+      "missing_count": 77,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "3611553477191127271507118946826059795",
+      "base": 94,
+      "unique_digits": 15,
+      "missing_count": 79,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "5652212726009839142920610713867215299",
+      "base": 94,
+      "unique_digits": 64,
+      "missing_count": 30,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6001015626241822587504253199524109423",
+      "base": 94,
+      "unique_digits": 67,
+      "missing_count": 27,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "168183817400024924984527965434120812916",
+      "base": 97,
+      "unique_digits": 13,
+      "missing_count": 84,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "224245089866699899979370620578827750516",
+      "base": 97,
+      "unique_digits": 14,
+      "missing_count": 83,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "59005462557155735400387777224789203020",
+      "base": 97,
+      "unique_digits": 64,
+      "missing_count": 33,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "135948585731686814362493438725914323759",
+      "base": 97,
+      "unique_digits": 67,
+      "missing_count": 30,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "613109361815903105740727549315535863798",
+      "base": 98,
+      "unique_digits": 15,
+      "missing_count": 83,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "344837362390239051501746220743736400390",
+      "base": 98,
+      "unique_digits": 65,
+      "missing_count": 33,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "488493637869581336281230079942459468725",
+      "base": 98,
+      "unique_digits": 70,
+      "missing_count": 28,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2199999999999999999999999999999999999978",
+      "base": 100,
+      "unique_digits": 19,
+      "missing_count": 81,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2300000000000000000000000000000000000021",
+      "base": 100,
+      "unique_digits": 15,
+      "missing_count": 85,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "9999999999999999999999999999999999999987",
+      "base": 100,
+      "unique_digits": 10,
+      "missing_count": 90,
+      "family": "near_power"
+    },
+    {
+      "number": "4139373533312927252321191715131109070503",
+      "base": 100,
+      "unique_digits": 68,
+      "missing_count": 32,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6964285714285714285714285714285714285713",
+      "base": 100,
+      "unique_digits": 74,
+      "missing_count": 26,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "59437895839134173681422960371332812898299",
+      "base": 102,
+      "unique_digits": 12,
+      "missing_count": 90,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "60323550203171855712554838616254152723864",
+      "base": 102,
+      "unique_digits": 67,
+      "missing_count": 35,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "61863932403996793015358591406897417506398",
+      "base": 102,
+      "unique_digits": 71,
+      "missing_count": 31,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "372490934315681289593172967202249026568175",
+      "base": 104,
+      "unique_digits": 17,
+      "missing_count": 87,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "420999662056680366119068591232230356997999",
+      "base": 104,
+      "unique_digits": 62,
+      "missing_count": 42,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "444637671952147536501463283661795107754281",
+      "base": 104,
+      "unique_digits": 68,
+      "missing_count": 36,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "610258472183216630807449075984954833984390",
+      "base": 105,
+      "unique_digits": 15,
+      "missing_count": 90,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "2785962590401641140642702303409576416015610",
+      "base": 105,
+      "unique_digits": 10,
+      "missing_count": 95,
+      "family": "near_power"
+    },
+    {
+      "number": "2303776757447510943223773058588688190166766",
+      "base": 105,
+      "unique_digits": 72,
+      "missing_count": 33,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "2363847046401392482969565590771761807528410",
+      "base": 105,
+      "unique_digits": 75,
+      "missing_count": 30,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "50338337153572462166279385047604152846254069",
+      "base": 108,
+      "unique_digits": 15,
+      "missing_count": 93,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "47274264457268051425723248566445639194742961",
+      "base": 108,
+      "unique_digits": 72,
+      "missing_count": 36,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "134393770211323440659807975272513841354308785",
+      "base": 109,
+      "unique_digits": 17,
+      "missing_count": 92,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "128284962474445102447998521851035939474567513",
+      "base": 109,
+      "unique_digits": 16,
+      "missing_count": 93,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "129529872967462918799976494311842950171424921",
+      "base": 109,
+      "unique_digits": 74,
+      "missing_count": 35,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "138720842358278930226506338112727355185792225",
+      "base": 109,
+      "unique_digits": 73,
+      "missing_count": 36,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "170205748717937682327852999999999999999999976",
+      "base": 110,
+      "unique_digits": 18,
+      "missing_count": 92,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "814027493868397611133209999999999999999999998",
+      "base": 110,
+      "unique_digits": 7,
+      "missing_count": 103,
+      "family": "near_power"
+    },
+    {
+      "number": "776686783140489463833521467889908256880733944",
+      "base": 110,
+      "unique_digits": 79,
+      "missing_count": 31,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "566279995734537468614406956521739130434782607",
+      "base": 110,
+      "unique_digits": 78,
+      "missing_count": 32,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "4840124022481630925766589168448390855158398971",
+      "base": 112,
+      "unique_digits": 12,
+      "missing_count": 100,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1264929742098113106157650931126030237286749833",
+      "base": 112,
+      "unique_digits": 71,
+      "missing_count": 41,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "5314645985470026114567235165355095840958242014",
+      "base": 112,
+      "unique_digits": 75,
+      "missing_count": 37,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "7356915383387638495710864191614429743825879847",
+      "base": 113,
+      "unique_digits": 9,
+      "missing_count": 104,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "14713830766775276991421728383228859487651759687",
+      "base": 113,
+      "unique_digits": 12,
+      "missing_count": 101,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "8920377200115537626918295773406979712822294903",
+      "base": 113,
+      "unique_digits": 69,
+      "missing_count": 44,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "13126285868254786579189384005038377279773543511",
+      "base": 113,
+      "unique_digits": 78,
+      "missing_count": 35,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "37508182818671765301217335692776195230705647594",
+      "base": 114,
+      "unique_digits": 18,
+      "missing_count": 96,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "37887951963261876928681189991714052056766404259",
+      "base": 114,
+      "unique_digits": 71,
+      "missing_count": 43,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "32723975826494244216878389813595558083931968075",
+      "base": 114,
+      "unique_digits": 75,
+      "missing_count": 39,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1353040211004680366947499372057090706557127858385",
+      "base": 117,
+      "unique_digits": 77,
+      "missing_count": 40,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "4500763243181773085781961823593323768710504120309",
+      "base": 118,
+      "unique_digits": 15,
+      "missing_count": 103,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "3150534270227241160047373276515326638097352884243",
+      "base": 118,
+      "unique_digits": 13,
+      "missing_count": 105,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "2739057522558164600995862923514592859403423750862",
+      "base": 118,
+      "unique_digits": 81,
+      "missing_count": 37,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "4165412256434895875468796040658919252610505774100",
+      "base": 118,
+      "unique_digits": 84,
+      "missing_count": 34,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "79496847203390844133441535999999999999999999999998",
+      "base": 120,
+      "unique_digits": 7,
+      "missing_count": 113,
+      "family": "near_power"
+    },
+    {
+      "number": "64777495931073155176596418607725443118423840124285",
+      "base": 120,
+      "unique_digits": 82,
+      "missing_count": 38,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "62554896160045254400085143081967213114754098360653",
+      "base": 120,
+      "unique_digits": 87,
+      "missing_count": 33,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "472820096749480132543731743277621268198193757159442",
+      "base": 122,
+      "unique_digits": 13,
+      "missing_count": 109,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "236410048374740066271865871638810634099096878579688",
+      "base": 122,
+      "unique_digits": 13,
+      "missing_count": 109,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "257518088408199000760425324463704440715087671310044",
+      "base": 122,
+      "unique_digits": 86,
+      "missing_count": 36,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "3143351507332824411322597161560791354635797573664749",
+      "base": 124,
+      "unique_digits": 17,
+      "missing_count": 107,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "3317982146629092434173852559425279763226675216646166",
+      "base": 124,
+      "unique_digits": 16,
+      "missing_count": 108,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "4053453125810816911139510579501398999804436521282559",
+      "base": 124,
+      "unique_digits": 83,
+      "missing_count": 41,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "2005018451179373595699599012518200246784150715712096",
+      "base": 124,
+      "unique_digits": 86,
+      "missing_count": 38,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "17287300127487000855481136494831564985448252274020033",
+      "base": 125,
+      "unique_digits": 84,
+      "missing_count": 41,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "19747295893329422587406328140844827488301292298332093",
+      "base": 125,
+      "unique_digits": 91,
+      "missing_count": 34,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "431014370868531241413285101386024457892770378114138103",
+      "base": 128,
+      "unique_digits": 14,
+      "missing_count": 114,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "338253092286103561023976403785423813855955810959986592",
+      "base": 128,
+      "unique_digits": 76,
+      "missing_count": 52,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "391275457242354602134046049485185323477124882259643106",
+      "base": 128,
+      "unique_digits": 88,
+      "missing_count": 40,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "930813642981828442292996479845909526465090150248531960",
+      "base": 129,
+      "unique_digits": 17,
+      "missing_count": 112,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "988989495668192719936308759836278871869158284639065256",
+      "base": 129,
+      "unique_digits": 16,
+      "missing_count": 113,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "1408502585715548695932672037669663091318281690024705599",
+      "base": 129,
+      "unique_digits": 90,
+      "missing_count": 39,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1382441973047024808208183916613250497365092772490829576",
+      "base": 129,
+      "unique_digits": 88,
+      "missing_count": 41,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "9173333019326861665839961600899999999999999999999999998",
+      "base": 130,
+      "unique_digits": 7,
+      "missing_count": 123,
+      "family": "near_power"
+    },
+    {
+      "number": "6756106573214952020703958258556000240370170061895318790",
+      "base": 130,
+      "unique_digits": 88,
+      "missing_count": 42,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "3807798611796055785820361419241509433962264150943396226",
+      "base": 130,
+      "unique_digits": 93,
+      "missing_count": 37,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "68216937059717113097102725955300027812623373242067845114",
+      "base": 132,
+      "unique_digits": 12,
+      "missing_count": 120,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "31595212953974241855500209916138960250057141291063001948",
+      "base": 132,
+      "unique_digits": 76,
+      "missing_count": 56,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "149411895212182863964160068668927891333888968839810843545",
+      "base": 133,
+      "unique_digits": 14,
+      "missing_count": 119,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "150797244255893415720383213882711058574473313298878062213",
+      "base": 133,
+      "unique_digits": 83,
+      "missing_count": 50,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "84922145569317610714672175781912006612851422460234368325",
+      "base": 133,
+      "unique_digits": 91,
+      "missing_count": 42,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "403417518057271028582335692874753908614178499983646392299",
+      "base": 134,
+      "unique_digits": 18,
+      "missing_count": 116,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "508521818680185792691361204445933221364435893562968726179",
+      "base": 134,
+      "unique_digits": 86,
+      "missing_count": 48,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "307147428520876805852460129802369453149431357942094412333",
+      "base": 134,
+      "unique_digits": 90,
+      "missing_count": 44,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "19656912503801537764532035523715563538965648077966334943310",
+      "base": 137,
+      "unique_digits": 14,
+      "missing_count": 123,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "24861009946653515492066218317333328772498846457387920725866",
+      "base": 137,
+      "unique_digits": 87,
+      "missing_count": 50,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "16831231331380066710880555417181451280239336166758674295227",
+      "base": 137,
+      "unique_digits": 100,
+      "missing_count": 37,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "65785172525631315982711597261413057706457505942722851110900",
+      "base": 138,
+      "unique_digits": 15,
+      "missing_count": 123,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "56917578736909853326734798884482770930978907962982780271509",
+      "base": 138,
+      "unique_digits": 88,
+      "missing_count": 50,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1234766956912479358262297818562559999999999999999999999999998",
+      "base": 140,
+      "unique_digits": 7,
+      "missing_count": 133,
+      "family": "near_power"
+    },
+    {
+      "number": "1216680985751243829128804195941929365974846022462605455204182",
+      "base": 140,
+      "unique_digits": 94,
+      "missing_count": 46,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1155952044769129611990236255675588085106382978723404255319147",
+      "base": 140,
+      "unique_digits": 104,
+      "missing_count": 36,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "9184248945332088363257412568008283468146850895682198390702074",
+      "base": 142,
+      "unique_digits": 12,
+      "missing_count": 130,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5323115715253700194214500345539494908068787049742335393794673",
+      "base": 142,
+      "unique_digits": 93,
+      "missing_count": 49,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "59782277959571242215271552059778694643376813445541531695972330",
+      "base": 144,
+      "unique_digits": 17,
+      "missing_count": 127,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "73939636908568083588111745653029981814378905014502680504817199",
+      "base": 144,
+      "unique_digits": 94,
+      "missing_count": 50,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "59690163509710577743445247665233581092308436229138540121710453",
+      "base": 144,
+      "unique_digits": 99,
+      "missing_count": 45,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "478268815793322610587222169103290164188196696341037750244140615",
+      "base": 145,
+      "unique_digits": 9,
+      "missing_count": 136,
+      "family": "near_power"
+    },
+    {
+      "number": "189383933568623261744390491440350865072785642055182338312820151",
+      "base": 145,
+      "unique_digits": 100,
+      "missing_count": 45,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "369981536745777868567473753457262202485208765094010335094523879",
+      "base": 145,
+      "unique_digits": 103,
+      "missing_count": 42,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "6929146339039253809752326149752545929462148651312917160608661489",
+      "base": 148,
+      "unique_digits": 15,
+      "missing_count": 133,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "7795289631419160535971366918471614170644917232727031805684744204",
+      "base": 148,
+      "unique_digits": 13,
+      "missing_count": 135,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "10488153938511542117144665820079886725940485820127858507528719536",
+      "base": 148,
+      "unique_digits": 102,
+      "missing_count": 46,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "7691352436333571728825082026225325981702985002957338048275614267",
+      "base": 148,
+      "unique_digits": 103,
+      "missing_count": 45,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "16846968607820558168794362779059642060075122382898075139069909605",
+      "base": 149,
+      "unique_digits": 15,
+      "missing_count": 134,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "14800697656634806410084670130188011007966941244409275918168729529",
+      "base": 149,
+      "unique_digits": 102,
+      "missing_count": 47,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "191751059232884086668491363525390624999999999999999999999999999998",
+      "base": 150,
+      "unique_digits": 7,
+      "missing_count": 143,
+      "family": "near_power"
+    },
+    {
+      "number": "77223828683447440155983121538692742584793477771271564343948470789",
+      "base": 150,
+      "unique_digits": 100,
+      "missing_count": 50,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "122023401330017146061767231334339488636363636363636363636363636362",
+      "base": 150,
+      "unique_digits": 104,
+      "missing_count": 46,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1426519270068112846373122172520744533431064072279862426494692229114",
+      "base": 152,
+      "unique_digits": 12,
+      "missing_count": 140,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "833965111732127510187363731627512188775083611486688803181512380098",
+      "base": 152,
+      "unique_digits": 102,
+      "missing_count": 50,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2778644019244583488992570098907138814603700475346203372364828845202",
+      "base": 153,
+      "unique_digits": 13,
+      "missing_count": 140,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "2801524776890933991450189405577718937503559980861898281973226035626",
+      "base": 153,
+      "unique_digits": 97,
+      "missing_count": 56,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "2169043545634802417427873597616286931807990677183515897815402108746",
+      "base": 153,
+      "unique_digits": 101,
+      "missing_count": 52,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "5489906872503219508604440442037495111543603733606616566789662834708",
+      "base": 154,
+      "unique_digits": 15,
+      "missing_count": 139,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "10135212687698251400500505431453837129003576123581445969457839079400",
+      "base": 154,
+      "unique_digits": 17,
+      "missing_count": 137,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5961961976663656634633063203982424690186142529984355357929116455074",
+      "base": 154,
+      "unique_digits": 104,
+      "missing_count": 50,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "7931009928381761766651818274613266859078001641420440443579813100767",
+      "base": 154,
+      "unique_digits": 104,
+      "missing_count": 50,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "294746276661884459029847945672486598621410465555098188070334417449293",
+      "base": 157,
+      "unique_digits": 104,
+      "missing_count": 53,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1728028661974008942512245730926603336525015152735061651055273998024691",
+      "base": 158,
+      "unique_digits": 15,
+      "missing_count": 143,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1305199465255308822077115512589335282769168070722428203935118647297034",
+      "base": 158,
+      "unique_digits": 93,
+      "missing_count": 65,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1516825158843852293982971252702240706505291078511887449259629398266129",
+      "base": 158,
+      "unique_digits": 109,
+      "missing_count": 49,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "34028236692093846346337460743176821145599999999999999999999999999999998",
+      "base": 160,
+      "unique_digits": 7,
+      "missing_count": 153,
+      "family": "near_power"
+    },
+    {
+      "number": "10272675227801915878139610790393002609992452830188679245283018867924528",
+      "base": 160,
+      "unique_digits": 114,
+      "missing_count": 46,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "32407844468660806044130914993501734424380952380952380952380952380952380",
+      "base": 160,
+      "unique_digits": 115,
+      "missing_count": 45,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "202553828700763137436232430084562832136309905794371295097855262351949820",
+      "base": 162,
+      "unique_digits": 11,
+      "missing_count": 151,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "141438449351394949416679541696979218991733641115035128473502381469895995",
+      "base": 162,
+      "unique_digits": 106,
+      "missing_count": 56,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1649779179188294237558979107651776482551196659124610401592479778248589289",
+      "base": 164,
+      "unique_digits": 18,
+      "missing_count": 146,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1133601891494307693511984460497074340475284630044193717308957479866574539",
+      "base": 164,
+      "unique_digits": 111,
+      "missing_count": 53,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1069422076627985197469061555948187127029234198009628876921607445188808882",
+      "base": 164,
+      "unique_digits": 108,
+      "missing_count": 56,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "11454411051139647813606128460866706218617157473498575517262018007015203309",
+      "base": 165,
+      "unique_digits": 112,
+      "missing_count": 53,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "5202826223505630670816280580931615459867191834198924390455851188072791465",
+      "base": 165,
+      "unique_digits": 114,
+      "missing_count": 51,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "245159544849836488836955198434603517412289278894457629515203145322370957302",
+      "base": 168,
+      "unique_digits": 14,
+      "missing_count": 154,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "352023961835662650637679259290712742950979477386913519303881439437250605370",
+      "base": 168,
+      "unique_digits": 46,
+      "missing_count": 122,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "463862525235180699500340993162157192494138160489737953436972220450761041747",
+      "base": 169,
+      "unique_digits": 15,
+      "missing_count": 154,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "695793787852771049250511489743235788741207240734606930155458330676141562574",
+      "base": 169,
+      "unique_digits": 16,
+      "missing_count": 153,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1000304528131698968666083474022837249478331861123726338900371404027101003534",
+      "base": 169,
+      "unique_digits": 114,
+      "missing_count": 55,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "458974044290079263557128968644054833322654268868651722077566190024464965174",
+      "base": 169,
+      "unique_digits": 113,
+      "missing_count": 56,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "6843264508857750340489467199257549104873289999999999999999999999999999999986",
+      "base": 170,
+      "unique_digits": 10,
+      "missing_count": 160,
+      "family": "near_power"
+    },
+    {
+      "number": "3280147443235972205500535904129261834169508774202583943139245824726024999124",
+      "base": 170,
+      "unique_digits": 117,
+      "missing_count": 53,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1792283561843696517747241409329358098895385476190476190476190476190476190475",
+      "base": 170,
+      "unique_digits": 123,
+      "missing_count": 47,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "30555433499852346410866752287873887138041848162686484985072070673020099756047",
+      "base": 172,
+      "unique_digits": 12,
+      "missing_count": 160,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "40740577999803128547822336383831849517389130883581979980096094230693466341353",
+      "base": 172,
+      "unique_digits": 14,
+      "missing_count": 158,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "20549324062757646556267967556688757174240699408431675480538876707653566398856",
+      "base": 172,
+      "unique_digits": 114,
+      "missing_count": 58,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "44919098820295757116829755500122295621736734051128849721644411587687668017415",
+      "base": 172,
+      "unique_digits": 114,
+      "missing_count": 58,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "124835350801646435787147447961802360708799397221872580470572701942724937684709",
+      "base": 173,
+      "unique_digits": 110,
+      "missing_count": 63,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "84153741397862805626618589294914289211906469503865249812385020434393468377125",
+      "base": 173,
+      "unique_digits": 108,
+      "missing_count": 65,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "331968688293186285141855405433269230314751357982221619776438217770444229967849",
+      "base": 174,
+      "unique_digits": 18,
+      "missing_count": 156,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "243178239237522674177220685913962865629343071014809275016827541394607881914384",
+      "base": 174,
+      "unique_digits": 122,
+      "missing_count": 52,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "238688230425679395101995208865243165598209654086390751409505164843211967001692",
+      "base": 174,
+      "unique_digits": 125,
+      "missing_count": 49,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "21133800221020571116004895737337390924350009124274818385353083254672047019697143",
+      "base": 177,
+      "unique_digits": 96,
+      "missing_count": 81,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "75621177086348984715632138401669282641138942301433632204037101795929442868002802",
+      "base": 178,
+      "unique_digits": 15,
+      "missing_count": 163,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "70231587427994960355453061062695428808920722077400077542255108327527240096597807",
+      "base": 178,
+      "unique_digits": 119,
+      "missing_count": 59,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "72661643840054624989919139732778042159906783965749994776348740187181866831333340",
+      "base": 178,
+      "unique_digits": 126,
+      "missing_count": 52,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1548139828427760582529495524831238344488779775999999999999999999999999999999999998",
+      "base": 180,
+      "unique_digits": 7,
+      "missing_count": 173,
+      "family": "near_power"
+    },
+    {
+      "number": "1504895699142068946145990063243773586262836206837988826815642458100558659217877094",
+      "base": 180,
+      "unique_digits": 127,
+      "missing_count": 53,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "357263037329483211352960505730285771805103025230769230769230769230769230769230769",
+      "base": 180,
+      "unique_digits": 128,
+      "missing_count": 52,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "11522321046231526817315436881927767615228525706702564378395616171340932685108346874",
+      "base": 182,
+      "unique_digits": 12,
+      "missing_count": 170,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "6657341048933771050004474642891599066576481519428148307517467121219205551395933750",
+      "base": 182,
+      "unique_digits": 112,
+      "missing_count": 70,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "64892608107343229992997531247911513683405845008784183943164970944965528575597871084",
+      "base": 184,
+      "unique_digits": 16,
+      "missing_count": 168,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "58454146393403090257109506515184032436072322451888747238078858174666060589242462649",
+      "base": 184,
+      "unique_digits": 118,
+      "missing_count": 66,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "71412918012865755494686278406792574866905953837418001468554752714555366375059858154",
+      "base": 184,
+      "unique_digits": 129,
+      "missing_count": 55,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "425777372432574220722163172094207684681469338683273209015449848456982970378574666994",
+      "base": 185,
+      "unique_digits": 125,
+      "missing_count": 60,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "740060340211259107171779422467515139968536614824843881934067625975744290785356001422",
+      "base": 185,
+      "unique_digits": 132,
+      "missing_count": 53,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "18104384937470039065173778203370061648230069999964128619462399675397963807952946069490",
+      "base": 188,
+      "unique_digits": 15,
+      "missing_count": 173,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "12533804956710027045120307986948504218005433076898242890397045929121667251659731894296",
+      "base": 188,
+      "unique_digits": 13,
+      "missing_count": 175,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "15408502365494950460456174330223671365950076668491259773787509121288028273728657791572",
+      "base": 188,
+      "unique_digits": 114,
+      "missing_count": 74,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "10267343493949826076176984320463262714531683740552808990826338277450428946893375146505",
+      "base": 188,
+      "unique_digits": 126,
+      "missing_count": 62,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "47102032294020739122275383305439852142251610216138991738637805596828240624911838852509",
+      "base": 189,
+      "unique_digits": 121,
+      "missing_count": 68,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "391414433390307379180896260679628095791663279244099999999999999999999999999999999999998",
+      "base": 190,
+      "unique_digits": 7,
+      "missing_count": 183,
+      "family": "near_power"
+    },
+    {
+      "number": "381059554200087607244893714100801955691354726883144973544973544973544973544973544973544",
+      "base": 190,
+      "unique_digits": 137,
+      "missing_count": 53,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "266873477311573213077883814099746428948861326757340909090909090909090909090909090909088",
+      "base": 190,
+      "unique_digits": 134,
+      "missing_count": 56,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2913511221095416007290300922133188644079716896738035591294563241709285055274694916177914",
+      "base": 192,
+      "unique_digits": 12,
+      "missing_count": 180,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "6422089179399021106224585898506934707331916232355156332750967605142545190232080329587487",
+      "base": 193,
+      "unique_digits": 130,
+      "missing_count": 63,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6422089179399021106224585898506934707331916232355156332750967605142545190232080329587487",
+      "base": 193,
+      "unique_digits": 130,
+      "missing_count": 63,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "19869803552041798158897129555708891919812510160217921527434750631563549150475190238445544",
+      "base": 194,
+      "unique_digits": 16,
+      "missing_count": 178,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "15648849972367237819455880367237838964849870034940136855788488238535889081817692287002574",
+      "base": 194,
+      "unique_digits": 117,
+      "missing_count": 77,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "914753489840449133570471891738173809067677764508687092154134335862427390722433293495993817",
+      "base": 197,
+      "unique_digits": 12,
+      "missing_count": 185,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "914753489840449133570471891738173809067677764508687092154134335862427390722433293495993789",
+      "base": 197,
+      "unique_digits": 12,
+      "missing_count": 185,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1053838815781102218206917910365030645534108301802405597393944234882445590481399759173747241",
+      "base": 197,
+      "unique_digits": 135,
+      "missing_count": 62,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "3714859733339003532326317824564245555251546329020833169755966902965638293265340106402693109",
+      "base": 198,
+      "unique_digits": 14,
+      "missing_count": 184,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2942168908804490797602443717054882479759224692584499870446725787148785528266149364270932951",
+      "base": 198,
+      "unique_digits": 132,
+      "missing_count": 66,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "109951162777599999999999999999999999999999999999999999999999999999999999999999999999999999998",
+      "base": 200,
+      "unique_digits": 7,
+      "missing_count": 193,
+      "family": "near_power"
+    },
+    {
+      "number": "107188570748012060301507537688442211055276381909547738693467336683417085427135678391959798994",
+      "base": 200,
+      "unique_digits": 139,
+      "missing_count": 61,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "39982241010036363636363636363636363636363636363636363636363636363636363636363636363636363635",
+      "base": 200,
+      "unique_digits": 142,
+      "missing_count": 58,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "818511493627118769769739079685880076982318882032370641467753707697157492704584496067777658874",
+      "base": 202,
+      "unique_digits": 12,
+      "missing_count": 190,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "3641647927102706430542927278345211368271567986812552424492631640126820197407852026904853872653",
+      "base": 204,
+      "unique_digits": 13,
+      "missing_count": 191,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "4855530569470275240723903037793615157695423982416736565990175520169093596543802702539805163499",
+      "base": 204,
+      "unique_digits": 16,
+      "missing_count": 188,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "4640284306656125447966145604479499887485566899471775650686459034929342566861786182434980584599",
+      "base": 204,
+      "unique_digits": 126,
+      "missing_count": 78,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6753601610263201016643246952567482901158180630088733587240880496235193820647289213532638091078",
+      "base": 204,
+      "unique_digits": 147,
+      "missing_count": 57,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "33526966249736130685794998863860142694567668338034557826289925081972308882271309885576292901073",
+      "base": 205,
+      "unique_digits": 143,
+      "missing_count": 62,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "27293923075173405947384425205037180449884878952382778749189264940507343328813565712349087584253",
+      "base": 205,
+      "unique_digits": 142,
+      "missing_count": 63,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1537180155233276736808870798556572997954456411953576574375270646486080066112417306350522898317297",
+      "base": 208,
+      "unique_digits": 15,
+      "missing_count": 193,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1214685095744092441068774137721782824347204105231957089687471111336303074083078119115883802147661",
+      "base": 208,
+      "unique_digits": 133,
+      "missing_count": 75,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1087528817307896466857976619386963209437166441110013358741688076425526033167968706533703275000002",
+      "base": 208,
+      "unique_digits": 145,
+      "missing_count": 63,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2138541651293963305052844339774603421917008331058119886231283409501139254273072627662797587305767",
+      "base": 209,
+      "unique_digits": 15,
+      "missing_count": 194,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "3358181776175630660396327305805710132926025836918621485837505125043950917113706551525387652811271",
+      "base": 209,
+      "unique_digits": 131,
+      "missing_count": 78,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "3774959502706404820574699890311588810647421800600904191067045883325490744451623134979093714078551",
+      "base": 209,
+      "unique_digits": 141,
+      "missing_count": 68,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "34135823067412405261341512451566463326809746506282585240999999999999999999999999999999999999999998",
+      "base": 210,
+      "unique_digits": 7,
+      "missing_count": 203,
+      "family": "near_power"
+    },
+    {
+      "number": "33319176582546079776620423636935686692197073144888265019923444976076555023923444976076555023923444",
+      "base": 210,
+      "unique_digits": 141,
+      "missing_count": 69,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "7062584082912911433381002576186164826236499277161914187793103448275862068965517241379310344827586",
+      "base": 210,
+      "unique_digits": 146,
+      "missing_count": 64,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "254141836156404357864033199812146190042785043756368355232154135452069451640471685850024339277086714",
+      "base": 212,
+      "unique_digits": 12,
+      "missing_count": 200,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "488606436491819423009229783063592762277366524467306837176157903740943675849966847914610817604467509",
+      "base": 213,
+      "unique_digits": 24,
+      "missing_count": 189,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1508024774344504857916835977080898427984891892071536597347434450405271036138711063789937151096913899",
+      "base": 214,
+      "unique_digits": 16,
+      "missing_count": 198,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "2499922759723214391222698514118616126391855995729857147997084997361977478218680171944726798367700963",
+      "base": 214,
+      "unique_digits": 146,
+      "missing_count": 68,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1180673055035575754612937435714557061910122676475520116459820630683151225854942076772121525614900899",
+      "base": 214,
+      "unique_digits": 142,
+      "missing_count": 72,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "146804226738621130112060202988591864493348842056539117654816892997562296815817884400679574331526059587",
+      "base": 217,
+      "unique_digits": 13,
+      "missing_count": 204,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "146804226738621130112060202988591864493348842056539117654816892997562296815817884400679574331526059542",
+      "base": 217,
+      "unique_digits": 14,
+      "missing_count": 203,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "88900002995047973197618350032533465883838781167700238056168630071530491187757823540941364142196895818",
+      "base": 217,
+      "unique_digits": 143,
+      "missing_count": 74,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "159282586011403926171585320242622172975283493631344942655476328902355092045162404574737338149705774627",
+      "base": 217,
+      "unique_digits": 144,
+      "missing_count": 73,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "500907184346012489103137106774395490013862275000568126307713740708379972205186453129107549210697269233",
+      "base": 218,
+      "unique_digits": 15,
+      "missing_count": 203,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "467437187606643801018578096096420771418511475429884305755363343014341422444340785107857230600146405518",
+      "base": 218,
+      "unique_digits": 139,
+      "missing_count": 79,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "458814143644666901783545753263942087491688974580352317374292417959776613196347255387165738352655481917",
+      "base": 218,
+      "unique_digits": 147,
+      "missing_count": 71,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "11657299544143654962028936149479113939186048790592210180505599999999999999999999999999999999999999999998",
+      "base": 220,
+      "unique_digits": 7,
+      "missing_count": 213,
+      "family": "near_power"
+    },
+    {
+      "number": "2820929891147625351625442191590137744796674011459585733303058601780613415066408123266820958695606847230",
+      "base": 220,
+      "unique_digits": 149,
+      "missing_count": 71,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "5081386980780567547551074731824229152978534088206860847912697435897435897435897435897435897435897435896",
+      "base": 220,
+      "unique_digits": 155,
+      "missing_count": 65,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "69436986907910064936940032780208375592770873241606440753783075299365578503213109083333994253342761549819",
+      "base": 222,
+      "unique_digits": 11,
+      "missing_count": 211,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "540918831801954160058208108745644081540058442884216789261430344105507146563314317588438610646907796586474",
+      "base": 224,
+      "unique_digits": 16,
+      "missing_count": 208,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "543808576276648050716016040151666579029701820517514065706706138807807542682352581720822702911552742284709",
+      "base": 224,
+      "unique_digits": 143,
+      "missing_count": 81,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "524527352050379791571595741813957897250965762796816280495932454890188748182607823116061683051546954265692",
+      "base": 224,
+      "unique_digits": 162,
+      "missing_count": 62,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "3525477437921169691410816496868935735368389025913244747076160168002291301617684087108041147038587654123500",
+      "base": 225,
+      "unique_digits": 151,
+      "missing_count": 74,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "3589290891629198950841998332775158625181810976773247665509776116896353573534642319745299491015347567471588",
+      "base": 225,
+      "unique_digits": 164,
+      "missing_count": 61,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "191937296829696968133152666626617785290447503268105349442984035772222284682835165450571533623940085207531504",
+      "base": 228,
+      "unique_digits": 15,
+      "missing_count": 213,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "124146677098357187898890235435088950485736257432987289852483291222884201156557213397816481322718693410828897",
+      "base": 228,
+      "unique_digits": 147,
+      "missing_count": 81,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "281894885548181068928681422731196190807572985955882715755707997672203759124142026879717727885879873429923189",
+      "base": 229,
+      "unique_digits": 152,
+      "missing_count": 77,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "314828851680845715790585121799048313129825851886963586470260055665187990682537685844438756636866311613911553",
+      "base": 229,
+      "unique_digits": 155,
+      "missing_count": 74,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "4359939438926726642003534614053762354016636584941416754202614889999999999999999999999999999999999999999999998",
+      "base": 230,
+      "unique_digits": 7,
+      "missing_count": 223,
+      "family": "near_power"
+    },
+    {
+      "number": "4264744254670684575584243465275295927073041899680687130748409324716157205240174672489082969432314410480349344",
+      "base": 230,
+      "unique_digits": 160,
+      "missing_count": 70,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "4288465021895140959347738964643044938377019591745655823805850711475409836065573770491803278688524590163934428",
+      "base": 230,
+      "unique_digits": 145,
+      "missing_count": 85,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "19479085313667720722985854305009906027125790050194797227096705084952038141592542369532382247876695488223772690",
+      "base": 232,
+      "unique_digits": 12,
+      "missing_count": 220,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "12986056875778480481990569536673270684750526700129864818064470056634692094395028246354921498584463658815848424",
+      "base": 232,
+      "unique_digits": 13,
+      "missing_count": 219,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "28422313162081202564356718231209422630774737683303100356518462765464609112260816539191903657279203479672423016",
+      "base": 232,
+      "unique_digits": 145,
+      "missing_count": 87,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "95440659249158182438001686650955074634864965275005456730965508071239399726899013067487962170020335520326096822",
+      "base": 233,
+      "unique_digits": 149,
+      "missing_count": 84,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "64696893533163184488142501760695783896260398369817681176401903079638662622644708244788756764262094168159492139",
+      "base": 233,
+      "unique_digits": 166,
+      "missing_count": 67,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "202371213360971990825387141308203418479043115144276317967594059592327257925202001977103223250752389236324827114",
+      "base": 234,
+      "unique_digits": 16,
+      "missing_count": 218,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "213083990480206020185279340258522552240796773073815863438668414820349897206722564347731805052736442344339727674",
+      "base": 234,
+      "unique_digits": 154,
+      "missing_count": 80,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "75025386379446249612982133951444203765035853524754314518418011682965548541119803465097400216475814997089195130864",
+      "base": 238,
+      "unique_digits": 15,
+      "missing_count": 223,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "52906790987579873801154808534648060729121579670789709201136257127543112748997076221313129634137019168317713899701",
+      "base": 238,
+      "unique_digits": 158,
+      "missing_count": 80,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1778851122450430889808135593631174089945225899275983120948501938175999999999999999999999999999999999999999999999998",
+      "base": 240,
+      "unique_digits": 7,
+      "missing_count": 233,
+      "family": "near_power"
+    },
+    {
+      "number": "1741636663821760787510894263220480071327124939040083892476775956205790794979079497907949790794979079497907949790794",
+      "base": 240,
+      "unique_digits": 162,
+      "missing_count": 78,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1642016420723474667515202086428776083026362368562445957798617173700923076923076923076923076923076923076923076923075",
+      "base": 240,
+      "unique_digits": 169,
+      "missing_count": 71,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "15896035260201019823682643712746285374562883301932039170717492418515837831200098121129456955899813344529492524138489",
+      "base": 242,
+      "unique_digits": 12,
+      "missing_count": 230,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "62926220377451778174951935270065838207737398827482186461485437522743769332018932498354091172236996571150868656685067",
+      "base": 244,
+      "unique_digits": 13,
+      "missing_count": 231,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "62926220377451778174951935270065838207737398827482186461485437522743769332018932498354091172236996571150868656685040",
+      "base": 244,
+      "unique_digits": 15,
+      "missing_count": 229,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "142215400031786783685368369991232345846290828826470784590729745166951913880397459634705480883431571138557030383637768",
+      "base": 244,
+      "unique_digits": 157,
+      "missing_count": 87,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "62584230049313453293566326926206784739217086877332826752455625362294074933475351343471731981083534633264179153116116",
+      "base": 244,
+      "unique_digits": 170,
+      "missing_count": 74,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "677570979221822339659923494413641591945764208916156663440217954072743838297851007137840185146062596700710135100830373",
+      "base": 245,
+      "unique_digits": 161,
+      "missing_count": 84,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "673141037650389478971897024519678807274868124228507955567979805553090865172140771740250931577099469938763865718135129",
+      "base": 245,
+      "unique_digits": 171,
+      "missing_count": 74,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "31931816107316800670480389542973543344599857053378461580704777593969482699030958889235851983733454754421766332161720304",
+      "base": 248,
+      "unique_digits": 15,
+      "missing_count": 233,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "29803028366829013959115030240108640454959866583153230808657792421038183852428894963286795184817891104126981910017605656",
+      "base": 248,
+      "unique_digits": 13,
+      "missing_count": 235,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "32069748181898390614095712943196870413110189665432426360358627556902778185608643471826561904009368523039761756127621832",
+      "base": 248,
+      "unique_digits": 157,
+      "missing_count": 91,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "31996324826725521479915703461242176765498038582779226149554686235573461451958294159719156735215744562006456769196390462",
+      "base": 248,
+      "unique_digits": 162,
+      "missing_count": 86,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "41484703490791494527292889666630976462291809425470659858832728613141463812747485860699153199407669120344324854824195998",
+      "base": 249,
+      "unique_digits": 13,
+      "missing_count": 236,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "101568690403518192679008086977235231381327587892873504257570955784510401924248853350842147038210607232562587531425243850",
+      "base": 249,
+      "unique_digits": 163,
+      "missing_count": 86,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "78732402204322272387926292126456655023709302949254529762571260858782198851936920574040313617778274473824214091853847563",
+      "base": 249,
+      "unique_digits": 161,
+      "missing_count": 88,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "788860905221011805411728565282786229673206435109023004770278930664062499999999999999999999999999999999999999999999999998",
+      "base": 250,
+      "unique_digits": 7,
+      "missing_count": 243,
+      "family": "near_power"
+    },
+    {
+      "number": "209082938267074514900258633139659458915498158870769423676876077282665425759261947387945355720069031144658957113594942017",
+      "base": 250,
+      "unique_digits": 171,
+      "missing_count": 79,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "254471259748713485616686633962189106346195624228717098312993203440020161290322580645161290322580645161290322580645161289",
+      "base": 250,
+      "unique_digits": 176,
+      "missing_count": 74,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "5874853530377018108016748760693744542985872081684468503555317255100792200567989959660874343881850580830789619636366213115",
+      "base": 252,
+      "unique_digits": 11,
+      "missing_count": 241,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "12890464531431387286110586527241856133270140764806944723611175095956130970087118377735915481348424956701934951502497332253",
+      "base": 253,
+      "unique_digits": 12,
+      "missing_count": 241,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "12890464531431387286110586527241856133270140764806944723611175095956130970087118377735915481348424956701934951502497332217",
+      "base": 253,
+      "unique_digits": 14,
+      "missing_count": 239,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "18704859381928904117219627752203881320563287213824505709896402478635959802962945873367972848269600975339160649669263392921",
+      "base": 253,
+      "unique_digits": 165,
+      "missing_count": 88,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "10657802374026604520869210429386240528488057560444957565600089213323206324941310292703224237846900372698005041601737990381",
+      "base": 253,
+      "unique_digits": 167,
+      "missing_count": 86,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "31402074246479852120091627390167963269472505729216195899633243567806978085870248225943922444420508927984349129852760096772",
+      "base": 254,
+      "unique_digits": 12,
+      "missing_count": 242,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "38380312967919819257889766810205288440466395891264239432885075471764084327174747831709238543180622023091982269820040118249",
+      "base": 254,
+      "unique_digits": 16,
+      "missing_count": 238,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "42062615146905853253575355651163446100140428153265141531041280072742184265611864970457417693140330188457836614554449867624",
+      "base": 254,
+      "unique_digits": 162,
+      "missing_count": 92,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "69966025075490196828976082079847918161807161887902752267603893563359407314131956573594353516515870769368637534935097057711",
+      "base": 254,
+      "unique_digits": 174,
+      "missing_count": 80,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "10814281974113200317862749426950681594054836597310422860774028727405521342984135856647134720909257676232260243934149095718900",
+      "base": 258,
+      "unique_digits": 14,
+      "missing_count": 244,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "7246973374860274498723608706891625587704280109366465189817401069274349367506252080558339631154775273942657514116910303105140",
+      "base": 258,
+      "unique_digits": 168,
+      "missing_count": 90,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "378978082858099467543140181228226325885440589171739761807595860383246581759999999999999999999999999999999999999999999999999998",
+      "base": 260,
+      "unique_digits": 7,
+      "missing_count": 253,
+      "family": "near_power"
+    },
+    {
+      "number": "371661903652344651567403884293318481756378029535219689185827600530288153540694980694980694980694980694980694980694980694980694",
+      "base": 260,
+      "unique_digits": 176,
+      "missing_count": 84,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "96467148363879864465526591585366701134475786334624666641933491733917311720727272727272727272727272727272727272727272727272725",
+      "base": 260,
+      "unique_digits": 188,
+      "missing_count": 72,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "3387024974880704512344522058736881590688386553649520503214557578816726683607826562223458075481055294091941703918180288625115129",
+      "base": 262,
+      "unique_digits": 12,
+      "missing_count": 250,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "3400002082064155487487604518732042056553093015540897976406950519731733299253833560546153317149565084490761403933192473639004466",
+      "base": 262,
+      "unique_digits": 147,
+      "missing_count": 115,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "2424591648685094486978865517456456220656713871738181343831186026366072106844946883340289660590263625825379033952358567267158921",
+      "base": 262,
+      "unique_digits": 173,
+      "missing_count": 89,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "14251255248011065630682926631024605881657504172544196089532893788132534551405142777714863746782538949534409086648914276706680815",
+      "base": 264,
+      "unique_digits": 15,
+      "missing_count": 249,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "21050213913440913608055823389647413345822317603268739262898071282596608163309584167959233172104243799910819985322128031669796689",
+      "base": 264,
+      "unique_digits": 171,
+      "missing_count": 93,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "270415336401072094268700568787719146418940287287365107854521305336978016610751921491930253849123033660362125374376773834228515602",
+      "base": 265,
+      "unique_digits": 8,
+      "missing_count": 257,
+      "family": "near_power"
+    },
+    {
+      "number": "96284248567048397201734293431990908194622678049289091433049252657863384702313184167581226749308958954825908277240214925823789654",
+      "base": 265,
+      "unique_digits": 181,
+      "missing_count": 84,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "254508551906891382841129947094323902511943799799873042686608287375979309751295926110052003622704031680340823881766375373391544118",
+      "base": 265,
+      "unique_digits": 186,
+      "missing_count": 79,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "7857132304269570902590041792490214337870559980197467464266939256781017825102106782854166072063159751293042143923968627629451378671",
+      "base": 268,
+      "unique_digits": 15,
+      "missing_count": 253,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5429394258438911114066195223263123569675476694924779318798859500522272788869583088699044950840345072567437035635884379667622304339",
+      "base": 268,
+      "unique_digits": 179,
+      "missing_count": 89,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "6926682426132384874651747369695320534701677877279346317182696450056949924761067821726699037213575043903076626880340763831226873317",
+      "base": 268,
+      "unique_digits": 189,
+      "missing_count": 79,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "17241948497750333341127125645315145395530076736927316845270231956258231673609388929114863080102089671549097742924458970646884866069",
+      "base": 269,
+      "unique_digits": 183,
+      "missing_count": 86,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "196627050475552913618075908526912116283103450944214766927315415537966391196808999999999999999999999999999999999999999999999999999998",
+      "base": 270,
+      "unique_digits": 7,
+      "missing_count": 263,
+      "family": "near_power"
+    },
+    {
+      "number": "195151552784694229629537673589167844104143442460878320244136185419019503364691322148671245560453835629690026395434004505189259407692",
+      "base": 270,
+      "unique_digits": 179,
+      "missing_count": 91,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "51743960651461293057388396980766346390290381827424938665083004088938523999160263157894736842105263157894736842105263157894736842104",
+      "base": 270,
+      "unique_digits": 185,
+      "missing_count": 85,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1757405852008118314226633649012004576379333349354431017295120527389551472364784721539526279834094276603331773865160533974997180350457",
+      "base": 272,
+      "unique_digits": 12,
+      "missing_count": 260,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "4431215858689125945843452485032150738393055147407167726209493494184355208086443288911120075225069139126672345552288353961456555703847",
+      "base": 273,
+      "unique_digits": 183,
+      "missing_count": 90,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "10005947694821321790138948053424720029751092197660792780576743458534744183276576388491414409895528551711951338921380753075130857422824",
+      "base": 274,
+      "unique_digits": 16,
+      "missing_count": 258,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "12664007482492132858702642302787674535553389230906565744662114828416251518919916977328670594830880450885318182086565094288126419051531",
+      "base": 274,
+      "unique_digits": 183,
+      "missing_count": 91,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "8220778615835208907040694952438900414248273649652345492887639303263927754775957812433725782043102918048199900643053452301606761420871",
+      "base": 274,
+      "unique_digits": 184,
+      "missing_count": 90,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "969338312081092842451828332372529996762120454635874674117493995588153816459801731167904305553470988791511500901396105752727229804516545",
+      "base": 277,
+      "unique_digits": 180,
+      "missing_count": 97,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "4232371274717345561229597679004642070572385590795097281991207806597533970893172810532525691338019597210879299150173331174694024078426095",
+      "base": 278,
+      "unique_digits": 15,
+      "missing_count": 263,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1885575664056766131445237427505273230158851272822174750630698349734157762673560963666734202230720269270231482634211836645136119701606505",
+      "base": 278,
+      "unique_digits": 181,
+      "missing_count": 97,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "109862570245121369549637932475171307289299800925351083579432080625909687909980569599999999999999999999999999999999999999999999999999999998",
+      "base": 280,
+      "unique_digits": 7,
+      "missing_count": 273,
+      "family": "near_power"
+    },
+    {
+      "number": "107893706979079767944805711463071463072645682629197838353994229718635320743135039678853046594982078853046594982078853046594982078853046594",
+      "base": 280,
+      "unique_digits": 191,
+      "missing_count": 89,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "37453148947200466891922022434717491121352204860915142129351845667923757242038830545454545454545454545454545454545454545454545454545454543",
+      "base": 280,
+      "unique_digits": 206,
+      "missing_count": 74,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "818314167546081956127043415731786645412009501744550667713453332385128628008822647703984414426399696457712330625937310005330516592432250875",
+      "base": 282,
+      "unique_digits": 11,
+      "missing_count": 271,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "5591841831660640109725697102525025408319831651312392520533557908903599752487162218992877264392071198707932271144662548567599423181257965544",
+      "base": 284,
+      "unique_digits": 16,
+      "missing_count": 268,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "6590980115092040861842417177770320011398108780447209214928853748386071425216119277430464726960157447237062023099230601715917409068652249199",
+      "base": 284,
+      "unique_digits": 177,
+      "missing_count": 107,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "4454650996329934898070401057831997800737257192069339343145947955480006534940684628875111200806025863767328934095607752575591125339347159106",
+      "base": 284,
+      "unique_digits": 189,
+      "missing_count": 95,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "79906036759280971841054718150672926827274120497263451123721071044099960931542870416348527338314004629770643397334110597158352456627750983197",
+      "base": 285,
+      "unique_digits": 192,
+      "missing_count": 93,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "24894286911944889064461325442881352486108725028806883479611359211197316603291175904171111794030468111077742833935726743160945470215844326333",
+      "base": 285,
+      "unique_digits": 198,
+      "missing_count": 87,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1992118435664808213644454451712484438506194980889557289749173248266577413391799971091313483541653794459747923028628941293082347610865930338291",
+      "base": 288,
+      "unique_digits": 14,
+      "missing_count": 274,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "1496036791320638241276669835966611520964235083432053453579561657107625280461117057820856018930889942123617736198813911583853236276217439211034",
+      "base": 288,
+      "unique_digits": 192,
+      "missing_count": 96,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "3734281325238225268011491470536396904607034219501921322482873738837835397756247504172881193550667478256688088410212346023334331165662744658596",
+      "base": 289,
+      "unique_digits": 14,
+      "missing_count": 275,
+      "family": "two_blocks_plus"
+    },
+    {
+      "number": "3920995391500136531412066044063216749837385930477017388607017425779727167644059879381525253228200852169522492830722963324501047723945881891500",
+      "base": 289,
+      "unique_digits": 15,
+      "missing_count": 274,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "7119770401695519078698298494692831737221258645585086799219951284707831308708178835212948136731498306634539685229331941671572504316199351013980",
+      "base": 289,
+      "unique_digits": 203,
+      "missing_count": 86,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "3426054930139197150651812809476249858512485363289064324436668287378204539528747710177659253765533019733913833493813866669027370498020740337556",
+      "base": 289,
+      "unique_digits": 197,
+      "missing_count": 92,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "65930121811358186048736410885657933387182160417227297055168875547676271470759302739609999999999999999999999999999999999999999999999999999999982",
+      "base": 290,
+      "unique_digits": 10,
+      "missing_count": 280,
+      "family": "near_power"
+    },
+    {
+      "number": "64789462264448874871422632150611948380483507122811599874283600884221664697908795771796678200692041522491349480968858131487889273356401384083044",
+      "base": 290,
+      "unique_digits": 197,
+      "missing_count": 93,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "49147908986648829599967142660217732161353974129205803259307707226449584187293298405891090909090909090909090909090909090909090909090909090909088",
+      "base": 290,
+      "unique_digits": 208,
+      "missing_count": 82,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "589327401191891344997977797248826371474278316465115777654657698259143351052011569570425507539460095263080837830275053005196951899103092753301497",
+      "base": 292,
+      "unique_digits": 12,
+      "missing_count": 280,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "395589813812822424864354293600878054009619366603934228976564864880099815260398550385980014996237058785412899050637664642876307607177730545754060",
+      "base": 292,
+      "unique_digits": 188,
+      "missing_count": 104,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "1324169946779328643762294631357749105342687300923908729812487474088947858995212142272895580564755841036952109621925226476772437538526741270974045",
+      "base": 293,
+      "unique_digits": 196,
+      "missing_count": 97,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "2626743516690895789489255197196014993897197221750036603069567624468832102561779598139340562813284438877707255309364849530454602819740987857829869",
+      "base": 294,
+      "unique_digits": 15,
+      "missing_count": 279,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "4101990038575268822258704338511648989992123942465222741719979429076512329763217044402993083355661277518677509065856203187583616261409635478247924",
+      "base": 294,
+      "unique_digits": 188,
+      "missing_count": 106,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "314234782972643983424314542221602852816222402460672650762135700552875895945536156712695073073443270380493413108976235022632355049984916805455525070",
+      "base": 297,
+      "unique_digits": 189,
+      "missing_count": 108,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "414189354087904309358899129427246894216303737122311574334686507697087111854075338586765728764033060200645548245216960641216699062153665766439873699",
+      "base": 297,
+      "unique_digits": 192,
+      "missing_count": 105,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "1618857053556786475004174600217653853231128713109504691392260013369863428689348999889877075868429135872494039371298040961992368713096558913523810286",
+      "base": 298,
+      "unique_digits": 15,
+      "missing_count": 283,
+      "family": "two_blocks_minus"
+    },
+    {
+      "number": "669476020839942603586628033973974527899344469912235192961244677694726606489104093082210892229148224478692456077002963233769012198303276944205925815",
+      "base": 298,
+      "unique_digits": 192,
+      "missing_count": 106,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "930413504262145360754569008418246573313165586319445319257268050114212732400050148442012282755625617145618560718701670601106510851500047360135188950",
+      "base": 298,
+      "unique_digits": 201,
+      "missing_count": 97,
+      "family": "rational_fraction"
+    },
+    {
+      "number": "42391158275216203514294433200999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+      "base": 300,
+      "unique_digits": 7,
+      "missing_count": 293,
+      "family": "near_power"
+    },
+    {
+      "number": "41682276029811250278269442679244147157190635451505016722408026755852842809364548494983277591973244147157190635451505016722408026755852842809364548494",
+      "base": 300,
+      "unique_digits": 203,
+      "missing_count": 97,
+      "family": "arithmetic_digits"
+    },
+    {
+      "number": "19268708306916456142861106000454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454545454544",
+      "base": 300,
+      "unique_digits": 213,
+      "missing_count": 87,
+      "family": "rational_fraction"
+    }
+  ],
+  "caveat": "Finite structured families only; duplicate candidates across families count repeatedly."
+}

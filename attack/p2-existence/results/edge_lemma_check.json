@@ -1,0 +1,74 @@
+[
+  {
+    "b": 13,
+    "k": 3,
+    "G_b": 10,
+    "exact_count": 469,
+    "lemma_lower_bound": 320,
+    "ratio": 1.465625,
+    "all_residue_model_count": 562.3668639053255
+  },
+  {
+    "b": 17,
+    "k": 3,
+    "G_b": 14,
+    "exact_count": 1600,
+    "lemma_lower_bound": 1344,
+    "ratio": 1.1904761904761905,
+    "all_residue_model_count": 1813.7024221453282
+  },
+  {
+    "b": 25,
+    "k": 3,
+    "G_b": 14,
+    "exact_count": 4812,
+    "lemma_lower_bound": 4480,
+    "ratio": 1.074107142857143,
+    "all_residue_model_count": 8160.768000000001
+  },
+  {
+    "b": 29,
+    "k": 3,
+    "G_b": 26,
+    "exact_count": 13028,
+    "lemma_lower_bound": 12480,
+    "ratio": 1.0439102564102565,
+    "all_residue_model_count": 14023.305588585015
+  },
+  {
+    "b": 37,
+    "k": 3,
+    "G_b": 34,
+    "exact_count": 31090,
+    "lemma_lower_bound": 30464,
+    "ratio": 1.020548844537815,
+    "all_residue_model_count": 33045.317750182614
+  },
+  {
+    "b": 41,
+    "k": 3,
+    "G_b": 38,
+    "exact_count": 44669,
+    "lemma_lower_bound": 43776,
+    "ratio": 1.0203993055555556,
+    "all_residue_model_count": 46972.61154074955
+  },
+  {
+    "b": 17,
+    "k": 4,
+    "G_b": 14,
+    "exact_count": 10308,
+    "lemma_lower_bound": 5376,
+    "ratio": 1.9174107142857142,
+    "all_residue_model_count": 11735.721555058008
+  },
+  {
+    "b": 29,
+    "k": 4,
+    "G_b": 26,
+    "exact_count": 227393,
+    "lemma_lower_bound": 199680,
+    "ratio": 1.138787059294872,
+    "all_residue_model_count": 244682.50440772474
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "independent_bounds_agree_bases": [
+    2,
+    600
+  ],
+  "sat_records_verified": [
+    {
+      "file": "results/constraint-search-bv-sort.jsonl",
+      "n": "69",
+      "base": 10
+    },
+    {
+      "file": "results/constraint-search-bv-concat.jsonl",
+      "n": "69",
+      "base": 10
+    },
+    {
+      "file": "results/constraint-search-bv-smoke.jsonl",
+      "n": "69",
+      "base": 10
+    },
+    {
+      "file": "results/constraint-search-karatsuba-pairwise.jsonl",
+      "n": "69",
+      "base": 10
+    },
+    {
+      "file": "results/constraint-search-carry.jsonl",
+      "n": "69",
+      "base": 10
+    },
+    {
+      "file": "results/constraint-search-karatsuba-sort.jsonl",
+      "n": "69",
+      "base": 10
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "exhaustive_boundary_symmetric_cases": [
+    {
+      "degree": 2,
+      "base": 22,
+      "checked": 462,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 2,
+      "base": 23,
+      "checked": 506,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 2,
+      "base": 24,
+      "checked": 552,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 2,
+      "base": 25,
+      "checked": 600,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 3,
+      "base": 32,
+      "checked": 992,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 3,
+      "base": 33,
+      "checked": 1056,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 3,
+      "base": 34,
+      "checked": 1122,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 3,
+      "base": 35,
+      "checked": 1190,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 4,
+      "base": 42,
+      "checked": 72324,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 4,
+      "base": 43,
+      "checked": 77658,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 4,
+      "base": 44,
+      "checked": 83248,
+      "all_squares_repeated": true
+    },
+    {
+      "degree": 4,
+      "base": 45,
+      "checked": 89100,
+      "all_squares_repeated": true
+    }
+  ],
+  "total_exhaustive_checks": 328810,
+  "random_carry_and_reconstruction_checks": 2000,
+  "random_seed": 20260925,
+  "degree_one_palindromes": [
+    {
+      "base": 12,
+      "checked": 11
+    },
+    {
+      "base": 13,
+      "checked": 12
+    },
+    {
+      "base": 14,
+      "checked": 13
+    },
+    {
+      "base": 15,
+      "checked": 14
+    }
+  ],
+  "all_passed": true,
+  "elapsed_seconds": 1.2489255830296315
+}

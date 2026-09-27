@@ -1,0 +1,4 @@
+b=300 fam A: 17/6000 members with rep_sq<=1; rep_cu=42.5 (model 44.5), cross=54.6 (model 54.2), min rep_cu=35
+b=300 fam C: 47/6000 members with rep_sq<=1; rep_cu=45.3 (model 44.5), cross=53.2 (model 54.2), min rep_cu=36
+b=1000 fam A: 64/6000 members with rep_sq<=1; rep_cu=149.1 (model 148.6), cross=178.2 (model 180.5), min rep_cu=121
+b=1000 fam C: 43/6000 members with rep_sq<=1; rep_cu=147.5 (model 148.6), cross=181.4 (model 180.5), min rep_cu=131

@@ -1,0 +1,11 @@
+{
+  "decoder_assignments": 287,
+  "division_assignments": 1536,
+  "gate_truth_table_assignments": 32,
+  "interval_assignments": 32,
+  "large_random_products": 50,
+  "product_assignments": 6116,
+  "seconds": 2.3463933750172146,
+  "square_assignments": 510,
+  "status": "passed"
+}

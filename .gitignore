@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Compiled binaries (rebuild from source)
+build/
+attack/p1-algorithm/overlap
+attack/p3-analogues/bin/
+attack/p3-analogues/scratch/

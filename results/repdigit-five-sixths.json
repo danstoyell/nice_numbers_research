@@ -1,0 +1,52 @@
+{
+  "family": "b=25 mod180, a=5*(b-1)/6-5, L=b/5",
+  "proved_min_base": 1000000,
+  "certificates": [
+    {
+      "base_residue_mod_216": 25,
+      "slope": "173/216",
+      "intercept": "-1082381/216",
+      "low_digit_index": 7,
+      "high_digit_index": 10
+    },
+    {
+      "base_residue_mod_216": 61,
+      "slope": "29/216",
+      "intercept": "-1082417/216",
+      "low_digit_index": 7,
+      "high_digit_index": 10
+    },
+    {
+      "base_residue_mod_216": 97,
+      "slope": "101/216",
+      "intercept": "-1082453/216",
+      "low_digit_index": 7,
+      "high_digit_index": 10
+    },
+    {
+      "base_residue_mod_216": 133,
+      "slope": "173/216",
+      "intercept": "-1082273/216",
+      "low_digit_index": 7,
+      "high_digit_index": 10
+    },
+    {
+      "base_residue_mod_216": 169,
+      "slope": "29/216",
+      "intercept": "-1082309/216",
+      "low_digit_index": 7,
+      "high_digit_index": 10
+    },
+    {
+      "base_residue_mod_216": 205,
+      "slope": "101/216",
+      "intercept": "-1082345/216",
+      "low_digit_index": 7,
+      "high_digit_index": 10
+    }
+  ],
+  "max_abs_next_coefficient_over_prefix_margin": "130050",
+  "max_lower_digit_nonnegative_threshold": "326393/5",
+  "exact_numerical_validation_cases": 555,
+  "scope": "Affine equality certificate plus analytic remainder bounds in the note; no search of arbitrary roots"
+}

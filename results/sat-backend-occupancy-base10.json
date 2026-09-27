@@ -1,0 +1,93 @@
+{
+  "backend": "cadical300",
+  "base": 10,
+  "cnf_path": "/private/tmp/nice-sat-10-cadical300-64381/instance.cnf",
+  "distinct": "occupancy",
+  "encoding": "karatsuba",
+  "export": {
+    "arithmetic_clauses": 5061,
+    "arithmetic_variables": 1083,
+    "clauses": 5611,
+    "cnf_bytes": 99847,
+    "config": {
+      "base": 10,
+      "bit_widths": {
+        "cube": 20,
+        "digit": 4,
+        "n": 7,
+        "square": 14
+      },
+      "cube_length": 6,
+      "digit_sum_residue_count": 4,
+      "distinct_encoding": "pairwise",
+      "encoding": "karatsuba",
+      "karatsuba_leaf_bits": 16,
+      "lower": "47",
+      "memory_limit_mb": 1024,
+      "pin_n_digits": 0,
+      "residue_filter": true,
+      "sat_search": "cdcl",
+      "seed": 20260924,
+      "square_length": 4,
+      "timeout_ms": 1000,
+      "upper": "99",
+      "z3_version": "5.1.0"
+    },
+    "elapsed_seconds": 0.04290599998785183,
+    "n_bit_variables": {
+      "0": 417,
+      "1": 418,
+      "2": 419,
+      "3": 420,
+      "4": 421,
+      "5": 422,
+      "6": 423
+    },
+    "observed_peak_rss_mb": 2.171875,
+    "rss_limit_mb": 1536,
+    "status": "exported",
+    "variables": 1263,
+    "wall_limit_seconds": 60,
+    "wall_seconds": 0.2587189580081031,
+    "worker_exit_code": 0
+  },
+  "seed": 20260924,
+  "solve": {
+    "backend": "cadical300",
+    "backend_seed": 20260924,
+    "conflict_budget": 100000,
+    "cube_digits": [
+      3,
+      2,
+      8,
+      5,
+      0,
+      9
+    ],
+    "independently_valid": true,
+    "load_seconds": 0.006270999961998314,
+    "loaded_clauses": 5585,
+    "loaded_variables": 1263,
+    "n": "69",
+    "observed_peak_rss_mb": 3.765625,
+    "python_sat_version": "1.9.dev15",
+    "rss_limit_mb": 1536,
+    "solve_seconds": 0.02914062497438863,
+    "square_digits": [
+      4,
+      7,
+      6,
+      1
+    ],
+    "statistics": {
+      "conflicts": 1416,
+      "decisions": 2524,
+      "propagations": 204802,
+      "restarts": 30
+    },
+    "status": "sat",
+    "wall_limit_seconds": 60,
+    "wall_seconds": 0.2587455839966424,
+    "worker_exit_code": 0
+  }
+}

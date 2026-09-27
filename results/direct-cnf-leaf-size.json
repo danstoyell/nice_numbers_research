@@ -1,0 +1,48 @@
+{
+  "base": 512,
+  "n_width": 921,
+  "arithmetic_only": true,
+  "occupancy_and_bounds_excluded": true,
+  "measurements": [
+    {
+      "leaf_bits": 16,
+      "variables": 2716516,
+      "clauses": 11588637,
+      "square_variables": 887445,
+      "square_clauses": 3784132,
+      "seconds": 7.847892999998294
+    },
+    {
+      "leaf_bits": 24,
+      "variables": 2712457,
+      "clauses": 11571906,
+      "square_variables": 886092,
+      "square_clauses": 3778555,
+      "seconds": 7.852213207981549
+    },
+    {
+      "leaf_bits": 32,
+      "variables": 2940585,
+      "clauses": 12528926,
+      "square_variables": 944537,
+      "square_clauses": 4022888,
+      "seconds": 10.932951041031629
+    },
+    {
+      "leaf_bits": 48,
+      "variables": 2940585,
+      "clauses": 12528926,
+      "square_variables": 944537,
+      "square_clauses": 4022888,
+      "seconds": 11.278303416038398
+    },
+    {
+      "leaf_bits": 64,
+      "variables": 3471491,
+      "clauses": 14770314,
+      "square_variables": 1086224,
+      "square_clauses": 4620128,
+      "seconds": 12.607770707982127
+    }
+  ]
+}

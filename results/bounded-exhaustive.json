@@ -1,0 +1,295 @@
+{
+  "scope": "Exhaustive for all integer bases 2 through max_base, using necessary-condition pruning",
+  "max_base": 30,
+  "kernel_sha256": "e778dfa53ac9641fa054b290f1aad84910cd546ae461b21e049decd64f8c3b7e",
+  "compiler": "Apple clang version 17.0.0 (clang-1700.0.13.3)",
+  "build_command": [
+    "clang++",
+    "-O3",
+    "-std=c++17",
+    "/Users/danstoyell/Desktop/projects/nicenumbers/scripts/bounded_exhaustive.cpp",
+    "-o",
+    "/private/tmp/nicenumbers-bounded-exhaustive"
+  ],
+  "bases": [
+    {
+      "base": 2,
+      "lo": 1,
+      "hi": 1,
+      "interval_count": 1,
+      "crt_modulus": 2,
+      "surviving_residues": 0,
+      "checked": 0,
+      "seconds": 1.67e-07,
+      "solutions": []
+    },
+    {
+      "base": 3,
+      "excluded": "empty exact digit-length interval"
+    },
+    {
+      "base": 4,
+      "lo": 2,
+      "hi": 2,
+      "interval_count": 1,
+      "crt_modulus": 12,
+      "surviving_residues": 2,
+      "checked": 0,
+      "seconds": 4.16e-07,
+      "solutions": []
+    },
+    {
+      "base": 5,
+      "lo": 3,
+      "hi": 4,
+      "interval_count": 2,
+      "crt_modulus": 20,
+      "surviving_residues": 3,
+      "checked": 0,
+      "seconds": 1.292e-06,
+      "solutions": []
+    },
+    {
+      "base": 6,
+      "excluded": "empty exact digit-length interval"
+    },
+    {
+      "base": 7,
+      "lo": 7,
+      "hi": 13,
+      "interval_count": 7,
+      "crt_modulus": 42,
+      "surviving_residues": 0,
+      "checked": 0,
+      "seconds": 2.5e-07,
+      "solutions": []
+    },
+    {
+      "base": 8,
+      "lo": 16,
+      "hi": 22,
+      "interval_count": 7,
+      "crt_modulus": 56,
+      "surviving_residues": 10,
+      "checked": 1,
+      "seconds": 2e-06,
+      "solutions": []
+    },
+    {
+      "base": 9,
+      "lo": 27,
+      "hi": 38,
+      "interval_count": 12,
+      "crt_modulus": 72,
+      "surviving_residues": 15,
+      "checked": 3,
+      "seconds": 2.458e-06,
+      "solutions": []
+    },
+    {
+      "base": 10,
+      "lo": 47,
+      "hi": 99,
+      "interval_count": 53,
+      "crt_modulus": 90,
+      "surviving_residues": 24,
+      "checked": 15,
+      "seconds": 2.083e-06,
+      "solutions": [
+        69
+      ]
+    },
+    {
+      "base": 11,
+      "excluded": "empty exact digit-length interval"
+    },
+    {
+      "base": 12,
+      "lo": 144,
+      "hi": 329,
+      "interval_count": 186,
+      "crt_modulus": 132,
+      "surviving_residues": 12,
+      "checked": 17,
+      "seconds": 1.583e-06,
+      "solutions": []
+    },
+    {
+      "base": 13,
+      "lo": 398,
+      "hi": 609,
+      "interval_count": 212,
+      "crt_modulus": 156,
+      "surviving_residues": 22,
+      "checked": 30,
+      "seconds": 2.458e-06,
+      "solutions": []
+    },
+    {
+      "base": 14,
+      "lo": 734,
+      "hi": 1138,
+      "interval_count": 405,
+      "crt_modulus": 182,
+      "surviving_residues": 20,
+      "checked": 46,
+      "seconds": 3.291e-06,
+      "solutions": []
+    },
+    {
+      "base": 15,
+      "lo": 1369,
+      "hi": 3374,
+      "interval_count": 2006,
+      "crt_modulus": 210,
+      "surviving_residues": 0,
+      "checked": 0,
+      "seconds": 1.67e-07,
+      "solutions": []
+    },
+    {
+      "base": 16,
+      "excluded": "empty exact digit-length interval"
+    },
+    {
+      "base": 17,
+      "lo": 4913,
+      "hi": 12632,
+      "interval_count": 7720,
+      "crt_modulus": 272,
+      "surviving_residues": 15,
+      "checked": 425,
+      "seconds": 1.9417e-05,
+      "solutions": []
+    },
+    {
+      "base": 18,
+      "lo": 15285,
+      "hi": 24743,
+      "interval_count": 9459,
+      "crt_modulus": 306,
+      "surviving_residues": 20,
+      "checked": 619,
+      "seconds": 2.8458e-05,
+      "solutions": []
+    },
+    {
+      "base": 19,
+      "lo": 29898,
+      "hi": 48838,
+      "interval_count": 18941,
+      "crt_modulus": 342,
+      "surviving_residues": 0,
+      "checked": 0,
+      "seconds": 3.33e-07,
+      "solutions": []
+    },
+    {
+      "base": 20,
+      "lo": 58945,
+      "hi": 159999,
+      "interval_count": 101055,
+      "crt_modulus": 380,
+      "surviving_residues": 28,
+      "checked": 7446,
+      "seconds": 0.000350333,
+      "solutions": []
+    },
+    {
+      "base": 21,
+      "excluded": "empty exact digit-length interval"
+    },
+    {
+      "base": 22,
+      "lo": 234256,
+      "hi": 656394,
+      "interval_count": 422139,
+      "crt_modulus": 462,
+      "surviving_residues": 72,
+      "checked": 65787,
+      "seconds": 0.00340625,
+      "solutions": []
+    },
+    {
+      "base": 23,
+      "lo": 795831,
+      "hi": 1342070,
+      "interval_count": 546240,
+      "crt_modulus": 506,
+      "surviving_residues": 0,
+      "checked": 0,
+      "seconds": 3.33e-07,
+      "solutions": []
+    },
+    {
+      "base": 24,
+      "lo": 1625364,
+      "hi": 2760487,
+      "interval_count": 1135124,
+      "crt_modulus": 552,
+      "surviving_residues": 36,
+      "checked": 74030,
+      "seconds": 0.00401225,
+      "solutions": []
+    },
+    {
+      "base": 25,
+      "lo": 3339797,
+      "hi": 9765624,
+      "interval_count": 6425828,
+      "crt_modulus": 600,
+      "surviving_residues": 114,
+      "checked": 1220909,
+      "seconds": 0.0611317,
+      "solutions": []
+    },
+    {
+      "base": 26,
+      "excluded": "empty exact digit-length interval"
+    },
+    {
+      "base": 27,
+      "lo": 14348907,
+      "hi": 43046720,
+      "interval_count": 28697814,
+      "crt_modulus": 702,
+      "surviving_residues": 0,
+      "checked": 0,
+      "seconds": 3.33e-07,
+      "solutions": []
+    },
+    {
+      "base": 28,
+      "lo": 52260814,
+      "hi": 91068707,
+      "interval_count": 38807894,
+      "crt_modulus": 756,
+      "surviving_residues": 88,
+      "checked": 4517321,
+      "seconds": 0.25437,
+      "solutions": []
+    },
+    {
+      "base": 29,
+      "lo": 110455918,
+      "hi": 193607415,
+      "interval_count": 83151498,
+      "crt_modulus": 812,
+      "surviving_residues": 54,
+      "checked": 5529778,
+      "seconds": 0.289691,
+      "solutions": []
+    },
+    {
+      "base": 30,
+      "lo": 234613921,
+      "hi": 728999999,
+      "interval_count": 494386079,
+      "crt_modulus": 870,
+      "surviving_residues": 44,
+      "checked": 25003434,
+      "seconds": 1.3357,
+      "solutions": []
+    }
+  ]
+}

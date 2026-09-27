@@ -1,0 +1,70 @@
+{
+  "backend": "cadical300",
+  "base": 10,
+  "cnf_path": "/private/tmp/nice-sat-10-cadical300-63985/instance.cnf",
+  "distinct": "pairwise",
+  "encoding": "karatsuba",
+  "export": {
+    "clauses": 6709,
+    "cnf_bytes": 119739,
+    "config": {
+      "base": 10,
+      "bit_widths": {
+        "cube": 20,
+        "digit": 4,
+        "n": 7,
+        "square": 14
+      },
+      "cube_length": 6,
+      "digit_sum_residue_count": 4,
+      "distinct_encoding": "pairwise",
+      "encoding": "karatsuba",
+      "karatsuba_leaf_bits": 16,
+      "lower": "47",
+      "memory_limit_mb": 1024,
+      "pin_n_digits": 0,
+      "residue_filter": true,
+      "sat_search": "cdcl",
+      "seed": 20260924,
+      "square_length": 4,
+      "timeout_ms": 1000,
+      "upper": "99",
+      "z3_version": "5.1.0"
+    },
+    "elapsed_seconds": 0.046809084014967084,
+    "n_bit_variables": {
+      "0": 380,
+      "1": 381,
+      "2": 382,
+      "3": 383,
+      "4": 384,
+      "5": 385,
+      "6": 386
+    },
+    "observed_peak_rss_mb": 5.328125,
+    "rss_limit_mb": 1536,
+    "status": "exported",
+    "variables": 1138,
+    "wall_limit_seconds": 60,
+    "wall_seconds": 0.2601147500099614,
+    "worker_exit_code": 0
+  },
+  "interpretation": "Diagnostic only: residual bit-vector equalities were incorrectly abstracted as free Boolean atoms. Candidate81 failed exact verification. Superseded by corrected export.",
+  "invalid_cnf_export": true,
+  "seed": 20260924,
+  "solve": {
+    "backend": "cadical300",
+    "conflict_budget": 100000,
+    "load_seconds": 0.012482082995120436,
+    "loaded_clauses": 6651,
+    "loaded_variables": 1138,
+    "log_tail": "Traceback (most recent call last):\n  File \"/Users/danstoyell/Desktop/projects/nicenumbers/scripts/sat_backend.py\", line 200, in <module>\n    main()\n    ~~~~^^\n  File \"/Users/danstoyell/Desktop/projects/nicenumbers/scripts/sat_backend.py\", line 176, in main\n    solve_cnf(args)\n    ~~~~~~~~~^^^^^^\n  File \"/Users/danstoyell/Desktop/projects/nicenumbers/scripts/sat_backend.py\", line 101, in solve_cnf\n    assert valid, info\n           ^^^^^\nAssertionError: {'status': 'sat', 'backend': 'cadical300', 'python_sat_version': '1.9.dev15', 'load_seconds': 0.012482082995120436, 'loaded_variables': 1138, 'loaded_clauses': 6651, 'conflict_budget': 100000, 'solve_seconds': 0.01622066699201241, 'statistics': {'restarts': 8, 'conflicts': 155, 'decisions': 946, 'propagations': 12795}, 'n': '81', 'square_digits': [6, 5, 6, 1], 'cube_digits': [5, 3, 1, 4, 4, 1], 'independently_valid': False}\n",
+    "observed_peak_rss_mb": 23.703125,
+    "python_sat_version": "1.9.dev15",
+    "rss_limit_mb": 1536,
+    "status": "worker_error",
+    "wall_limit_seconds": 60,
+    "wall_seconds": 0.7767634579795413,
+    "worker_exit_code": 1
+  }
+}

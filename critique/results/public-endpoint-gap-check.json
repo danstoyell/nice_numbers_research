@@ -1,0 +1,260 @@
+{
+ "purpose": "Top-endpoint candidates omitted from public stored intervals (base % 5 in {2,3,4}); checked directly",
+ "source_of_intervals": "scripts/verify.py candidate_intervals (exact integer roots)",
+ "public_chunks_source": "https://data.nicenumbers.net/chunks?select=base_id,range_start,range_end&order=range_end.desc&limit=2000",
+ "fetched": "2026-09-26",
+ "rows": [
+  {
+   "base": 12,
+   "n": "329",
+   "nice": false,
+   "distinct_digits": 7,
+   "digit_count": 12,
+   "chunk_max_range_end_exclusive": "329",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 13,
+   "n": "609",
+   "nice": false,
+   "distinct_digits": 7,
+   "digit_count": 13,
+   "chunk_max_range_end_exclusive": "609",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 14,
+   "n": "1138",
+   "nice": false,
+   "distinct_digits": 8,
+   "digit_count": 14,
+   "chunk_max_range_end_exclusive": "1138",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 17,
+   "n": "12632",
+   "nice": false,
+   "distinct_digits": 9,
+   "digit_count": 17,
+   "chunk_max_range_end_exclusive": "12632",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 18,
+   "n": "24743",
+   "nice": false,
+   "distinct_digits": 11,
+   "digit_count": 18,
+   "chunk_max_range_end_exclusive": "24743",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 19,
+   "n": "48838",
+   "nice": false,
+   "distinct_digits": 12,
+   "digit_count": 19,
+   "chunk_max_range_end_exclusive": "48838",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 22,
+   "n": "656394",
+   "nice": false,
+   "distinct_digits": 13,
+   "digit_count": 22,
+   "chunk_max_range_end_exclusive": "656394",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 23,
+   "n": "1342070",
+   "nice": false,
+   "distinct_digits": 13,
+   "digit_count": 23,
+   "chunk_max_range_end_exclusive": "1342070",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 24,
+   "n": "2760487",
+   "nice": false,
+   "distinct_digits": 13,
+   "digit_count": 24,
+   "chunk_max_range_end_exclusive": "2760487",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 27,
+   "n": "43046720",
+   "nice": false,
+   "distinct_digits": 5,
+   "digit_count": 27,
+   "chunk_max_range_end_exclusive": "43046721",
+   "chunk_covers_n": true
+  },
+  {
+   "base": 28,
+   "n": "91068707",
+   "nice": false,
+   "distinct_digits": 15,
+   "digit_count": 28,
+   "chunk_max_range_end_exclusive": "91068707",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 29,
+   "n": "193607415",
+   "nice": false,
+   "distinct_digits": 15,
+   "digit_count": 29,
+   "chunk_max_range_end_exclusive": "193607415",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 32,
+   "n": "3408917801",
+   "nice": false,
+   "distinct_digits": 17,
+   "digit_count": 32,
+   "chunk_max_range_end_exclusive": "3408917801",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 33,
+   "n": "7418918653",
+   "nice": false,
+   "distinct_digits": 22,
+   "digit_count": 33,
+   "chunk_max_range_end_exclusive": "7418918653",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 34,
+   "n": "16212853071",
+   "nice": false,
+   "distinct_digits": 18,
+   "digit_count": 34,
+   "chunk_max_range_end_exclusive": "16212853071",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 37,
+   "n": "316334075400",
+   "nice": false,
+   "distinct_digits": 22,
+   "digit_count": 37,
+   "chunk_max_range_end_exclusive": "316334075400",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 38,
+   "n": "705305019487",
+   "nice": false,
+   "distinct_digits": 23,
+   "digit_count": 38,
+   "chunk_max_range_end_exclusive": "705305019487",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 39,
+   "n": "1578199811605",
+   "nice": false,
+   "distinct_digits": 20,
+   "digit_count": 39,
+   "chunk_max_range_end_exclusive": "1578199811605",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 42,
+   "n": "33657156332704",
+   "nice": false,
+   "distinct_digits": 22,
+   "digit_count": 42,
+   "chunk_max_range_end_exclusive": "33657156332704",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 43,
+   "n": "76644654780098",
+   "nice": false,
+   "distinct_digits": 24,
+   "digit_count": 43,
+   "chunk_max_range_end_exclusive": "76644654780098",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 44,
+   "n": "175088059533483",
+   "nice": false,
+   "distinct_digits": 28,
+   "digit_count": 44,
+   "chunk_max_range_end_exclusive": "175088059533483",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 47,
+   "n": "4038747238411221",
+   "nice": false,
+   "distinct_digits": 29,
+   "digit_count": 47,
+   "chunk_max_range_end_exclusive": "4038747238411221",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 48,
+   "n": "9371125521380410",
+   "nice": false,
+   "distinct_digits": 26,
+   "digit_count": 48,
+   "chunk_max_range_end_exclusive": "9371125521380410",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 49,
+   "n": "21805302049254337",
+   "nice": false,
+   "distinct_digits": 26,
+   "digit_count": 49,
+   "chunk_max_range_end_exclusive": "21805302049254337",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 52,
+   "n": "539553545729754716",
+   "nice": false,
+   "distinct_digits": 35,
+   "digit_count": 52,
+   "chunk_max_range_end_exclusive": "539553545729754716",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 53,
+   "n": "1273200002519225123",
+   "nice": false,
+   "distinct_digits": 30,
+   "digit_count": 53,
+   "chunk_max_range_end_exclusive": "1273200002519225123",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 54,
+   "n": "3012081865832165437",
+   "nice": false,
+   "distinct_digits": 33,
+   "digit_count": 54,
+   "chunk_max_range_end_exclusive": "3012081865832165437",
+   "chunk_covers_n": false
+  },
+  {
+   "base": 57,
+   "n": "79417284083290121110",
+   "nice": false,
+   "distinct_digits": 33,
+   "digit_count": 57,
+   "chunk_max_range_end_exclusive": "79417284083290121110",
+   "chunk_covers_n": false
+  }
+ ]
+}

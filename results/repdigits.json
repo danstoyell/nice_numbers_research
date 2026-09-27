@@ -1,0 +1,85 @@
+{
+  "finite_check": {
+    "max_base": 124,
+    "repdigit_candidates": 7626,
+    "length_valid": 1494,
+    "solutions": [],
+    "scope": "Every positive repdigit in every base 2..124 whose root length could satisfy the nice-number length condition"
+  },
+  "endpoint_identity_checks": {
+    "min_base": 125,
+    "max_base": 2000,
+    "step": 5,
+    "cases": 376,
+    "shared_digit": 60,
+    "square_position_from_units": 1,
+    "cube_position_from_leading": 1,
+    "scope": "Validation of the endpoint identity; the note supplies its all-base proof"
+  },
+  "residual_edge_probe": {
+    "cases": [
+      {
+        "base": 1080070,
+        "repdigit": 360018,
+        "root_length": 216014,
+        "fraction_numerator": 1,
+        "fraction_denominator": 3,
+        "edge_depth_each_end_each_power": 30,
+        "distinct_edge_digits": 120,
+        "collisions": []
+      },
+      {
+        "base": 1080160,
+        "repdigit": 360048,
+        "root_length": 216032,
+        "fraction_numerator": 1,
+        "fraction_denominator": 3,
+        "edge_depth_each_end_each_power": 30,
+        "distinct_edge_digits": 120,
+        "collisions": []
+      },
+      {
+        "base": 1080250,
+        "repdigit": 360078,
+        "root_length": 216050,
+        "fraction_numerator": 1,
+        "fraction_denominator": 3,
+        "edge_depth_each_end_each_power": 30,
+        "distinct_edge_digits": 120,
+        "collisions": []
+      },
+      {
+        "base": 1080040,
+        "repdigit": 720021,
+        "root_length": 216008,
+        "fraction_numerator": 2,
+        "fraction_denominator": 3,
+        "edge_depth_each_end_each_power": 30,
+        "distinct_edge_digits": 120,
+        "collisions": []
+      },
+      {
+        "base": 1080130,
+        "repdigit": 720081,
+        "root_length": 216026,
+        "fraction_numerator": 2,
+        "fraction_denominator": 3,
+        "edge_depth_each_end_each_power": 30,
+        "distinct_edge_digits": 120,
+        "collisions": []
+      },
+      {
+        "base": 1080220,
+        "repdigit": 720141,
+        "root_length": 216044,
+        "fraction_numerator": 2,
+        "fraction_denominator": 3,
+        "edge_depth_each_end_each_power": 30,
+        "distinct_edge_digits": 120,
+        "collisions": []
+      }
+    ],
+    "scope": "Six exact edge probes only; no full digit check and no nice-number claim"
+  },
+  "seconds": 0.5237653329968452
+}

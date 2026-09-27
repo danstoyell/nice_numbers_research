@@ -1,0 +1,2414 @@
+[
+ {
+  "base": 20,
+  "L": 4,
+  "log10_E": -2.4681220018806282,
+  "edge": {
+   "certified": 6,
+   "log10_cost": 3.5337357174196344,
+   "log10_per_solution": 6.001857719300262
+  },
+  "overlap": {
+   "t": 2,
+   "k": 3,
+   "certified": 8,
+   "log10_T": 2.380221420369245,
+   "log10_B": 3.5426262778180524,
+   "log10_matches": 3.511459322708482,
+   "log10_survivors": 3.191747114076747,
+   "log10_cost": 3.9309639891218064,
+   "log10_per_solution": 6.399085991002435
+  },
+  "overlap_colour": {
+   "t": 2,
+   "k": 3,
+   "s": 8,
+   "certified": 8,
+   "log10_trials": 2.1345951581374973,
+   "log10_survivors": 3.191747114076747,
+   "log10_cost": 4.248323776284834,
+   "log10_per_solution": 6.716445778165462
+  },
+  "ceiling_80pct": {
+   "certified": 14,
+   "log10_cost": 1.208571607744235,
+   "log10_per_solution": 3.6766936096248637
+  }
+ },
+ {
+  "base": 22,
+  "L": 5,
+  "log10_E": -2.327320340940886,
+  "edge": {
+   "certified": 8,
+   "log10_cost": 4.209320262152465,
+   "log10_per_solution": 6.536640603093351
+  },
+  "overlap": {
+   "t": 4,
+   "k": 3,
+   "certified": 12,
+   "log10_T": 3.9586437099110285,
+   "log10_B": 3.7028789561878965,
+   "log10_matches": 4.189565295806549,
+   "log10_survivors": 3.220274858054564,
+   "log10_cost": 4.495130468823166,
+   "log10_per_solution": 6.822450809764051
+  },
+  "overlap_colour": {
+   "t": 3,
+   "k": 3,
+   "s": 11,
+   "certified": 10,
+   "log10_trials": 2.9497299747743075,
+   "log10_survivors": 3.784546288493127,
+   "log10_cost": 4.7794443210845134,
+   "log10_per_solution": 7.1067646620254
+  },
+  "ceiling_80pct": {
+   "certified": 18,
+   "log10_cost": 0.34529056428651506,
+   "log10_per_solution": 2.6726109052274007
+  }
+ },
+ {
+  "base": 24,
+  "L": 5,
+  "log10_E": -3.0823718728435674,
+  "edge": {
+   "certified": 8,
+   "log10_cost": 4.318287297767081,
+   "log10_per_solution": 7.4006591706106475
+  },
+  "overlap": {
+   "t": 3,
+   "k": 3,
+   "certified": 10,
+   "log10_T": 3.1803569091036374,
+   "log10_B": 3.8457309247673166,
+   "log10_matches": 4.478724441147614,
+   "log10_survivors": 3.9380760560554755,
+   "log10_cost": 4.6749263256682525,
+   "log10_per_solution": 7.75729819851182
+  },
+  "overlap_colour": {
+   "t": 3,
+   "k": 3,
+   "s": 11,
+   "certified": 10,
+   "log10_trials": 2.8617223565618715,
+   "log10_survivors": 3.9380760560554755,
+   "log10_cost": 5.032982911115609,
+   "log10_per_solution": 8.115354783959177
+  },
+  "ceiling_80pct": {
+   "certified": 18,
+   "log10_cost": 0.9794619779990769,
+   "log10_per_solution": 4.061833850842644
+  }
+ },
+ {
+  "base": 25,
+  "L": 5,
+  "log10_E": -2.277282241483783,
+  "edge": {
+   "certified": 8,
+   "log10_cost": 5.5604691564344595,
+   "log10_per_solution": 7.837751397918241
+  },
+  "overlap": {
+   "t": 4,
+   "k": 4,
+   "certified": 14,
+   "log10_T": 5.12790009353709,
+   "log10_B": 5.047817128989327,
+   "log10_matches": 5.278380162023576,
+   "log10_survivors": 4.1227419015248135,
+   "log10_cost": 5.6522344135153535,
+   "log10_per_solution": 7.929516654999137
+  },
+  "overlap_colour": {
+   "t": 3,
+   "k": 3,
+   "s": 10,
+   "certified": 10,
+   "log10_trials": 2.8149789530195415,
+   "log10_survivors": 5.199158043124583,
+   "log10_cost": 5.5970837233557855,
+   "log10_per_solution": 7.874365964839569
+  },
+  "ceiling_80pct": {
+   "certified": 18,
+   "log10_cost": 2.429707048426156,
+   "log10_per_solution": 4.70698928990994
+  }
+ },
+ {
+  "base": 28,
+  "L": 6,
+  "log10_E": -2.937418643281577,
+  "edge": {
+   "certified": 10,
+   "log10_cost": 5.876894708351229,
+   "log10_per_solution": 8.814313351632807
+  },
+  "overlap": {
+   "t": 4,
+   "k": 4,
+   "certified": 14,
+   "log10_T": 4.445030054521863,
+   "log10_B": 5.309384080060509,
+   "log10_matches": 5.941853216238803,
+   "log10_survivors": 4.954195251175539,
+   "log10_cost": 6.07788579946261,
+   "log10_per_solution": 9.015304442744187
+  },
+  "overlap_colour": {
+   "t": 4,
+   "k": 3,
+   "s": 13,
+   "certified": 12,
+   "log10_trials": 3.51493487033722,
+   "log10_survivors": 5.468300072148371,
+   "log10_cost": 6.095733748067354,
+   "log10_per_solution": 9.033152391348931
+  },
+  "ceiling_80pct": {
+   "certified": 22,
+   "log10_cost": 1.4600068560742352,
+   "log10_per_solution": 4.397425499355812
+  }
+ },
+ {
+  "base": 29,
+  "L": 6,
+  "log10_E": -3.2608412469901373,
+  "edge": {
+   "certified": 10,
+   "log10_cost": 5.995411882907547,
+   "log10_per_solution": 9.256253129897685
+  },
+  "overlap": {
+   "t": 4,
+   "k": 4,
+   "certified": 14,
+   "log10_T": 4.754730486138642,
+   "log10_B": 5.3886029169985985,
+   "log10_matches": 6.056614992668447,
+   "log10_survivors": 5.114414901402056,
+   "log10_cost": 6.196152168296107,
+   "log10_per_solution": 9.456993415286245
+  },
+  "overlap_colour": {
+   "t": 4,
+   "k": 3,
+   "s": 13,
+   "certified": 12,
+   "log10_trials": 3.5427639642019706,
+   "log10_survivors": 5.604641993165771,
+   "log10_cost": 6.288689809354778,
+   "log10_per_solution": 9.549531056344915
+  },
+  "ceiling_80pct": {
+   "certified": 22,
+   "log10_cost": 1.829299992888283,
+   "log10_per_solution": 5.09014123987842
+  }
+ },
+ {
+  "base": 30,
+  "L": 6,
+  "log10_E": -3.017594822409112,
+  "edge": {
+   "certified": 10,
+   "log10_cost": 6.6790458269374495,
+   "log10_per_solution": 9.696640649346561
+  },
+  "overlap": {
+   "t": 4,
+   "k": 4,
+   "certified": 14,
+   "log10_T": 5.508050600326832,
+   "log10_B": 5.464408463613229,
+   "log10_matches": 6.736873237265354,
+   "log10_survivors": 5.836065831157189,
+   "log10_cost": 6.829629726940967,
+   "log10_per_solution": 9.847224549350079
+  },
+  "overlap_colour": {
+   "t": 3,
+   "k": 4,
+   "s": 14,
+   "certified": 12,
+   "log10_trials": 3.52157466513203,
+   "log10_survivors": 6.304586914114934,
+   "log10_cost": 6.7745422333567955,
+   "log10_per_solution": 9.792137055765908
+  },
+  "ceiling_80pct": {
+   "certified": 22,
+   "log10_cost": 2.734194863741746,
+   "log10_per_solution": 5.751789686150858
+  }
+ },
+ {
+  "base": 32,
+  "L": 7,
+  "log10_E": -3.1330909711424764,
+  "edge": {
+   "certified": 12,
+   "log10_cost": 7.090237375946906,
+   "log10_per_solution": 10.223328347089382
+  },
+  "overlap": {
+   "t": 5,
+   "k": 5,
+   "certified": 18,
+   "log10_T": 5.944285908125084,
+   "log10_B": 6.843655263046528,
+   "log10_matches": 7.022161607388204,
+   "log10_survivors": 5.505053770837466,
+   "log10_cost": 7.271838082272188,
+   "log10_per_solution": 10.404929053414664
+  },
+  "overlap_colour": {
+   "t": 4,
+   "k": 4,
+   "s": 16,
+   "certified": 14,
+   "log10_trials": 4.137875095574604,
+   "log10_survivors": 6.659721015923904,
+   "log10_cost": 7.220693637881025,
+   "log10_per_solution": 10.353784609023501
+  },
+  "ceiling_80pct": {
+   "certified": 26,
+   "log10_cost": 1.5469297999146694,
+   "log10_per_solution": 4.680020771057146
+  }
+ },
+ {
+  "base": 33,
+  "L": 7,
+  "log10_E": -3.0028831236226523,
+  "edge": {
+   "certified": 12,
+   "log10_cost": 7.674651496700796,
+   "log10_per_solution": 10.677534620323447
+  },
+  "overlap": {
+   "t": 5,
+   "k": 5,
+   "certified": 18,
+   "log10_T": 6.078309563117824,
+   "log10_B": 6.933621559116915,
+   "log10_matches": 7.60745734871638,
+   "log10_survivors": 6.155412157921705,
+   "log10_cost": 7.7135805385038045,
+   "log10_per_solution": 10.716463662126458
+  },
+  "overlap_colour": {
+   "t": 4,
+   "k": 4,
+   "s": 16,
+   "certified": 14,
+   "log10_trials": 4.101429022560714,
+   "log10_survivors": 7.260872907342921,
+   "log10_cost": 7.529101064409224,
+   "log10_per_solution": 10.531984188031878
+  },
+  "ceiling_80pct": {
+   "certified": 26,
+   "log10_cost": 2.4213697135764796,
+   "log10_per_solution": 5.424252837199131
+  }
+ },
+ {
+  "base": 34,
+  "L": 7,
+  "log10_E": -3.1839056357501465,
+  "edge": {
+   "certified": 12,
+   "log10_cost": 7.9414487761392545,
+   "log10_per_solution": 11.1253544118894
+  },
+  "overlap": {
+   "t": 5,
+   "k": 5,
+   "certified": 18,
+   "log10_T": 6.407400809740686,
+   "log10_B": 7.020064348625726,
+   "log10_matches": 7.875181773350672,
+   "log10_survivors": 6.48272227254024,
+   "log10_cost": 7.959459500718093,
+   "log10_per_solution": 11.143365136468239
+  },
+  "overlap_colour": {
+   "t": 4,
+   "k": 4,
+   "s": 16,
+   "certified": 14,
+   "log10_trials": 4.076605438835686,
+   "log10_survivors": 7.543132917610871,
+   "log10_cost": 7.76964495718341,
+   "log10_per_solution": 10.953550592933556
+  },
+  "ceiling_80pct": {
+   "certified": 26,
+   "log10_cost": 2.9459900065440547,
+   "log10_per_solution": 6.129895642294201
+  }
+ },
+ {
+  "base": 37,
+  "L": 8,
+  "log10_E": -2.951475111676981,
+  "edge": {
+   "certified": 14,
+   "log10_cost": 9.150123270518153,
+   "log10_per_solution": 12.101598382195133
+  },
+  "overlap": {
+   "t": 6,
+   "k": 6,
+   "certified": 22,
+   "log10_T": 7.628515322022268,
+   "log10_B": 8.538880849947551,
+   "log10_matches": 8.928112309818268,
+   "log10_survivors": 6.900504295310226,
+   "log10_cost": 9.094735154286646,
+   "log10_per_solution": 12.046210265963627
+  },
+  "overlap_colour": {
+   "t": 5,
+   "k": 4,
+   "s": 18,
+   "certified": 16,
+   "log10_trials": 4.69987607101014,
+   "log10_survivors": 8.717870339223962,
+   "log10_cost": 8.85352686672297,
+   "log10_per_solution": 11.80500197839995
+  },
+  "ceiling_80pct": {
+   "certified": 30,
+   "log10_cost": 2.768959577452142,
+   "log10_per_solution": 5.720434689129123
+  }
+ },
+ {
+  "base": 38,
+  "L": 8,
+  "log10_E": -3.5445875696639604,
+  "edge": {
+   "certified": 14,
+   "log10_cost": 9.010971193534846,
+   "log10_per_solution": 12.555558763198807
+  },
+  "overlap": {
+   "t": 6,
+   "k": 6,
+   "certified": 22,
+   "log10_T": 7.7829977700173005,
+   "log10_B": 8.634199863294652,
+   "log10_matches": 8.794168711451817,
+   "log10_survivors": 6.84478849698408,
+   "log10_cost": 9.049580506476646,
+   "log10_per_solution": 12.594168076140607
+  },
+  "overlap_colour": {
+   "t": 5,
+   "k": 4,
+   "s": 18,
+   "certified": 16,
+   "log10_trials": 4.715388237188386,
+   "log10_survivors": 8.593343078030426,
+   "log10_cost": 8.80731060922985,
+   "log10_per_solution": 12.35189817889381
+  },
+  "ceiling_80pct": {
+   "certified": 30,
+   "log10_cost": 2.921618794391455,
+   "log10_per_solution": 6.466206364055416
+  }
+ },
+ {
+  "base": 40,
+  "L": 8,
+  "log10_E": -2.962086995705293,
+  "edge": {
+   "certified": 14,
+   "log10_cost": 10.494862523240371,
+   "log10_per_solution": 13.456949518945665
+  },
+  "overlap": {
+   "t": 6,
+   "k": 6,
+   "certified": 22,
+   "log10_T": 8.929531763459241,
+   "log10_B": 8.815144297880995,
+   "log10_matches": 10.287845790345617,
+   "log10_survivors": 8.477660599161664,
+   "log10_cost": 10.326456904745791,
+   "log10_per_solution": 13.288543900451085
+  },
+  "overlap_colour": {
+   "t": 5,
+   "k": 5,
+   "s": 18,
+   "certified": 18,
+   "log10_trials": 5.243870859986723,
+   "log10_survivors": 9.641474992300578,
+   "log10_cost": 10.072549654405146,
+   "log10_per_solution": 13.03463665011044
+  },
+  "ceiling_80pct": {
+   "certified": 30,
+   "log10_cost": 4.907758655922075,
+   "log10_per_solution": 7.869845651627368
+  }
+ },
+ {
+  "base": 42,
+  "L": 9,
+  "log10_E": -3.430662815742606,
+  "edge": {
+   "certified": 16,
+   "log10_cost": 10.556761378431995,
+   "log10_per_solution": 13.987424194174602
+  },
+  "overlap": {
+   "t": 7,
+   "k": 6,
+   "certified": 24,
+   "log10_T": 9.378277711840328,
+   "log10_B": 8.984522397960385,
+   "log10_matches": 10.476744147476754,
+   "log10_survivors": 8.370045061793782,
+   "log10_cost": 10.52585736479685,
+   "log10_per_solution": 13.956520180539457
+  },
+  "overlap_colour": {
+   "t": 5,
+   "k": 5,
+   "s": 21,
+   "certified": 18,
+   "log10_trials": 5.333720756311699,
+   "log10_survivors": 10.123176154279049,
+   "log10_cost": 10.225282963363721,
+   "log10_per_solution": 13.655945779106327
+  },
+  "ceiling_80pct": {
+   "certified": 34,
+   "log10_cost": 3.3383726546382126,
+   "log10_per_solution": 6.769035470380818
+  }
+ },
+ {
+  "base": 44,
+  "L": 9,
+  "log10_E": -3.7278959935920573,
+  "edge": {
+   "certified": 16,
+   "log10_cost": 11.172390527391242,
+   "log10_per_solution": 14.900286520983299
+  },
+  "overlap": {
+   "t": 7,
+   "k": 7,
+   "certified": 26,
+   "log10_T": 9.909388274469386,
+   "log10_B": 10.496770537010248,
+   "log10_matches": 10.802772110170132,
+   "log10_survivors": 8.415663564575567,
+   "log10_cost": 11.01395541904617,
+   "log10_per_solution": 14.741851412638226
+  },
+  "overlap_colour": {
+   "t": 5,
+   "k": 5,
+   "s": 21,
+   "certified": 18,
+   "log10_trials": 5.286702613249274,
+   "log10_survivors": 10.764006969920075,
+   "log10_cost": 10.81569992285815,
+   "log10_per_solution": 14.543595916450206
+  },
+  "ceiling_80pct": {
+   "certified": 34,
+   "log10_cost": 4.514620140070177,
+   "log10_per_solution": 8.242516133662233
+  }
+ },
+ {
+  "base": 45,
+  "L": 9,
+  "log10_E": -3.3565827478443326,
+  "edge": {
+   "certified": 16,
+   "log10_cost": 11.997753579229911,
+   "log10_per_solution": 15.354336327074245
+  },
+  "overlap": {
+   "t": 7,
+   "k": 7,
+   "certified": 26,
+   "log10_T": 10.729705373270276,
+   "log10_B": 10.590302495927226,
+   "log10_matches": 11.636271667079377,
+   "log10_survivors": 9.327072640468797,
+   "log10_cost": 11.72222777420061,
+   "log10_per_solution": 15.078810522044943
+  },
+  "overlap_colour": {
+   "t": 5,
+   "k": 6,
+   "s": 21,
+   "certified": 20,
+   "log10_trials": 5.860733880977003,
+   "log10_survivors": 11.140796665499517,
+   "log10_cost": 11.474878718834471,
+   "log10_per_solution": 14.831461466678803
+  },
+  "ceiling_80pct": {
+   "certified": 34,
+   "log10_cost": 5.585311433444764,
+   "log10_per_solution": 8.941894181289097
+  }
+ },
+ {
+  "base": 48,
+  "L": 10,
+  "log10_E": -3.7490835409003362,
+  "edge": {
+   "certified": 18,
+   "log10_cost": 12.593414043821491,
+   "log10_per_solution": 16.34249758472183
+  },
+  "overlap": {
+   "t": 8,
+   "k": 7,
+   "certified": 28,
+   "log10_T": 11.37277411308899,
+   "log10_B": 10.85505552247835,
+   "log10_matches": 12.35824132509876,
+   "log10_survivors": 9.818537128113626,
+   "log10_cost": 12.414261664895731,
+   "log10_per_solution": 16.163345205796066
+  },
+  "overlap_colour": {
+   "t": 6,
+   "k": 6,
+   "s": 24,
+   "certified": 22,
+   "log10_trials": 6.5236237371258845,
+   "log10_survivors": 11.68649014243897,
+   "log10_cost": 12.059439148357585,
+   "log10_per_solution": 15.808522689257922
+  },
+  "ceiling_80pct": {
+   "certified": 38,
+   "log10_cost": 4.832486338358676,
+   "log10_per_solution": 8.581569879259012
+  }
+ },
+ {
+  "base": 49,
+  "L": 10,
+  "log10_E": -3.7866052954125866,
+  "edge": {
+   "certified": 18,
+   "log10_cost": 13.01418583819028,
+   "log10_per_solution": 16.800791133602864
+  },
+  "overlap": {
+   "t": 8,
+   "k": 8,
+   "certified": 30,
+   "log10_T": 11.74403574102444,
+   "log10_B": 12.323850540950119,
+   "log10_matches": 12.478041179436023,
+   "log10_survivors": 9.561760025394374,
+   "log10_cost": 12.75378069372942,
+   "log10_per_solution": 16.540385989142006
+  },
+  "overlap_colour": {
+   "t": 6,
+   "k": 6,
+   "s": 24,
+   "certified": 22,
+   "log10_trials": 6.498459396630212,
+   "log10_survivors": 12.131440495871336,
+   "log10_cost": 12.385228169313448,
+   "log10_per_solution": 16.171833464726035
+  },
+  "ceiling_80pct": {
+   "certified": 38,
+   "log10_cost": 5.52413028834498,
+   "log10_per_solution": 9.310735583757568
+  }
+ },
+ {
+  "base": 50,
+  "L": 10,
+  "log10_E": -2.821519081025861,
+  "edge": {
+   "certified": 18,
+   "log10_cost": 14.436088787697331,
+   "log10_per_solution": 17.25760786872319
+  },
+  "overlap": {
+   "t": 8,
+   "k": 8,
+   "certified": 30,
+   "log10_T": 12.581183970779934,
+   "log10_B": 12.421150233783843,
+   "log10_matches": 13.910995602099392,
+   "log10_survivors": 11.082495865867289,
+   "log10_cost": 13.944680226669158,
+   "log10_per_solution": 16.766199307695018
+  },
+  "overlap_colour": {
+   "t": 6,
+   "k": 7,
+   "s": 24,
+   "certified": 24,
+   "log10_trials": 7.099876464847569,
+   "log10_survivors": 13.056821481955222,
+   "log10_cost": 13.549035070427598,
+   "log10_per_solution": 16.370554151453458
+  },
+  "ceiling_80pct": {
+   "certified": 38,
+   "log10_cost": 7.196523483974212,
+   "log10_per_solution": 10.018042565000073
+  }
+ },
+ {
+  "base": 52,
+  "L": 11,
+  "log10_E": -3.1725448815862793,
+  "edge": {
+   "certified": 20,
+   "log10_cost": 14.612682623436175,
+   "log10_per_solution": 17.785227505022455
+  },
+  "overlap": {
+   "t": 9,
+   "k": 8,
+   "certified": 32,
+   "log10_T": 13.044648437854402,
+   "log10_B": 12.608086494008774,
+   "log10_matches": 14.206392340868044,
+   "log10_survivors": 11.054689630020768,
+   "log10_cost": 14.245738263987704,
+   "log10_per_solution": 17.418283145573984
+  },
+  "overlap_colour": {
+   "t": 7,
+   "k": 6,
+   "s": 25,
+   "certified": 24,
+   "log10_trials": 7.105659027610592,
+   "log10_survivors": 13.684700173669775,
+   "log10_cost": 13.764524918826826,
+   "log10_per_solution": 16.937069800413106
+  },
+  "ceiling_80pct": {
+   "certified": 42,
+   "log10_cost": 5.721017777673698,
+   "log10_per_solution": 8.893562659259977
+  }
+ },
+ {
+  "base": 53,
+  "L": 11,
+  "log10_E": -3.6741561212711877,
+  "edge": {
+   "certified": 20,
+   "log10_cost": 14.573087589099705,
+   "log10_per_solution": 18.247243710370892
+  },
+  "overlap": {
+   "t": 9,
+   "k": 8,
+   "certified": 32,
+   "log10_T": 13.244994657582154,
+   "log10_B": 12.697980431814647,
+   "log10_matches": 14.173913356284384,
+   "log10_survivors": 11.11211892923639,
+   "log10_cost": 14.235393989282821,
+   "log10_per_solution": 17.909550110554008
+  },
+  "overlap_colour": {
+   "t": 7,
+   "k": 6,
+   "s": 26,
+   "certified": 24,
+   "log10_trials": 7.098691587019856,
+   "log10_survivors": 13.668130977448278,
+   "log10_cost": 13.78189411131191,
+   "log10_per_solution": 17.4560502325831
+  },
+  "ceiling_80pct": {
+   "certified": 42,
+   "log10_cost": 5.976548426805116,
+   "log10_per_solution": 9.650704548076304
+  }
+ },
+ {
+  "base": 54,
+  "L": 11,
+  "log10_E": -3.7797899440508633,
+  "edge": {
+   "certified": 20,
+   "log10_cost": 14.925694981452754,
+   "log10_per_solution": 18.705484925503615
+  },
+  "overlap": {
+   "t": 9,
+   "k": 9,
+   "certified": 34,
+   "log10_T": 13.626890547153344,
+   "log10_B": 14.201239034104207,
+   "log10_matches": 14.216609350640748,
+   "log10_survivors": 10.756222331053523,
+   "log10_cost": 14.56350582729826,
+   "log10_per_solution": 18.343295771349123
+  },
+  "overlap_colour": {
+   "t": 7,
+   "k": 6,
+   "s": 25,
+   "certified": 24,
+   "log10_trials": 7.147822279208757,
+   "log10_survivors": 14.0426244712352,
+   "log10_cost": 14.127750864256612,
+   "log10_per_solution": 17.907540808307473
+  },
+  "ceiling_80pct": {
+   "certified": 42,
+   "log10_cost": 6.602859905264846,
+   "log10_per_solution": 10.38264984931571
+  }
+ },
+ {
+  "base": 57,
+  "L": 12,
+  "log10_E": -2.9543574404438164,
+  "edge": {
+   "certified": 22,
+   "log10_cost": 16.739554995297734,
+   "log10_per_solution": 19.69391243574155
+  },
+  "overlap": {
+   "t": 10,
+   "k": 10,
+   "certified": 38,
+   "log10_T": 14.949901212193094,
+   "log10_B": 15.91025816389195,
+   "log10_matches": 15.819211596677142,
+   "log10_survivors": 11.574695331674453,
+   "log10_cost": 16.1936675051799,
+   "log10_per_solution": 19.148024945623717
+  },
+  "overlap_colour": {
+   "t": 8,
+   "k": 7,
+   "s": 28,
+   "certified": 28,
+   "log10_trials": 8.287433094273382,
+   "log10_survivors": 15.271999689407043,
+   "log10_cost": 15.547636614081089,
+   "log10_per_solution": 18.501994054524907
+  },
+  "ceiling_80pct": {
+   "certified": 46,
+   "log10_cost": 7.011635389473238,
+   "log10_per_solution": 9.965992829917054
+  }
+ },
+ {
+  "base": 58,
+  "L": 12,
+  "log10_E": -3.3586133907105498,
+  "edge": {
+   "certified": 22,
+   "log10_cost": 16.799072364167426,
+   "log10_per_solution": 20.157685754877978
+  },
+  "overlap": {
+   "t": 10,
+   "k": 9,
+   "certified": 36,
+   "log10_T": 15.162114392449087,
+   "log10_B": 14.588674577142093,
+   "log10_matches": 16.229497054456573,
+   "log10_survivors": 12.63084901097007,
+   "log10_cost": 16.27432896678387,
+   "log10_per_solution": 19.632942357494418
+  },
+  "overlap_colour": {
+   "t": 8,
+   "k": 7,
+   "s": 28,
+   "certified": 28,
+   "log10_trials": 8.300738561052901,
+   "log10_survivors": 15.36537947698169,
+   "log10_cost": 15.667689847561014,
+   "log10_per_solution": 19.026303238271563
+  },
+  "ceiling_80pct": {
+   "certified": 46,
+   "log10_cost": 7.366998703691895,
+   "log10_per_solution": 10.725612094402445
+  }
+ },
+ {
+  "base": 60,
+  "L": 12,
+  "log10_E": -3.3484056811409633,
+  "edge": {
+   "certified": 22,
+   "log10_cost": 17.73261084106766,
+   "log10_per_solution": 21.081016522208625
+  },
+  "overlap": {
+   "t": 10,
+   "k": 10,
+   "certified": 38,
+   "log10_T": 16.41918838660757,
+   "log10_B": 16.22701727739788,
+   "log10_matches": 16.861562870691586,
+   "log10_survivors": 12.949944712296931,
+   "log10_cost": 17.063833984163338,
+   "log10_per_solution": 20.412239665304302
+  },
+  "overlap_colour": {
+   "t": 7,
+   "k": 8,
+   "s": 29,
+   "certified": 28,
+   "log10_trials": 8.306010639625264,
+   "log10_survivors": 16.36205206148731,
+   "log10_cost": 16.54908260382375,
+   "log10_per_solution": 19.897488284964712
+  },
+  "ceiling_80pct": {
+   "certified": 46,
+   "log10_cost": 8.835092949593905,
+   "log10_per_solution": 12.183498630734867
+  }
+ },
+ {
+  "base": 62,
+  "L": 13,
+  "log10_E": -3.3721772391742646,
+  "edge": {
+   "certified": 24,
+   "log10_cost": 18.235456204792936,
+   "log10_per_solution": 21.6076334439672
+  },
+  "overlap": {
+   "t": 11,
+   "k": 10,
+   "certified": 40,
+   "log10_T": 16.89728351911196,
+   "log10_B": 16.426301263643165,
+   "log10_matches": 17.478249585974478,
+   "log10_survivors": 13.224943050188442,
+   "log10_cost": 17.60897704089469,
+   "log10_per_solution": 20.981154280068953
+  },
+  "overlap_colour": {
+   "t": 8,
+   "k": 8,
+   "s": 31,
+   "certified": 30,
+   "log10_trials": 8.915249215580324,
+   "log10_survivors": 16.779454790524923,
+   "log10_cost": 16.999345491022204,
+   "log10_per_solution": 20.371522730196467
+  },
+  "ceiling_80pct": {
+   "certified": 50,
+   "log10_cost": 7.671455783557099,
+   "log10_per_solution": 11.043633022731363
+  }
+ },
+ {
+  "base": 64,
+  "L": 13,
+  "log10_E": -3.0692006438545647,
+  "edge": {
+   "certified": 24,
+   "log10_cost": 19.46547370594513,
+   "log10_per_solution": 22.534674349799694
+  },
+  "overlap": {
+   "t": 11,
+   "k": 11,
+   "certified": 42,
+   "log10_T": 17.52010779715047,
+   "log10_B": 18.087758968240408,
+   "log10_matches": 18.39701857711492,
+   "log10_survivors": 13.81511264995719,
+   "log10_cost": 18.607446103410798,
+   "log10_per_solution": 21.676646747265362
+  },
+  "overlap_colour": {
+   "t": 9,
+   "k": 8,
+   "s": 31,
+   "certified": 32,
+   "log10_trials": 9.49710582082002,
+   "log10_survivors": 17.50750723515,
+   "log10_cost": 18.06280633068066,
+   "log10_per_solution": 21.132006974535226
+  },
+  "ceiling_80pct": {
+   "certified": 50,
+   "log10_cost": 9.476031098452214,
+   "log10_per_solution": 12.545231742306779
+  }
+ },
+ {
+  "base": 65,
+  "L": 13,
+  "log10_E": -3.500751532816242,
+  "edge": {
+   "certified": 24,
+   "log10_cost": 19.49863113980622,
+   "log10_per_solution": 22.999382672622463
+  },
+  "overlap": {
+   "t": 11,
+   "k": 11,
+   "certified": 42,
+   "log10_T": 18.398105029809926,
+   "log10_B": 18.19313666005503,
+   "log10_matches": 18.447991367122246,
+   "log10_survivors": 13.978125216658997,
+   "log10_cost": 18.83673329958179,
+   "log10_per_solution": 22.337484832398033
+  },
+  "overlap_colour": {
+   "t": 8,
+   "k": 8,
+   "s": 31,
+   "certified": 30,
+   "log10_trials": 8.874320768287692,
+   "log10_survivors": 18.13134727647438,
+   "log10_cost": 18.213233844364463,
+   "log10_per_solution": 21.713985377180705
+  },
+  "ceiling_80pct": {
+   "certified": 50,
+   "log10_cost": 9.770813180844184,
+   "log10_per_solution": 13.271564713660426
+  }
+ },
+ {
+  "base": 68,
+  "L": 14,
+  "log10_E": -3.50711243109273,
+  "edge": {
+   "certified": 26,
+   "log10_cost": 20.485004626142047,
+   "log10_per_solution": 23.992117057234776
+  },
+  "overlap": {
+   "t": 12,
+   "k": 11,
+   "certified": 44,
+   "log10_T": 19.115858894271245,
+   "log10_B": 18.49629017236367,
+   "log10_matches": 19.56084093203937,
+   "log10_survivors": 14.854816742540262,
+   "log10_cost": 19.72075233902163,
+   "log10_per_solution": 23.22786477011436
+  },
+  "overlap_colour": {
+   "t": 9,
+   "k": 8,
+   "s": 33,
+   "certified": 32,
+   "log10_trials": 9.507167556874093,
+   "log10_survivors": 19.067094216060532,
+   "log10_cost": 19.113373245386224,
+   "log10_per_solution": 22.620485676478953
+  },
+  "ceiling_80pct": {
+   "certified": 54,
+   "log10_cost": 9.382024933573218,
+   "log10_per_solution": 12.889137364665947
+  }
+ },
+ {
+  "base": 69,
+  "L": 14,
+  "log10_E": -3.5310419040957877,
+  "edge": {
+   "certified": 26,
+   "log10_cost": 20.9262945040428,
+   "log10_per_solution": 24.457336408138588
+  },
+  "overlap": {
+   "t": 12,
+   "k": 11,
+   "certified": 44,
+   "log10_T": 19.52354627874412,
+   "log10_B": 18.593299446823995,
+   "log10_matches": 20.016129435827185,
+   "log10_survivors": 15.41751186279022,
+   "log10_cost": 20.149499656969418,
+   "log10_per_solution": 23.680541561065205
+  },
+  "overlap_colour": {
+   "t": 9,
+   "k": 9,
+   "s": 34,
+   "certified": 34,
+   "log10_trials": 10.09208663038355,
+   "log10_survivors": 18.982415800647534,
+   "log10_cost": 19.46511082880695,
+   "log10_per_solution": 22.996152732902736
+  },
+  "ceiling_80pct": {
+   "certified": 54,
+   "log10_cost": 10.103167023129345,
+   "log10_per_solution": 13.634208927225131
+  }
+ },
+ {
+  "base": 70,
+  "L": 14,
+  "log10_E": -2.812648906655098,
+  "edge": {
+   "certified": 26,
+   "log10_cost": 22.10868349450605,
+   "log10_per_solution": 24.92133240116115
+  },
+  "overlap": {
+   "t": 12,
+   "k": 12,
+   "certified": 46,
+   "log10_T": 20.412816634414636,
+   "log10_B": 20.1966588627127,
+   "log10_matches": 20.875248596336473,
+   "log10_survivors": 15.838616371397157,
+   "log10_cost": 21.06681668555262,
+   "log10_per_solution": 23.87946559220772
+  },
+  "overlap_colour": {
+   "t": 9,
+   "k": 9,
+   "s": 33,
+   "certified": 34,
+   "log10_trials": 10.066610462791312,
+   "log10_survivors": 20.201963372613672,
+   "log10_cost": 20.33858876543427,
+   "log10_per_solution": 23.15123767208937
+  },
+  "ceiling_80pct": {
+   "certified": 54,
+   "log10_cost": 11.549918127666817,
+   "log10_per_solution": 14.362567034321916
+  }
+ },
+ {
+  "base": 72,
+  "L": 15,
+  "log10_E": -3.209821262344831,
+  "edge": {
+   "certified": 28,
+   "log10_cost": 22.236116254506015,
+   "log10_per_solution": 25.445937516850847
+  },
+  "overlap": {
+   "t": 13,
+   "k": 12,
+   "certified": 48,
+   "log10_T": 20.904807257990853,
+   "log10_B": 20.405097135547592,
+   "log10_matches": 21.113243977835243,
+   "log10_survivors": 15.721360003056889,
+   "log10_cost": 21.37203464682839,
+   "log10_per_solution": 24.58185590917322
+  },
+  "overlap_colour": {
+   "t": 10,
+   "k": 9,
+   "s": 35,
+   "certified": 36,
+   "log10_trials": 10.699654346549133,
+   "log10_survivors": 20.231520481277546,
+   "log10_cost": 20.56561920420851,
+   "log10_per_solution": 23.77544046655334
+  },
+  "ceiling_80pct": {
+   "certified": 58,
+   "log10_cost": 10.000332356839525,
+   "log10_per_solution": 13.210153619184355
+  }
+ },
+ {
+  "base": 73,
+  "L": 15,
+  "log10_E": -2.5731005672769727,
+  "edge": {
+   "certified": 28,
+   "log10_cost": 23.341712311201103,
+   "log10_per_solution": 25.914812878478074
+  },
+  "overlap": {
+   "t": 13,
+   "k": 12,
+   "certified": 48,
+   "log10_T": 21.146290422516458,
+   "log10_B": 20.506339551369287,
+   "log10_matches": 22.235175974585353,
+   "log10_survivors": 16.962421291071532,
+   "log10_cost": 22.27663500899685,
+   "log10_per_solution": 24.849735576273822
+  },
+  "overlap_colour": {
+   "t": 10,
+   "k": 9,
+   "s": 35,
+   "certified": 36,
+   "log10_trials": 10.716021881649775,
+   "log10_survivors": 21.37420441816748,
+   "log10_cost": 21.426337392845127,
+   "log10_per_solution": 23.9994379601221
+  },
+  "ceiling_80pct": {
+   "certified": 58,
+   "log10_cost": 11.403338757578648,
+   "log10_per_solution": 13.976439324855622
+  }
+ },
+ {
+  "base": 74,
+  "L": 15,
+  "log10_E": -3.396579457729306,
+  "edge": {
+   "certified": 28,
+   "log10_cost": 22.984603834174965,
+   "log10_per_solution": 26.38118329190427
+  },
+  "overlap": {
+   "t": 13,
+   "k": 12,
+   "certified": 48,
+   "log10_T": 21.561079778523755,
+   "log10_B": 20.605694951438007,
+   "log10_matches": 21.893939848089325,
+   "log10_survivors": 16.73492010554575,
+   "log10_cost": 22.07468652126495,
+   "log10_per_solution": 25.471265978994257
+  },
+  "overlap_colour": {
+   "t": 10,
+   "k": 9,
+   "s": 35,
+   "certified": 36,
+   "log10_trials": 10.736624692471363,
+   "log10_survivors": 21.052799299321947,
+   "log10_cost": 21.22304812059569,
+   "log10_per_solution": 24.619627578324994
+  },
+  "ceiling_80pct": {
+   "certified": 58,
+   "log10_cost": 11.327602341262557,
+   "log10_per_solution": 14.724181798991863
+  }
+ },
+ {
+  "base": 77,
+  "L": 16,
+  "log10_E": -3.004893422461106,
+  "edge": {
+   "certified": 30,
+   "log10_cost": 24.367073655120688,
+   "log10_per_solution": 27.371967077581793
+  },
+  "overlap": {
+   "t": 14,
+   "k": 13,
+   "certified": 52,
+   "log10_T": 22.959351936404744,
+   "log10_B": 22.44689156571449,
+   "log10_matches": 23.057571196444783,
+   "log10_survivors": 17.086299573222924,
+   "log10_cost": 23.367771539656356,
+   "log10_per_solution": 26.37266496211746
+  },
+  "overlap_colour": {
+   "t": 10,
+   "k": 10,
+   "s": 39,
+   "certified": 38,
+   "log10_trials": 11.338910349942045,
+   "log10_survivors": 22.37823032764484,
+   "log10_cost": 22.466924875842125,
+   "log10_per_solution": 25.47181829830323
+  },
+  "ceiling_80pct": {
+   "certified": 62,
+   "log10_cost": 11.295538389209783,
+   "log10_per_solution": 14.30043181167089
+  }
+ },
+ {
+  "base": 78,
+  "L": 16,
+  "log10_E": -2.9287768103335843,
+  "edge": {
+   "certified": 30,
+   "log10_cost": 24.91173872304331,
+   "log10_per_solution": 27.840515533376895
+  },
+  "overlap": {
+   "t": 14,
+   "k": 13,
+   "certified": 52,
+   "log10_T": 23.20901174332975,
+   "log10_B": 22.550132417036192,
+   "log10_matches": 23.620280111767908,
+   "log10_survivors": 17.773947225154348,
+   "log10_cost": 23.788481936883613,
+   "log10_per_solution": 26.717258747217198
+  },
+  "overlap_colour": {
+   "t": 11,
+   "k": 10,
+   "s": 38,
+   "certified": 40,
+   "log10_trials": 11.897790273597149,
+   "log10_survivors": 22.366181014444596,
+   "log10_cost": 22.955894085651686,
+   "log10_per_solution": 25.88467089598527
+  },
+  "ceiling_80pct": {
+   "certified": 62,
+   "log10_cost": 12.138000631276116,
+   "log10_per_solution": 15.0667774416097
+  }
+ },
+ {
+  "base": 80,
+  "L": 16,
+  "log10_E": -2.8095694251816052,
+  "edge": {
+   "certified": 30,
+   "log10_cost": 25.964583179659773,
+   "log10_per_solution": 28.774152604841376
+  },
+  "overlap": {
+   "t": 13,
+   "k": 14,
+   "certified": 52,
+   "log10_T": 22.954185421881313,
+   "log10_B": 24.304819512407605,
+   "log10_matches": 24.675888930474898,
+   "log10_survivors": 19.095537516001947,
+   "log10_cost": 24.83561039446183,
+   "log10_per_solution": 27.645179819643438
+  },
+  "overlap_colour": {
+   "t": 10,
+   "k": 11,
+   "s": 39,
+   "certified": 40,
+   "log10_trials": 11.90250718546557,
+   "log10_survivors": 23.505113114056503,
+   "log10_cost": 23.85838156240329,
+   "log10_per_solution": 26.667950987584895
+  },
+  "ceiling_80pct": {
+   "certified": 62,
+   "log10_cost": 13.74243744812871,
+   "log10_per_solution": 16.552006873310315
+  }
+ },
+ {
+  "base": 82,
+  "L": 17,
+  "log10_E": -2.1270870008955574,
+  "edge": {
+   "certified": 32,
+   "log10_cost": 27.172383444230924,
+   "log10_per_solution": 29.299470445126477
+  },
+  "overlap": {
+   "t": 15,
+   "k": 14,
+   "certified": 56,
+   "log10_T": 25.044643434908686,
+   "log10_B": 24.5203146387614,
+   "log10_matches": 25.674316409998664,
+   "log10_survivors": 19.118306832687864,
+   "log10_cost": 25.78984204817577,
+   "log10_per_solution": 27.916929049071328
+  },
+  "overlap_colour": {
+   "t": 11,
+   "k": 11,
+   "s": 41,
+   "certified": 42,
+   "log10_trials": 12.509962208680225,
+   "log10_survivors": 24.60567472470992,
+   "log10_cost": 24.727413373235997,
+   "log10_per_solution": 26.854500374131554
+  },
+  "ceiling_80pct": {
+   "certified": 66,
+   "log10_cost": 13.265167741877267,
+   "log10_per_solution": 15.392254742772824
+  }
+ },
+ {
+  "base": 84,
+  "L": 17,
+  "log10_E": -3.0909920215896936,
+  "edge": {
+   "certified": 32,
+   "log10_cost": 27.146125847067466,
+   "log10_per_solution": 30.23711786865716
+  },
+  "overlap": {
+   "t": 15,
+   "k": 14,
+   "certified": 56,
+   "log10_T": 25.72925776592392,
+   "log10_B": 24.728605229204597,
+   "log10_matches": 25.686717869729044,
+   "log10_survivors": 19.385930551479976,
+   "log10_cost": 26.03170623314304,
+   "log10_per_solution": 29.122698254732732
+  },
+  "overlap_colour": {
+   "t": 11,
+   "k": 11,
+   "s": 41,
+   "certified": 42,
+   "log10_trials": 12.483817984420966,
+   "log10_survivors": 24.662303163379914,
+   "log10_cost": 24.913262664732176,
+   "log10_per_solution": 28.00425468632187
+  },
+  "ceiling_80pct": {
+   "certified": 66,
+   "log10_cost": 13.820937492907358,
+   "log10_per_solution": 16.91192951449705
+  }
+ },
+ {
+  "base": 85,
+  "L": 17,
+  "log10_E": -2.2767979921007786,
+  "edge": {
+   "certified": 32,
+   "log10_cost": 28.427515317081927,
+   "log10_per_solution": 30.704313309182705
+  },
+  "overlap": {
+   "t": 15,
+   "k": 15,
+   "certified": 58,
+   "log10_T": 26.64754739843177,
+   "log10_B": 26.404838301077042,
+   "log10_matches": 26.63192610330585,
+   "log10_survivors": 19.856564719351,
+   "log10_cost": 27.051787670135948,
+   "log10_per_solution": 29.328585662236726
+  },
+  "overlap_colour": {
+   "t": 11,
+   "k": 11,
+   "s": 41,
+   "certified": 42,
+   "log10_trials": 12.47873845889169,
+   "log10_survivors": 25.983103650891472,
+   "log10_cost": 26.02944947842364,
+   "log10_per_solution": 28.30624747052442
+  },
+  "ceiling_80pct": {
+   "certified": 66,
+   "log10_cost": 15.373101483387805,
+   "log10_per_solution": 17.649899475488585
+  }
+ },
+ {
+  "base": 88,
+  "L": 18,
+  "log10_E": -2.520552265295538,
+  "edge": {
+   "certified": 34,
+   "log10_cost": 29.17871495235465,
+   "log10_per_solution": 31.699267217650185
+  },
+  "overlap": {
+   "t": 16,
+   "k": 15,
+   "certified": 60,
+   "log10_T": 27.42299139244467,
+   "log10_B": 26.729891604309632,
+   "log10_matches": 27.51144359727655,
+   "log10_survivors": 20.50134267577169,
+   "log10_cost": 27.80834984906583,
+   "log10_per_solution": 30.32890211436137
+  },
+  "overlap_colour": {
+   "t": 12,
+   "k": 11,
+   "s": 43,
+   "certified": 44,
+   "log10_trials": 13.10558373468264,
+   "log10_survivors": 26.67260690514221,
+   "log10_cost": 26.720141852957845,
+   "log10_per_solution": 29.240694118253383
+  },
+  "ceiling_80pct": {
+   "certified": 70,
+   "log10_cost": 14.734315756316201,
+   "log10_per_solution": 17.25486802161174
+  }
+ },
+ {
+  "base": 89,
+  "L": 18,
+  "log10_E": -2.3442970644565415,
+  "edge": {
+   "certified": 34,
+   "log10_cost": 29.824275575655555,
+   "log10_per_solution": 32.168572640112096
+  },
+  "overlap": {
+   "t": 16,
+   "k": 15,
+   "certified": 60,
+   "log10_T": 27.856007542359677,
+   "log10_B": 26.834819581891235,
+   "log10_matches": 28.177462196568978,
+   "log10_survivors": 21.29727729380454,
+   "log10_cost": 28.360008453822385,
+   "log10_per_solution": 30.704305518278925
+  },
+  "overlap_colour": {
+   "t": 12,
+   "k": 12,
+   "s": 44,
+   "certified": 46,
+   "log10_trials": 13.693245905309949,
+   "log10_survivors": 26.754129536186284,
+   "log10_cost": 27.169389913911644,
+   "log10_per_solution": 29.513686978368185
+  },
+  "ceiling_80pct": {
+   "certified": 70,
+   "log10_cost": 15.664821426347734,
+   "log10_per_solution": 18.009118490804276
+  }
+ },
+ {
+  "base": 90,
+  "L": 18,
+  "log10_E": -2.4225920488998707,
+  "edge": {
+   "certified": 34,
+   "log10_cost": 30.21400895024622,
+   "log10_per_solution": 32.63660099914609
+  },
+  "overlap": {
+   "t": 15,
+   "k": 16,
+   "certified": 60,
+   "log10_T": 27.15922714068882,
+   "log10_B": 28.532884051617202,
+   "log10_matches": 28.558440271699933,
+   "log10_survivors": 21.831912368027027,
+   "log10_cost": 28.855705087145438,
+   "log10_per_solution": 31.27829713604531
+  },
+  "overlap_colour": {
+   "t": 12,
+   "k": 12,
+   "s": 43,
+   "certified": 46,
+   "log10_trials": 13.67436056114959,
+   "log10_survivors": 27.19036822776401,
+   "log10_cost": 27.65014834012149,
+   "log10_per_solution": 30.072740389021362
+  },
+  "ceiling_80pct": {
+   "certified": 70,
+   "log10_cost": 16.327022731681783,
+   "log10_per_solution": 18.749614780581656
+  }
+ },
+ {
+  "base": 92,
+  "L": 19,
+  "log10_E": -2.102438200599641,
+  "edge": {
+   "certified": 36,
+   "log10_cost": 31.05903696754163,
+   "log10_per_solution": 33.16147516814127
+  },
+  "overlap": {
+   "t": 16,
+   "k": 16,
+   "certified": 62,
+   "log10_T": 27.685897155878713,
+   "log10_B": 28.753984922758374,
+   "log10_matches": 29.529115981074213,
+   "log10_survivors": 22.428762119760446,
+   "log10_cost": 29.601798666820347,
+   "log10_per_solution": 31.704236867419986
+  },
+  "overlap_colour": {
+   "t": 13,
+   "k": 12,
+   "s": 45,
+   "certified": 48,
+   "log10_trials": 14.300524590554696,
+   "log10_survivors": 27.92085243018466,
+   "log10_cost": 28.261032595113043,
+   "log10_per_solution": 30.363470795712686
+  },
+  "ceiling_80pct": {
+   "certified": 74,
+   "log10_cost": 15.480627246278598,
+   "log10_per_solution": 17.58306544687824
+  }
+ },
+ {
+  "base": 93,
+  "L": 19,
+  "log10_E": -2.5779267101150145,
+  "edge": {
+   "certified": 36,
+   "log10_cost": 31.0543310795717,
+   "log10_per_solution": 33.63225778968671
+  },
+  "overlap": {
+   "t": 16,
+   "k": 16,
+   "certified": 62,
+   "log10_T": 27.947442248064387,
+   "log10_B": 28.862016096967462,
+   "log10_matches": 29.542024361448487,
+   "log10_survivors": 22.56649624221086,
+   "log10_cost": 29.633466177160003,
+   "log10_per_solution": 32.21139288727502
+  },
+  "overlap_colour": {
+   "t": 13,
+   "k": 12,
+   "s": 45,
+   "certified": 48,
+   "log10_trials": 14.314765029669303,
+   "log10_survivors": 27.96246742961132,
+   "log10_cost": 28.396937155807926,
+   "log10_per_solution": 30.97486386592294
+  },
+  "ceiling_80pct": {
+   "certified": 74,
+   "log10_cost": 15.774628007109897,
+   "log10_per_solution": 18.352554717224912
+  }
+ },
+ {
+  "base": 94,
+  "L": 19,
+  "log10_E": -2.2932396528335106,
+  "edge": {
+   "certified": 36,
+   "log10_cost": 31.808776827845364,
+   "log10_per_solution": 34.10201648067888
+  },
+  "overlap": {
+   "t": 17,
+   "k": 16,
+   "certified": 64,
+   "log10_T": 30.008971144850534,
+   "log10_B": 28.96843378033669,
+   "log10_matches": 29.97295157845086,
+   "log10_survivors": 22.508708439492484,
+   "log10_cost": 30.312490413803896,
+   "log10_per_solution": 32.605730066637406
+  },
+  "overlap_colour": {
+   "t": 13,
+   "k": 12,
+   "s": 45,
+   "certified": 48,
+   "log10_trials": 14.332878980230976,
+   "log10_survivors": 28.76184447921718,
+   "log10_cost": 28.940250671439557,
+   "log10_per_solution": 31.233490324273067
+  },
+  "ceiling_80pct": {
+   "certified": 74,
+   "log10_cost": 16.8149653615435,
+   "log10_per_solution": 19.10820501437701
+  }
+ },
+ {
+  "base": 97,
+  "L": 20,
+  "log10_E": -1.4341774109170857,
+  "edge": {
+   "certified": 38,
+   "log10_cost": 33.66129973302679,
+   "log10_per_solution": 35.095477143943874
+  },
+  "overlap": {
+   "t": 18,
+   "k": 17,
+   "certified": 68,
+   "log10_T": 31.46644873800332,
+   "log10_B": 30.910785978546787,
+   "log10_matches": 31.58883984176615,
+   "log10_survivors": 23.25363248383993,
+   "log10_cost": 31.882043346676504,
+   "log10_per_solution": 33.31622075759359
+  },
+  "overlap_colour": {
+   "t": 14,
+   "k": 13,
+   "s": 48,
+   "certified": 52,
+   "log10_trials": 15.490577887952888,
+   "log10_survivors": 29.910707191191282,
+   "log10_cost": 30.570699881724337,
+   "log10_per_solution": 32.004877292641424
+  },
+  "ceiling_80pct": {
+   "certified": 78,
+   "log10_cost": 17.247359340169808,
+   "log10_per_solution": 18.681536751086895
+  }
+ },
+ {
+  "base": 98,
+  "L": 20,
+  "log10_E": -2.381275719935332,
+  "edge": {
+   "certified": 38,
+   "log10_cost": 33.18557693454531,
+   "log10_per_solution": 35.56685265448064
+  },
+  "overlap": {
+   "t": 17,
+   "k": 17,
+   "certified": 66,
+   "log10_T": 30.10225544197637,
+   "log10_B": 31.020108276009147,
+   "log10_matches": 31.4864990378058,
+   "log10_survivors": 23.931249917465745,
+   "log10_cost": 31.627306614759753,
+   "log10_per_solution": 34.008582334695085
+  },
+  "overlap_colour": {
+   "t": 13,
+   "k": 13,
+   "s": 49,
+   "certified": 50,
+   "log10_trials": 14.915390043025244,
+   "log10_survivors": 30.117130087518056,
+   "log10_cost": 30.250152816206676,
+   "log10_per_solution": 32.63142853614201
+  },
+  "ceiling_80pct": {
+   "certified": 78,
+   "log10_cost": 17.07058413935799,
+   "log10_per_solution": 19.45185985929332
+  }
+ },
+ {
+  "base": 100,
+  "L": 20,
+  "log10_E": -1.3143286903388554,
+  "edge": {
+   "certified": 38,
+   "log10_cost": 35.19236497301243,
+   "log10_per_solution": 36.506693663351285
+  },
+  "overlap": {
+   "t": 17,
+   "k": 18,
+   "certified": 68,
+   "log10_T": 31.47016999180261,
+   "log10_B": 32.86658675737911,
+   "log10_matches": 33.162390199362285,
+   "log10_survivors": 25.270089599831742,
+   "log10_cost": 33.346049146430786,
+   "log10_per_solution": 34.66037783676964
+  },
+  "overlap_colour": {
+   "t": 13,
+   "k": 14,
+   "s": 49,
+   "certified": 52,
+   "log10_trials": 15.50448505718881,
+   "log10_survivors": 31.596352558804135,
+   "log10_cost": 31.835555524407415,
+   "log10_per_solution": 33.14988421474627
+  },
+  "ceiling_80pct": {
+   "certified": 78,
+   "log10_cost": 19.639494754477802,
+   "log10_per_solution": 20.953823444816656
+  }
+ },
+ {
+  "base": 102,
+  "L": 21,
+  "log10_E": -1.8877271869627807,
+  "edge": {
+   "certified": 40,
+   "log10_cost": 35.14348204294318,
+   "log10_per_solution": 37.031209229905954
+  },
+  "overlap": {
+   "t": 18,
+   "k": 18,
+   "certified": 70,
+   "log10_T": 32.00720592550128,
+   "log10_B": 33.09224791902442,
+   "log10_matches": 33.23596636979534,
+   "log10_survivors": 24.963201516904963,
+   "log10_cost": 33.48573015521402,
+   "log10_per_solution": 35.3734573421768
+  },
+  "overlap_colour": {
+   "t": 14,
+   "k": 14,
+   "s": 51,
+   "certified": 54,
+   "log10_trials": 16.110866422299395,
+   "log10_survivors": 31.42706722406804,
+   "log10_cost": 32.08662751282225,
+   "log10_per_solution": 33.974354699785025
+  },
+  "ceiling_80pct": {
+   "certified": 82,
+   "log10_cost": 17.894046585964137,
+   "log10_per_solution": 19.78177377292692
+  }
+ },
+ {
+  "base": 104,
+  "L": 21,
+  "log10_E": -2.0624474716414114,
+  "edge": {
+   "certified": 40,
+   "log10_cost": 35.91146283712583,
+   "log10_per_solution": 37.973910308767245
+  },
+  "overlap": {
+   "t": 18,
+   "k": 18,
+   "certified": 70,
+   "log10_T": 32.72099309473275,
+   "log10_B": 33.31173775195778,
+   "log10_matches": 34.043812379154964,
+   "log10_survivors": 26.03371495149906,
+   "log10_cost": 34.1347312951705,
+   "log10_per_solution": 36.197178766811916
+  },
+  "overlap_colour": {
+   "t": 14,
+   "k": 14,
+   "s": 51,
+   "certified": 54,
+   "log10_trials": 16.089442939086883,
+   "log10_survivors": 32.29333811180755,
+   "log10_cost": 32.68121939681608,
+   "log10_per_solution": 34.743666868457495
+  },
+  "ceiling_80pct": {
+   "certified": 82,
+   "log10_cost": 19.248712891479897,
+   "log10_per_solution": 21.31116036312131
+  }
+ },
+ {
+  "base": 105,
+  "L": 21,
+  "log10_E": -1.1016864727012194,
+  "edge": {
+   "certified": 40,
+   "log10_cost": 37.342458304946675,
+   "log10_per_solution": 38.44414477764789
+  },
+  "overlap": {
+   "t": 18,
+   "k": 19,
+   "certified": 72,
+   "log10_T": 33.66183676568464,
+   "log10_B": 35.06943938878318,
+   "log10_matches": 35.12310367540115,
+   "log10_survivors": 26.642045301730402,
+   "log10_cost": 35.406028234521784,
+   "log10_per_solution": 36.507714707223
+  },
+  "overlap_colour": {
+   "t": 14,
+   "k": 14,
+   "s": 51,
+   "certified": 54,
+   "log10_trials": 16.08564165020673,
+   "log10_survivors": 33.7714933233771,
+   "log10_cost": 33.83220839724863,
+   "log10_per_solution": 34.933894869949846
+  },
+  "ceiling_80pct": {
+   "certified": 82,
+   "log10_cost": 20.956343569537378,
+   "log10_per_solution": 22.058030042238595
+  }
+ },
+ {
+  "base": 108,
+  "L": 22,
+  "log10_E": -1.7804844215485611,
+  "edge": {
+   "certified": 42,
+   "log10_cost": 37.659375319399,
+   "log10_per_solution": 39.43985974094756
+  },
+  "overlap": {
+   "t": 19,
+   "k": 19,
+   "certified": 74,
+   "log10_T": 34.48399122121779,
+   "log10_B": 35.40864207183915,
+   "log10_matches": 35.58238687859888,
+   "log10_survivors": 26.85552472933797,
+   "log10_cost": 35.825426206759786,
+   "log10_per_solution": 37.60591062830835
+  },
+  "overlap_colour": {
+   "t": 15,
+   "k": 14,
+   "s": 53,
+   "certified": 56,
+   "log10_trials": 16.708473566438013,
+   "log10_survivors": 34.02066853989833,
+   "log10_cost": 34.182301691982616,
+   "log10_per_solution": 35.96278611353118
+  },
+  "ceiling_80pct": {
+   "certified": 86,
+   "log10_cost": 19.873837675060777,
+   "log10_per_solution": 21.654322096609338
+  }
+ },
+ {
+  "base": 109,
+  "L": 22,
+  "log10_E": -1.4435236604349997,
+  "edge": {
+   "certified": 42,
+   "log10_cost": 38.46886794758549,
+   "log10_per_solution": 39.91239160802049
+  },
+  "overlap": {
+   "t": 19,
+   "k": 19,
+   "certified": 74,
+   "log10_T": 34.92818143463954,
+   "log10_B": 35.518758114440885,
+   "log10_matches": 36.412711840069726,
+   "log10_survivors": 27.818936357357448,
+   "log10_cost": 36.47732965322634,
+   "log10_per_solution": 37.92085331366134
+  },
+  "overlap_colour": {
+   "t": 15,
+   "k": 14,
+   "s": 53,
+   "certified": 56,
+   "log10_trials": 16.72059419911383,
+   "log10_survivors": 34.87592170683343,
+   "log10_cost": 34.92521349211876,
+   "log10_per_solution": 36.368737152553756
+  },
+  "ceiling_80pct": {
+   "certified": 86,
+   "log10_cost": 20.97155660196885,
+   "log10_per_solution": 22.415080262403848
+  }
+ },
+ {
+  "base": 110,
+  "L": 22,
+  "log10_E": -1.2712828434277632,
+  "edge": {
+   "certified": 42,
+   "log10_cost": 39.111720860249434,
+   "log10_per_solution": 40.3830037036772
+  },
+  "overlap": {
+   "t": 19,
+   "k": 19,
+   "certified": 74,
+   "log10_T": 35.876029188426166,
+   "log10_B": 35.627460746033414,
+   "log10_matches": 37.07598414347264,
+   "log10_survivors": 28.6110776909971,
+   "log10_cost": 37.116865032276664,
+   "log10_per_solution": 38.388147875704426
+  },
+  "overlap_colour": {
+   "t": 15,
+   "k": 15,
+   "s": 53,
+   "certified": 58,
+   "log10_trials": 17.28322986685814,
+   "log10_survivors": 34.93724741044153,
+   "log10_cost": 35.578471584642934,
+   "log10_per_solution": 36.849754428070696
+  },
+  "ceiling_80pct": {
+   "certified": 86,
+   "log10_cost": 21.892194948052964,
+   "log10_per_solution": 23.163477791480727
+  }
+ },
+ {
+  "base": 112,
+  "L": 23,
+  "log10_E": -0.9869093419534286,
+  "edge": {
+   "certified": 44,
+   "log10_cost": 39.920314157808015,
+   "log10_per_solution": 40.90722349976144
+  },
+  "overlap": {
+   "t": 20,
+   "k": 20,
+   "certified": 78,
+   "log10_T": 36.4228614645487,
+   "log10_B": 37.52410231209289,
+   "log10_matches": 37.630271596765084,
+   "log10_survivors": 28.17119468795026,
+   "log10_cost": 37.89630389244364,
+   "log10_per_solution": 38.88321323439707
+  },
+  "overlap_colour": {
+   "t": 16,
+   "k": 15,
+   "s": 55,
+   "certified": 60,
+   "log10_trials": 17.90501441899781,
+   "log10_survivors": 35.6206353078088,
+   "log10_cost": 36.15318598164934,
+   "log10_per_solution": 37.140095323602765
+  },
+  "ceiling_80pct": {
+   "certified": 90,
+   "log10_cost": 20.999976427474287,
+   "log10_per_solution": 21.986885769427715
+  }
+ },
+ {
+  "base": 113,
+  "L": 23,
+  "log10_E": -1.4215467217172308,
+  "edge": {
+   "certified": 44,
+   "log10_cost": 39.958516499522375,
+   "log10_per_solution": 41.38006322123961
+  },
+  "overlap": {
+   "t": 20,
+   "k": 20,
+   "certified": 78,
+   "log10_T": 36.70853017245462,
+   "log10_B": 37.63664947919111,
+   "log10_matches": 37.69076304153787,
+   "log10_survivors": 28.372923768401506,
+   "log10_cost": 37.98896634788888,
+   "log10_per_solution": 39.41051306960611
+  },
+  "overlap_colour": {
+   "t": 16,
+   "k": 15,
+   "s": 55,
+   "certified": 60,
+   "log10_trials": 17.917547030659733,
+   "log10_survivors": 35.711644137647816,
+   "log10_cost": 36.33479058576265,
+   "log10_per_solution": 37.756337307479875
+  },
+  "ceiling_80pct": {
+   "certified": 90,
+   "log10_cost": 21.337720666499358,
+   "log10_per_solution": 22.75926738821659
+  }
+ },
+ {
+  "base": 114,
+  "L": 23,
+  "log10_E": -1.4483622986475349,
+  "edge": {
+   "certified": 44,
+   "log10_cost": 40.40366633754805,
+   "log10_per_solution": 41.85202863619559
+  },
+  "overlap": {
+   "t": 20,
+   "k": 20,
+   "certified": 78,
+   "log10_T": 37.157181636921294,
+   "log10_B": 37.747794453735544,
+   "log10_matches": 38.15777259189871,
+   "log10_survivors": 28.97677127867036,
+   "log10_cost": 38.33064650786025,
+   "log10_per_solution": 39.77900880650779
+  },
+  "overlap_colour": {
+   "t": 16,
+   "k": 15,
+   "s": 55,
+   "certified": 60,
+   "log10_trials": 17.933604108430046,
+   "log10_survivors": 36.20827573021594,
+   "log10_cost": 36.67800197646075,
+   "log10_per_solution": 38.12636427510829
+  },
+  "ceiling_80pct": {
+   "certified": 90,
+   "log10_cost": 22.071742541587255,
+   "log10_per_solution": 23.52010484023479
+  }
+ },
+ {
+  "base": 117,
+  "L": 24,
+  "log10_E": -0.946794274420783,
+  "edge": {
+   "certified": 46,
+   "log10_cost": 41.900444187762425,
+   "log10_per_solution": 42.84723846218321
+  },
+  "overlap": {
+   "t": 21,
+   "k": 20,
+   "certified": 80,
+   "log10_T": 38.66320860072247,
+   "log10_B": 38.073150356023476,
+   "log10_matches": 39.78673982221197,
+   "log10_survivors": 30.373051399607387,
+   "log10_cost": 39.82598789351746,
+   "log10_per_solution": 40.77278216793824
+  },
+  "overlap_colour": {
+   "t": 16,
+   "k": 16,
+   "s": 59,
+   "certified": 62,
+   "log10_trials": 18.534065581991708,
+   "log10_survivors": 37.63545307310012,
+   "log10_cost": 37.89856939120625,
+   "log10_per_solution": 38.84536366562703
+  },
+  "ceiling_80pct": {
+   "certified": 94,
+   "log10_cost": 22.14469177989429,
+   "log10_per_solution": 23.091486054315077
+  }
+ },
+ {
+  "base": 118,
+  "L": 24,
+  "log10_E": -0.49138281399509975,
+  "edge": {
+   "certified": 46,
+   "log10_cost": 42.829100816239965,
+   "log10_per_solution": 43.32048363023507
+  },
+  "overlap": {
+   "t": 21,
+   "k": 21,
+   "certified": 82,
+   "log10_T": 38.95410895993536,
+   "log10_B": 39.885718169996686,
+   "log10_matches": 40.36957411325788,
+   "log10_survivors": 30.457809284932168,
+   "log10_cost": 40.50522256861699,
+   "log10_per_solution": 40.996605382612096
+  },
+  "overlap_colour": {
+   "t": 16,
+   "k": 16,
+   "s": 59,
+   "certified": 62,
+   "log10_trials": 18.51827131480842,
+   "log10_survivors": 38.614115842043304,
+   "log10_cost": 38.669066124309815,
+   "log10_per_solution": 39.16044893830492
+  },
+  "ceiling_80pct": {
+   "certified": 94,
+   "log10_cost": 23.37305467621323,
+   "log10_per_solution": 23.86443749020833
+  }
+ },
+ {
+  "base": 120,
+  "L": 24,
+  "log10_E": -0.31448585615099023,
+  "edge": {
+   "certified": 46,
+   "log10_cost": 43.94984573657217,
+   "log10_per_solution": 44.26433159272317
+  },
+  "overlap": {
+   "t": 21,
+   "k": 21,
+   "certified": 82,
+   "log10_T": 40.36782238886735,
+   "log10_B": 40.10857703600239,
+   "log10_matches": 41.53552682004236,
+   "log10_survivors": 31.900350869738023,
+   "log10_cost": 41.57903920388515,
+   "log10_per_solution": 41.89352506003614
+  },
+  "overlap_colour": {
+   "t": 16,
+   "k": 17,
+   "s": 59,
+   "certified": 64,
+   "log10_trials": 19.109518436854177,
+   "log10_survivors": 39.192265030267706,
+   "log10_cost": 39.741462845264195,
+   "log10_per_solution": 40.05594870141518
+  },
+  "ceiling_80pct": {
+   "certified": 94,
+   "log10_cost": 25.06307736016204,
+   "log10_per_solution": 25.377563216313032
+  }
+ },
+ {
+  "base": 122,
+  "L": 25,
+  "log10_E": 0.1970628215153665,
+  "edge": {
+   "certified": 48,
+   "log10_cost": 44.985504778473434,
+   "log10_per_solution": 44.78844195695807
+  },
+  "overlap": {
+   "t": 22,
+   "k": 22,
+   "certified": 86,
+   "log10_T": 40.92391449595899,
+   "log10_B": 42.040612129149245,
+   "log10_matches": 42.309182355008865,
+   "log10_survivors": 31.652846524397145,
+   "log10_cost": 42.50783588411029,
+   "log10_per_solution": 42.310773062594926
+  },
+  "overlap_colour": {
+   "t": 17,
+   "k": 17,
+   "s": 61,
+   "certified": 66,
+   "log10_trials": 19.71518255245094,
+   "log10_survivors": 40.09870954888074,
+   "log10_cost": 40.409659557655964,
+   "log10_per_solution": 40.2125967361406
+  },
+  "ceiling_80pct": {
+   "certified": 98,
+   "log10_cost": 24.394358035254733,
+   "log10_per_solution": 24.19729521373937
+  }
+ },
+ {
+  "base": 124,
+  "L": 25,
+  "log10_E": -0.4427103343265152,
+  "edge": {
+   "certified": 48,
+   "log10_cost": 45.29215274739112,
+   "log10_per_solution": 45.734863081717634
+  },
+  "overlap": {
+   "t": 22,
+   "k": 22,
+   "certified": 86,
+   "log10_T": 41.67668474971482,
+   "log10_B": 42.26786104874378,
+   "log10_matches": 42.66366555613144,
+   "log10_survivors": 32.299033557779026,
+   "log10_cost": 42.84120634963663,
+   "log10_per_solution": 43.28391668396314
+  },
+  "overlap_colour": {
+   "t": 17,
+   "k": 17,
+   "s": 62,
+   "certified": 66,
+   "log10_trials": 19.71870240688257,
+   "log10_survivors": 40.514816143460735,
+   "log10_cost": 40.86890351728985,
+   "log10_per_solution": 41.311613851616364
+  },
+  "ceiling_80pct": {
+   "certified": 98,
+   "log10_cost": 25.29087477882772,
+   "log10_per_solution": 25.733585113154238
+  }
+ },
+ {
+  "base": 125,
+  "L": 25,
+  "log10_E": -0.22891848484208416,
+  "edge": {
+   "certified": 48,
+   "log10_cost": 45.97675309083256,
+   "log10_per_solution": 46.20567157567464
+  },
+  "overlap": {
+   "t": 22,
+   "k": 22,
+   "certified": 86,
+   "log10_T": 42.64356089851339,
+   "log10_B": 42.37954283026512,
+   "log10_matches": 43.37154706835748,
+   "log10_survivors": 33.14650356122524,
+   "log10_cost": 43.48177718084795,
+   "log10_per_solution": 43.71069566569003
+  },
+  "overlap_colour": {
+   "t": 17,
+   "k": 17,
+   "s": 61,
+   "certified": 66,
+   "log10_trials": 19.694029572208215,
+   "log10_survivors": 41.25226529920773,
+   "log10_cost": 41.49399724644614,
+   "log10_per_solution": 41.722915731288225
+  },
+  "ceiling_80pct": {
+   "certified": 98,
+   "log10_cost": 26.256185690991593,
+   "log10_per_solution": 26.485104175833676
+  }
+ },
+ {
+  "base": 128,
+  "L": 26,
+  "log10_E": -0.38581305784012165,
+  "edge": {
+   "certified": 50,
+   "log10_cost": 46.818415919667736,
+   "log10_per_solution": 47.20422897750786
+  },
+  "overlap": {
+   "t": 23,
+   "k": 22,
+   "certified": 88,
+   "log10_T": 43.504702985484045,
+   "log10_B": 42.70715678908897,
+   "log10_matches": 44.34383986640812,
+   "log10_survivors": 33.88680264911008,
+   "log10_cost": 44.41125141562175,
+   "log10_per_solution": 44.79706447346187
+  },
+  "overlap_colour": {
+   "t": 18,
+   "k": 17,
+   "s": 63,
+   "certified": 68,
+   "log10_trials": 20.313978655785505,
+   "log10_survivors": 42.022472260833126,
+   "log10_cost": 42.255331249627176,
+   "log10_per_solution": 42.6411443074673
+  },
+  "ceiling_80pct": {
+   "certified": 102,
+   "log10_cost": 25.691889115389902,
+   "log10_per_solution": 26.077702173230023
+  }
+ },
+ {
+  "base": 129,
+  "L": 26,
+  "log10_E": 0.2906812182121926,
+  "edge": {
+   "certified": 50,
+   "log10_cost": 47.96855485334243,
+   "log10_per_solution": 47.67787363513024
+  },
+  "overlap": {
+   "t": 23,
+   "k": 23,
+   "certified": 90,
+   "log10_T": 43.96542623868197,
+   "log10_B": 44.55708178082048,
+   "log10_matches": 45.147446396669125,
+   "log10_survivors": 34.187019100052204,
+   "log10_cost": 45.26887051500387,
+   "log10_per_solution": 44.978189296791676
+  },
+  "overlap_colour": {
+   "t": 18,
+   "k": 17,
+   "s": 63,
+   "certified": 68,
+   "log10_trials": 20.32484457385206,
+   "log10_survivors": 43.22407311906264,
+   "log10_cost": 43.2603918963816,
+   "log10_per_solution": 42.969710678169406
+  },
+  "ceiling_80pct": {
+   "certified": 102,
+   "log10_cost": 27.13254486232425,
+   "log10_per_solution": 26.841863644112056
+  }
+ },
+ {
+  "base": 130,
+  "L": 26,
+  "log10_E": 0.4427803964434055,
+  "edge": {
+   "certified": 50,
+   "log10_cost": 48.59306328870664,
+   "log10_per_solution": 48.150282892263235
+  },
+  "overlap": {
+   "t": 23,
+   "k": 23,
+   "certified": 90,
+   "log10_T": 44.93807931756476,
+   "log10_B": 44.669612080890914,
+   "log10_matches": 45.79606475372315,
+   "log10_survivors": 34.978411850776894,
+   "log10_cost": 45.880075630940325,
+   "log10_per_solution": 45.43729523449692
+  },
+  "overlap_colour": {
+   "t": 18,
+   "k": 18,
+   "s": 63,
+   "certified": 70,
+   "log10_trials": 20.892892980148964,
+   "log10_survivors": 43.24874911567931,
+   "log10_cost": 43.843150683577626,
+   "log10_per_solution": 43.40037028713422
+  },
+  "ceiling_80pct": {
+   "certified": 102,
+   "log10_cost": 28.03859586894362,
+   "log10_per_solution": 27.595815472500213
+  }
+ }
+]
