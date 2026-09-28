@@ -64,12 +64,18 @@ changes the picture above; each is closed with numbers and a report.
   of integers fill an interval long enough to cover every residue. So no
   congruence obstruction exists at any of these moduli; the only one is the
   digit sum. The proposed bound M ≤ b² is loose from base 12 on; the
-  exceptions at bases 10–11 come from a 4-digit square word.
+  exceptions at bases 10–11 come from a 4-digit square word. The general
+  statement was already machine-checked as Theorem 5 of Brian Haskin's
+  [nice-numbers-lean](https://github.com/Janzert/nice-numbers-lean); what is
+  new here is the exhaustive table and the explicit threshold for b+1.
   ([report](attack/h3-covering/REPORT.md))
 - **H5, SAT finds a first witness faster on satisfiable instances: killed.**
   On thrice-nice bases 9 and 10 the solver needs 85–285 seconds to a first
   verified witness where a filtered enumerator needs 0.2–2 milliseconds, the
-  same 10⁵ gap as on the empty instances. ([report](attack/h5-sat-witness/REPORT.md))
+  same 10⁵ gap as on the empty instances; on twice-nice bases 14–15 and
+  thrice-nice base 13 it finds nothing within 400–600 seconds where the
+  enumerator needs under a tenth of a second.
+  ([report](attack/h5-sat-witness/REPORT.md))
 - **H4** (a moment-matching limitation theorem) was not attempted; it has the
   least bearing on either goal.
 
@@ -78,6 +84,42 @@ set-valued relaxations and stochastic conditioning as completely as it
 resists exact certificates, and the last family of possible congruence
 obstructions is gone. The routes that remain are the ones listed under
 "What would change this picture".
+
+### What the middle digits actually are
+
+The follow-up asked for the structural theory behind those failures, and it
+turns out to be simple to state ([report](attack/middle-digits/REPORT.md)):
+
+- **Along any search batch** (fixed prefix and suffix, a free block of
+  digits), a middle digit of the cube is the digit-coding of a polynomial
+  sequence of degree at most three in the block's value. Its linear
+  coefficient is a digit-tail of 3c², its quadratic coefficient a digit-tail
+  of 3c, and its cubic coefficient an exact power of 1/b, where c is the root
+  with the block zeroed. This is exact and was checked on 5.4 million batches.
+- **That model, with a random linear coefficient and the exact quadratic and
+  cubic ones, reproduces the measured distribution of how many values a
+  middle digit takes along a batch** to within 0.2–1% at every position and
+  batch shape tested, where independent random digits are off by up to 68%.
+  It explains the excess of small domains H1 recorded and the positions where
+  the cube takes more distinct values than random digits would.
+- **The coefficients are equidistributed over batches wherever Weyl's
+  inequality applies** (a theorem with proof), which for search-shaped
+  batches is the upper half of the middle third; below that they follow the
+  arithmetic of 6·Ptop·R + 3R², which is measured and produces nearly periodic
+  digit sequences for structured suffixes, but no certificate.
+- **A middle digit takes at most three values along a batch of b roots in
+  10⁻⁶ to 10⁻³ of the cases.** These are the lattice certificates the
+  algorithm report costed at one digit per factor b, seen directly; they
+  account exactly for H1's negligible extra rejections.
+- **Over a large batch every middle digit is uniform, and changing any root
+  digit re-randomizes every output digit above it** with probability 1 − 1/b
+  (both theorems with proof; measured to four digits).
+
+The upshot: the only structure the middle digits have is the one edge and
+lattice methods already use, and the one algebraic event that could open a
+door (many digit-tails of 3c² small at once) is excluded by the sparsity and
+structured-family results. This is the "middle-digit wall" as a description
+rather than an absence.
 
 ## Search improvements
 

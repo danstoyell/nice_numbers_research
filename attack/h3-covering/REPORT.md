@@ -19,10 +19,11 @@ digit-sum congruence admits.
 - **Exhaustive check.** For every base 10 ≤ b ≤ 18 with the nice-number
   lengths (s, c), and every M coprime to b with 2 ≤ M ≤ b², the image equals
   the predicted set: <!-- EXH_SUMMARY -->0 failures in 1057 tested (b, M) pairs<!-- /EXH_SUMMARY -->.
-  For 12 ≤ b ≤ 15 the equality persists up to the largest M tested
-  (2.3–3 b²). The only failures found anywhere are at b = 10 and b = 11, where
-  the square word has just 4 digits, and only for M > b² (first at
-  M = b²+1). Details in §2.
+  For 12 ≤ b ≤ 14 the equality persists up to the largest M tested
+  (2–2.75 b²), and at b = 12 up to M = 1582 (11 b²). The only failures found
+  anywhere are at b = 10 and b = 11, where the square word has just 4 digits,
+  for some M > b² (first at M = b²+1), and at b = 12 for M = 1583 and 1717.
+  Details in §2.
 - **Theorem (M = b+1).** For all b ≥ 10 with the nice-number lengths, every
   pair (x, y) mod b+1 with x + y ≡ T (mod gcd(2, b−1)) is realized. Proof in
   §3: a direct construction, for b ≥ 17 (odd) and b ≥ 24 (even), plus the
@@ -34,6 +35,18 @@ digit-sum congruence admits.
   of an interval of integers fill an interval of e·o + 1 consecutive values,
   which exceeds b+1 as soon as the word has about 2√b digits. The critique's
   swap argument lacked exactly this covering step.
+- **Prior work.** The general statement is Theorem 5 of Brian Haskin's
+  machine-checked [nice-numbers-lean](https://github.com/Janzert/nice-numbers-lean)
+  (`sieve_complete`): for any modulus dividing b^j − 1 the sieve sees a digit
+  list only through its j positional block totals, it is sound, and under an
+  explicit no-gap hypothesis on the block sizes its image is the full coset,
+  so no such modulus prunes more than casting out (b−1)s does. Since every M
+  coprime to b divides some b^j − 1, that covers the hypothesis here; his
+  witness `base_four_sieve_is_incomplete` is the same phenomenon as the
+  short-word failures in §4. What this report adds is narrower: exhaustive
+  tables for every M ≤ b² through base 18, and an elementary proof with an
+  explicit threshold for M = b+1 (and the divisors of b²−1 with
+  gcd(M, b−1) = 1) that does not go through the no-gap condition.
 - **Bearing on the goal.** This closes the congruence route to a
   nonexistence proof more firmly than before, which was its stated purpose.
   It yields no search filter, no candidate, and nothing about existence.
