@@ -82,6 +82,42 @@ resists exact certificates, and the last family of possible congruence
 obstructions is gone. The routes that remain are the ones listed under
 "What would change this picture".
 
+### What the middle digits actually are
+
+The follow-up asked for the structural theory behind those failures, and it
+turns out to be simple to state ([report](attack/middle-digits/REPORT.md)):
+
+- **Along any search batch** (fixed prefix and suffix, a free block of
+  digits), a middle digit of the cube is the digit-coding of a polynomial
+  sequence of degree at most three in the block's value. Its linear
+  coefficient is a digit-tail of 3c², its quadratic coefficient a digit-tail
+  of 3c, and its cubic coefficient an exact power of 1/b, where c is the root
+  with the block zeroed. This is exact and was checked on 5.4 million batches.
+- **That model, with a random linear coefficient and the exact quadratic and
+  cubic ones, reproduces the measured distribution of how many values a
+  middle digit takes along a batch** to within 0.2–1% at every position and
+  batch shape tested, where independent random digits are off by up to 68%.
+  It explains the excess of small domains H1 recorded and the positions where
+  the cube takes more distinct values than random digits would.
+- **The coefficients are equidistributed over batches wherever Weyl's
+  inequality applies** (a theorem with proof), which for search-shaped
+  batches is the upper half of the middle third; below that they follow the
+  arithmetic of 6·Ptop·R + 3R², which is measured and produces nearly periodic
+  digit sequences for structured suffixes, but no certificate.
+- **A middle digit takes at most three values along a batch of b roots in
+  10⁻⁶ to 10⁻³ of the cases.** These are the lattice certificates the
+  algorithm report costed at one digit per factor b, seen directly; they
+  account exactly for H1's negligible extra rejections.
+- **Over a large batch every middle digit is uniform, and changing any root
+  digit re-randomizes every output digit above it** with probability 1 − 1/b
+  (both theorems with proof; measured to four digits).
+
+The upshot: the only structure the middle digits have is the one edge and
+lattice methods already use, and the one algebraic event that could open a
+door (many digit-tails of 3c² small at once) is excluded by the sparsity and
+structured-family results. This is the "middle-digit wall" as a description
+rather than an absence.
+
 ## Search improvements
 
 Cost is measured as *checks per expected nice number*. Each 10× speedup buys
