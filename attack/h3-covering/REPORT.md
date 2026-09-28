@@ -35,6 +35,18 @@ digit-sum congruence admits.
   of an interval of integers fill an interval of e·o + 1 consecutive values,
   which exceeds b+1 as soon as the word has about 2√b digits. The critique's
   swap argument lacked exactly this covering step.
+- **Prior work.** The general statement is Theorem 5 of Brian Haskin's
+  machine-checked [nice-numbers-lean](https://github.com/Janzert/nice-numbers-lean)
+  (`sieve_complete`): for any modulus dividing b^j − 1 the sieve sees a digit
+  list only through its j positional block totals, it is sound, and under an
+  explicit no-gap hypothesis on the block sizes its image is the full coset,
+  so no such modulus prunes more than casting out (b−1)s does. Since every M
+  coprime to b divides some b^j − 1, that covers the hypothesis here; his
+  witness `base_four_sieve_is_incomplete` is the same phenomenon as the
+  short-word failures in §4. What this report adds is narrower: exhaustive
+  tables for every M ≤ b² through base 18, and an elementary proof with an
+  explicit threshold for M = b+1 (and the divisors of b²−1 with
+  gcd(M, b−1) = 1) that does not go through the no-gap condition.
 - **Bearing on the goal.** This closes the congruence route to a
   nonexistence proof more firmly than before, which was its stated purpose.
   It yields no search filter, no candidate, and nothing about existence.

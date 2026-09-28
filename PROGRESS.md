@@ -64,7 +64,10 @@ changes the picture above; each is closed with numbers and a report.
   of integers fill an interval long enough to cover every residue. So no
   congruence obstruction exists at any of these moduli; the only one is the
   digit sum. The proposed bound M ≤ b² is loose from base 12 on; the
-  exceptions at bases 10–11 come from a 4-digit square word.
+  exceptions at bases 10–11 come from a 4-digit square word. The general
+  statement was already machine-checked as Theorem 5 of Brian Haskin's
+  [nice-numbers-lean](https://github.com/Janzert/nice-numbers-lean); what is
+  new here is the exhaustive table and the explicit threshold for b+1.
   ([report](attack/h3-covering/REPORT.md))
 - **H5, SAT finds a first witness faster on satisfiable instances: killed.**
   On thrice-nice bases 9 and 10 the solver needs 85–285 seconds to a first

@@ -333,9 +333,13 @@ Base 30, roots of 6 digits, 3,000,000 random changes of one digit; a random new 
 
 - **What structure the middle digits have.** Exactly the polynomial structure
   of Lemma 1: along the direction of any free block they are degree-≤3 Weyl
-  sequences whose coefficients are digit-tails of 3c², 3c and c³. This is the
-  same structure the bottom-up "line lemma" of the existence report expresses
-  at the lowest unresolved position, extended to every position.
+  sequences whose coefficients are digit-tails of 3c², 3c and c³. The
+  degree-1 zone (positions k ≤ P < 2k) is the bottom-up "line lemma" of the
+  existence report and the engine of Theorem 7 in Haskin's
+  [nice-numbers-lean](https://github.com/Janzert/nice-numbers-lean), where one
+  new input digit moves the next output digit of each power affinely and a
+  greedy choice keeps 2d low slots distinct; Lemma 1 extends that to every
+  position, with the quadratic and cubic zones and their exact coefficients.
 - **Why it cannot be used.** Certifying a middle digit for a batch means
   making its rotation number θ₁ small, i.e. making a chosen digit-tail of 3c²
   small. A run of r small digits in 3c² at the right place costs a factor b^r
