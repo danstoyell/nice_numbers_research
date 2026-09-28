@@ -1,0 +1,17 @@
+{"b":6,"s":2,"c":4,"lo":15,"hi":35,"N":21,"digit_sum_roots":2,"expected_naive":0.324,"expected_conditional":0.648,"hits":1,"witnesses":[20]}
+{"b":7,"band":null}
+{"b":8,"s":3,"c":5,"lo":64,"hi":181,"N":118,"digit_sum_roots":2,"expected_naive":0.284,"expected_conditional":0.567,"hits":1,"witnesses":[174]}
+{"b":9,"s":3,"c":6,"lo":243,"hi":728,"N":486,"digit_sum_roots":2,"expected_naive":0.455,"expected_conditional":0.910,"hits":1,"witnesses":[500]}
+{"b":10,"band":null}
+{"b":11,"s":4,"c":7,"lo":1331,"hi":4414,"N":3084,"digit_sum_roots":0,"expected_naive":0.431,"expected_conditional":0.000,"hits":0,"witnesses":[]}
+{"b":12,"s":4,"c":8,"lo":5986,"hi":20735,"N":14750,"digit_sum_roots":2,"expected_naive":0.792,"expected_conditional":1.585,"hits":0,"witnesses":[]}
+{"b":13,"band":null}
+{"b":14,"s":5,"c":9,"lo":38416,"hi":143739,"N":105324,"digit_sum_roots":2,"expected_naive":0.826,"expected_conditional":1.653,"hits":0,"witnesses":[]}
+{"b":15,"s":5,"c":10,"lo":196070,"hi":759374,"N":563305,"digit_sum_roots":0,"expected_naive":1.682,"expected_conditional":0.000,"hits":0,"witnesses":[]}
+{"b":16,"band":null}
+{"b":17,"s":6,"c":11,"lo":1419857,"hi":5854220,"N":4434364,"digit_sum_roots":2,"expected_naive":1.907,"expected_conditional":3.813,"hits":2,"witnesses":[3730088,5217272]}
+{"b":18,"s":6,"c":12,"lo":8016759,"hi":34012223,"N":25995465,"digit_sum_roots":2,"expected_naive":4.230,"expected_conditional":8.460,"hits":9,"witnesses":[9930192,10308188,10386013,12468004,19023595,19929864,20453465,21357610,25202856]}
+{"b":19,"band":null}
+{"b":20,"s":7,"c":13,"lo":64000000,"hi":286216701,"N":222216702,"digit_sum_roots":2,"expected_naive":5.156,"expected_conditional":10.312,"hits":10,"witnesses":[108534383,109828512,119716226,123296946,129420114,137686787,191021135,215205228,233354979,274202699]}
+{"b":21,"s":7,"c":14,"lo":393029742,"hi":1801088540,"N":1408058799,"digit_sum_roots":4,"expected_naive":12.313,"expected_conditional":49.252,"hits":31,"witnesses":[425938410,492799645,648988750,689884954,748762129,755411169,760906409,864222254,1026601130,1034999730,1036867654,1118792205,1197325330,1205559170,1220543505,1231510234,1257540945,1343485705,1456158930,1490601894,1524662489,1547250970,1547737310,1562388785,1628209889,1636284549,1643055745,1655598129,1672060514,1684007225,1701551869]}
+{"b":22,"band":null}

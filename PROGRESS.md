@@ -307,6 +307,16 @@ Proofs and scope are in [RESEARCH_LOG.md](RESEARCH_LOG.md) and
   ["Is 69 the only nice number?"](https://manifold.markets/PlasmaBallin/is-69-the-only-nice-number)
   stood at 9% YES on September 27.
 
+## Where to go next
+
+Seven ranked research directions for the next round, each with a plan and
+stop rules, are in [attack/directions](attack/directions/README.md). The top
+one is cheap and already shows something to resolve: exact distinct-digit
+hits for the pair (1, 2) (n and n² together pandigital) come in at 55
+against 77 expected in bases 6–21 under the crude conditional model; the
+refined model and bases 24–27 will decide whether the first-ever exact
+k = 1 test of the model passes.
+
 ## What would change this picture
 
 - **A search method** that checks the middle third of the cube's digits

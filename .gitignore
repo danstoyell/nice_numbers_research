@@ -15,3 +15,4 @@ attack/h2-sampler/smc
 attack/h3-covering/cover
 attack/h5-sat-witness/first_hit
 attack/middle-digits/midpoly
+attack/directions/quasi_nice
