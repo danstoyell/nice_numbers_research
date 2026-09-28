@@ -69,7 +69,10 @@ changes the picture above; each is closed with numbers and a report.
 - **H5, SAT finds a first witness faster on satisfiable instances: killed.**
   On thrice-nice bases 9 and 10 the solver needs 85–285 seconds to a first
   verified witness where a filtered enumerator needs 0.2–2 milliseconds, the
-  same 10⁵ gap as on the empty instances. ([report](attack/h5-sat-witness/REPORT.md))
+  same 10⁵ gap as on the empty instances; on twice-nice bases 14–15 and
+  thrice-nice base 13 it finds nothing within 400–600 seconds where the
+  enumerator needs under a tenth of a second.
+  ([report](attack/h5-sat-witness/REPORT.md))
 - **H4** (a moment-matching limitation theorem) was not attempted; it has the
   least bearing on either goal.
 
