@@ -1,0 +1,1 @@
+{"base": 14, "K": 2, "variant": 0, "result": "TIMEOUT", "variables": 12391, "clauses": 49595, "build_seconds": 0.0982319979998465, "solve_seconds": 599.998992888, "witness": null, "verified": null}

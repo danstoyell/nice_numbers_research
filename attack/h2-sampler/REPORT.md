@@ -14,16 +14,19 @@ uniform-sampling control with the **same score function and the same
 evaluation budget** on five unplanted cases: thrice-nice bases 10, 13 and 14
 and twice-nice bases 15 and 17 (10, 16, 38, 1 and 1 witnesses).
 
-- **It never beats uniform sampling, and it gets worse as the base grows.**
+- **It does not beat uniform sampling, and it gets worse as the base grows.**
   Measured as distinct witnesses per run at equal budget, the best sampler
-  variant reaches 0.7–0.8 of the uniform expectation at the two smallest cases
-  and 0.2–0.5 at thrice-13; at thrice-14 (2×10⁹ roots) it found 1 witness in
-  30 runs across six variants where uniform sampling found 7 in 5 runs. The
-  control itself matches its analytic expectation in every case.
+  variant reaches 0.76–0.84 of the uniform expectation at the two smallest
+  cases and at most 0.45 at thrice-13; at thrice-14 (2×10⁹ roots) the six
+  variants found 3 witnesses in 30 runs where uniform sampling found 7 in
+  5 runs. The one apparent win, 4 witnesses in 5 runs on twice-17 against 2.0
+  expected for uniform (the control itself scored 1), is Poisson noise on a
+  single-witness case and is not repeated by any other variant there. The
+  control matches its analytic expectation in every case.
 - **Diversity collapses exactly as the hypothesis feared.** At the last level
   reached, the surviving seeds descend from 27–250 of the 2,000 level-0
   ancestors; acceptance of proposals is 0.3–3.5%; and not a single one of the
-  several thousand episodes reached the final threshold (all excess digits
+  nearly ten thousand episodes reached the final threshold (all excess digits
   removed) by conditioning: every witness found came from a chain stumbling on
   it, i.e. from luck of the same kind uniform sampling has.
 - **Top-digit-only proposals, which preserve the bottom output digits, are the

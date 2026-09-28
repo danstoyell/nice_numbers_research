@@ -19,10 +19,11 @@ digit-sum congruence admits.
 - **Exhaustive check.** For every base 10 ≤ b ≤ 18 with the nice-number
   lengths (s, c), and every M coprime to b with 2 ≤ M ≤ b², the image equals
   the predicted set: <!-- EXH_SUMMARY -->0 failures in 1057 tested (b, M) pairs<!-- /EXH_SUMMARY -->.
-  For 12 ≤ b ≤ 15 the equality persists up to the largest M tested
-  (2.3–3 b²). The only failures found anywhere are at b = 10 and b = 11, where
-  the square word has just 4 digits, and only for M > b² (first at
-  M = b²+1). Details in §2.
+  For 12 ≤ b ≤ 14 the equality persists up to the largest M tested
+  (2–2.75 b²), and at b = 12 up to M = 1582 (11 b²). The only failures found
+  anywhere are at b = 10 and b = 11, where the square word has just 4 digits,
+  for some M > b² (first at M = b²+1), and at b = 12 for M = 1583 and 1717.
+  Details in §2.
 - **Theorem (M = b+1).** For all b ≥ 10 with the nice-number lengths, every
   pair (x, y) mod b+1 with x + y ≡ T (mod gcd(2, b−1)) is realized. Proof in
   §3: a direct construction, for b ≥ 17 (odd) and b ≥ 24 (even), plus the
