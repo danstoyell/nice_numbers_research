@@ -10,3 +10,7 @@ build/
 attack/p1-algorithm/overlap
 attack/p3-analogues/bin/
 attack/p3-analogues/scratch/
+attack/h1-domains/domains
+attack/h2-sampler/smc
+attack/h3-covering/cover
+attack/h5-sat-witness/first_hit

@@ -1,5 +1,12 @@
 # Five intermediate hypotheses worth testing next
 
+**Status, 2026-09-28.** H1 killed ([h1-domains](h1-domains/REPORT.md)),
+H2 killed ([h2-sampler](h2-sampler/REPORT.md)), H3 confirmed through base 18
+for all M ≤ b² and proved for M = b+1 in every base
+([h3-covering](h3-covering/REPORT.md)), H5 killed
+([h5-sat-witness](h5-sat-witness/REPORT.md)), H4 not attempted. The text
+below is the original proposal, unchanged.
+
 2026-09-27. Synthesis of the earlier `research/` work, the independent
 `critique/`, and the newer `attack/` results. This is a research proposal;
 the five hypotheses below have **not** been established or tested in this
