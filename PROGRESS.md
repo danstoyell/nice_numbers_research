@@ -1,6 +1,6 @@
 # Nice numbers: progress in plain English
 
-Updated September 27, 2026.
+Updated September 28, 2026.
 
 **We have not found a second nice number, and we have not proved that 69
 is the only one.** Nothing in this repository is a solution. What it does
@@ -32,6 +32,52 @@ no extra zeros added at the front.
   - The chance that one sits in bases 57–64, the only bases reachable in
     years to millennia, is about 0.1–0.3%.
   - ([odds and costs](critique/research-directions.md))
+
+## Five follow-up hypotheses, tested September 28
+
+The September 27 review proposed five bounded tests
+([NEXT_HYPOTHESES.md](attack/NEXT_HYPOTHESES.md)). Four were run. None
+changes the picture above; each is closed with numbers and a report.
+
+- **H1, possible values of middle digits reject batches: killed.** For
+  batches of roots with a fixed prefix and suffix and 2–3 free digits, every
+  digit in the cube's middle third can take every value, so a Hall test on
+  those domains rejects nothing beyond the existing end checks. With one free
+  digit (a batch of b roots) the domains hold 64% of the alphabet and the
+  extra rejection is at most 9 roots in a million, against a 10% target.
+  Tested exactly on 5.4×10⁹ roots across nice, twice-nice and thrice-nice
+  bases; all 60 known witnesses preserved. ([report](attack/h1-domains/REPORT.md))
+- **H2, progressive conditioning with digit proposals: killed.** A
+  subset-simulation sampler with the same score and budget as uniform random
+  sampling finds 0–0.8 times as many distinct witnesses, worse as the base
+  grows (none at all in 30 runs on thrice-nice base 14, where uniform
+  sampling found 7). The surviving seeds descend from 1–12% of the ancestors
+  and no episode ever reached the final level by conditioning. Changing any
+  digit of n re-randomizes the output digits above it, so there is nothing
+  for a chain to climb. ([report](attack/h2-sampler/REPORT.md))
+- **H3, pandigital splits realize every residue pair the digit sum allows:
+  confirmed, and proved for the modulus b+1.** An exhaustive computation
+  covers every modulus up to b² coprime to b for bases 10–18 (1,057 cases,
+  no exception), and every divisor of b²−1 up to base 24. A short theorem
+  gives the modulus b+1 in every base b ≥ 10: once the digit sets of the two
+  words are fixed, the words are independent, and subset sums of an interval
+  of integers fill an interval long enough to cover every residue. So no
+  congruence obstruction exists at any of these moduli; the only one is the
+  digit sum. The proposed bound M ≤ b² is loose from base 12 on; the
+  exceptions at bases 10–11 come from a 4-digit square word.
+  ([report](attack/h3-covering/REPORT.md))
+- **H5, SAT finds a first witness faster on satisfiable instances: killed.**
+  On thrice-nice bases 9 and 10 the solver needs 85–285 seconds to a first
+  verified witness where a filtered enumerator needs 0.2–2 milliseconds, the
+  same 10⁵ gap as on the empty instances. ([report](attack/h5-sat-witness/REPORT.md))
+- **H4** (a moment-matching limitation theorem) was not attempted; it has the
+  least bearing on either goal.
+
+What these add to the picture: the middle third of the cube resists
+set-valued relaxations and stochastic conditioning as completely as it
+resists exact certificates, and the last family of possible congruence
+obstructions is gone. The routes that remain are the ones listed under
+"What would change this picture".
 
 ## Search improvements
 
@@ -154,9 +200,10 @@ showed a real shortage.
     numbers are preliminary. ([work in progress](attack/p3-analogues/))
 - **Congruences.** The only divisibility rule that "each digit once" implies
   is the digit-sum rule modulo b−1. That rule already kills every base that
-  leaves 3 when divided by 4. No other congruence exists (checked exhaustively
-  in base 10, general argument sketched), so no argument of this kind can rule
-  out the rest. ([critique](critique/critique.md))
+  leaves 3 when divided by 4. No other congruence exists: checked exhaustively
+  for every modulus up to b² in bases 10–18, and proved for the modulus b+1 in
+  every base ([H3 report](attack/h3-covering/REPORT.md)), so no argument of
+  this kind can rule out the rest. ([critique](critique/critique.md))
 
 ## Could someone prove a second one exists without finding it?
 
