@@ -51,7 +51,7 @@ for row in s["rows"]:
 out["SENS"] = "\n".join(t)
 
 # T5: batch discrepancy
-t = ["| Fixed top digits t | Prefix | Batch size N | Weyl bound N^(−1/4) | iid noise | Max deviation of a digit frequency from 1/b over the middle third (positions 6–11) | Bottom positions 0–5 | Top three positions |", "|---:|---:|---:|---:|---:|---:|---|---|"]
+t = ["| Fixed top digits t | Prefix | Batch size N | Heuristic Weyl scale N^(−1/4) | iid noise | Max deviation of a digit frequency from 1/b over the middle third (positions 6–11) | Bottom positions 0–5 | Top three positions |", "|---:|---:|---:|---:|---:|---:|---|---|"]
 for l in (here / "results/batch.jsonl").open():
     r = json.loads(l); rows_ = {x["P"]: x for x in r["rows"]}
     mid = max(rows_[P]["maxdev"] for P in range(6, 12)); bot = ", ".join(f"{rows_[P]['maxdev']:.4f}" for P in range(0, 6)); top = ", ".join(f"{rows_[P]['maxdev']:.3f} ({rows_[P]['distinct']} values)" for P in range(15, 18))

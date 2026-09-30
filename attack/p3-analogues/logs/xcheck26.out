@@ -1,0 +1,4 @@
+B=26 K=2 SL=21 CL=31 J=5 S=297034400 T=27981 roots=6 chunks=500 done=0 filters=1
+{"lo": "141167095653376", "hi": "149478291759623", "alt_J": 5, "production_hits_in_range": 2, "alt_hits": 2, "identical": true}
+B=26 K=2 SL=21 CL=31 J=6 S=7722894400 T=35873 roots=25 chunks=2000 done=0 filters=0
+{"chunks": 5, "hits_filtered": 0, "hits_unfiltered": 0, "lane_steps_unfiltered": 692608082425, "identical": true}

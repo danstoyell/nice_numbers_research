@@ -1,2 +1,8 @@
 === k=2 b=25 start Sun Sep 27 15:01:54 PDT 2026 threads=4
 B=25 K=2 SL=20 CL=30 J=5 S=234375000 T=267744 roots=6 chunks=2000 done=0 filters=1
+", "78887689078884", "79633178960084", "80534322911879", "80838809858252", "82017148716356", "84391830608172", "87586680031464", "89559467220324", "94635607765248"], "python_verified": true, "done_chunks": "all", "m0_expected_full": 39.07170312392136, "m0_expected_covered": 39.07170312392136, "wall_seconds_last_invocation": 9959.366654625046, "log": "attack/p3-analogues/logs/k2_b25_j5_c2000.log"}
+=== k=2 b=25 end Sun Sep 27 18:23:53 PDT 2026
+=== k=2 b=26 start Sun Sep 27 18:23:53 PDT 2026 threads=4
+B=26 K=2 SL=21 CL=31 J=6 S=7722894400 T=35873 roots=6 chunks=2000 done=0 filters=1
+619600905", "364028145802774", "369845280684885", "371879614928535", "380571854379460", "398497697197055", "412941821606445", "413348987039540", "415318999268115"], "python_verified": true, "done_chunks": "all", "m0_expected_full": 49.50351503121068, "m0_expected_covered": 49.50351503121068, "wall_seconds_last_invocation": 48535.278043875005, "log": "attack/p3-analogues/logs/k2_b26_j6_c2000.log"}
+=== k=2 b=26 end Tue Sep 29 17:45:22 PDT 2026

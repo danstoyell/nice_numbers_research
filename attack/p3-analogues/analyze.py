@@ -128,6 +128,46 @@ def fit_trend(obs, lam, x):
             "meaning": "ratio(p) = scale * 10^(beta*(log10 p - xbar)); obstruction => beta > 0"}
 
 
+def fit_common_slope(groups):
+    """Common slope beta, separate scale per group (e.g. per k). groups: list of (obs, lam, x)."""
+    gs = []
+    allx = np.concatenate([np.asarray(x, float) for _, _, x in groups])
+    alll = np.concatenate([np.asarray(l, float) for _, l, _ in groups])
+    xbar = float(np.average(allx, weights=alll))
+    for o, l, x in groups:
+        gs.append((np.asarray(o, float), np.asarray(l, float), np.asarray(x, float) - xbar))
+
+    def prof_nll(b):
+        tot = 0.0
+        for o, l, xc in gs:
+            a = math.log(o.sum() / np.sum(l * np.exp(b * xc)))
+            mu = l * np.exp(a + b * xc)
+            tot += float(np.sum(mu - o * np.log(mu)))
+        return tot
+    grid = np.linspace(-1, 1, 4001)
+    vals = np.array([prof_nll(b) for b in grid])
+    i = int(vals.argmin())
+    lo_b, hi_b = grid[max(i - 2, 0)], grid[min(i + 2, len(grid) - 1)]
+    for _ in range(100):  # golden-section refine
+        m1, m2 = lo_b + (hi_b - lo_b) * 0.382, lo_b + (hi_b - lo_b) * 0.618
+        if prof_nll(m1) < prof_nll(m2):
+            hi_b = m2
+        else:
+            lo_b = m1
+    b = (lo_b + hi_b) / 2
+    best = prof_nll(b)
+    d = lambda bb: prof_nll(bb) - best
+    h = 1e-4
+    se = 1 / math.sqrt((d(b + h) - 2 * d(b) + d(b - h)) / h ** 2)
+    ci = [float(grid[np.where((vals - best) < 1.92)[0].min()]), float(grid[np.where((vals - best) < 1.92)[0].max()])]
+    z = b / se
+    scales = [float(o.sum() / np.sum(l * np.exp(b * xc))) for o, l, xc in gs]
+    return {"xbar_log10p": xbar, "slope_beta": b, "slope_se": se, "slope_95ci_grid": ci,
+            "scale_per_group_at_xbar": scales, "slope_per_decade_note": "mu = E * scale_k * exp(beta*(log10p - xbar))",
+            "lr_p_beta_eq_0": math.erfc(math.sqrt(max(2 * d(0.0), 0) / 2)),
+            "one_sided_p_beta_gt_0": 0.5 * math.erfc(z / math.sqrt(2))}
+
+
 def poisson_ratio_ci(o, e):
     """Exact (Garwood) 95% CI for obs/exp."""
     def inv_upper(target, lo, hi):  # find lam with P(X>=o | lam) = target
@@ -184,11 +224,45 @@ def main():
             rs = [r for r in table if sel(r) and r[key] > 0]  # M1e undefined for the tiniest bases
             fits[f"{name}_{mname}"] = fit_trend([r["observed"] for r in rs], [r[key] for r in rs],
                                                 [r["log10_p"] for r in rs])
+    for mname, key in (("M0", "m0_expected"), ("M1e", "m1e_expected")):
+        groups = []
+        for kk in (2, 3):
+            rs = [r for r in table if r["k"] == kk and r[key] > 0]
+            groups.append(([r["observed"] for r in rs], [r[key] for r in rs], [r["log10_p"] for r in rs]))
+        fits[f"all_{mname}_scale_per_k"] = fit_common_slope(groups)
+    # robustness: rare regime only, and out-of-sample test (fit old data, predict new bases)
+    robust = {}
+    for mname, key in (("M0", "m0_expected"), ("M1e", "m1e_expected")):
+        for label, sel in (("p_below_1e-7", lambda r: r["p_per_candidate"] < 1e-7),
+                           ("E_at_least_1", lambda r, key=key: r[key] >= 1),
+                           ("old_only", lambda r: not r["new"])):
+            groups = []
+            for kk in (2, 3):
+                rs = [r for r in table if r["k"] == kk and r[key] > 0 and sel(r)]
+                groups.append(([r["observed"] for r in rs], [r[key] for r in rs], [r["log10_p"] for r in rs]))
+            robust[f"{mname}_scale_per_k_{label}"] = fit_common_slope(groups)
+        f = robust[f"{mname}_scale_per_k_old_only"]
+        pred = []
+        for r in table:
+            if not r["new"]:
+                continue
+            sc = f["scale_per_group_at_xbar"][r["k"] - 2]
+            mu = r[key] * sc * math.exp(f["slope_beta"] * (r["log10_p"] - f["xbar_log10p"]))
+            pred.append({"k": r["k"], "base": r["base"], "observed": r["observed"], "predicted_by_old_trend": mu,
+                         "flat_model": r[key]})
+        o = sum(p["observed"] for p in pred)
+        mu = sum(p["predicted_by_old_trend"] for p in pred)
+        robust[f"{mname}_out_of_sample"] = {"rows": pred, "observed": o, "predicted_by_old_trend": mu,
+                                             "flat_model": sum(p["flat_model"] for p in pred),
+                                             "p_ge_obs_under_old_trend": tails(o, mu)[1]}
+    fits["robustness"] = robust
     # pooled comparison: rare regime vs earlier
     pooled = {}
     for label, sel in (("previously_tested", lambda r: not r["new"]), ("new_bases", lambda r: r["new"]),
                        ("p_below_1e-10", lambda r: r["p_per_candidate"] < 1e-10),
-                       ("p_below_1e-12", lambda r: r["p_per_candidate"] < 1e-12)):
+                       ("p_below_1e-12", lambda r: r["p_per_candidate"] < 1e-12),
+                       ("new_k2", lambda r: r["new"] and r["k"] == 2),
+                       ("new_k3", lambda r: r["new"] and r["k"] == 3)):
         rs = [r for r in table if sel(r) and r["m0_expected"] > 0]
         o, e = sum(r["observed"] for r in rs), sum(r["m0_expected"] for r in rs)
         e1 = sum(r["m1e_expected"] for r in rs)
@@ -197,11 +271,14 @@ def main():
                          "ratio": o / e if e else None, "ratio_95ci": poisson_ratio_ci(o, e) if e else None,
                          "p_le_obs": lo_t, "p_ge_obs": hi_t, "m1e_expected": e1,
                          "ratio_m1e": o / e1 if e1 else None,
-                         "m1e_p_le_obs": tails(o, e1)[0] if e1 else None}
+                         "m1e_p_le_obs": tails(o, e1)[0] if e1 else None,
+                         "m1e_p_ge_obs": tails(o, e1)[1] if e1 else None,
+                         "ratio_m1e_95ci": poisson_ratio_ci(o, e1) if e1 else None}
     # What slope would an obstruction need? Extrapolate ratio(p) = 10^(beta*(log10 p - xbar)) (scale 1)
     # to the nice-number (k = 1) model and ask for < 1 expected second nice number in bases 58..Bmax.
     reach = json.loads((ROOT / "critique" / "results" / "reachability.json").read_text())["rows"]
-    xbar = fits["all_M0"]["xbar_log10p"]
+    ref = fits["all_M1e"]
+    xbar = ref["xbar_log10p"]
     needed = {}
     for bmax in (100, 150, 200, 300, 600):
         rs = [r for r in reach if 58 <= r["base"] <= bmax and r["expected_nice"] > 0]
@@ -218,9 +295,10 @@ def main():
             else:
                 hi_b = mid
         beta_need = (lo_b + hi_b) / 2
-        f = fits["all_M0"]
+        f = ref
         needed[str(bmax)] = {"model_expected_58_to_bmax": total(0.0), "beta_needed": beta_need,
-                             "z_of_needed_vs_fit": (beta_need - f["slope_beta"]) / f["slope_se"]}
+                             "log10p_range_58_to_bmax": [float(lp.min()), float(lp.max())],
+                             "z_of_needed_vs_M1e_fit": (beta_need - f["slope_beta"]) / f["slope_se"]}
     # Calibration extras (k = 4, 5 at small bases; not part of the pre-registered fit)
     extras = []
     for f in sorted((HERE / "results").glob("extra_k*_b*.json")):
@@ -235,8 +313,10 @@ def main():
                        "ratio_m1e": o / e1 if e1 else None,
                        "z_m1e": (o - e1) / math.sqrt(e1) if e1 else None})
         print("extra", json.dumps(extras[-1]))
+    nm = json.loads((HERE / "results" / "nearmiss.json").read_text()) if (HERE / "results" / "nearmiss.json").exists() else {}
+    depth = json.loads((HERE / "results" / "m1e_depth34.json").read_text()) if (HERE / "results" / "m1e_depth34.json").exists() else {}
     out = {"table": table, "fits": fits, "pooled": pooled, "beta_needed_for_uniqueness": needed,
-           "calibration_extras": extras}
+           "calibration_extras": extras, "nearmiss_calibration": nm, "m1e_depth_3_4": depth}
     print("beta needed", json.dumps(needed))
     (HERE / "results" / "analysis.json").write_text(json.dumps(out, indent=1) + "\n")
     print(f"{'k':>2} {'b':>3} {'log10p':>7} {'M0 exp':>9} {'M1e exp':>9} {'obs':>5} {'ratio':>6} {'P(<=)':>7} {'P(>=)':>7}  new")

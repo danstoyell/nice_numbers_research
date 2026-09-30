@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/danstoyell/Desktop/projects/nicenumbers/attack/d1-quasi-nice/nearmiss_model12.py", line 124, in <module>
+    main()
+    ~~~~^^
+  File "/Users/danstoyell/Desktop/projects/nicenumbers/attack/d1-quasi-nice/nearmiss_model12.py", line 110, in main
+    pc, pu = dp_probs(n, b, s, c, args.A, args.J)
+             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/danstoyell/Desktop/projects/nicenumbers/attack/d1-quasi-nice/nearmiss_model12.py", line 68, in dp_probs
+    logw = math.lgamma(m + 1) - m * math.log(b)
+           ~~~~~~~~~~~^^^^^^^
+ValueError: expected a noninteger or positive integer, got 0.0

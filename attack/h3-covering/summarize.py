@@ -53,7 +53,7 @@ fails = [r for r in cd if not r["equal"]]
 bs1 = sorted(r["b"] for r in cd if r["M"] == r["b"] + 1)
 bs2 = sorted(r["b"] for r in cd if r["M"] == r["b"] ** 2 - 1)
 cond = sorted(r["b"] for r in cd if r["M"] == r["b"] + 1 and r["theorem_condition_holds"])
-out.append(f"**Class DP (`class_dp.py`)**: M = b+1 for b = {bs1[0]}–{bs1[-1]} and M = b²−1 for b = {bs2[0]}–{bs2[-1]}: {len(fails)} failures. The sufficient condition of Theorem 1 holds for b in {{{', '.join(map(str, cond))}}} (and, by the Corollary, for every larger b).")
+out.append(f"**Class DP (`class_dp.py`)**: M = b+1 for b = {bs1[0]}–{bs1[-1]} and M = b²−1 for b = {bs2[0]}–{bs2[-1]}: {len(fails)} failures. The sufficient condition of Theorem 1 holds for b in {{{', '.join(map(str, cond))}}} (and, by the Corollary, for every larger b). Bases ≡ 1 (mod 5) have no nice-number interval; for them class_dp.py uses s = round(2b/5).")
 text = "\n".join(out)
 rep = here / "REPORT.md"
 src = rep.read_text()

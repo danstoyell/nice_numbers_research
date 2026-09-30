@@ -1,0 +1,971 @@
+[
+ {
+  "case": "nice-25",
+  "kind": "nice",
+  "base": 25,
+  "N": 6425828,
+  "L": 5,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 803,
+   "visits": 636225,
+   "mask_rejects": 274799,
+   "full_checks": 361426,
+   "full_digits": 1170691,
+   "ops": 998454,
+   "cert_per_visit": 2.0353,
+   "doms_per_visit": 4.5114,
+   "leaf_n": 6114527
+  },
+  "p1_join_best": {
+   "t": 4,
+   "k": 4,
+   "o": 3,
+   "ops": 1207922,
+   "matches": 768393,
+   "survivors": 56004
+  },
+  "p1_join_min_ops": {
+   "t": 4,
+   "k": 4,
+   "ops": 1207922
+  },
+  "gain_vs_p1_best": 0.8265881406249741,
+  "gain_vs_p1_min": 0.8265881406249741,
+  "full_check_ratio_vs_p1_best": 6.453574744661096,
+  "join_ds_best": {
+   "t": 3,
+   "k": 4,
+   "overlap": 2,
+   "partition_digits": 0,
+   "top_calls": 10250,
+   "bottom_calls": 172700,
+   "lookups": 48138,
+   "matches": 285637,
+   "survivors": 54774,
+   "ops": 571499,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 1.7470791724919903,
+  "full_check_ratio_vs_join_ds": 6.598495636615913
+ },
+ {
+  "case": "nice-28",
+  "kind": "nice",
+  "base": 28,
+  "N": 38807894,
+  "L": 6,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 4497,
+   "visits": 2260936,
+   "mask_rejects": 1418530,
+   "full_checks": 842406,
+   "full_digits": 2991740,
+   "ops": 3107839,
+   "cert_per_visit": 3.7403999999999997,
+   "doms_per_visit": 6.193,
+   "leaf_n": 32786799
+  },
+  "p1_join_best": {
+   "t": 5,
+   "k": 4,
+   "o": 3,
+   "ops": 5576137,
+   "matches": 4142273,
+   "survivors": 209760
+  },
+  "p1_join_min_ops": {
+   "t": 5,
+   "k": 4,
+   "ops": 5576137
+  },
+  "gain_vs_p1_best": 0.5573462416723262,
+  "gain_vs_p1_min": 0.5573462416723262,
+  "full_check_ratio_vs_p1_best": 4.016046910755149,
+  "join_ds_best": {
+   "t": 5,
+   "k": 4,
+   "overlap": 3,
+   "partition_digits": 0,
+   "top_calls": 922740,
+   "bottom_calls": 301364,
+   "lookups": 2149688,
+   "matches": 613173,
+   "survivors": 31128,
+   "ops": 4018093,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 0.7734611916648022,
+  "full_check_ratio_vs_join_ds": 27.062644564379337
+ },
+ {
+  "case": "nice-29",
+  "kind": "nice",
+  "base": 29,
+  "N": 83151498,
+  "L": 6,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 8920,
+   "visits": 2472720,
+   "mask_rejects": 1626866,
+   "full_checks": 845854,
+   "full_digits": 3098194,
+   "ops": 3327494,
+   "cert_per_visit": 4.4762,
+   "doms_per_visit": 7.0,
+   "leaf_n": 62241000
+  },
+  "p1_join_best": {
+   "t": 5,
+   "k": 4,
+   "o": 3,
+   "ops": 11528334,
+   "matches": 9021157,
+   "survivors": 436925
+  },
+  "p1_join_min_ops": {
+   "t": 5,
+   "k": 4,
+   "ops": 11528334
+  },
+  "gain_vs_p1_best": 0.28863615505935203,
+  "gain_vs_p1_min": 0.28863615505935203,
+  "full_check_ratio_vs_p1_best": 1.935924929907879,
+  "join_ds_best": {
+   "t": 5,
+   "k": 4,
+   "overlap": 3,
+   "partition_digits": 0,
+   "top_calls": 1657060,
+   "bottom_calls": 413192,
+   "lookups": 1858242,
+   "matches": 644210,
+   "survivors": 31151,
+   "ops": 4603855,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 0.7227625544244985,
+  "full_check_ratio_vs_join_ds": 27.153349812205064
+ },
+ {
+  "case": "nice-30",
+  "kind": "nice",
+  "base": 30,
+  "N": 494386079,
+  "L": 6,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 52327,
+   "visits": 11715266,
+   "mask_rejects": 7649711,
+   "full_checks": 4065555,
+   "full_digits": 15184898,
+   "ops": 15833148,
+   "cert_per_visit": 4.4277,
+   "doms_per_visit": 7.344899999999999,
+   "leaf_n": 368281250
+  },
+  "p1_join_best": {
+   "t": 4,
+   "k": 5,
+   "o": 3,
+   "ops": 51956293,
+   "matches": 41547632,
+   "survivors": 2727611
+  },
+  "p1_join_min_ops": {
+   "t": 5,
+   "k": 5,
+   "ops": 43089384
+  },
+  "gain_vs_p1_best": 0.3047397550090804,
+  "gain_vs_p1_min": 0.36744892895196646,
+  "full_check_ratio_vs_p1_best": 1.490518626006421,
+  "join_ds_best": {
+   "t": 4,
+   "k": 5,
+   "overlap": 3,
+   "partition_digits": 0,
+   "top_calls": 463290,
+   "bottom_calls": 7217760,
+   "lookups": 640548,
+   "matches": 2864457,
+   "survivors": 188541,
+   "ops": 11374596,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 1.3919745369417955,
+  "full_check_ratio_vs_join_ds": 21.56324088659761
+ },
+ {
+  "case": "nice-32",
+  "kind": "nice",
+  "base": 32,
+  "N": 2335175978,
+  "L": 7,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 190054,
+   "visits": 43881254,
+   "mask_rejects": 31931825,
+   "full_checks": 11949429,
+   "full_digits": 47042374,
+   "ops": 56020737,
+   "cert_per_visit": 5.644,
+   "doms_per_visit": 8.0,
+   "leaf_n": 1325859375
+  },
+  "p1_join_best": {
+   "t": 5,
+   "k": 5,
+   "o": 3,
+   "ops": 188981315,
+   "matches": 168315089,
+   "survivors": 7730642
+  },
+  "p1_join_min_ops": {
+   "t": 6,
+   "k": 5,
+   "ops": 140660619
+  },
+  "gain_vs_p1_best": 0.29643532219045043,
+  "gain_vs_p1_min": 0.39826880756155353,
+  "full_check_ratio_vs_p1_best": 1.5457227226406294,
+  "join_ds_best": {
+   "t": 5,
+   "k": 5,
+   "overlap": 3,
+   "partition_digits": 0,
+   "top_calls": 1451776,
+   "bottom_calls": 11483808,
+   "lookups": 1873818,
+   "matches": 10859770,
+   "survivors": 498501,
+   "ops": 26167673,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 2.1408375517379783,
+  "full_check_ratio_vs_join_ds": 23.970722225231242
+ },
+ {
+  "case": "nice-33",
+  "kind": "nice",
+  "base": 33,
+  "N": 3276490807,
+  "L": 7,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 287781,
+   "visits": 173661234,
+   "mask_rejects": 128830900,
+   "full_checks": 44830334,
+   "full_digits": 180676952,
+   "ops": 218779349,
+   "cert_per_visit": 6.0225,
+   "doms_per_visit": 8.6541,
+   "leaf_n": 1988703125
+  },
+  "p1_join_best": {
+   "t": 5,
+   "k": 5,
+   "o": 3,
+   "ops": 318168716,
+   "matches": 288816690,
+   "survivors": 12464639
+  },
+  "p1_join_min_ops": {
+   "t": 6,
+   "k": 5,
+   "ops": 227510739
+  },
+  "gain_vs_p1_best": 0.6876205547499522,
+  "gain_vs_p1_min": 0.9616220753430017,
+  "full_check_ratio_vs_p1_best": 3.596601072842944,
+  "join_ds_best": {
+   "t": 5,
+   "k": 5,
+   "overlap": 3,
+   "partition_digits": 0,
+   "top_calls": 2094972,
+   "bottom_calls": 14792415,
+   "lookups": 6677095,
+   "matches": 45133582,
+   "survivors": 1947382,
+   "ops": 70645446,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 3.0968641488936175,
+  "full_check_ratio_vs_join_ds": 23.020821800756092
+ },
+ {
+  "case": "nice-34",
+  "kind": "nice",
+  "base": 34,
+  "N": 7205172835,
+  "L": 7,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 562058,
+   "visits": 270295949,
+   "mask_rejects": 206325919,
+   "full_checks": 63970030,
+   "full_digits": 264671265,
+   "ops": 334828037,
+   "cert_per_visit": 6.6866,
+   "doms_per_visit": 9.0,
+   "leaf_n": 3858281250
+  },
+  "p1_join_best": {
+   "t": 5,
+   "k": 6,
+   "o": 4,
+   "ops": 632304661,
+   "matches": 277327372,
+   "survivors": 4648531
+  },
+  "p1_join_min_ops": {
+   "t": 6,
+   "k": 5,
+   "ops": 426269616
+  },
+  "gain_vs_p1_best": 0.5295359304650136,
+  "gain_vs_p1_min": 0.7854841734720309,
+  "full_check_ratio_vs_p1_best": 13.761343099572747,
+  "join_ds_best": {
+   "t": 6,
+   "k": 5,
+   "overlap": 4,
+   "partition_digits": 1,
+   "top_calls": 84151360,
+   "bottom_calls": 17990318,
+   "lookups": 176793712,
+   "matches": 38732386,
+   "survivors": 554258,
+   "ops": 318222034,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 1.0521836995108893,
+  "full_check_ratio_vs_join_ds": 115.41561871908029
+ },
+ {
+  "case": "nice-37",
+  "kind": "nice",
+  "base": 37,
+  "N": 221402198268,
+  "L": 8,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 13059651,
+   "visits": 6248561490,
+   "mask_rejects": 4908272831,
+   "full_checks": 1340288659,
+   "full_digits": 5875353795,
+   "ops": 7601909800,
+   "cert_per_visit": 7.7917499178702965,
+   "doms_per_visit": 10.116905289965548,
+   "leaf_n": 88846296875
+  },
+  "p1_join_best": {
+   "t": 6,
+   "k": 6,
+   "o": 4,
+   "ops": 9133778490,
+   "matches": 8248485581,
+   "survivors": 122829543
+  },
+  "p1_join_min_ops": {
+   "t": 7,
+   "k": 6,
+   "ops": 6926880494
+  },
+  "gain_vs_p1_best": 0.8322853251064555,
+  "gain_vs_p1_min": 1.0974506932210977,
+  "full_check_ratio_vs_p1_best": 10.91177762502951,
+  "join_ds_best": {
+   "t": 6,
+   "k": 6,
+   "overlap": 4,
+   "partition_digits": 1,
+   "top_calls": 76967585,
+   "bottom_calls": 685495781,
+   "lookups": 184255348,
+   "matches": 916509288,
+   "survivors": 13654619,
+   "ops": 1876882621,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 4.05028514566868,
+  "full_check_ratio_vs_join_ds": 98.15643036250225
+ },
+ {
+  "case": "nice-38",
+  "kind": "nice",
+  "base": 38,
+  "N": 320642644659,
+  "L": 8,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 19904795,
+   "visits": 4333647150,
+   "mask_rejects": 3448938396,
+   "full_checks": 884708754,
+   "full_digits": 3957688666,
+   "ops": 5238260699,
+   "cert_per_visit": 8.3156866145675,
+   "doms_per_visit": 11.0,
+   "leaf_n": 131790062500
+  },
+  "p1_join_best": {
+   "t": 6,
+   "k": 6,
+   "o": 4,
+   "ops": 13952618872,
+   "matches": 12859291487,
+   "survivors": 187270927
+  },
+  "p1_join_min_ops": {
+   "t": 7,
+   "k": 6,
+   "ops": 10405771176
+  },
+  "gain_vs_p1_best": 0.3754320781679272,
+  "gain_vs_p1_min": 0.5033995664907172,
+  "full_check_ratio_vs_p1_best": 4.7242183726681715,
+  "join_ds_best": {
+   "t": 6,
+   "k": 6,
+   "overlap": 4,
+   "partition_digits": 1,
+   "top_calls": 113680686,
+   "bottom_calls": 792375772,
+   "lookups": 135141600,
+   "matches": 695109574,
+   "survivors": 10124424,
+   "ops": 1746432056,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 2.999407094598131,
+  "full_check_ratio_vs_join_ds": 87.38361352705103
+ },
+ {
+  "case": "nice-40",
+  "kind": "nice",
+  "base": 40,
+  "N": 4637315735084,
+  "L": 8,
+  "solutions_found": 0,
+  "solutions_known": 0,
+  "client": {
+   "analyses": 253296074,
+   "visits": 91473070457,
+   "mask_rejects": 74796295132,
+   "full_checks": 16676775325,
+   "full_digits": 77501413879,
+   "ops": 108403141856,
+   "cert_per_visit": 9.23318660714837,
+   "doms_per_visit": 12.0,
+   "leaf_n": 1584827234375
+  },
+  "p1_join_best": {
+   "t": 6,
+   "k": 7,
+   "o": 5,
+   "ops": 108738062426,
+   "matches": 83395908751,
+   "survivors": 522663395
+  },
+  "p1_join_min_ops": {
+   "t": 6,
+   "k": 7,
+   "ops": 108738062426
+  },
+  "gain_vs_p1_best": 0.9969199325192324,
+  "gain_vs_p1_min": 0.9969199325192324,
+  "full_check_ratio_vs_p1_best": 31.90729537315312,
+  "join_ds_best": {
+   "t": 6,
+   "k": 7,
+   "overlap": 5,
+   "partition_digits": 2,
+   "top_calls": 1926474040,
+   "bottom_calls": 22893016240,
+   "lookups": 3309217508,
+   "matches": 8553374425,
+   "survivors": 53612529,
+   "ops": 36735694742,
+   "hits": 0
+  },
+  "gain_vs_join_ds": 2.950894017857309,
+  "full_check_ratio_vs_join_ds": 311.0611574581755
+ },
+ {
+  "case": "twice-15",
+  "kind": "twice",
+  "base": 15,
+  "N": 6771952,
+  "L": 6,
+  "solutions_found": 1,
+  "solutions_known": 1,
+  "client": {
+   "analyses": 885,
+   "visits": 1631788,
+   "mask_rejects": 380862,
+   "full_checks": 1250926,
+   "full_digits": 8581065,
+   "ops": 2883599,
+   "cert_per_visit": 3.0601000000000003,
+   "doms_per_visit": 6.0,
+   "leaf_n": 6704517
+  },
+  "p1_join_best": {
+   "t": 5,
+   "k": 5,
+   "o": 4,
+   "ops": 4649898,
+   "matches": 3180704,
+   "survivors": 419284
+  },
+  "p1_join_min_ops": {
+   "t": 5,
+   "k": 5,
+   "ops": 4649898
+  },
+  "gain_vs_p1_best": 0.6201424203283599,
+  "gain_vs_p1_min": 0.6201424203283599,
+  "full_check_ratio_vs_p1_best": 2.983481363467244,
+  "join_ds_best": {
+   "t": 4,
+   "k": 5,
+   "overlap": 3,
+   "partition_digits": 0,
+   "top_calls": 31515,
+   "bottom_calls": 603735,
+   "lookups": 110576,
+   "matches": 1032948,
+   "survivors": 273022,
+   "ops": 2051796,
+   "hits": 1
+  },
+  "gain_vs_join_ds": 1.4054023889314533,
+  "full_check_ratio_vs_join_ds": 4.581777292672386
+ },
+ {
+  "case": "twice-16",
+  "kind": "twice",
+  "base": 16,
+  "N": 25498720,
+  "L": 7,
+  "solutions_found": 1,
+  "solutions_known": 1,
+  "client": {
+   "analyses": 3146,
+   "visits": 5125651,
+   "mask_rejects": 1520142,
+   "full_checks": 3605509,
+   "full_digits": 26545560,
+   "ops": 8734306,
+   "cert_per_visit": 3.9680000000000004,
+   "doms_per_visit": 6.631899999999999,
+   "leaf_n": 24404970
+  },
+  "p1_join_best": {
+   "t": 6,
+   "k": 5,
+   "o": 4,
+   "ops": 13664510,
+   "matches": 10283673,
+   "survivors": 1152405
+  },
+  "p1_join_min_ops": {
+   "t": 6,
+   "k": 5,
+   "ops": 13664510
+  },
+  "gain_vs_p1_best": 0.639196429290183,
+  "gain_vs_p1_min": 0.639196429290183,
+  "full_check_ratio_vs_p1_best": 3.1286821907228797,
+  "join_ds_best": {
+   "t": 6,
+   "k": 5,
+   "overlap": 4,
+   "partition_digits": 0,
+   "top_calls": 1447728,
+   "bottom_calls": 780704,
+   "lookups": 4567976,
+   "matches": 2743007,
+   "survivors": 307061,
+   "ops": 9846476,
+   "hits": 1
+  },
+  "gain_vs_join_ds": 0.8870489299928218,
+  "full_check_ratio_vs_join_ds": 11.741995890067447
+ },
+ {
+  "case": "twice-17",
+  "kind": "twice",
+  "base": 17,
+  "N": 60063526,
+  "L": 7,
+  "solutions_found": 1,
+  "solutions_known": 1,
+  "client": {
+   "analyses": 7541,
+   "visits": 16238914,
+   "mask_rejects": 5175411,
+   "full_checks": 11063503,
+   "full_digits": 89314544,
+   "ops": 27309958,
+   "cert_per_visit": 4.9344,
+   "doms_per_visit": 7.4494,
+   "leaf_n": 58797901
+  },
+  "p1_join_best": {
+   "t": 6,
+   "k": 5,
+   "o": 4,
+   "ops": 36334762,
+   "matches": 28768726,
+   "survivors": 3128628
+  },
+  "p1_join_min_ops": {
+   "t": 6,
+   "k": 5,
+   "ops": 36334762
+  },
+  "gain_vs_p1_best": 0.7516206656314414,
+  "gain_vs_p1_min": 0.7516206656314414,
+  "full_check_ratio_vs_p1_best": 3.5362155551890475,
+  "join_ds_best": {
+   "t": 6,
+   "k": 5,
+   "overlap": 4,
+   "partition_digits": 0,
+   "top_calls": 3225393,
+   "bottom_calls": 1212015,
+   "lookups": 12601940,
+   "matches": 8990540,
+   "survivors": 976799,
+   "ops": 27006687,
+   "hits": 1
+  },
+  "gain_vs_join_ds": 1.0112294780918518,
+  "full_check_ratio_vs_join_ds": 11.326284117817483
+ },
+ {
+  "case": "twice-19",
+  "kind": "twice",
+  "base": 19,
+  "N": 1511087756,
+  "L": 8,
+  "solutions_found": 4,
+  "solutions_known": 4,
+  "client": {
+   "analyses": 183506,
+   "visits": 562551468,
+   "mask_rejects": 212991026,
+   "full_checks": 349560442,
+   "full_digits": 3120851641,
+   "ops": 912295416,
+   "cert_per_visit": 6.8462,
+   "doms_per_visit": 9.6906,
+   "leaf_n": 1403671875
+  },
+  "p1_join_best": {
+   "t": 6,
+   "k": 6,
+   "o": 4,
+   "ops": 824313595,
+   "matches": 703181961,
+   "survivors": 81107184
+  },
+  "p1_join_min_ops": {
+   "t": 7,
+   "k": 6,
+   "ops": 715450164
+  },
+  "gain_vs_p1_best": 1.1067334343794244,
+  "gain_vs_p1_min": 1.2751348198726529,
+  "full_check_ratio_vs_p1_best": 4.309857952903408,
+  "join_ds_best": {
+   "t": 6,
+   "k": 6,
+   "overlap": 4,
+   "partition_digits": 0,
+   "top_calls": 4013636,
+   "bottom_calls": 36010814,
+   "lookups": 26791880,
+   "matches": 312525556,
+   "survivors": 36054692,
+   "ops": 415396578,
+   "hits": 4
+  },
+  "gain_vs_join_ds": 2.196203494001821,
+  "full_check_ratio_vs_join_ds": 9.695282988411051
+ },
+ {
+  "case": "twice-20",
+  "kind": "twice",
+  "base": 20,
+  "N": 16168879363,
+  "L": 8,
+  "solutions_found": 4,
+  "solutions_known": 4,
+  "client": {
+   "analyses": 1900225,
+   "visits": 1322196625,
+   "mask_rejects": 560037095,
+   "full_checks": 762159530,
+   "full_digits": 7036300209,
+   "ops": 2086256380,
+   "cert_per_visit": 7.7009,
+   "doms_per_visit": 10.042,
+   "leaf_n": 14498203125
+  },
+  "p1_join_best": {
+   "t": 6,
+   "k": 7,
+   "o": 5,
+   "ops": 6588192974,
+   "matches": 5422254508,
+   "survivors": 355866606
+  },
+  "p1_join_min_ops": {
+   "t": 7,
+   "k": 7,
+   "ops": 6027456621
+  },
+  "gain_vs_p1_best": 0.3166659489534254,
+  "gain_vs_p1_min": 0.3461254905977033,
+  "full_check_ratio_vs_p1_best": 2.141700056003569,
+  "join_ds_best": {
+   "t": 6,
+   "k": 7,
+   "overlap": 5,
+   "partition_digits": 1,
+   "top_calls": 37842080,
+   "bottom_calls": 772229780,
+   "lookups": 63015614,
+   "matches": 570771753,
+   "survivors": 37455837,
+   "ops": 1481315064,
+   "hits": 4
+  },
+  "gain_vs_join_ds": 1.408381262502303,
+  "full_check_ratio_vs_join_ds": 20.348217822498533
+ },
+ {
+  "case": "twice-21",
+  "kind": "twice",
+  "base": 21,
+  "N": 66527541750,
+  "L": 9,
+  "solutions_found": 5,
+  "solutions_known": 5,
+  "client": {
+   "analyses": 7316880,
+   "visits": 14715090735,
+   "mask_rejects": 6755330798,
+   "full_checks": 7959759937,
+   "full_digits": 78143682718,
+   "ops": 22682167552,
+   "cert_per_visit": 8.828057559363014,
+   "doms_per_visit": 11.517178285172367,
+   "leaf_n": 54722906250
+  },
+  "p1_join_best": {
+   "t": 8,
+   "k": 7,
+   "o": 6,
+   "ops": 21863916323,
+   "matches": 17703293541,
+   "survivors": 419584880
+  },
+  "p1_join_min_ops": {
+   "t": 8,
+   "k": 7,
+   "ops": 21863916323
+  },
+  "gain_vs_p1_best": 1.0374247329212118,
+  "gain_vs_p1_min": 1.0374247329212118,
+  "full_check_ratio_vs_p1_best": 18.970559513488666,
+  "join_ds_best": {
+   "t": 8,
+   "k": 7,
+   "overlap": 6,
+   "partition_digits": 2,
+   "top_calls": 2562874272,
+   "bottom_calls": 1178163630,
+   "lookups": 10498478202,
+   "matches": 5310974528,
+   "survivors": 125868560,
+   "ops": 19676359192,
+   "hits": 5
+  },
+  "gain_vs_join_ds": 1.1527624257450078,
+  "full_check_ratio_vs_join_ds": 63.23866688393035
+ },
+ {
+  "case": "twice-22",
+  "kind": "twice",
+  "base": 22,
+  "N": 173463110963,
+  "L": 9,
+  "solutions_found": 5,
+  "solutions_known": 5,
+  "client": {
+   "analyses": 19145104,
+   "visits": 24834360792,
+   "mask_rejects": 11845790864,
+   "full_checks": 12988569928,
+   "full_digits": 131930885084,
+   "ops": 37842075824,
+   "cert_per_visit": 9.709343238797269,
+   "doms_per_visit": 12.714466460664006,
+   "leaf_n": 142887109375
+  },
+  "p1_join_best": {
+   "t": 8,
+   "k": 7,
+   "o": 6,
+   "ops": 57102630005,
+   "matches": 47926554416,
+   "survivors": 1120191423
+  },
+  "p1_join_min_ops": {
+   "t": 8,
+   "k": 7,
+   "ops": 57102630005
+  },
+  "gain_vs_p1_best": 0.6627028531030267,
+  "gain_vs_p1_min": 0.6627028531030267,
+  "full_check_ratio_vs_p1_best": 11.594955702495144,
+  "join_ds_best": {
+   "t": 8,
+   "k": 7,
+   "overlap": 6,
+   "partition_digits": 2,
+   "top_calls": 6368277080,
+   "bottom_calls": 1687607086,
+   "lookups": 17130612208,
+   "matches": 9128832182,
+   "survivors": 213363628,
+   "ops": 34528692184,
+   "hits": 5
+  },
+  "gain_vs_join_ds": 1.0959602994038495,
+  "full_check_ratio_vs_join_ds": 60.875276867714305
+ },
+ {
+  "case": "thrice-13",
+  "kind": "thrice",
+  "base": 13,
+  "N": 120679425,
+  "L": 8,
+  "solutions_found": 16,
+  "solutions_known": 16,
+  "client": {
+   "analyses": 15319,
+   "visits": 18327165,
+   "mask_rejects": 2951666,
+   "full_checks": 15375499,
+   "full_digits": 197072816,
+   "ops": 33717983,
+   "cert_per_visit": 6.3604,
+   "doms_per_visit": 9.0,
+   "leaf_n": 119835675
+  },
+  "p1_join_best": {
+   "t": 7,
+   "k": 7,
+   "o": 6,
+   "ops": 145130339,
+   "matches": 74060099,
+   "survivors": 6952095
+  },
+  "p1_join_min_ops": {
+   "t": 7,
+   "k": 6,
+   "ops": 111854263
+  },
+  "gain_vs_p1_best": 0.23232897568026764,
+  "gain_vs_p1_min": 0.30144566774357096,
+  "full_check_ratio_vs_p1_best": 2.2116353415768915,
+  "join_ds_best": {
+   "t": 7,
+   "k": 6,
+   "overlap": 5,
+   "partition_digits": 0,
+   "top_calls": 9480380,
+   "bottom_calls": 4525131,
+   "lookups": 16129810,
+   "matches": 13955596,
+   "survivors": 2356104,
+   "ops": 46447021,
+   "hits": 16
+  },
+  "gain_vs_join_ds": 0.7259450073235052,
+  "full_check_ratio_vs_join_ds": 6.5258150743770225
+ },
+ {
+  "case": "thrice-14",
+  "kind": "thrice",
+  "base": 14,
+  "N": 2081072521,
+  "L": 9,
+  "solutions_found": 38,
+  "solutions_known": 38,
+  "client": {
+   "analyses": 257792,
+   "visits": 284709757,
+   "mask_rejects": 52405329,
+   "full_checks": 232304428,
+   "full_digits": 3176253580,
+   "ops": 517271977,
+   "cert_per_visit": 7.610099999999999,
+   "doms_per_visit": 10.0552,
+   "leaf_n": 2013514075
+  },
+  "p1_join_best": {
+   "t": 7,
+   "k": 8,
+   "o": 6,
+   "ops": 2496118201,
+   "matches": 1178711682,
+   "survivors": 127861365
+  },
+  "p1_join_min_ops": {
+   "t": 8,
+   "k": 7,
+   "ops": 1622070430
+  },
+  "gain_vs_p1_best": 0.20723056175495594,
+  "gain_vs_p1_min": 0.3188961264770729,
+  "full_check_ratio_vs_p1_best": 1.8168461442594486,
+  "join_ds_best": {
+   "t": 8,
+   "k": 7,
+   "overlap": 6,
+   "partition_digits": 1,
+   "top_calls": 144290720,
+   "bottom_calls": 93262568,
+   "lookups": 244485892,
+   "matches": 193731245,
+   "survivors": 19269268,
+   "ops": 695039693,
+   "hits": 38
+  },
+  "gain_vs_join_ds": 0.7442337210516695,
+  "full_check_ratio_vs_join_ds": 12.055695525123216
+ }
+]

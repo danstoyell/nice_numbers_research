@@ -1,0 +1,12 @@
+[package]
+name = "join_proto"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nice_common = { path = "../nice-client/common" }
+
+[profile.release]
+opt-level = 3
+
+[workspace]

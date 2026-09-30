@@ -1,0 +1,855 @@
+{
+ "join_model": [
+  {
+   "case": "nice-25",
+   "rates": "analytic",
+   "t": 4,
+   "k": 4,
+   "measured": {
+    "top_calls": 210825,
+    "bottom_calls": 172700,
+    "lookups": 809850,
+    "matches": 192012,
+    "survivors": 13974,
+    "total": 1399361
+   },
+   "model": {
+    "top_calls": 210051.57819392,
+    "bottom_calls": 216788.2,
+    "lookups": 805473.6616842856,
+    "matches": 189836.69398822208,
+    "survivors": 13266.058299256001,
+    "total": 1435416.1921656837
+   },
+   "ratio": {
+    "top_calls": 1.0036820566297577,
+    "bottom_calls": 0.7966300748841496,
+    "lookups": 1.0054332481915835,
+    "matches": 1.011458827932986,
+    "survivors": 1.053364886899653,
+    "total": 0.974881715587111
+   }
+  },
+  {
+   "case": "nice-25",
+   "rates": "analytic",
+   "t": 3,
+   "k": 4,
+   "measured": {
+    "top_calls": 10250,
+    "bottom_calls": 172700,
+    "lookups": 48138,
+    "matches": 285637,
+    "survivors": 54774,
+    "total": 571499
+   },
+   "model": {
+    "top_calls": 10281.3248,
+    "bottom_calls": 216788.2,
+    "lookups": 47944.8608145408,
+    "matches": 282495.08033961616,
+    "survivors": 53149.27203227562,
+    "total": 610658.7379864326
+   },
+   "ratio": {
+    "top_calls": 0.9969532331086359,
+    "bottom_calls": 0.7966300748841496,
+    "lookups": 1.0040283605412121,
+    "matches": 1.0111220331929556,
+    "survivors": 1.0305691480917696,
+    "total": 0.9358729589040898
+   }
+  },
+  {
+   "case": "nice-28",
+   "rates": "analytic",
+   "t": 5,
+   "k": 4,
+   "measured": {
+    "top_calls": 922740,
+    "bottom_calls": 301364,
+    "lookups": 2149688,
+    "matches": 613173,
+    "survivors": 31128,
+    "total": 4018093
+   },
+   "model": {
+    "top_calls": 821509.5025341867,
+    "bottom_calls": 364319.71428571426,
+    "lookups": 1838967.2291143318,
+    "matches": 515441.1996307835,
+    "survivors": 20890.583785776154,
+    "total": 3561128.2293507922
+   },
+   "ratio": {
+    "top_calls": 1.1232249866295376,
+    "bottom_calls": 0.8271965204816178,
+    "lookups": 1.1689648221927886,
+    "matches": 1.1896080492580394,
+    "survivors": 1.4900493121304839,
+    "total": 1.1283202235973722
+   }
+  },
+  {
+   "case": "nice-28",
+   "rates": "analytic",
+   "t": 4,
+   "k": 5,
+   "measured": {
+    "top_calls": 44464,
+    "bottom_calls": 5038992,
+    "lookups": 125468,
+    "matches": 485309,
+    "survivors": 31436,
+    "total": 5725669
+   },
+   "model": {
+    "top_calls": 41341.5871523491,
+    "bottom_calls": 6073084.000000001,
+    "lookups": 111452.55934026251,
+    "matches": 423955.9650642809,
+    "survivors": 20890.583785776154,
+    "total": 6670724.695342669
+   },
+   "ratio": {
+    "top_calls": 1.0755271643573916,
+    "bottom_calls": 0.8297253915802909,
+    "lookups": 1.1257525241475042,
+    "matches": 1.1447155836725087,
+    "survivors": 1.5047927967146586,
+    "total": 0.858327882126138
+   }
+  },
+  {
+   "case": "nice-29",
+   "rates": "analytic",
+   "t": 4,
+   "k": 5,
+   "measured": {
+    "top_calls": 81026,
+    "bottom_calls": 7279319,
+    "lookups": 108692,
+    "matches": 545962,
+    "survivors": 31510,
+    "total": 8046509
+   },
+   "model": {
+    "top_calls": 83094.1384369057,
+    "bottom_calls": 7522965.489892984,
+    "lookups": 113700.00448074518,
+    "matches": 568942.3827446614,
+    "survivors": 32496.62062361195,
+    "total": 8321198.636178908
+   },
+   "ratio": {
+    "top_calls": 0.9751108986047666,
+    "bottom_calls": 0.9676129725411714,
+    "lookups": 0.9559542279385462,
+    "matches": 0.9596085940481343,
+    "survivors": 0.9696392854186483,
+    "total": 0.9669891744940913
+   }
+  },
+  {
+   "case": "nice-29",
+   "rates": "analytic",
+   "t": 5,
+   "k": 4,
+   "measured": {
+    "top_calls": 1657060,
+    "bottom_calls": 413192,
+    "lookups": 1858242,
+    "matches": 644210,
+    "survivors": 31151,
+    "total": 4603855
+   },
+   "model": {
+    "top_calls": 1731744.203407711,
+    "bottom_calls": 427172.86206896557,
+    "lookups": 1983869.043698519,
+    "matches": 685440.1087352347,
+    "survivors": 32496.62062361195,
+    "total": 4860722.838534042
+   },
+   "ratio": {
+    "top_calls": 0.9568734208777786,
+    "bottom_calls": 0.9672711838452219,
+    "lookups": 0.9366757376967216,
+    "matches": 0.9398487071156195,
+    "survivors": 0.9585919828650051,
+    "total": 0.9471543951245919
+   }
+  },
+  {
+   "case": "nice-30",
+   "rates": "analytic",
+   "t": 5,
+   "k": 5,
+   "measured": {
+    "top_calls": 10071510,
+    "bottom_calls": 7217760,
+    "lookups": 11678094,
+    "matches": 1740261,
+    "survivors": 38393,
+    "total": 30746018
+   },
+   "model": {
+    "top_calls": 10128689.017023703,
+    "bottom_calls": 9238212.0,
+    "lookups": 11854914.306000197,
+    "matches": 1717786.8415541463,
+    "survivors": 36971.19105926964,
+    "total": 32976573.355637316
+   },
+   "ratio": {
+    "top_calls": 0.994354746509879,
+    "bottom_calls": 0.7812940426134408,
+    "lookups": 0.9850846407290602,
+    "matches": 1.013083205612124,
+    "survivors": 1.038457212223729,
+    "total": 0.9323593955144522
+   }
+  },
+  {
+   "case": "nice-30",
+   "rates": "analytic",
+   "t": 4,
+   "k": 5,
+   "measured": {
+    "top_calls": 463290,
+    "bottom_calls": 7217760,
+    "lookups": 640548,
+    "matches": 2864457,
+    "survivors": 188541,
+    "total": 11374596
+   },
+   "model": {
+    "top_calls": 464356.70234962966,
+    "bottom_calls": 9238212.0,
+    "lookups": 644288.8209782715,
+    "matches": 2800739.415577412,
+    "survivors": 182824.57117221257,
+    "total": 13330421.510077527
+   },
+   "ratio": {
+    "top_calls": 0.9977028384769032,
+    "bottom_calls": 0.7812940426134408,
+    "lookups": 0.9941938757022175,
+    "matches": 1.0227502723274424,
+    "survivors": 1.0312672896817727,
+    "total": 0.8532810452693516
+   }
+  },
+  {
+   "case": "nice-32",
+   "rates": "analytic",
+   "t": 5,
+   "k": 5,
+   "measured": {
+    "top_calls": 1451776,
+    "bottom_calls": 11483808,
+    "lookups": 1873818,
+    "matches": 10859770,
+    "survivors": 498501,
+    "total": 26167673
+   },
+   "model": {
+    "top_calls": 1446591.9112046012,
+    "bottom_calls": 13607599.703125,
+    "lookups": 1759202.7846058456,
+    "matches": 10523533.97207882,
+    "survivors": 319929.11955845007,
+    "total": 27656857.490572717
+   },
+   "ratio": {
+    "top_calls": 1.0035836567004457,
+    "bottom_calls": 0.8439260597416554,
+    "lookups": 1.0651517928445267,
+    "matches": 1.0319508663927237,
+    "survivors": 1.5581607597583045,
+    "total": 0.9461549638790188
+   }
+  },
+  {
+   "case": "nice-32",
+   "rates": "analytic",
+   "t": 6,
+   "k": 5,
+   "measured": {
+    "top_calls": 31432864,
+    "bottom_calls": 11483808,
+    "lookups": 34261592,
+    "matches": 6206684,
+    "survivors": 100803,
+    "total": 83485751
+   },
+   "model": {
+    "top_calls": 29593836.46489813,
+    "bottom_calls": 13607599.703125,
+    "lookups": 30346248.034450836,
+    "matches": 5672842.531823741,
+    "survivors": 56862.40210902139,
+    "total": 79277389.13640673
+   },
+   "ratio": {
+    "top_calls": 1.062142248345637,
+    "bottom_calls": 0.8439260597416554,
+    "lookups": 1.129022341117895,
+    "matches": 1.0941047570387321,
+    "survivors": 1.7727531068197224,
+    "total": 1.0530840118404032
+   }
+  },
+  {
+   "case": "nice-33",
+   "rates": "analytic",
+   "t": 5,
+   "k": 5,
+   "measured": {
+    "top_calls": 2094972,
+    "bottom_calls": 14792415,
+    "lookups": 6677095,
+    "matches": 45133582,
+    "survivors": 1947382,
+    "total": 70645446
+   },
+   "model": {
+    "top_calls": 1936070.65646324,
+    "bottom_calls": 16340640.735537188,
+    "lookups": 5987969.332840116,
+    "matches": 40500216.86453641,
+    "survivors": 1430250.6635418325,
+    "total": 66195148.25291879
+   },
+   "ratio": {
+    "top_calls": 1.0820741448698141,
+    "bottom_calls": 0.9052530582738932,
+    "lookups": 1.1150850361541564,
+    "matches": 1.114403464824919,
+    "survivors": 1.3615669264418016,
+    "total": 1.0672299687293922
+   }
+  },
+  {
+   "case": "nice-33",
+   "rates": "analytic",
+   "t": 6,
+   "k": 5,
+   "measured": {
+    "top_calls": 46163799,
+    "bottom_calls": 14792415,
+    "lookups": 125085130,
+    "matches": 25626991,
+    "survivors": 403457,
+    "total": 212071792
+   },
+   "model": {
+    "top_calls": 41456668.25320801,
+    "bottom_calls": 16340640.735537188,
+    "lookups": 108872169.68800214,
+    "matches": 22314169.071369924,
+    "survivors": 275805.91307969217,
+    "total": 189259453.66119695
+   },
+   "ratio": {
+    "top_calls": 1.1135433922967928,
+    "bottom_calls": 0.9052530582738932,
+    "lookups": 1.1489173988031998,
+    "matches": 1.1484627062757435,
+    "survivors": 1.4628294059940041,
+    "total": 1.1205347362971922
+   }
+  },
+  {
+   "case": "nice-34",
+   "rates": "analytic",
+   "t": 5,
+   "k": 6,
+   "measured": {
+    "top_calls": 3822280,
+    "bottom_calls": 346506478,
+    "lookups": 9450480,
+    "matches": 33614493,
+    "survivors": 563613,
+    "total": 393957344
+   },
+   "model": {
+    "top_calls": 4065017.745695096,
+    "bottom_calls": 375573548.09607166,
+    "lookups": 10220233.097627554,
+    "matches": 35823087.75917868,
+    "survivors": 630922.0128146042,
+    "total": 426312808.7113876
+   },
+   "ratio": {
+    "top_calls": 0.9402861780979533,
+    "bottom_calls": 0.9226061839460634,
+    "lookups": 0.9246834108112232,
+    "matches": 0.9383471694560224,
+    "survivors": 0.8933164298479107,
+    "total": 0.9241039348332315
+   }
+  },
+  {
+   "case": "nice-34",
+   "rates": "mc",
+   "t": 5,
+   "k": 6,
+   "measured": {
+    "top_calls": 3822280,
+    "bottom_calls": 346506478,
+    "lookups": 9450480,
+    "matches": 33614493,
+    "survivors": 563613,
+    "total": 393957344
+   },
+   "model": {
+    "top_calls": 3821605.453352089,
+    "bottom_calls": 346365251.2202084,
+    "lookups": 9448768.916522207,
+    "matches": 33553769.3753115,
+    "survivors": 540387.9626249999,
+    "total": 393729782.9280192
+   },
+   "ratio": {
+    "top_calls": 1.0001765087097936,
+    "bottom_calls": 1.0004077394579682,
+    "lookups": 1.0001810906259758,
+    "matches": 1.0018097407778328,
+    "survivors": 1.0429784506342104,
+    "total": 1.0005779625566766
+   }
+  },
+  {
+   "case": "nice-34",
+   "rates": "analytic",
+   "t": 6,
+   "k": 5,
+   "measured": {
+    "top_calls": 84151360,
+    "bottom_calls": 17990318,
+    "lookups": 176793712,
+    "matches": 38732386,
+    "survivors": 554258,
+    "total": 318222034
+   },
+   "model": {
+    "top_calls": 90936999.0755293,
+    "bottom_calls": 19497086.46366782,
+    "lookups": 195386809.2193503,
+    "matches": 42182983.774395205,
+    "survivors": 630922.0128146042,
+    "total": 348634800.54575723
+   },
+   "ratio": {
+    "top_calls": 0.9253808774809759,
+    "bottom_calls": 0.9227182755497528,
+    "lookups": 0.9048395472875713,
+    "matches": 0.9181992958855202,
+    "survivors": 0.8784889237378188,
+    "total": 0.9127661194517911
+   }
+  },
+  {
+   "case": "nice-34",
+   "rates": "mc",
+   "t": 6,
+   "k": 5,
+   "measured": {
+    "top_calls": 84151360,
+    "bottom_calls": 17990318,
+    "lookups": 176793712,
+    "matches": 38732386,
+    "survivors": 554258,
+    "total": 318222034
+   },
+   "model": {
+    "top_calls": 84136141.24379086,
+    "bottom_calls": 17991892.2874276,
+    "lookups": 176690503.79770258,
+    "matches": 38668001.0535945,
+    "survivors": 564165.0329805,
+    "total": 318050703.41549605
+   },
+   "ratio": {
+    "top_calls": 1.000180882507614,
+    "bottom_calls": 0.9999125001749427,
+    "lookups": 1.0005841185580386,
+    "matches": 1.0016650704626873,
+    "survivors": 0.9824394771009453,
+    "total": 1.000538689531776
+   }
+  },
+  {
+   "case": "nice-37",
+   "rates": "analytic",
+   "t": 6,
+   "k": 6,
+   "measured": {
+    "top_calls": 76967585,
+    "bottom_calls": 685495781,
+    "lookups": 184255348,
+    "matches": 916509288,
+    "survivors": 13654619,
+    "total": 1876882621
+   },
+   "model": {
+    "top_calls": 74628839.94661635,
+    "bottom_calls": 706445035.3786942,
+    "lookups": 170049482.00596753,
+    "matches": 847446537.9499594,
+    "survivors": 7952511.307805154,
+    "total": 1806522406.5890427
+   },
+   "ratio": {
+    "top_calls": 1.031338354650248,
+    "bottom_calls": 0.9703455282016892,
+    "lookups": 1.083539601688019,
+    "matches": 1.0814951114404325,
+    "survivors": 1.7170197528167483,
+    "total": 1.0389478780635812
+   }
+  },
+  {
+   "case": "nice-37",
+   "rates": "analytic",
+   "t": 7,
+   "k": 6,
+   "measured": {
+    "top_calls": 2742721829,
+    "bottom_calls": 685542401,
+    "lookups": 3668689184,
+    "matches": 493222736,
+    "survivors": 2355974,
+    "total": 7592532124
+   },
+   "model": {
+    "top_calls": 1647586548.5018158,
+    "bottom_calls": 706445035.3786942,
+    "lookups": 3226344226.167275,
+    "matches": 434556223.25848895,
+    "survivors": 1219888.5132498788,
+    "total": 6016151921.819524
+   },
+   "ratio": {
+    "top_calls": 1.6646905933372746,
+    "bottom_calls": 0.9704115205969432,
+    "lookups": 1.1371040802915835,
+    "matches": 1.1350032736882798,
+    "survivors": 1.9313027169372226,
+    "total": 1.2620246667081698
+   }
+  },
+  {
+   "case": "nice-38",
+   "rates": "analytic",
+   "t": 6,
+   "k": 6,
+   "measured": {
+    "top_calls": 113680686,
+    "bottom_calls": 792375772,
+    "lookups": 135141600,
+    "matches": 695109574,
+    "survivors": 10124424,
+    "total": 1746432056
+   },
+   "model": {
+    "top_calls": 104696065.99790855,
+    "bottom_calls": 860066045.0322206,
+    "lookups": 121346642.83447058,
+    "matches": 622542078.6625111,
+    "survivors": 6995012.533448978,
+    "total": 1715645845.0605597
+   },
+   "ratio": {
+    "top_calls": 1.0858162139757088,
+    "bottom_calls": 0.921296424358103,
+    "lookups": 1.1136822316901438,
+    "matches": 1.1165664102471518,
+    "survivors": 1.4473775352919955,
+    "total": 1.0179443857997124
+   }
+  },
+  {
+   "case": "nice-38",
+   "rates": "mc",
+   "t": 6,
+   "k": 6,
+   "measured": {
+    "top_calls": 113680686,
+    "bottom_calls": 792375772,
+    "lookups": 135141600,
+    "matches": 695109574,
+    "survivors": 10124424,
+    "total": 1746432056
+   },
+   "model": {
+    "top_calls": 113700782.53712536,
+    "bottom_calls": 792807361.8157628,
+    "lookups": 135106508.79551166,
+    "matches": 698744451.2408928,
+    "survivors": 10709464.3316106,
+    "total": 1751068568.7209032
+   },
+   "ratio": {
+    "top_calls": 0.9998232506700752,
+    "bottom_calls": 0.999455618304585,
+    "lookups": 1.0002597299330815,
+    "matches": 0.9947979876842848,
+    "survivors": 0.9453716531942905,
+    "total": 0.9973521809461237
+   }
+  },
+  {
+   "case": "nice-38",
+   "rates": "analytic",
+   "t": 7,
+   "k": 6,
+   "measured": {
+    "top_calls": 4162829928,
+    "bottom_calls": 792423576,
+    "lookups": 2755038924,
+    "matches": 372921562,
+    "survivors": 1793829,
+    "total": 8085007819
+   },
+   "model": {
+    "top_calls": 2410282279.85285,
+    "bottom_calls": 860066045.0322206,
+    "lookups": 2414159525.864731,
+    "matches": 325929232.3191539,
+    "survivors": 1162605.9612380574,
+    "total": 6011599689.030193
+   },
+   "ratio": {
+    "top_calls": 1.7271130285429244,
+    "bottom_calls": 0.9213520061361259,
+    "lookups": 1.1412000302727174,
+    "matches": 1.144179548874679,
+    "survivors": 1.5429380717175698,
+    "total": 1.344901230491662
+   }
+  },
+  {
+   "case": "nice-38",
+   "rates": "mc",
+   "t": 7,
+   "k": 6,
+   "measured": {
+    "top_calls": 4162829928,
+    "bottom_calls": 792423576,
+    "lookups": 2755038924,
+    "matches": 372921562,
+    "survivors": 1793829,
+    "total": 8085007819
+   },
+   "model": {
+    "top_calls": 2680724449.6518474,
+    "bottom_calls": 792807361.8157628,
+    "lookups": 2754030051.6477504,
+    "matches": 375504601.1601549,
+    "survivors": 1891791.6034881,
+    "total": 6604958255.879004
+   },
+   "ratio": {
+    "top_calls": 1.5528749806943558,
+    "bottom_calls": 0.9995159154237875,
+    "lookups": 1.0003663258328086,
+    "matches": 0.9931211517723768,
+    "survivors": 0.9482170217335378,
+    "total": 1.2240815923103858
+   }
+  },
+  {
+   "case": "nice-40",
+   "rates": "analytic",
+   "t": 6,
+   "k": 7,
+   "measured": {
+    "top_calls": 1926474040,
+    "bottom_calls": 22893016240,
+    "lookups": 3309217508,
+    "matches": 8553374425,
+    "survivors": 53612529,
+    "total": 36735694742
+   },
+   "model": {
+    "top_calls": 1421809850.769778,
+    "bottom_calls": 27385696321.06,
+    "lookups": 3400883497.7016826,
+    "matches": 9167430014.777058,
+    "survivors": 57446297.4988754,
+    "total": 41433265981.807396
+   },
+   "ratio": {
+    "top_calls": 1.3549449238637594,
+    "bottom_calls": 0.8359479332426153,
+    "lookups": 0.9730464187427678,
+    "matches": 0.933017695386029,
+    "survivors": 0.9332634361866323,
+    "total": 0.8866231968807379
+   }
+  },
+  {
+   "case": "nice-40",
+   "rates": "mc",
+   "t": 6,
+   "k": 7,
+   "measured": {
+    "top_calls": 1926474040,
+    "bottom_calls": 22893016240,
+    "lookups": 3309217508,
+    "matches": 8553374425,
+    "survivors": 53612529,
+    "total": 36735694742
+   },
+   "model": {
+    "top_calls": 1390861874.7247403,
+    "bottom_calls": 22859546723.55168,
+    "lookups": 3307757896.6516685,
+    "matches": 8539616926.1571865,
+    "survivors": 44981962.630314805,
+    "total": 36142765383.71559
+   },
+   "ratio": {
+    "top_calls": 1.3850937141988025,
+    "bottom_calls": 1.0014641373625242,
+    "lookups": 1.0004412690994733,
+    "matches": 1.0016110206068698,
+    "survivors": 1.1918672700125534,
+    "total": 1.0164052017600058
+   }
+  },
+  {
+   "case": "nice-40",
+   "rates": "analytic",
+   "t": 5,
+   "k": 7,
+   "measured": {
+    "top_calls": 61811480,
+    "bottom_calls": 22947397840,
+    "lookups": 134153736,
+    "matches": 13870020662,
+    "survivors": 277613035,
+    "total": 37290996753
+   },
+   "model": {
+    "top_calls": 50485859.76103519,
+    "bottom_calls": 27385696321.06,
+    "lookups": 137132399.10087427,
+    "matches": 14786177443.1888,
+    "survivors": 300372797.3797406,
+    "total": 42659864820.490456
+   },
+   "ratio": {
+    "top_calls": 1.2243325218699332,
+    "bottom_calls": 0.8379336998034669,
+    "lookups": 0.9782789251817641,
+    "matches": 0.9380396465070947,
+    "survivors": 0.9242282837251504,
+    "total": 0.8741470914152623
+   }
+  },
+  {
+   "case": "nice-40",
+   "rates": "mc",
+   "t": 5,
+   "k": 7,
+   "measured": {
+    "top_calls": 61811480,
+    "bottom_calls": 22947397840,
+    "lookups": 134153736,
+    "matches": 13870020662,
+    "survivors": 277613035,
+    "total": 37290996753
+   },
+   "model": {
+    "top_calls": 49703790.98109672,
+    "bottom_calls": 22859546723.55168,
+    "lookups": 134115808.37436435,
+    "matches": 13830794179.88803,
+    "survivors": 269428044.2083804,
+    "total": 37143588547.003555
+   },
+   "ratio": {
+    "top_calls": 1.2435968923076322,
+    "bottom_calls": 1.003843082170908,
+    "lookups": 1.0002827975769253,
+    "matches": 1.0028361698975328,
+    "survivors": 1.0303791344945858,
+    "total": 1.0039686043207674
+   }
+  }
+ ],
+ "client_sampling": [
+  {
+   "base": 34,
+   "nsamples": 20000,
+   "rel_se": 0.004466135167931538,
+   "estimate": {
+    "analyses": 562154.789759535,
+    "visits": 270428084.9433406,
+    "full_checks": 64004318.3647292,
+    "ops": 334994558.09782934
+   },
+   "exact": {
+    "analyses": 562058,
+    "visits": 270295949,
+    "full_checks": 63970030,
+    "ops": 334828037
+   },
+   "ratio": {
+    "analyses": 1.0001722059992653,
+    "visits": 1.0004888565434644,
+    "full_checks": 1.0005360067007816,
+    "ops": 1.0004973331962321
+   }
+  },
+  {
+   "base": 38,
+   "nsamples": 20000,
+   "rel_se": 0.006144245252035312,
+   "estimate": {
+    "analyses": 19827066.189547125,
+    "visits": 4315029745.128705,
+    "full_checks": 880280725.4152142,
+    "ops": 5215137536.733467
+   },
+   "exact": {
+    "analyses": 19904795,
+    "visits": 4333647150,
+    "full_checks": 884708754,
+    "ops": 5238260699
+   },
+   "ratio": {
+    "analyses": 0.9960949705609691,
+    "visits": 0.9957039869128951,
+    "full_checks": 0.9949949307444224,
+    "ops": 0.9955857175510667
+   }
+  },
+  {
+   "base": 40,
+   "nsamples": 20000,
+   "rel_se": 0.007214691135156969,
+   "estimate": {
+    "analyses": 249891496.74804503,
+    "visits": 90132265386.59203,
+    "full_checks": 16374842518.357544,
+    "ops": 106756999401.69762
+   },
+   "exact": {
+    "analyses": 253296074,
+    "visits": 91473070457,
+    "full_checks": 16676775325,
+    "ops": 108403141856
+   },
+   "ratio": {
+    "analyses": 0.9865589024014838,
+    "visits": 0.9853420786717959,
+    "full_checks": 0.9818950126293402,
+    "ops": 0.9848146241324899
+   }
+  }
+ ]
+}

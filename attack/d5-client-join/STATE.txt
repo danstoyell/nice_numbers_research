@@ -1,0 +1,84 @@
+D5 (join in client) -- working state, saved 2026-09-27 ~22:15 PDT (paused by coordinator, not finished)
+
+DONE
+- Client cloned: nice-client/ (wasabipesto/nice @ fe1b0b8). Rust at /private/tmp/nice-rust (RUSTUP_HOME/CARGO_HOME there,
+  CARGO_TARGET_DIR=/private/tmp/nice-rust/target). crosscheck/ = Rust bin using the UNMODIFIED client lib.
+- client_count.c (+ client_count / client_count256 builds): faithful C reimplementation of the CPU niceonly path
+  (MSD masked recursion + Hall, stride k=3 + digit-sum, cross-end AND, seeded full check), K-generalized.
+  crosscheck.py -> crosscheck.json: ALL MATCH vs real client lib (bases 25,30,34,40,57,58,60,62,64; floors 8000/62500/250000).
+- Client testbed COMPLETE (client_testbed.json, segments in client_segments.jsonl, log client_testbed.log):
+  all known solutions recovered and re-verified exactly (twice 15-22, thrice 13/14 16/16 and 38/38; nice 25-40 none).
+  summarize.py prints the table vs P1's join (P1 join has NO digit-sum filter): client/P1-join ops ratio 0.21-1.11
+  (e.g. nice-40: client 1.084e11 ops vs P1 best join 1.087e11 -> 1.00x; nice-38 0.38x; thrice-14 0.21x).
+- sample_client.py -> client_sample.json: exact client op rates at 57-64 (cpu=1e9 chunk floor 8000; gpu floors 62.5k/250k/500k)
+  and validation at 34/38/40 (sampled estimate within 1-2% of the exact full runs).
+  Client total ops at 57: cpu 10^17.54 (+-10%), gpu 10^17.71-17.85. Mean certified high singletons per visit ~16.5 at 57.
+- join_ds.c: copy of P1 overlap.c join + digit-sum class in the hash key (tested thrice-13: 16/16).
+- model_gain.py (join cost for region S = N or 1e14 field, analytic or MC rates; unit and ns-weighted gains).
+  Provisional analytic numbers at 57: join whole-interval 10^16.27 (gain ~19x cpu, 27-38x gpu);
+  join per 1e14 field (bottom list rebuilt per field, best (t,k)=(10,6)) 10^17.00 (gain ~3.5x cpu, 5-7x gpu).
+  CAVEAT to write up: top calls at b>=57 need wide arithmetic; if a top call costs ~1 us (analyze_range-style full
+  digit expansion) the per-field join is only ~1.4x in wall-time terms; needs incremental high-digit arithmetic (~40 ns).
+
+RUNNING (checkpointed, resumable)
+- run_join_mc.py -> join_mc.json (per-base checkpoint), log join_mc.log: MC rates of the join at 57,58,60,62,64 (3e7 samples)
+  and 34,38,40 (1e7). Resume: python3 run_join_mc.py 57:30000000 58:30000000 60:30000000 62:30000000 64:30000000 34:10000000 38:10000000 40:10000000
+
+NEXT STEPS
+1. After join_mc: python3 model_gain.py (MC vs analytic rates; unit + ns gains at 57-64).
+2. python3 sample_client.py with more CPU samples (raise CONFIGS['cpu'] nsamples 300 -> 3000; delete '57:cpu' etc. keys first).
+3. python3 run_join_testbed.py (join+digit-sum on the testbed; checkpoint join_ds_runs.jsonl), then python3 summarize.py
+   and python3 validate_models.py (join model vs measured join_ds; client sampling vs exact).
+4. Decide per stop rule (provisionally: unit-op gain at 57 >= 2x even per 1e14 field -> step 4 prototype in Rust,
+   using incremental high-digit top certification; check ns-weighted gain first).
+5. Report (return in final message; main session saves REPORT.md): positions certified per stage (see notes in
+   conversation: digit-sum none/global; LSD k=3 -> positions 0-2 of both powers; stride = CRT of both, 1 add/visit;
+   MSD+Hall -> top positions with interval domains, singletons exact, ~2 analyses per leaf; cross-end -> joint
+   distinctness high singletons (pos>=3) vs 6 low digits, 1 AND/visit; full check = rest).
+
+UPDATE 2026-09-28 19:52
+- join_mc.json COMPLETE; model_gain.py run (model_gain.json): MC rates within ~10% of analytic.
+  Unit-op gain at 57 (MC): whole interval 17x (cpu) .. 34x (gpu500k); per 1e14 field 3.1x (cpu) .. 6.3x (gpu).
+- join_ds testbed COMPLETE (join_ds_testbed.json, join_ds_runs.jsonl): all known solutions recovered.
+- join-proto/ (Rust CPU prototype, lib.rs + main.rs), built to /private/tmp/nice-rust/target/release/join_proto.
+  verify_proto.py -> verify_proto.json ALL EXACT (survivors and matches == brute force, bases 20-64, 19 cases; base 10 finds 69).
+- Decision at step 3: gain >= 2x at base 57 -> step 4 (prototype) done for correctness; NEXT: timing
+  (join_proto field B S E T K P NPART SEED vs join_proto client B S E 1e9 NSAMP SEED) on base-57 1e14 fields, then report.
+
+UPDATE 2026-09-28 21:10: verify_proto ALL EXACT after key-pruned bottom DFS. bench_proto.py running (bench_proto.jsonl, logs bench_proto.log [57 done: time ratio 2.4-4.1x, ops 2.8-3.3x], bench_proto2.log [60 done: time 0.67-1.42x, ops 1.6-2.3x; 64 in progress; 62 next]). Resume: python3 bench_proto.py 60:10:6:2:6 64:11:6:2:6 62:11:5:1:6 (skips done fields). Then write report.
+
+UPDATE 2026-09-28 ~22:00 (PAUSED by coordinator; not finished)
+DONE since last update
+- join_ds testbed complete; summarize.py -> summary_table.md (client / join+ds ops: 0.7-4.1x; nice-37 4.05x, nice-38 3.0x, nice-40 2.95x;
+  twice 0.9-2.2x; thrice 0.73x). validate_models.py -> validation.json: MC-rate model matches measured join totals within 0-2%
+  (34/38/40), analytic within 0.85-1.34; client sampling within 1.5% of exact runs.
+- Step-3 decision (per stop rule): residual unit-op gain at 57 >= 2x (MC: 3.1x cpu .. 6.3x gpu per 1e14 field; 17-34x whole interval) -> step 4.
+- join-proto: verify_proto ALL EXACT (21 cases) for both builds:
+    target/release/join_proto   (original, u128/u64 division via __udivti3)  -- used by bench_proto.py runs so far
+    target2/release/join_proto  (Div64 Moller-Granlund reciprocal division; key-pruned bottom DFS in both) -- ~2x cheaper top certification
+- bench_proto.jsonl (old binary, (t,k,p) = unit-op optimum): per 1e14 field, single thread, same machine:
+    57 (10,6,2), 5 non-empty of 10 fields: wall-time client/join 2.4-4.1x, ops 2.8-3.3x (5 fields rejected entirely by both)
+    60 (10,6,2): time 0.67-1.42x, ops 1.6-2.3x;  64 (11,6,2): time 0.60-2.12x, ops 2.3-2.65x;  62 (11,5,1): running
+  Join wall time dominated by top certification (~215 ns/call Div64, 250-660 ns old) and match loop (~7-9 ns/match incl. full checks).
+- tune_proto.jsonl (wall-time tuning on one field each): 60 field 793163612114824200908: (9,6,2) 642 s (Div64) vs (10,6,2) 1620 s;
+  client on that field 3515 s (bench, noisy). 57 field 79228699893042801193: (9,6,2) 2412 s vs (10,6,2) 4655 s; client 14323 s.
+  => wall-time optimum is t one smaller than the unit-op optimum (36-57x fewer top calls, ~2x more matches).
+  Timing noise between runs on this shared machine is up to ~1.7x; compare client and join measured in the same period.
+RUNNING (harmless, checkpointed): bench_proto.py (62 fields, old binary) -> bench_proto.jsonl/bench_proto2.log;
+  tune_proto.py 57 ... 9:5:1 8:6:2 (Div64) -> tune_proto.jsonl/tune57c.log
+NEXT COMMANDS
+1. When idle: final paired timing with the Div64 build and wall-time configs, client and join interleaved on the same fields:
+   JOIN_PROTO=/private/tmp/nice-rust/target2/release/join_proto python3 bench_proto.py 57:9:6:2:10 60:9:6:2:6 64:10:6:2:6 58:9:6:2:4 62:10:6:2:4
+   (bench_proto.py keys on (base, field, t, k, p), so these rerun the same fields with new configs; consider raising NSAMP to 100.)
+2. Report: positions certified (section 1 notes in STATE), testbed table (summary_table.md), model gains (model_gain.json,
+   gain_vs_region.json), validation, prototype exactness + timing; decision: step-4 stop rule (join slower than client in practice?)
+   -- CPU: faster at 57 by ~3-6x with tuned config; GPU feasibility to be argued (no GPU here).
+
+UPDATE 2026-09-29 17:15: wall-time configs chosen: 57 (9,6,2), 60 (9,6,2), 64 (10,6,2) [tune_proto.jsonl]. Paired bench running:
+bench_pair.py -> bench_pair.jsonl, logs bench_pair57.log, bench_pair6064.log (fields in pair_fields.json + bench_proto 57 fields). Resume = rerun same commands (checkpointed).
+
+UPDATE 2026-09-29 18:00: paired bench (Div64, wall-time configs) DONE: bench_pair.jsonl: time ratio client/join 57: 7.64x (6.9-8.5), 60: 6.19x (5.0-8.0), 64: 3.78x (2.1-4.7); ops ratio 1.3-2.3x.
+Confirmation with client-profile build (lto=true, codegen-units=1; /private/tmp/nice-rust/target-lto, source copy /private/tmp/nice-rust/join-proto-lto) running -> bench_pair_lto.jsonl.
+Then: write report (no upstream issue/PR).
+
+UPDATE 2026-09-29 18:15: LTO confirmation DONE (bench_pair_lto.jsonl): 57 6.9-7.0x, 60 5.2-5.9x, 64 3.2-4.5x (same as default build). All runs complete; report returned to coordinator.

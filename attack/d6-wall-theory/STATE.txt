@@ -1,0 +1,42 @@
+D6 working state -- saved 2026-09-27 on pause (coordinator request). Plain text on purpose (.md writes are blocked).
+
+STATUS
+- Step 1 (structured regime): DONE. Theorem S (exact mixture law over classes gcd(6R,b^j) in the prefix-linear,
+  complete range 1 <= j <= min(t-1,k+f)); Fourier form; limit law nu = W + lam1*X^2 with error 6*pi*|h|/b^(f+j)
+  (needs j <= k); incomplete (Dirichlet kernel) and prefix-free forms exact. Verified: theta1.c (all 18 coeff.jsonl
+  rows within noise; mixture == brute force at 4096 bins), limit_law.py, theorem_s_general_e.py (e = 2,4,5).
+- Step 2 (degenerate batches): DONE except one open item. Proved: D1 rotation (P(D=1)=1/(b(b-1)); <= 16 s^2/b^2 via
+  three-gap, multiplicity form checked in three_gap_check.py); support lemma + D2 (P(D=1) = 2A_b/b^5 exactly,
+  b >= 10, A = 34/9 closed form, quad_constant.py); D3 triple-Markov s^2/b^2; D4 cubic-zone exclusion
+  (cubic_exclusion.py); D5 lattice theta2 at P = 2k; Prop A'' (triple equidistribution, needs P+1 <= min(2L, 2k+L-1)).
+  Measured: model_mc.jsonl (b^5 P(D<=s) ~ 9,120,520,1650), tails_*.json reproduce all 5 H1 tail rows exactly;
+  tail_summary.py decomposes by position; structured model (x0 uniform, exact thetas) TV <= 0.002 everywhere.
+- Step 3 (general (e1,e2)): DONE. Lemma 1_e, Theorem S_e (verified), Theorem A_e (hypothesis P+1 <= (e-1)L),
+  wall [L,(e-1)L), ceiling table (exponent_pairs.py; (2,3) reproduces 0.906 and 0.522). Haskin articles still 404.
+- Step 4: NOT WRITTEN, by the stop rule (model either tautological or heuristic); rigorous input = section 2 rates.
+- Step 5: left to D7 (it confirmed the sensitivity probabilities).
+- D7 correction (Theorem A needs P+1 <= 2L): nothing of mine relied on the wider range; A'' and A_e state the bound.
+
+A DRAFT NOTE was already delivered to the coordinator via handback (before the "pause, not end" correction).
+Treat it as a draft, not final. Its full text is the coordinator's copy; the sections were:
+Summary / 0 Theorem A dependence / 1 structured regime (Theorem S + tables) / 2 degenerate batches (D1-D5, A'',
+tail decomposition table) / 3 exponent pairs / 4 why no formal lower bound / 5 corrections to middle-digits report /
+6 unfinished / Files / Sources.
+
+KEY NUMBERS (for rewriting the note if needed)
+- coeff rows exact vs measured theta1 maxdev: (3,2) P6 0.747/0.751, P7 0.147/0.149; (2,3) P6 0.273/0.264,
+  P7 0.278/0.275, P8 0.125/0.119; Weyl-regime (3,2) P10,11 exact 0.169, 0.205 (report understates).
+- A_b: b=10 5.20, 13 4.81, 15 4.66, 17 4.54, 19 4.45, 25 4.27, 30 4.18; limit 34/9.
+- Generic tail matches: thrice-13 P8 D=1 189 vs 188.2; D<=3 P8/11/12 11205/5437/10938 vs 11044/5428/11038;
+  twice-17 P8/11/12 808/227/775 vs 788/250/776. nice-30 (3,2) P9 43 vs 94 (theta2 on coarse grid).
+- nice-30 (2,3): 99.9% of tail at P=2k=6; D=1 1152 vs 1022 (Prop D5 predicts 2.299e-4 rate); whole interval
+  rate 1.9e-3 (theta1 concentrated 5.6x for 5|R), end check removes it; x0 residual +4% (all) / +13% (survivors).
+- Truncated batches: 17% of twice-15 D<=3 events, <=5% elsewhere.
+
+NEXT STEPS (if resumed)
+1. Optional: prove order b^-5 for D <= s, s >= 2 (currently measured only; rigorous bound s^2/b^2). Idea: extend the
+   support-lemma bootstrap using a cell holding >= b/s points and differences restricted to it; risk of swamp.
+2. Optional: write the limit law for Theorem S_e (e != 3): class condition is on R^(e-2), substitution changes.
+3. Optional: identify the x0 mechanism at nice-30 (2,3) P=6 (correlation of cell position {b x0} with drift sign).
+4. Re-deliver the final note (same structure as the draft) with any additions; the owner values only true
+   solutions, so keep additions minimal.

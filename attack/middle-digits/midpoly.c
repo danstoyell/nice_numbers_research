@@ -67,9 +67,13 @@ static void mode_coeff(int argc, char **argv) {
             u128 recon = (c3 + 3 * c2 * POW[k] * (u128)m + 3 * c * POW[2 * k] * (u128)(m * m) + POW[3 * k] * (u128)(m * m * m)) % modP;
             if ((int)((recon / POW[P]) % b) != d) mismatches++;
             seen |= 1ULL << d;
-            // polynomial model with these exact coefficients (double precision; th's are exact rationals rounded)
-            double y = x0 + th1 * m + th2 * (double)m * m + th3 * (double)m * m * m; y -= floor(y);
-            (void)y;
+            // Lemma 1 as stated: the digit from the REDUCED residues over the common denominator b^(P+1)
+            // (D7 audit, 2026-09-28: the check above only re-expands the binomial)
+            u128 lem = c3 % modP;
+            if (e1 > 0) lem += ((3 * c2) % POW[e1]) * POW[k] * (u128)m;
+            if (e2 > 0) lem += ((3 * c) % POW[e2]) * POW[2 * k] * (u128)(m * m);
+            if (e3 > 0) lem += POW[3 * k] * (u128)(m * m * m);
+            if ((int)(((lem % modP) / POW[P]) % b) != d) mismatches++;
         }
         dom_meas[__builtin_popcountll(seen)]++;
         // polynomial model: x0 and th1 uniform random, th2 and th3 the EXACT arithmetic values of this batch

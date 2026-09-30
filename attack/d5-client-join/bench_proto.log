@@ -1,0 +1,10 @@
+b=57 field 79228699893042801193 (t,k,p)=(10,6,2): join 4473s 3.00e+11 ops | client 14323s 9.65e+11 ops | time ratio 3.2021490726305792, ops ratio 3.219337995158425
+b=57 field 63669799893042801193 (t,k,p)=(10,6,2): join 0s 3.08e+03 ops | client 0s 1.00e+05 ops | time ratio None, ops ratio 32.478077297823965
+b=57 field 43926999893042801193 (t,k,p)=(10,6,2): join 4126s 2.88e+11 ops | client 9743s 8.01e+11 ops | time ratio 2.3616243943715367, ops ratio 2.7826323931507186
+b=57 field 65042299893042801193 (t,k,p)=(10,6,2): join 3896s 2.62e+11 ops | client 16039s 8.61e+11 ops | time ratio 4.1167075665723925, ops ratio 3.2883888203588767
+b=57 field 21607899893042801193 (t,k,p)=(10,6,2): join 0s 3.08e+03 ops | client 0s 1.00e+05 ops | time ratio None, ops ratio 32.478077297823965
+b=57 field 70427299893042801193 (t,k,p)=(10,6,2): join 4528s 3.04e+11 ops | client 15289s 9.21e+11 ops | time ratio 3.3762573786457075, ops ratio 3.02568161869823
+b=57 field 64061199893042801193 (t,k,p)=(10,6,2): join 10562s 3.13e+11 ops | client 32989s 1.04e+12 ops | time ratio 3.1232483184851554, ops ratio 3.308511982078861
+b=57 field 77477499893042801193 (t,k,p)=(10,6,2): join 0s 3.08e+03 ops | client 0s 1.00e+05 ops | time ratio None, ops ratio 32.478077297823965
+b=57 field 25797199893042801193 (t,k,p)=(10,6,2): join 0s 3.08e+03 ops | client 0s 1.00e+05 ops | time ratio None, ops ratio 32.478077297823965
+b=57 field 26362799893042801193 (t,k,p)=(10,6,2): join 0s 3.08e+03 ops | client 0s 1.00e+05 ops | time ratio None, ops ratio 32.478077297823965

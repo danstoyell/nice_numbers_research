@@ -1,0 +1,2 @@
+full batches with theta2 in {0,1/2}: 3294000; with span < 1 cell: 42700
+D=1 count: actual x0 31417   uniform x0 (expected) 30120.4   ratio 1.043

@@ -1,0 +1,132 @@
+  nice-25 seg 1/1 visits=6.362e+05 full=3.614e+05
+nice-25 floor=8000 N=6.426e+06 analyses=8.030e+02 visits=6.362e+05 full=3.614e+05 ops=9.985e+05 sols=0/0
+  nice-28 seg 1/1 visits=2.261e+06 full=8.424e+05
+nice-28 floor=8000 N=3.881e+07 analyses=4.497e+03 visits=2.261e+06 full=8.424e+05 ops=3.108e+06 sols=0/0
+  nice-29 seg 1/1 visits=2.473e+06 full=8.459e+05
+nice-29 floor=8000 N=8.315e+07 analyses=8.920e+03 visits=2.473e+06 full=8.459e+05 ops=3.327e+06 sols=0/0
+  nice-30 seg 1/1 visits=1.172e+07 full=4.066e+06
+nice-30 floor=8000 N=4.944e+08 analyses=5.233e+04 visits=1.172e+07 full=4.066e+06 ops=1.583e+07 sols=0/0
+  nice-32 seg 1/1 visits=4.388e+07 full=1.195e+07
+nice-32 floor=8000 N=2.335e+09 analyses=1.901e+05 visits=4.388e+07 full=1.195e+07 ops=5.602e+07 sols=0/0
+  nice-33 seg 1/1 visits=1.737e+08 full=4.483e+07
+nice-33 floor=8000 N=3.276e+09 analyses=2.878e+05 visits=1.737e+08 full=4.483e+07 ops=2.188e+08 sols=0/0
+  nice-34 seg 1/1 visits=2.703e+08 full=6.397e+07
+nice-34 floor=8000 N=7.205e+09 analyses=5.621e+05 visits=2.703e+08 full=6.397e+07 ops=3.348e+08 sols=0/0
+  twice-20 seg 1/1 visits=1.322e+09 full=7.622e+08
+twice-20 floor=8000 N=1.617e+10 analyses=1.900e+06 visits=1.322e+09 full=7.622e+08 ops=2.086e+09 sols=4/4
+  twice-21 seg 1/2 visits=1.080e+10 full=5.700e+09
+  twice-21 seg 2/2 visits=3.916e+09 full=2.259e+09
+twice-21 floor=8000 N=6.653e+10 analyses=7.317e+06 visits=1.472e+10 full=7.960e+09 ops=2.268e+10 sols=5/5
+  twice-22 seg 1/4 visits=6.690e+09 full=3.313e+09
+  twice-22 seg 2/4 visits=7.344e+09 full=3.804e+09
+  twice-22 seg 3/4 visits=7.273e+09 full=3.914e+09
+  twice-22 seg 4/4 visits=3.526e+09 full=1.957e+09
+twice-22 floor=8000 N=1.735e+11 analyses=1.915e+07 visits=2.483e+10 full=1.299e+10 ops=3.784e+10 sols=5/5
+  nice-37 seg 1/5 visits=6.370e+08 full=1.313e+08
+  nice-37 seg 2/5 visits=1.585e+09 full=3.430e+08
+  nice-37 seg 3/5 visits=1.626e+09 full=3.508e+08
+  nice-37 seg 4/5 visits=1.675e+09 full=3.655e+08
+  nice-37 seg 5/5 visits=7.262e+08 full=1.496e+08
+nice-37 floor=8000 N=2.214e+11 analyses=1.306e+07 visits=6.249e+09 full=1.340e+09 ops=7.602e+09 sols=0/0
+  nice-38 seg 1/7 visits=5.738e+08 full=1.039e+08
+  nice-38 seg 2/7 visits=6.994e+08 full=1.328e+08
+  nice-38 seg 3/7 visits=6.441e+08 full=1.344e+08
+  nice-38 seg 4/7 visits=7.019e+08 full=1.516e+08
+  nice-38 seg 5/7 visits=6.989e+08 full=1.436e+08
+  nice-38 seg 6/7 visits=7.193e+08 full=1.558e+08
+  nice-38 seg 7/7 visits=2.963e+08 full=6.262e+07
+nice-38 floor=8000 N=3.206e+11 analyses=1.990e+07 visits=4.334e+09 full=8.847e+08 ops=5.238e+09 sols=0/0
+  nice-40 seg 1/93 visits=6.321e+08 full=8.645e+07
+  nice-40 seg 2/93 visits=7.784e+08 full=1.073e+08
+  nice-40 seg 3/93 visits=1.025e+09 full=1.284e+08
+  nice-40 seg 4/93 visits=7.917e+08 full=1.054e+08
+  nice-40 seg 5/93 visits=1.052e+09 full=1.265e+08
+  nice-40 seg 6/93 visits=7.903e+08 full=1.008e+08
+  nice-40 seg 7/93 visits=1.020e+09 full=1.149e+08
+  nice-40 seg 8/93 visits=1.053e+09 full=1.386e+08
+  nice-40 seg 9/93 visits=7.735e+08 full=1.036e+08
+  nice-40 seg 10/93 visits=1.049e+09 full=1.394e+08
+  nice-40 seg 11/93 visits=8.140e+08 full=1.351e+08
+  nice-40 seg 12/93 visits=9.211e+08 full=1.587e+08
+  nice-40 seg 13/93 visits=9.475e+08 full=1.751e+08
+  nice-40 seg 14/93 visits=9.289e+08 full=1.781e+08
+  nice-40 seg 15/93 visits=1.057e+09 full=1.991e+08
+  nice-40 seg 16/93 visits=8.106e+08 full=1.621e+08
+  nice-40 seg 17/93 visits=9.361e+08 full=1.739e+08
+  nice-40 seg 18/93 visits=7.984e+08 full=1.463e+08
+  nice-40 seg 19/93 visits=9.089e+08 full=1.609e+08
+  nice-40 seg 20/93 visits=1.083e+09 full=2.050e+08
+  nice-40 seg 21/93 visits=9.614e+08 full=1.635e+08
+  nice-40 seg 22/93 visits=9.841e+08 full=1.625e+08
+  nice-40 seg 23/93 visits=1.086e+09 full=1.676e+08
+  nice-40 seg 24/93 visits=8.114e+08 full=1.133e+08
+  nice-40 seg 25/93 visits=8.952e+08 full=1.070e+08
+  nice-40 seg 26/93 visits=1.082e+09 full=1.217e+08
+  nice-40 seg 27/93 visits=1.069e+09 full=1.247e+08
+  nice-40 seg 28/93 visits=5.490e+08 full=9.445e+07
+  nice-40 seg 29/93 visits=9.081e+08 full=1.695e+08
+  nice-40 seg 30/93 visits=1.103e+09 full=2.113e+08
+  nice-40 seg 31/93 visits=1.018e+09 full=1.879e+08
+  nice-40 seg 32/93 visits=9.028e+08 full=1.659e+08
+  nice-40 seg 33/93 visits=1.000e+09 full=1.902e+08
+  nice-40 seg 34/93 visits=1.013e+09 full=1.955e+08
+  nice-40 seg 35/93 visits=1.018e+09 full=2.066e+08
+  nice-40 seg 36/93 visits=1.027e+09 full=1.936e+08
+  nice-40 seg 37/93 visits=9.473e+08 full=1.880e+08
+  nice-40 seg 38/93 visits=1.044e+09 full=2.036e+08
+  nice-40 seg 39/93 visits=1.070e+09 full=1.897e+08
+  nice-40 seg 40/93 visits=9.139e+08 full=1.553e+08
+  nice-40 seg 41/93 visits=1.030e+09 full=1.875e+08
+  nice-40 seg 42/93 visits=1.130e+09 full=1.844e+08
+  nice-40 seg 43/93 visits=8.506e+08 full=1.207e+08
+  nice-40 seg 44/93 visits=1.134e+09 full=1.562e+08
+  nice-40 seg 45/93 visits=1.040e+09 full=1.746e+08
+  nice-40 seg 46/93 visits=9.069e+08 full=1.630e+08
+  nice-40 seg 47/93 visits=1.183e+09 full=2.162e+08
+  nice-40 seg 48/93 visits=1.024e+09 full=1.856e+08
+  nice-40 seg 49/93 visits=7.785e+08 full=1.511e+08
+  nice-40 seg 50/93 visits=9.107e+08 full=1.777e+08
+  nice-40 seg 51/93 visits=9.086e+08 full=1.904e+08
+  nice-40 seg 52/93 visits=1.185e+09 full=2.518e+08
+  nice-40 seg 53/93 visits=9.288e+08 full=1.805e+08
+  nice-40 seg 54/93 visits=1.083e+09 full=2.155e+08
+  nice-40 seg 55/93 visits=1.105e+09 full=2.112e+08
+  nice-40 seg 56/93 visits=1.003e+09 full=1.964e+08
+  nice-40 seg 57/93 visits=1.125e+09 full=2.184e+08
+  nice-40 seg 58/93 visits=9.501e+08 full=1.945e+08
+  nice-40 seg 59/93 visits=1.173e+09 full=2.198e+08
+  nice-40 seg 60/93 visits=9.910e+08 full=1.843e+08
+  nice-40 seg 61/93 visits=1.115e+09 full=2.197e+08
+  nice-40 seg 62/93 visits=1.030e+09 full=2.107e+08
+  nice-40 seg 63/93 visits=1.039e+09 full=2.259e+08
+  nice-40 seg 64/93 visits=1.101e+09 full=1.911e+08
+  nice-40 seg 65/93 visits=1.008e+09 full=1.595e+08
+  nice-40 seg 66/93 visits=1.131e+09 full=1.969e+08
+  nice-40 seg 67/93 visits=9.902e+08 full=1.793e+08
+  nice-40 seg 68/93 visits=9.095e+08 full=1.795e+08
+  nice-40 seg 69/93 visits=9.798e+08 full=2.162e+08
+  nice-40 seg 70/93 visits=1.154e+09 full=2.402e+08
+  nice-40 seg 71/93 visits=1.039e+09 full=2.169e+08
+  nice-40 seg 72/93 visits=1.111e+09 full=2.350e+08
+  nice-40 seg 73/93 visits=1.092e+09 full=1.935e+08
+  nice-40 seg 74/93 visits=1.147e+09 full=1.986e+08
+  nice-40 seg 75/93 visits=1.064e+09 full=2.080e+08
+  nice-40 seg 76/93 visits=1.031e+09 full=2.245e+08
+  nice-40 seg 77/93 visits=1.019e+09 full=2.215e+08
+  nice-40 seg 78/93 visits=1.140e+09 full=2.422e+08
+  nice-40 seg 79/93 visits=1.127e+09 full=2.372e+08
+  nice-40 seg 80/93 visits=1.155e+09 full=2.227e+08
+  nice-40 seg 81/93 visits=8.931e+08 full=1.775e+08
+  nice-40 seg 82/93 visits=1.164e+09 full=2.506e+08
+  nice-40 seg 83/93 visits=1.131e+09 full=2.484e+08
+  nice-40 seg 84/93 visits=1.117e+09 full=2.367e+08
+  nice-40 seg 85/93 visits=1.121e+09 full=2.137e+08
+  nice-40 seg 86/93 visits=9.327e+08 full=1.946e+08
+  nice-40 seg 87/93 visits=1.180e+09 full=2.437e+08
+  nice-40 seg 88/93 visits=1.135e+09 full=2.153e+08
+  nice-40 seg 89/93 visits=1.175e+09 full=2.391e+08
+  nice-40 seg 90/93 visits=1.039e+09 full=2.288e+08
+  nice-40 seg 91/93 visits=5.816e+08 full=1.361e+08
+  nice-40 seg 92/93 visits=6.084e+08 full=1.357e+08
+  nice-40 seg 93/93 visits=0.000e+00 full=0.000e+00
+nice-40 floor=8000 N=4.637e+12 analyses=2.533e+08 visits=9.147e+10 full=1.668e+10 ops=1.084e+11 sols=0/0

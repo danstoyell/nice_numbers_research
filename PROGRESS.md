@@ -87,6 +87,10 @@ obstructions is gone. The routes that remain are the ones listed under
 
 ### What the middle digits actually are
 
+D7 audit (2026-09-28): Theorem A needs P + 1 ≤ 2L (false without it) and
+Proposition A′'s proof needed a direct Weyl argument; both fixed, no
+conclusion changes ([audit](attack/d7-audit/REPORT.md)).
+
 The follow-up asked for the structural theory behind those failures, and it
 turns out to be simple to state ([report](attack/middle-digits/REPORT.md)):
 
@@ -95,11 +99,12 @@ turns out to be simple to state ([report](attack/middle-digits/REPORT.md)):
   sequence of degree at most three in the block's value. Its linear
   coefficient is a digit-tail of 3c², its quadratic coefficient a digit-tail
   of 3c, and its cubic coefficient an exact power of 1/b, where c is the root
-  with the block zeroed. This is exact and was checked on 5.4 million batches.
+  with the block zeroed. This is exact (a two-line proof) and was checked in
+  exact arithmetic on 900,000 batches.
 - **That model, with a random linear coefficient and the exact quadratic and
   cubic ones, reproduces the measured distribution of how many values a
-  middle digit takes along a batch** to within 0.2–1% at every position and
-  batch shape tested, where independent random digits are off by up to 68%.
+  middle digit takes along a batch** to within 0.2–1.1% at 17 of 18 positions and
+  batch shapes tested (2.7% at the last), where independent random digits are off by up to 68%.
   It explains the excess of small domains H1 recorded and the positions where
   the cube takes more distinct values than random digits would.
 - **The coefficients are equidistributed over batches wherever Weyl's
@@ -110,7 +115,7 @@ turns out to be simple to state ([report](attack/middle-digits/REPORT.md)):
 - **A middle digit takes at most three values along a batch of b roots in
   10⁻⁶ to 10⁻³ of the cases.** These are the lattice certificates the
   algorithm report costed at one digit per factor b, seen directly; they
-  account exactly for H1's negligible extra rejections.
+  are the likely source of H1's negligible extra rejections.
 - **Over a large batch every middle digit is uniform, and changing any root
   digit re-randomizes every output digit above it** with probability 1 − 1/b
   (both theorems with proof; measured to four digits).

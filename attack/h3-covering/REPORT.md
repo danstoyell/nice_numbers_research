@@ -120,7 +120,7 @@ Totals below b²: 0 failures in 1057 tested (b, M) pairs.
 | 12 | (8, 4) | 132 | 397 | 0 of 47 | 1 | 145 | 397 |
 | 12 | (9, 3) | 132 | 397 | 2 of 47 | 11 | 131 | 397 |
 
-**Class DP (`class_dp.py`)**: M = b+1 for b = 10–40 and M = b²−1 for b = 10–24: 0 failures. The sufficient condition of Theorem 1 holds for b in {17, 19, 21, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} (and, by the Corollary, for every larger b).
+**Class DP (`class_dp.py`)**: M = b+1 for b = 10–40 and M = b²−1 for b = 10–24: 0 failures. The sufficient condition of Theorem 1 holds for b in {17, 19, 21, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40} (and, by the Corollary, for every larger b). Bases ≡ 1 (mod 5) have no nice-number interval; for them class_dp.py uses s = round(2b/5).
 <!-- /TABLES -->
 
 ## 3. Theorem and proof
@@ -195,7 +195,7 @@ In both cases X takes every residue of the required parity and Y likewise,
 independently by Lemma 2. ∎
 
 **Corollary (nice-number lengths).** Let (s, c) be the lengths of the
-nice-number interval in base b, so that 3s ≥ 2c − 2, i.e. s ≥ (2b−2)/5, and
+nice-number interval in base b, so that 3s > 2c − 2, i.e. s > (2b−2)/5, and
 c ≥ s. Then the hypothesis of Theorem 1 holds for every even b ≥ 28 and every
 odd b ≥ 21:
 

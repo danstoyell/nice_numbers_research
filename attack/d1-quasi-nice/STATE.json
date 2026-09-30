@@ -1,0 +1,103 @@
+{
+ "paused_at": "2026-09-27 22:16 PDT",
+ "task": "D1 exact k=1 calibration on (1,2)-nice numbers (attack/directions/D1-quasi-nice-calibration.md)",
+ "done": {
+  "python_bruteforce": "brute.py: bases 2-18 exhaustive (results/brute_2_14.jsonl, brute_15_18.jsonl): bands, hits and full deficiency histograms match quasi_nice.c (6-18) and nm12.c (12-18)",
+  "new_search": "qn12.c (pruned top/suffix join + digit-sum forced last middle digit; also exact K(A,J) counts). Hits reproduce first pass for 6-21. K grid matches independent kexact.py for 6-17.",
+  "complete_bases": {
+   "6": 1,
+   "8": 1,
+   "9": 1,
+   "11": 0,
+   "12": 0,
+   "14": 0,
+   "15": 0,
+   "17": 2,
+   "18": 9,
+   "20": 10,
+   "21": 31,
+   "24": 60,
+   "26": 91,
+   "29": 858
+  },
+  "note_27": "base 27 is 3 mod 4: no digit-sum roots, 0 hits by Theorem 3; the direction file's '27' target is void. 25, 28 have no band (1 mod 3).",
+  "verified": "verify_hits.py re-verified all 1064 witnesses (6-29) with Python exact arithmetic, 0 failures",
+  "model_M1(2,3)_exact_from_K": {
+   "17": 3.39,
+   "18": 7.37,
+   "20": 8.16,
+   "21": 38.48,
+   "24": 62.4,
+   "26": 92.8,
+   "29": 800.37
+  },
+  "model_M1(3,4)_29": 801.32,
+  "exhaustive_numpy_models": "results/model_exact_5_21.jsonl (all models M0, M1(A,J), M1e for 5-21) done",
+  "preliminary_pooled": "bases 6-29: obs 1064 vs M1(2,3) about 1022 (ratio ~1.04, z ~ +1.3); base 29 alone 858 vs 800.4 (z +2.0); first-pass shortfall (55 vs 77 crude) is explained by last-digit and edge corrections: M1(2,3) for 6-21 is about 61.6 (small bases degenerate)"
+ },
+ "running_or_partial": {},
+ "next_steps": [
+  "1. Finish base 30 (resume command above); verify with: python3 analyze12.py && python3 verify_hits.py results/hits_by_base.json",
+  "2. Finish MC models for 24/26/29/30; analyze12.py prefers exact K-based M1 values where available and records MC z-check",
+  "3. Near misses: ./run_nm.sh 20 1 1; ./run_nm.sh 21 4 3; ./run_nm.sh 24 60 3 (exhaustive deficiency histograms, ~2000 core-s for 24; also an independent hit count for 24). Model: python3 nearmiss_model12.py 17 18 20 21 24 --samples 1000000 > results/nearmiss_model_17_24.jsonl (validated: deficiency-0 column equals M1(2,3) exactly for 12, 14)",
+  "4. Optional cross-check of base-29 count with different pruning: ./run_chunks.sh 29 4 4 3 200 3 (K(3,4) must equal 21139029021 and hits 858)",
+  "5. analyze12.py prints the table and pooled ratios/z for naive, crude, M0, M1(A,J), M1e over all / 6-21 / 17+ / 24+; then apply stop rules (currently tracking toward 'model confirmed', no shortfall; base 29 is +2.0 sigma high, within the 2.5 sigma per-base rule)",
+  "6. Write the report text (returned in final message; main session saves REPORT.md)"
+ ],
+ "files": {
+  "brute.py": "independent Python brute force (bands, hits, deficiency histograms)",
+  "qn12.c / run_chunks.sh": "pruned exact search + exact K(A,J), chunked/resumable",
+  "kexact.py": "independent exact K(A,J) in Python (small bases)",
+  "model12.py": "naive, crude, M0, M1(A,J) (n exact, n^2 top A / bottom J exact, exact class factor), M1e; exhaustive or MC",
+  "nm12.c / run_nm.sh": "exhaustive deficiency histogram per base (chunked/resumable)",
+  "nearmiss_model12.py": "coupled/uncoupled M1(2,3) expectations for deficiency 0/1/2 via exact DP per n",
+  "verify_hits.py": "Python re-verification of every witness",
+  "analyze12.py": "tables and pooled statistics -> results/summary.json, results/hits_by_base.json"
+ },
+ "status": "COMPLETE 2026-09-28: all runs finished, report returned to coordinator",
+ "final": {
+  "hits": {
+   "6": 1,
+   "8": 1,
+   "9": 1,
+   "11": 0,
+   "12": 0,
+   "14": 0,
+   "15": 0,
+   "17": 2,
+   "18": 9,
+   "20": 10,
+   "21": 31,
+   "24": 60,
+   "26": 91,
+   "29": 858,
+   "30": 866
+  },
+  "total_hits": 1930,
+  "verified": "all 1930 re-verified in Python, 0 failures; base 29 recounted with different pruning (858, identical witnesses, identical K overlap); bases 20, 21, 24 recounted by exhaustive nm12 (10, 31, 60)",
+  "pooled_17_30_M1(2,3)": {
+   "obs": 1927,
+   "exp": 1945.59,
+   "ratio": 0.99,
+   "z": -0.42
+  },
+  "pooled_all_M1(2,3)": {
+   "obs": 1929,
+   "exp": 1948.77,
+   "ratio": 0.99,
+   "z": -0.45
+  },
+  "max_per_base_z": "base 30 -2.18, base 29 +2.04",
+  "near_miss_b12_24": {
+   "def1": [
+    11890,
+    11885.4
+   ],
+   "def2": [
+    714940,
+    715067.8
+   ]
+  },
+  "verdict": "stop rule 1: model confirmed at exact distinct-digit hits; obstruction study not triggered"
+ }
+}

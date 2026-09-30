@@ -1,0 +1,2 @@
+./count_knice 6 8 2000 1000000 88  59.95s user 0.59s system 76% cpu 1:18.72 total
+./count_knice 6 9 2000 1000000 99  61.25s user 0.49s system 81% cpu 1:15.34 total

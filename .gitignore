@@ -16,3 +16,15 @@ attack/h3-covering/cover
 attack/h5-sat-witness/first_hit
 attack/middle-digits/midpoly
 attack/directions/quasi_nice
+attack/d1-quasi-nice/bin/
+attack/d3-existence-llt/count_knice
+attack/d5-client-join/client_count
+attack/d5-client-join/client_count256
+attack/d5-client-join/join_ds
+attack/d5-client-join/join_mc
+attack/d6-wall-theory/tails
+attack/d6-wall-theory/theta1
+attack/d7-audit/bin/
+
+# Local clone of the public client (upstream: github.com/wasabipesto/nice, commit fe1b0b8)
+attack/d5-client-join/nice-client/

@@ -1,0 +1,5 @@
+name = "nice-core"
+defaultTargets = ["NiceCore"]
+
+[[lean_lib]]
+name = "NiceCore"

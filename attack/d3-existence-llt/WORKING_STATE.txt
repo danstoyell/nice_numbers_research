@@ -1,0 +1,8 @@
+D3 working state -- COMPLETE (2026-09-28, resumed session).
+- NOTE_DRAFT.txt is the final note; the main session should save it as REPORT.md.
+- The second search for MR 2018 (Trans. AMS 370) found no open copy. It checked Unpaywall, Semantic Scholar, the HAL
+  record (no file), arXiv, AMS/doi.org (Cloudflare challenge), the authors' pages and TU Wien theses.
+- Section 5 of the note now states Lemma U precisely, lists the weak forms that suffice, and gives the three needed
+  properties of the MR18 proof: (P1) uniform constant, (P2) shape of the saving, (P3) two-step vdC skeleton with nu_1 >= 2 rho.
+  It also derives U from them. Theorem A is labelled CONDITIONAL.
+- Next step if anyone continues: check (P1) and (P3) in the MR18 PDF.

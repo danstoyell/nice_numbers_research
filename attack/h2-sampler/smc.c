@@ -115,7 +115,7 @@ int main(int argc, char **argv) {
             int minf = pop[0].f;
             if (tau == 0) {
                 // collect distinct witnesses
-                for (int i = 0; i < nseed; ++i) wit[nwit++] = pop[i].n;
+                for (int i = 0; i < nseed && nwit < 4 * P; ++i) wit[nwit++] = pop[i].n;
                 if (first_ep) printf("%s{\"level\":%d,\"tau\":0,\"min_phi\":%d,\"seeds\":%d,\"distinct_ancestors_pop\":%d,\"distinct_ancestors_seeds\":%d,\"accept\":null,\"evals\":%llu}",
                        level ? "," : "", level, minf, nseed, div_pop, div_seed, (unsigned long long)evals);
                 ep_tau0++; done = 1; break;

@@ -1,5 +1,7 @@
 # The structure of the middle digits of a cube
 
+> **Corrected 2026-09-28** after the [D7 audit](../d7-audit/REPORT.md): Theorem A now assumes P + 1 ≤ 2L (it is false without it), Proposition A′'s proof runs Weyl's argument directly, and several measured claims below are restated more precisely. No conclusion changes.
+
 2026-09-28. What structure, if any, do the digits of n³ in the cube's middle
 third have, as a function of the digits of n? The earlier reports proved that no
 fixed-value certificate from the two ends reaches those digits
@@ -18,8 +20,9 @@ every claim on data.
   therefore never independent random digits; they are Weyl sequences.
 - **The polynomial model with random linear coefficient and exact quadratic
   and cubic coefficients reproduces the measured distribution of domain sizes
-  to total-variation distance 0.002–0.011** at every middle position and batch
-  shape tested, where the iid model is off by 0.01–0.68 (§3). It also
+  to total-variation distance 0.002–0.011** at 17 of the 18 middle positions and batch
+  shapes tested (0.027 at (2, 3), P = 6; [D6](../d6-wall-theory/REPORT.md) gives a model that closes it),
+  where the iid model is off by 0.01–0.68 (§3). It also
   explains the heavy lower tail of small domains that H1 recorded (2–3 times
   the iid rate) and the positions where the cube has *more* distinct values
   along a batch than random digits would (20.9 against 19.15 in base 30).
@@ -33,10 +36,11 @@ every claim on data.
   along a batch of b roots in 10⁻⁶ to 10⁻³ of the (batch, position) pairs
   (§4), against the rigorous but weak bound 6/b of Proposition A′. They are
   the lattice certificates the algorithm report costed at one digit per factor
-  b; here they are seen directly, and they are exactly the extra rejections
-  H1 measured.
+  b; here they are seen directly, and they are the likely source of the extra
+  rejections H1 measured (not checked batch by batch).
 - **Over a large batch every middle digit is uniform** (Theorem B; measured
-  deviations 0.001 where the theorem guarantees 0.03), and **changing any root
+  deviations 0.001 against the heuristic Weyl scale N^(−1/4) = 0.03; the t = 2 rows
+  lie outside Theorem B's hypothesis t ≤ (1−η)L/3), and **changing any root
   digit re-randomizes every output digit above it** with probability 1 − 1/b
   except at the two positions immediately above, whose exact change
   probabilities follow from the gcd structure, and the smooth top two
@@ -75,8 +79,11 @@ position P of an integer X is ⌊b·{X/b^(P+1)}⌋. Each term's contribution to
 {X/b^(P+1)} is its residue modulo b^(P+1) divided by b^(P+1); a term divisible
 by b^(P+1) contributes nothing. ∎
 
-Checked exactly: `midpoly coeff` recomputes the digit from the four residues
-for every root of every sampled batch; 0 mismatches in 5.4 million batches.
+Checked exactly: `midpoly coeff` recomputes the digit from the expanded terms
+c³ + 3c²b^k m + 3c b^(2k) m² + b^(3k) m³ for every root of every sampled batch
+(0 mismatches in 5.4 million batches). The reduced-residue form above was
+checked in exact arithmetic on 900,000 batches (27 million roots) by the D7
+audit (`attack/d7-audit/midpoly_exact.py`): 0 mismatches.
 
 **Zones.** Along a batch, the cube's digit at P is: fixed (P < k); the coding
 of a pure rotation by θ₁ (k ≤ P < 2k); a quadratic sequence (2k ≤ P < 3k); a
@@ -132,20 +139,25 @@ Sampling noise for the 64-bin deviations: 0.015. Samples per row: 300,000 batche
 
 Reading the table:
 
-- x₀ is close to uniform everywhere; θ₁ is uniform to sampling accuracy only
-  where Ptop² enters it (P ≥ 3k + 2f: rows (3, 2) at P = 8–9, (4, 1) at
-  P ≥ 7), as Theorem A predicts. Elsewhere its histogram shows the arithmetic
+- x₀ deviates from uniform by 0.03–0.09 except at (3, 2), P = 6 (0.18). θ₁ is
+  not uniform to sampling accuracy (0.015) in any row: 0.04–0.19 where Ptop²
+  enters it (P ≥ 3k + 2f), up to 0.75 elsewhere. At this size the threshold
+  does not separate the rows ((2, 3) at P = 9–10, below it: 0.03–0.04; (3, 2)
+  at P = 10–11, above it: 0.19, reproduced in exact arithmetic). Theorem A is
+  asymptotic in t and says nothing quantitative at t ≤ 4. Where θ₁ is far from
+  uniform below the threshold, its histogram shows the arithmetic
   of 6·Ptop·R + 3R² modulo b^(P+1−k): for R sharing factors with b the value is
   close to a rational with a small denominator, and the digit sequence along
   the batch is nearly periodic.
-- The polynomial model matches the measured domain sizes to within 0.03 in
+- The polynomial model matches the measured domain sizes to within 0.03 (0.04 at (2, 3), P = 7) in
   the mean and 0.002–0.011 in total variation in every row but one (the
   quadratic-zone position P = 6 of shape (2, 3), where θ₂ takes only the ten
   values j/10 and θ₁ is also structured: 0.027). The iid model is wrong in
   detail everywhere and badly wrong where θ₂ is small: there the sequence is
   nearly a rotation, rotations spread their points evenly, and the cube shows
   20.9 distinct values among 30 against the iid 19.15.
-- The residual deviations of x₀ and θ₁ in the Weyl regime (0.03–0.09) are the
+- The residual deviations in the rows that meet Theorem A's hypothesis ((3, 2)
+  at P ≥ 9 and (4, 1) at P ≥ 6), 0.03–0.08 for x₀ and 0.04–0.19 for θ₁, are the
   finite-size cancellation of quadratic and cubic Weyl sums of length
   N_P ≈ 2.6×10⁴; they shrink like a power of N_P.
 
@@ -212,7 +224,7 @@ by 1/H plus a weighted sum of its exponential sums with frequencies of size at
 most H.
 
 **Theorem A (equidistribution of the batch coefficients).** Fix b, L, a batch
-shape (t, k, f) and a position P with P + 1 ≥ 3(k+f) + ηt and k ≥ ηt for some
+shape (t, k, f) and a position P with 3(k+f) + ηt ≤ P + 1 ≤ 2L and k ≥ ηt for some
 η > 0. As the batch parameter c = Ptop·b^(k+f) + R ranges over all
 b^(t−1)(b−1)·b^k batches, the pair (x₀, θ₁) of Lemma 1 is equidistributed in
 T², with discrepancy ≪_ε N_P^(−η/8+ε), N_P = b^(t−1)(b−1).
@@ -225,7 +237,7 @@ T², with discrepancy ≪_ε N_P^(−η/8+ε), N_P = b^(t−1)(b−1).
 Fix R. As a polynomial in Ptop the phase has degree 3 if h₁ ≠ 0, with leading
 coefficient h₁ b^(3k+3f)/b^(P+1) = h₁/b^(P+1−3k−3f); its reduced denominator
 q satisfies b^(P+1−3k−3f)/H ≤ q ≤ b^(P+1−3k−3f). The hypothesis gives
-q ≥ b^(ηt)/H ≥ N_P^(η/2) once H ≤ N_P^(η/4), and P + 1 ≤ 2L gives
+q ≥ b^(ηt)/H ≥ N_P^(η/2) once H ≤ N_P^(η/4), and the hypothesis P + 1 ≤ 2L gives
 q ≤ b^(2t−k−f) ≤ N_P^(2+o(1)) ≤ N_P^(3−η). Weyl's inequality with d = 3 gives
 |Σ_Ptop| ≪ N_P^(1−η/8+ε). If h₁ = 0 the phase has degree 2 in Ptop with
 leading coefficient 3h₂/b^(P+1−3k−2f); the exponent is at least f + ηt, the
@@ -233,6 +245,10 @@ reduced denominator lies in [b^(ηt)/(3H), b^(2t−k)] ⊂ [N_P^(η/2), N_P^(2�
 because k ≥ ηt, and Weyl with d = 2 gives |Σ_Ptop| ≪ N_P^(1−η/4+ε). Summing
 over the b^k values of R and applying Erdős–Turán–Koksma with H = N_P^(η/8)
 gives the discrepancy bound. ∎
+
+*Remark (D7 audit, 2026-09-28).* The upper bound P + 1 ≤ 2L is necessary: at
+P + 1 = 3L the other hypotheses hold, but x₀ = c³/b^(P+1) is smooth in c
+(P(x₀ < ½) = 0.787 in base 30 for every t).
 
 *Remarks.* (i) The theorem is about the two coefficients that Lemma 1 does not
 pin down arithmetically; θ₂ and θ₃ are exact rationals with denominators
@@ -250,16 +266,21 @@ for one free digit and any 1 ≤ s ≤ b/2, the fraction of batches in which the
 digit at P takes at most s distinct values along the batch is at most
 2s/b + o(1) as t → ∞ (the o(1) depends on b).
 
-*Proof.* For m ≠ m′ the map (x₀, θ₁) ↦ (x_m, x_m′) on T² is the affine map with
-matrix ((1, m), (1, m′)) plus a constant, a surjective endomorphism of the
-torus, so it preserves Haar measure; by Theorem A the pair of fractional parts
-is equidistributed on T² and the two digits coincide with probability
+*Proof.* Fix m ≠ m′ and write x_m = x₀ + θ₁m + θ₂m² + θ₃m³. For (g₁, g₂) ≠ 0
+the phase g₁x_m + g₂x_m′ equals h₁x₀ + h₂θ₁ + h₃θ₂ + const, with h₁ = g₁+g₂,
+h₂ = g₁m+g₂m′, h₃ = g₁m²+g₂m′², and (h₁, h₂) ≠ 0 because m ≠ m′. The θ₂ term
+e(3h₃c/b^(P+1−2k)) is linear in Ptop and θ₃ is constant, so they change only
+lower-order coefficients in the proof of Theorem A, on which Weyl's bound does
+not depend. That proof therefore applies with |h₁| ≤ 2H and |h₂| ≤ 2(b−1)H,
+and (x_m, x_m′) is equidistributed on T², uniformly over the C(b, 2) pairs.
+(Pushing Theorem A forward does not suffice: the translation θ₂m² + θ₃m³
+varies with the batch. D7 audit, 2026-09-28.) The two digits coincide with probability
 1/b + o(1). Hence the expected number of coinciding pairs among the b points
 is (b−1)/2 + o(b). If the digits take at most s values, convexity gives at
 least s·C(b/s, 2) ≥ b(b−s)/(2s) coinciding pairs, and Markov's inequality
 gives a bound of s(b−1)/(b(b−s)) + o(1) ≤ 2s/b + o(1). ∎
 
-The bound s/b is far from the measured 10⁻⁶–10⁻³ (§4); the truth needs the
+The bound 2s/b is far from the measured 10⁻⁶–10⁻³ (§4); the truth needs the
 quadratic and cubic terms, which destroy near-periodicity unless they are
 themselves nearly rational. The proposition's role is to make "rare" a
 theorem; the measurement supplies the size.
@@ -284,7 +305,7 @@ from that of n³ with probability 1 − 1/b + O(N^(−η/8+ε)), N = b^L.
 *Proof.* The pair ({n³/b^(p+1)}, {(n+δb^i)³/b^(p+1)}) is equidistributed in T²:
 a frequency (h₁, h₂) with h₁ + h₂ ≠ 0 gives a cubic in n with leading
 coefficient (h₁+h₂)/b^(p+1) and reduced denominator in [N^η, N^(3−η)] since
-L ≤ p + 1 ≤ (3−η)L; a frequency with h₂ = −h₁ ≠ 0 gives the quadratic
+ηL ≤ p + 1 ≤ (3−η)L; a frequency with h₂ = −h₁ ≠ 0 gives the quadratic
 −h₁(3n²δb^i + 3nδ²b^(2i) + δ³b^(3i))/b^(p+1) with leading denominator
 b^(p+1−i)/gcd, which lies in [N^η, N^(2−η)] under the hypothesis on p. Weyl
 and Erdős–Turán–Koksma give the discrepancy, and the event "same digit" is a
@@ -292,9 +313,10 @@ union of b squares of side 1/b. ∎
 
 Outside the theorem's range the behaviour is exact and different: at position
 i ≥ 1 itself the cube's digit changes by 3n₀²δ modulo b (with n₀ the bottom
-digit), so it changes with probability P(b ∤ 3n₀²δ), which the gcd count puts
-at 0.73 in base 30 (0.80 for the square's 2n₀δ); the measured 0.76 and 0.83
-include the carry from below. At i = 0 the bottom digit is n₀³ modulo b,
+digit; the change is exactly 3n₀²δ·b^i modulo b^(i+1), with no carry), so it
+changes with probability P(b ∤ 3n₀²δ), which the gcd count with δ ≠ 0 puts
+at 219/290 = 0.755 in base 30 (24/29 = 0.828 for the square's 2n₀δ), matching
+the measured 0.755 and 0.828 (D7 audit). At i = 0 the bottom digit is n₀³ modulo b,
 which always changes when cubing is a bijection modulo b. At the top two
 affected positions the change Δ/b^(p+1) is smaller than one, so the digit
 changes with probability about b·Δ/b^(p+1).
@@ -302,7 +324,7 @@ changes with probability about b·Δ/b^(p+1).
 ## 6. Measurements for Theorems B and C
 
 <!-- BATCH -->
-| Fixed top digits t | Prefix | Batch size N | Weyl bound N^(−1/4) | iid noise | Max deviation of a digit frequency from 1/b over the middle third (positions 6–11) | Bottom positions 0–5 | Top three positions |
+| Fixed top digits t | Prefix | Batch size N | Heuristic Weyl scale N^(−1/4) | iid noise | Max deviation of a digit frequency from 1/b over the middle third (positions 6–11) | Bottom positions 0–5 | Top three positions |
 |---:|---:|---:|---:|---:|---:|---|---|
 | 2 | 755 | 810,000 | 0.0333 | 0.000199 | 0.0009 | 0.0000, 0.0300, 0.0306, 0.0000, 0.0011, 0.0010 | 0.014 (30 values), 0.440 (3 values), 0.967 (1 values) |
 | 2 | 640 | 810,000 | 0.0333 | 0.000199 | 0.0006 | 0.0000, 0.0300, 0.0306, 0.0000, 0.0012, 0.0011 | 0.011 (30 values), 0.625 (3 values), 0.967 (1 values) |
