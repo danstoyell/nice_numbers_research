@@ -55,3 +55,19 @@ arithmetic.
 - The public distributed search: [wasabipesto/nice](https://github.com/wasabipesto/nice)
 - Machine-checked proofs of the basic obstructions, by Brian Haskin:
   [Janzert/nice-numbers-lean](https://github.com/Janzert/nice-numbers-lean)
+
+## License
+
+All code, proofs, reports and data in this repository are released under the
+[MIT License](LICENSE).
+
+A few files contain code copied or ported from other MIT-licensed projects.
+Those parts keep their original copyright notices:
+
+- `overlap-join/gpu/src/client_check.rs` (verbatim) and
+  `attack/d5-client-join/client_count.c` (a C port): Copyright (c) 2024
+  wasabipesto, from [wasabipesto/nice](https://github.com/wasabipesto/nice)
+  ([license](https://github.com/wasabipesto/nice/blob/fe1b0b8/LICENSE)).
+- `research/lean/NiceCore.lean`, §A (verbatim): Copyright (c) 2026 Brian
+  Haskin, from [Janzert/nice-numbers-lean](https://github.com/Janzert/nice-numbers-lean)
+  ([license](https://github.com/Janzert/nice-numbers-lean/blob/HEAD/LICENSE)).

@@ -1,6 +1,8 @@
 // client_count.c -- faithful reimplementation of the public client's CPU
 // niceonly search path (wasabipesto/nice, commit fe1b0b8, v3.4.5+), with
 // operation counters, generalized to k-nice (multiplicity K) for the testbed.
+// The ported client logic is Copyright (c) 2024 wasabipesto, used under the
+// MIT License of https://github.com/wasabipesto/nice (see LICENSE there).
 //
 // Pipeline per chunk (client/src/main.rs, common/src/client_process.rs):
 //   1. MSD recursion (msd_prefix_filter::get_valid_ranges_recursive_masked):

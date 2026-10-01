@@ -9,6 +9,8 @@
 
   §A  Haskin's definitions and lemmas that the rest uses, copied verbatim, so the
       file checks on its own.  Delete §A to append §B–§E to his file.
+      §A is Copyright (c) 2026 Brian Haskin, used under the MIT License of
+      https://github.com/Janzert/nice-numbers-lean (see LICENSE there).
 
   §B  **The batch digit formula** (Lemma 1 of attack/middle-digits/REPORT.md).
       For `n = c + b^k·m`, the digit at position `P` of `n³` is
