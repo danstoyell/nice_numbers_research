@@ -1,0 +1,58 @@
+57 count 15625 {'analyses': '1.04e+09', 'leaves': '8.1e+08', 'visits': '9.78e+11', 'mask_rejects': '8.46e+11', 'full_checks': '1.32e+11'}
+57 gpu 15625 356.1 s/field, cpu 1428, dev_wait 34.6 cpu_wait 0.4
+57 count 31250 {'analyses': '5.97e+08', 'leaves': '4.42e+08', 'visits': '1.07e+12', 'mask_rejects': '9.19e+11', 'full_checks': '1.48e+11'}
+57 gpu 31250 374.2 s/field, cpu 829, dev_wait 36.4 cpu_wait 0.3
+57 count 62500 {'analyses': '3.56e+08', 'leaves': '2.41e+08', 'visits': '1.16e+12', 'mask_rejects': '9.94e+11', 'full_checks': '1.7e+11'}
+57 gpu 62500 408.7 s/field, cpu 492, dev_wait 39.3 cpu_wait 0.4
+57 count 125000 {'analyses': '2.18e+08', 'leaves': '1.38e+08', 'visits': '1.33e+12', 'mask_rejects': '1.12e+12', 'full_checks': '2.11e+11'}
+57 gpu 125000 480.4 s/field, cpu 261, dev_wait 44.4 cpu_wait 0.3
+57 count 250000 {'analyses': '1.42e+08', 'leaves': '7.58e+07', 'visits': '1.47e+12', 'mask_rejects': '1.23e+12', 'full_checks': '2.41e+11'}
+57 gpu 250000 538.0 s/field, cpu 146, dev_wait 49.5 cpu_wait 0.6
+57 count 500000 {'analyses': '1e+08', 'leaves': '4.21e+07', 'visits': '1.63e+12', 'mask_rejects': '1.34e+12', 'full_checks': '2.84e+11'}
+57 gpu 500000 625.1 s/field, cpu 86, dev_wait 46.6 cpu_wait 0.3
+57 gpu steered 412.2 s/field floors 62500..250000 end 62500
+60 count 15625 {'analyses': '1.02e+09', 'leaves': '7.13e+08', 'visits': '2.41e+11', 'mask_rejects': '2.08e+11', 'full_checks': '3.3e+10'}
+60 gpu 15625 206.1 s/field, cpu 1761, dev_wait 16.9 cpu_wait 3.2
+60 count 31250 {'analyses': '6.13e+08', 'leaves': '4.09e+08', 'visits': '2.77e+11', 'mask_rejects': '2.35e+11', 'full_checks': '4.13e+10'}
+60 gpu 31250 127.6 s/field, cpu 1080, dev_wait 11.4 cpu_wait 0.9
+60 count 62500 {'analyses': '3.59e+08', 'leaves': '2.54e+08', 'visits': '3.44e+11', 'mask_rejects': '2.86e+11', 'full_checks': '5.74e+10'}
+60 gpu 62500 141.7 s/field, cpu 554, dev_wait 13.0 cpu_wait 0.5
+60 count 125000 {'analyses': '2.15e+08', 'leaves': '1.44e+08', 'visits': '3.89e+11', 'mask_rejects': '3.23e+11', 'full_checks': '6.57e+10'}
+60 gpu 125000 150.2 s/field, cpu 328, dev_wait 13.7 cpu_wait 0.6
+60 count 250000 {'analyses': '1.39e+08', 'leaves': '7.55e+07', 'visits': '4.08e+11', 'mask_rejects': '3.38e+11', 'full_checks': '7e+10'}
+60 gpu 250000 155.2 s/field, cpu 175, dev_wait 12.7 cpu_wait 1.0
+60 count 500000 {'analyses': '1e+08', 'leaves': '3.91e+07', 'visits': '4.23e+11', 'mask_rejects': '3.49e+11', 'full_checks': '7.44e+10'}
+60 gpu 500000 161.0 s/field, cpu 92, dev_wait 7.8 cpu_wait 0.4
+60 gpu steered 143.5 s/field floors 62500..250000 end 62500
+64 count 15625 {'analyses': '8.76e+08', 'leaves': '6.37e+08', 'visits': '8.68e+11', 'mask_rejects': '7.64e+11', 'full_checks': '1.04e+11'}
+64 gpu 15625 316.1 s/field, cpu 940, dev_wait 30.4 cpu_wait 0.3
+64 count 31250 {'analyses': '5.08e+08', 'leaves': '3.68e+08', 'visits': '1e+12', 'mask_rejects': '8.74e+11', 'full_checks': '1.28e+11'}
+64 gpu 31250 350.7 s/field, cpu 608, dev_wait 33.7 cpu_wait 0.3
+64 count 62500 {'analyses': '3.05e+08', 'leaves': '2.03e+08', 'visits': '1.11e+12', 'mask_rejects': '9.6e+11', 'full_checks': '1.45e+11'}
+64 gpu 62500 378.0 s/field, cpu 332, dev_wait 36.2 cpu_wait 0.2
+64 count 125000 {'analyses': '1.96e+08', 'leaves': '1.1e+08', 'visits': '1.2e+12', 'mask_rejects': '1.04e+12', 'full_checks': '1.61e+11'}
+64 gpu 125000 406.3 s/field, cpu 160, dev_wait 37.4 cpu_wait 0.3
+64 count 250000 {'analyses': '1.36e+08', 'leaves': '6.02e+07', 'visits': '1.31e+12', 'mask_rejects': '1.13e+12', 'full_checks': '1.86e+11'}
+64 gpu 250000 453.2 s/field, cpu 98, dev_wait 37.8 cpu_wait 0.5
+64 count 500000 {'analyses': '1e+08', 'leaves': '3.55e+07', 'visits': '1.55e+12', 'mask_rejects': '1.31e+12', 'full_checks': '2.36e+11'}
+64 gpu 500000 554.9 s/field, cpu 59, dev_wait 11.7 cpu_wait 0.1
+64 gpu steered 379.6 s/field floors 62500..202391 end 62500
+base 57: device-bound floors [15625, 31250, 62500, 125000, 250000, 500000]: 251.26 ps per stride visit, 0.728 ns per full check
+   floor 15625: visits 9.78e+11 full 1.32e+11: measured 356.1 s, model 341.6 s (visits 245.7 + full 95.8)
+   floor 31250: visits 1.07e+12 full 1.48e+11: measured 374.2 s, model 375.8 s (visits 268.1 + full 107.7)
+   floor 62500: visits 1.16e+12 full 1.7e+11: measured 408.7 s, model 416.4 s (visits 292.6 + full 123.8)
+   floor 125000: visits 1.33e+12 full 2.11e+11: measured 480.4 s, model 488.3 s (visits 334.8 + full 153.5)
+   floor 250000: visits 1.47e+12 full 2.41e+11: measured 538.0 s, model 543.5 s (visits 368.4 + full 175.1)
+   floor 500000: visits 1.63e+12 full 2.84e+11: measured 625.1 s, model 615.9 s (visits 409.2 + full 206.7)
+base 60: device-bound floors [15625, 31250, 62500, 125000, 250000]: 2243.73 ps per stride visit, -10.995 ns per full check
+   floor 15625: visits 2.41e+11 full 3.3e+10: measured 206.1 s, model 177.2 s (visits 540.5 + full -363.3)
+   floor 31250: visits 2.77e+11 full 4.13e+10: measured 127.6 s, model 166.7 s (visits 620.5 + full -453.7)
+   floor 62500: visits 3.44e+11 full 5.74e+10: measured 141.7 s, model 140.4 s (visits 771.3 + full -630.9)
+   floor 125000: visits 3.89e+11 full 6.57e+10: measured 150.2 s, model 150.2 s (visits 872.9 + full -722.7)
+   floor 250000: visits 4.08e+11 full 7e+10: measured 155.2 s, model 146.8 s (visits 915.9 + full -769.2)
+base 64: device-bound floors [15625, 31250, 62500, 125000, 250000]: 443.66 ps per stride visit, -0.731 ns per full check
+   floor 15625: visits 8.68e+11 full 1.04e+11: measured 316.1 s, model 309.1 s (visits 385.2 + full -76.1)
+   floor 31250: visits 1e+12 full 1.28e+11: measured 350.7 s, model 351.2 s (visits 444.5 + full -93.4)
+   floor 62500: visits 1.11e+12 full 1.45e+11: measured 378.0 s, model 384.3 s (visits 490.4 + full -106.1)
+   floor 125000: visits 1.2e+12 full 1.61e+11: measured 406.3 s, model 412.8 s (visits 530.9 + full -118.0)
+   floor 250000: visits 1.31e+12 full 1.86e+11: measured 453.2 s, model 446.2 s (visits 582.1 + full -136.0)

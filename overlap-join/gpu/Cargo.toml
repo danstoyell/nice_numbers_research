@@ -1,0 +1,37 @@
+[package]
+name = "overlap_join_gpu"
+version = "0.1.0"
+edition = "2024"
+description = "GPU (CubeCL 0.10) device stage of the overlap join for the nice-number search client"
+
+# The public client wasabipesto/nice at git rev fe1b0b8 (v3.4.5+), unmodified.
+# For a merge this becomes a module of nice_common.
+[dependencies]
+nice_common = { git = "https://github.com/wasabipesto/nice", rev = "fe1b0b8", features = ["cubecl"] }
+# Pinned exactly like the client (CubeCL is pre-1.0).
+cubecl = { version = "=0.10.0", features = ["wgpu"] }
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.11"
+serde_json = "1.0"
+libc = "0.2"
+
+[features]
+default = []
+# Same feature names as the client: one kernel source, three runtimes.
+# cubecl-cuda: CubeCL's CUDA runtime (NVIDIA) -- builds without CUDA, UNTESTED here (no NVIDIA device).
+cubecl-cuda = ["nice_common/cubecl-cuda", "cubecl/cuda"]
+# cubecl-metal: CubeCL's direct MSL compiler inside the wgpu runtime.
+cubecl-metal = ["nice_common/cubecl-metal", "cubecl/metal"]
+
+[profile.release]
+# The client's release profile.
+opt-level = 3
+lto = true
+codegen-units = 1
+debug = false
+
+[profile.dev]
+opt-level = 1
+
+[workspace]

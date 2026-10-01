@@ -1,0 +1,12 @@
+bottoms          devphase 0.131s  est/field 3.3s  pipelined 0.589s
++join no-AND     devphase 0.099s  est/field 2.5s  pipelined 0.259s
++join no-walk    devphase 0.165s  est/field 4.2s  pipelined 0.243s
++join            devphase 0.277s  est/field 7.0s  pipelined 0.291s
++prefilter       devphase 0.405s  est/field 10.3s  pipelined 0.405s
++check (all)     devphase 0.441s  est/field 11.2s  pipelined 0.461s
+bottoms          devphase 0.090s  est/field 2.3s  pipelined 0.296s
++join no-AND     devphase 0.097s  est/field 2.5s  pipelined 0.393s
++join no-walk    devphase 0.173s  est/field 4.4s  pipelined 0.430s
++join            devphase 0.303s  est/field 7.7s  pipelined 0.545s
++prefilter       devphase 0.432s  est/field 11.0s  pipelined 0.555s
++check (all)     devphase 0.490s  est/field 12.4s  pipelined 0.519s

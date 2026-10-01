@@ -1,0 +1,61 @@
+CUDA design note for the overlap join's device stage (UNTESTED: no NVIDIA hardware was available)
+
+Two routes, in order of effort:
+
+(a) cubecl-cuda (no new code). The kernels in src/join_kernels.rs are plain
+    #[cube] functions; JoinDevice<R: Runtime> is generic. Build with
+    `--features cubecl-cuda` and construct the client with
+    CubeclContext::new_cuda(i) exactly as the client does; wide_chunk_for()
+    then selects the wide digit scan (u64 / b^e with b^e < 2^31,
+    strength-reduced by nvcc), as in the client. Expected to compile and run
+    unmodified -- UNTESTED. (The plane-scoped compaction the client enables
+    on CUDA is not used by the join: its survivor staging is a shared-memory
+    atomic per survivor, ~1.5% of AND tests.)
+
+(b) hand CUDA in common/src/cuda/nice_kernels.cu, driven like
+    client_process_cuda.rs (NVRTC, one specialization per base via -D):
+
+  defines: BASE N_LIMBS CHUNK_DIGITS CHUNK_DIV (existing), plus
+    JOIN, F0, PP, K, K2 (= K + 2, prefilter depth), KEY_LEVEL, NB (buckets =
+    b^(o-p) * (b-1)), EPT, S2, S3 (digit counts of n^2, n^3 in the field's
+    length class), PRE_MOD = b^K2 (<= 2^48 for b <= 64, K2 <= 8).
+
+  kernels (one-to-one with the CubeCL ones):
+    join_top_kernel     thread per (top-layer entry, partition slot): endpoint
+                        powers with the existing mul_limbs(); certificate = a
+                        scan_digits() variant walking both endpoints' digits in
+                        lockstep LSD-first from position c0 = max(K, ndig(y-x)),
+                        resetting the run at each disagreement (cert_power in
+                        join_kernels.rs); ndig from a __constant__ table of b^i.
+                        atomicAdd into per-slot top lists and bucket counts.
+    join_scan, join_fill  per-slot exclusive scan of bucket counts (cub::BlockScan)
+                        and bucket top lists.
+    join_bucket_kernel  block per (class, slot): extend each bpre entry by the
+                        partition digits (digit-array schoolbook mod b^K, u32),
+                        then step the key-position digits through all b key
+                        values; shared atomics per key -> per-(slot,key,class)
+                        index lists.
+    join_match_kernel   block per bucket: tops in __shared__; EPT entries per
+                        thread in registers; per 32 tops a branch-free AND into
+                        a pass bitmask (fully unrollable); the rare set bits are
+                        walked (__ffs). Survivors go through the existing COMPACT
+                        machinery: __ballot_sync/__popc into a per-warp queue
+                        (COMPACT_QUEUE), drained in 32-wide waves through
+                        prefilter_low_digits() with PRE_DIGITS = K2 and the set
+                        seeded with the top certificate (when its floor >= K2),
+                        then check_is_nice(). On CUDA this fuses stages 2-4: no
+                        global survivor list (the CubeCL/wgpu version keeps
+                        one because WGSL has no plane barrier).
+  host: a JoinSink beside CudaNiceonlySink on the same stream, with the same
+    before/after event pair per batch (so device_busy_secs is measured, which
+    wgpu cannot do); a partition-value work list replaces the MSD workers and
+    the FloorController (the join's knobs t, k, p are fixed per base); bpre
+    cached per (base, f0) like NiceonlyPlan's residue table; the top layer
+    uploaded per field. Descriptor change: the work unit is (field, partition
+    value v), not (offset, len, mask) ranges. With device tops the host does
+    ~1 CPU-second per 1e14 field, which a big GPU needs (see report section 6).
+
+What to measure first on NVIDIA: device time per field for (a), and the
+ratio of full-check cost to AND cost (1.34 ns vs 4.5 ps on the M4, about
+300x); the client's per-visit cost (0.25 ns on the M4) relative to the join's
+AND, since that ratio (about 56x on the M4) carries most of the GPU gain.

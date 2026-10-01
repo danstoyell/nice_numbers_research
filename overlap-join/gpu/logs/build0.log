@@ -1,0 +1,5 @@
+   Compiling malachite-q v0.11.0
+   Compiling malachite-float v0.11.0
+   Compiling malachite v0.11.0
+   Compiling overlap_join_gpu v0.1.0 (/Users/danstoyell/Desktop/projects/nicenumbers/overlap-join/gpu)
+    Finished `release` profile [optimized] target(s) in 1m 06s

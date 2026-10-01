@@ -1,0 +1,15 @@
+[package]
+name = "join_proto"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# The public client's library, pinned to the commit the benchmarks used.
+nice_common = { git = "https://github.com/wasabipesto/nice", rev = "fe1b0b8" }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+
+[workspace]

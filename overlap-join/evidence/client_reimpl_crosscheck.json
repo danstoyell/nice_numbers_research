@@ -1,0 +1,707 @@
+{
+ "all_match": true,
+ "cases": [
+  {
+   "base": 25,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 3339797,
+   "end": 9765624,
+   "match": true,
+   "rust": {
+    "stride_residues": 39018,
+    "leaves": 394,
+    "leaf_n": 6114526,
+    "visits": 636225,
+    "mask_rejects": 274799,
+    "full_checks": 361426,
+    "cert_per_visit": 2.0353
+   },
+   "c": {
+    "stride_residues": 39018,
+    "leaves": 394,
+    "leaf_n": 6114526,
+    "visits": 636225,
+    "mask_rejects": 274799,
+    "full_checks": 361426,
+    "cert_per_visit": 2.0353
+   }
+  },
+  {
+   "base": 25,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 3339797,
+   "end": 9765624,
+   "match": true,
+   "rust": {
+    "stride_residues": 39018,
+    "leaves": 99,
+    "leaf_n": 6319370,
+    "visits": 657496,
+    "mask_rejects": 168892,
+    "full_checks": 488604,
+    "cert_per_visit": 1.1246
+   },
+   "c": {
+    "stride_residues": 39018,
+    "leaves": 99,
+    "leaf_n": 6319370,
+    "visits": 657496,
+    "mask_rejects": 168892,
+    "full_checks": 488604,
+    "cert_per_visit": 1.1246
+   }
+  },
+  {
+   "base": 25,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 3339797,
+   "end": 9765624,
+   "match": true,
+   "rust": {
+    "stride_residues": 39018,
+    "leaves": 25,
+    "leaf_n": 6425827,
+    "visits": 668611,
+    "mask_rejects": 11488,
+    "full_checks": 657123,
+    "cert_per_visit": 0.0778
+   },
+   "c": {
+    "stride_residues": 39018,
+    "leaves": 25,
+    "leaf_n": 6425827,
+    "visits": 668611,
+    "mask_rejects": 11488,
+    "full_checks": 657123,
+    "cert_per_visit": 0.0778
+   }
+  },
+  {
+   "base": 30,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 685772384,
+   "end": 695772384,
+   "match": true,
+   "rust": {
+    "stride_residues": 24908,
+    "leaves": 523,
+    "leaf_n": 8171875,
+    "visits": 259998,
+    "mask_rejects": 154271,
+    "full_checks": 105727,
+    "cert_per_visit": 3.9025
+   },
+   "c": {
+    "stride_residues": 24908,
+    "leaves": 523,
+    "leaf_n": 8171875,
+    "visits": 259998,
+    "mask_rejects": 154271,
+    "full_checks": 105727,
+    "cert_per_visit": 3.9025
+   }
+  },
+  {
+   "base": 30,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 484593180,
+   "end": 494593180,
+   "match": true,
+   "rust": {
+    "stride_residues": 24908,
+    "leaves": 136,
+    "leaf_n": 8500000,
+    "visits": 270409,
+    "mask_rejects": 151510,
+    "full_checks": 118899,
+    "cert_per_visit": 3.544
+   },
+   "c": {
+    "stride_residues": 24908,
+    "leaves": 136,
+    "leaf_n": 8500000,
+    "visits": 270409,
+    "mask_rejects": 151510,
+    "full_checks": 118899,
+    "cert_per_visit": 3.544
+   }
+  },
+  {
+   "base": 30,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 651203503,
+   "end": 661203503,
+   "match": true,
+   "rust": {
+    "stride_residues": 24908,
+    "leaves": 40,
+    "leaf_n": 10000000,
+    "visits": 318121,
+    "mask_rejects": 124010,
+    "full_checks": 194111,
+    "cert_per_visit": 1.8999
+   },
+   "c": {
+    "stride_residues": 24908,
+    "leaves": 40,
+    "leaf_n": 10000000,
+    "visits": 318121,
+    "mask_rejects": 124010,
+    "full_checks": 194111,
+    "cert_per_visit": 1.8999
+   }
+  },
+  {
+   "base": 34,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 13059366497,
+   "end": 13069366497,
+   "match": true,
+   "rust": {
+    "stride_residues": 90864,
+    "leaves": 342,
+    "leaf_n": 5343750,
+    "visits": 374311,
+    "mask_rejects": 283937,
+    "full_checks": 90374,
+    "cert_per_visit": 6.684
+   },
+   "c": {
+    "stride_residues": 90864,
+    "leaves": 342,
+    "leaf_n": 5343750,
+    "visits": 374311,
+    "mask_rejects": 283937,
+    "full_checks": 90374,
+    "cert_per_visit": 6.684
+   }
+  },
+  {
+   "base": 34,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 11795004738,
+   "end": 11805004738,
+   "match": true,
+   "rust": {
+    "stride_residues": 90864,
+    "leaves": 130,
+    "leaf_n": 8125000,
+    "visits": 569153,
+    "mask_rejects": 372413,
+    "full_checks": 196740,
+    "cert_per_visit": 5.4151
+   },
+   "c": {
+    "stride_residues": 90864,
+    "leaves": 130,
+    "leaf_n": 8125000,
+    "visits": 569153,
+    "mask_rejects": 372413,
+    "full_checks": 196740,
+    "cert_per_visit": 5.4151
+   }
+  },
+  {
+   "base": 34,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 9493896163,
+   "end": 9503896163,
+   "match": true,
+   "rust": {
+    "stride_residues": 90864,
+    "leaves": 28,
+    "leaf_n": 7000000,
+    "visits": 490417,
+    "mask_rejects": 289664,
+    "full_checks": 200753,
+    "cert_per_visit": 4.8572
+   },
+   "c": {
+    "stride_residues": 90864,
+    "leaves": 28,
+    "leaf_n": 7000000,
+    "visits": 490417,
+    "mask_rejects": 289664,
+    "full_checks": 200753,
+    "cert_per_visit": 4.8572
+   }
+  },
+  {
+   "base": 40,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 5263122810748,
+   "end": 5263132810748,
+   "match": true,
+   "rust": {
+    "stride_residues": 144064,
+    "leaves": 420,
+    "leaf_n": 6562500,
+    "visits": 378792,
+    "mask_rejects": 305621,
+    "full_checks": 73171,
+    "cert_per_visit": 9.0098
+   },
+   "c": {
+    "stride_residues": 144064,
+    "leaves": 420,
+    "leaf_n": 6562500,
+    "visits": 378792,
+    "mask_rejects": 305621,
+    "full_checks": 73171,
+    "cert_per_visit": 9.0098
+   }
+  },
+  {
+   "base": 40,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 2811972897596,
+   "end": 2811982897596,
+   "match": true,
+   "rust": {
+    "stride_residues": 144064,
+    "leaves": 146,
+    "leaf_n": 9125000,
+    "visits": 526638,
+    "mask_rejects": 370958,
+    "full_checks": 155680,
+    "cert_per_visit": 7.9316
+   },
+   "c": {
+    "stride_residues": 144064,
+    "leaves": 146,
+    "leaf_n": 9125000,
+    "visits": 526638,
+    "mask_rejects": 370958,
+    "full_checks": 155680,
+    "cert_per_visit": 7.9316
+   }
+  },
+  {
+   "base": 40,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 4109182644505,
+   "end": 4109192644505,
+   "match": true,
+   "rust": {
+    "stride_residues": 144064,
+    "leaves": 24,
+    "leaf_n": 6000000,
+    "visits": 346317,
+    "mask_rejects": 282110,
+    "full_checks": 64207,
+    "cert_per_visit": 7.4166
+   },
+   "c": {
+    "stride_residues": 144064,
+    "leaves": 24,
+    "leaf_n": 6000000,
+    "visits": 346317,
+    "mask_rejects": 282110,
+    "full_checks": 64207,
+    "cert_per_visit": 7.4166
+   }
+  },
+  {
+   "base": 57,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 78920310198429586458,
+   "end": 78920310198439586458,
+   "match": true,
+   "rust": {
+    "stride_residues": 801870,
+    "leaves": 267,
+    "leaf_n": 4171875,
+    "visits": 322577,
+    "mask_rejects": 285104,
+    "full_checks": 37473,
+    "cert_per_visit": 16.1905
+   },
+   "c": {
+    "stride_residues": 801870,
+    "leaves": 267,
+    "leaf_n": 4171875,
+    "visits": 322577,
+    "mask_rejects": 285104,
+    "full_checks": 37473,
+    "cert_per_visit": 16.1905
+   }
+  },
+  {
+   "base": 57,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 36710480249983435490,
+   "end": 36710480249993435490,
+   "match": true,
+   "rust": {
+    "stride_residues": 801870,
+    "leaves": 112,
+    "leaf_n": 7000000,
+    "visits": 541185,
+    "mask_rejects": 456009,
+    "full_checks": 85176,
+    "cert_per_visit": 15.8215
+   },
+   "c": {
+    "stride_residues": 801870,
+    "leaves": 112,
+    "leaf_n": 7000000,
+    "visits": 541185,
+    "mask_rejects": 456009,
+    "full_checks": 85176,
+    "cert_per_visit": 15.8215
+   }
+  },
+  {
+   "base": 57,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 38372038339031326435,
+   "end": 38372038339041326435,
+   "match": true,
+   "rust": {
+    "stride_residues": 801870,
+    "leaves": 20,
+    "leaf_n": 5000000,
+    "visits": 386560,
+    "mask_rejects": 341512,
+    "full_checks": 45048,
+    "cert_per_visit": 15.1005
+   },
+   "c": {
+    "stride_residues": 801870,
+    "leaves": 20,
+    "leaf_n": 5000000,
+    "visits": 386560,
+    "mask_rejects": 341512,
+    "full_checks": 45048,
+    "cert_per_visit": 15.1005
+   }
+  },
+  {
+   "base": 58,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 114041927169846138720,
+   "end": 114041927169856138720,
+   "match": true,
+   "rust": {
+    "stride_residues": 569040,
+    "leaves": 214,
+    "leaf_n": 3343750,
+    "visits": 171295,
+    "mask_rejects": 152873,
+    "full_checks": 18422,
+    "cert_per_visit": 17.0988
+   },
+   "c": {
+    "stride_residues": 569040,
+    "leaves": 214,
+    "leaf_n": 3343750,
+    "visits": 171295,
+    "mask_rejects": 152873,
+    "full_checks": 18422,
+    "cert_per_visit": 17.0988
+   }
+  },
+  {
+   "base": 58,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 149472265882716399659,
+   "end": 149472265882726399659,
+   "match": true,
+   "rust": {
+    "stride_residues": 569040,
+    "leaves": 76,
+    "leaf_n": 4750000,
+    "visits": 243238,
+    "mask_rejects": 211537,
+    "full_checks": 31701,
+    "cert_per_visit": 15.7889
+   },
+   "c": {
+    "stride_residues": 569040,
+    "leaves": 76,
+    "leaf_n": 4750000,
+    "visits": 243238,
+    "mask_rejects": 211537,
+    "full_checks": 31701,
+    "cert_per_visit": 15.7889
+   }
+  },
+  {
+   "base": 58,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 108495222991254797506,
+   "end": 108495222991264797506,
+   "match": true,
+   "rust": {
+    "stride_residues": 569040,
+    "leaves": 28,
+    "leaf_n": 7000000,
+    "visits": 358097,
+    "mask_rejects": 301290,
+    "full_checks": 56807,
+    "cert_per_visit": 15.4296
+   },
+   "c": {
+    "stride_residues": 569040,
+    "leaves": 28,
+    "leaf_n": 7000000,
+    "visits": 358097,
+    "mask_rejects": 301290,
+    "full_checks": 56807,
+    "cert_per_visit": 15.4296
+   }
+  },
+  {
+   "base": 60,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 1573714731429953349518,
+   "end": 1573714731429963349518,
+   "match": true,
+   "rust": {
+    "stride_residues": 275550,
+    "leaves": 79,
+    "leaf_n": 1234375,
+    "visits": 26654,
+    "mask_rejects": 23788,
+    "full_checks": 2866,
+    "cert_per_visit": 17.7094
+   },
+   "c": {
+    "stride_residues": 275550,
+    "leaves": 79,
+    "leaf_n": 1234375,
+    "visits": 26654,
+    "mask_rejects": 23788,
+    "full_checks": 2866,
+    "cert_per_visit": 17.7094
+   }
+  },
+  {
+   "base": 60,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 1246318688696920276454,
+   "end": 1246318688696930276454,
+   "match": true,
+   "rust": {
+    "stride_residues": 275550,
+    "leaves": 124,
+    "leaf_n": 7750000,
+    "visits": 167541,
+    "mask_rejects": 142871,
+    "full_checks": 24670,
+    "cert_per_visit": 16.6298
+   },
+   "c": {
+    "stride_residues": 275550,
+    "leaves": 124,
+    "leaf_n": 7750000,
+    "visits": 167541,
+    "mask_rejects": 142871,
+    "full_checks": 24670,
+    "cert_per_visit": 16.6298
+   }
+  },
+  {
+   "base": 60,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 1307356367521409975342,
+   "end": 1307356367521419975342,
+   "match": true,
+   "rust": {
+    "stride_residues": 275550,
+    "leaves": 40,
+    "leaf_n": 10000000,
+    "visits": 216198,
+    "mask_rejects": 181053,
+    "full_checks": 35145,
+    "cert_per_visit": 15.9499
+   },
+   "c": {
+    "stride_residues": 275550,
+    "leaves": 40,
+    "leaf_n": 10000000,
+    "visits": 216198,
+    "mask_rejects": 181053,
+    "full_checks": 35145,
+    "cert_per_visit": 15.9499
+   }
+  },
+  {
+   "base": 62,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 11098052380541596298900,
+   "end": 11098052380541606298900,
+   "match": true,
+   "rust": {
+    "stride_residues": 353342,
+    "leaves": 346,
+    "leaf_n": 5406250,
+    "visits": 131213,
+    "mask_rejects": 117479,
+    "full_checks": 13734,
+    "cert_per_visit": 18.4328
+   },
+   "c": {
+    "stride_residues": 353342,
+    "leaves": 346,
+    "leaf_n": 5406250,
+    "visits": 131213,
+    "mask_rejects": 117479,
+    "full_checks": 13734,
+    "cert_per_visit": 18.4328
+   }
+  },
+  {
+   "base": 62,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 6236694208507734019213,
+   "end": 6236694208507744019213,
+   "match": true,
+   "rust": {
+    "stride_residues": 353342,
+    "leaves": 64,
+    "leaf_n": 4000000,
+    "visits": 97314,
+    "mask_rejects": 85921,
+    "full_checks": 11393,
+    "cert_per_visit": 17.7499
+   },
+   "c": {
+    "stride_residues": 353342,
+    "leaves": 64,
+    "leaf_n": 4000000,
+    "visits": 97314,
+    "mask_rejects": 85921,
+    "full_checks": 11393,
+    "cert_per_visit": 17.7499
+   }
+  },
+  {
+   "base": 62,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 6180367326965214237535,
+   "end": 6180367326965224237535,
+   "match": true,
+   "rust": {
+    "stride_residues": 353342,
+    "leaves": 20,
+    "leaf_n": 5000000,
+    "visits": 121434,
+    "mask_rejects": 108203,
+    "full_checks": 13231,
+    "cert_per_visit": 17.1993
+   },
+   "c": {
+    "stride_residues": 353342,
+    "leaves": 20,
+    "leaf_n": 5000000,
+    "visits": 121434,
+    "mask_rejects": 108203,
+    "full_checks": 13231,
+    "cert_per_visit": 17.1993
+   }
+  },
+  {
+   "base": 64,
+   "floor": 8000,
+   "chunk": 1000000,
+   "start": 52125117810081128433988,
+   "end": 52125117810081138433988,
+   "match": true,
+   "rust": {
+    "stride_residues": 1440024,
+    "leaves": 288,
+    "leaf_n": 4500000,
+    "visits": 392161,
+    "mask_rejects": 356975,
+    "full_checks": 35186,
+    "cert_per_visit": 19.5636
+   },
+   "c": {
+    "stride_residues": 1440024,
+    "leaves": 288,
+    "leaf_n": 4500000,
+    "visits": 392161,
+    "mask_rejects": 356975,
+    "full_checks": 35186,
+    "cert_per_visit": 19.5636
+   }
+  },
+  {
+   "base": 64,
+   "floor": 62500,
+   "chunk": 1000000,
+   "start": 55785597339031437403908,
+   "end": 55785597339031447403908,
+   "match": true,
+   "rust": {
+    "stride_residues": 1440024,
+    "leaves": 132,
+    "leaf_n": 8250000,
+    "visits": 719291,
+    "mask_rejects": 682203,
+    "full_checks": 37088,
+    "cert_per_visit": 18.7423
+   },
+   "c": {
+    "stride_residues": 1440024,
+    "leaves": 132,
+    "leaf_n": 8250000,
+    "visits": 719291,
+    "mask_rejects": 682203,
+    "full_checks": 37088,
+    "cert_per_visit": 18.7423
+   }
+  },
+  {
+   "base": 64,
+   "floor": 250000,
+   "chunk": 1000000,
+   "start": 73800039932407369134242,
+   "end": 73800039932407379134242,
+   "match": true,
+   "rust": {
+    "stride_residues": 1440024,
+    "leaves": 34,
+    "leaf_n": 8500000,
+    "visits": 740731,
+    "mask_rejects": 625654,
+    "full_checks": 115077,
+    "cert_per_visit": 17.6477
+   },
+   "c": {
+    "stride_residues": 1440024,
+    "leaves": 34,
+    "leaf_n": 8500000,
+    "visits": 740731,
+    "mask_rejects": 625654,
+    "full_checks": 115077,
+    "cert_per_visit": 17.6477
+   }
+  }
+ ]
+}

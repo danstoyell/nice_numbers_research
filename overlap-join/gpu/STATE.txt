@@ -1,0 +1,178 @@
+OVERLAP JOIN ON THE GPU (CubeCL 0.10) -- working notes
+Started 2026-09-29 22:00. Client clone: attack/d5-client-join/nice-client @ fe1b0b8 (path dep, unmodified).
+Toolchain: export RUSTUP_HOME=/private/tmp/nice-rust/rustup CARGO_HOME=/private/tmp/nice-rust/cargo PATH=/private/tmp/nice-rust/cargo/bin:$PATH
+Build dir: CARGO_TARGET_DIR=/private/tmp/nice-rust/target-gpu
+
+PLAN
+1. baseline: client's begin/finish_niceonly_cubecl on Metal (wgpu) on the bench_pair fields.
+2. join device stage in CubeCL: bpre (host, once per field) -> per partition: host tops (256-bit cert) grouped by bucket,
+   device: K1 extend bpre entries by the partition digits (+ key-digit data), K2 join per bucket (tops x entries, one AND),
+   survivors -> global list, K3 full check = copy of the client's candidate_check (split16).
+3. verify: GPU survivors/hits == CPU proto on 21 verify cases + production partitions at 57/60/64; base 10 -> 69.
+4. bench: interleaved join/client, >=3 rounds, fields from bench_pair.jsonl.
+
+UPDATE 2026-09-29 22:40
+- Baseline runs on Metal: client's begin/finish_niceonly_cubecl works (device "Apple M4 (Metal, wgpu<wgsl>)"); base 10 -> 69;
+  1e12 piece at b57 field 79228699893042801193: 12.9 s wall, device-bound, floor steered to min 62500 (~1300 s / 1e14 field).
+- Join GPU implemented: src/join_kernels.rs (bottom_extend_kernel, join_kernel, check_kernel), src/join_gpu.rs (host),
+  src/client_check.rs (verbatim copy of the client's candidate_check), src/proto.rs (verbatim copy of join-proto lib.rs).
+- scripts/verify_gpu.py -> results/verify_gpu.json: ALL 21 PASS (survivors, matches, device-rebuilt n, hits; brute force too).
+NEXT: verify-parts on production fields (57/60/64, bench_pair fields); then timing (field mode) and client baseline sampling.
+
+UPDATE 2026-09-29 23:30
+- verify_parts.py -> results/verify_parts.jsonl: 15 prod fields x 8 partitions = 120 partitions ALL EXACT (1.53e8 survivors, 1.14e10 matches).
+- Optimizations (all re-verified exact on prod partitions + base 10):
+  * mid_kernel: middle-digit prefilter (digits 0..k+1 of n^2,n^3 from n's low digits, seeded with the top certificate when
+    its floor >= k+2): keeps ~6.3% of AND survivors; checked against an exact host mirror (u128).
+  * join_kernel_v3 + bucket_kernel: per-(slot,class,keydigit) index lists built once per partition (no per-bucket rescans),
+    EPT=4 entries/thread, 32-top branch-free pass bitmask then set-bit walk.
+  * batches of 4 partitions (per-batch fixed cost ~2 ms).
+- Device time per b57 field (unsynced, 96 partitions, slots 4): ~11 s  [bottoms ~2, AND 2.2, walk/stage 2.6, prefilter 3.4, check 0.6]
+  Host tops: ~45 core-s/field (b57). Client GPU path on this M4: ~1290 s/field (1e12 piece 12.9 s, device-bound).
+- NOTE: client.flush() blocks when fences are polled (wgpu poll thread); device time unaffected (JOIN_NOFENCE=1 test).
+NEXT: rusage accounting, bench script (join whole fields vs client 1e12 pieces, interleaved, 3 rounds), then final verify rerun.
+
+UPDATE 2026-09-29 23:55  BENCHMARK RUNNING
+- scripts/bench_gpu.py (binary snapshot /private/tmp/nice-rust/overlap_join_gpu.bench1; kernel v3, EPT 4, mid 2, slots 4, 9 host threads)
+  -> results/bench_gpu.jsonl, log logs/bench_gpu.log. Resume: JOIN_GPU=/private/tmp/nice-rust/overlap_join_gpu.bench1 python3 scripts/bench_gpu.py
+  (checkpointed per (round, method, base, field)). Do NOT use the GPU for other work while it runs.
+- Client estimate method: client-strat (100 strata x 1 random 1e11 piece, 2 warm-up pieces), rounds = replicates.
+
+=== PAUSE CHECKPOINT 2026-09-29 23:20 PDT (coordinator asked to pause for usage limit) ===
+DONE
+- Baseline: client's own CubeCL niceonly path RUNS on Metal (wgpu<wgsl>, "Apple M4 (Metal, wgpu<wgsl>)"): base 10 -> [69];
+  device-bound on base 57 (floor controller drives floor to its 62500 min). Harness: overlap_join_gpu client-range / client-sample /
+  client-strat (stratified: 100 strata x 1 random 1e11 piece + 2 warm-up pieces).
+- Join device stage in CubeCL 0.10 (src/join_kernels.rs, src/join_gpu.rs, src/main.rs; copies: src/proto.rs = join-proto lib.rs
+  verbatim + accessor blocks at end; src/client_check.rs = client's candidate_check verbatim, only 'pub' added).
+  Production path = kernel v3: bucket_kernel (extend bpre by partition digits + per-(slot,class,keydigit) index lists) ->
+  join_kernel_v3 (EPT=4 entries/thread, 32-top branch-free pass bitmask, survivors staged in shared mem, flushed) ->
+  mid_kernel (middle-digit prefilter, digits 0..k+1 of n^2,n^3, seeded with top cert when cert floor >= k+2) ->
+  check_kernel (client's candidate_check). Host: tops certified on CPU threads (proto's cert), batches of 4 partitions.
+- Correctness (all exact, nothing hidden):
+  * results/verify_gpu.json: 21/21 cases PASS (survivor sets, match counts, device-rebuilt n, hits vs CPU proto; brute force too);
+    base 10 finds 69; hits re-verified exactly in Rust and Python.  NOTE: produced BEFORE the prefilter/v3 kernels existed ->
+    MUST RERUN on final binary:  python3 scripts/verify_gpu.py
+  * results/verify_parts.jsonl: 15 prod fields x 8 random partitions = 120 partitions, ALL EXACT (1.53e8 survivors, 1.14e10 matches)
+    -- also pre-v3 -> RERUN on final binary (delete results/verify_parts.jsonl first, or set a new OUT name).
+  * v3 + prefilter spot-checked exact (verify-parts b57 field 79228699893042801193 parts 759,2542; verify 57 ... 9 5 2; base 10).
+- Per-stage device time b57 field (unsynced, scripts/stage_probe.py): bottoms ~2 s, AND loop +2.2, survivor walk +2.6,
+  prefilter +3.4, full check +0.6 => ~11 s/field device. Host tops ~36-51 core-s/field (b57).
+IN PROGRESS
+- BENCHMARK running in background (harmless, checkpointed per (round,method,base,field), binary snapshot
+  /private/tmp/nice-rust/overlap_join_gpu.bench1 so source edits do not affect it):
+    scripts/bench_gpu.py -> results/bench_gpu.jsonl, log logs/bench_gpu.log
+  If it died: JOIN_GPU=/private/tmp/nice-rust/overlap_join_gpu.bench1 nohup python3 scripts/bench_gpu.py >> logs/bench_gpu.log 2>&1 &
+  Do not compile or use the GPU while it runs (perturbs host/GPU timings). Check: tail logs/bench_gpu.log; ps aux | grep bench_gpu
+- Device-side top certification (JOIN_DEVTOPS=1): kernels top_kernel/cert_power/top_scan_kernel/top_fill_kernel written in
+  src/join_kernels.rs, host DevTops/launch_batch_dev/run_devtops in src/join_gpu.rs, verify_devtops + field paths in src/main.rs.
+  NOT YET COMPILED OR TESTED. Next: build, then JOIN_DEVTOPS=1 verify-parts (checks device tops == host tops per partition).
+RESULTS SO FAR (bench round 0, per 1e14 field, M4 GPU):
+  b57 79228699893042801193: join whole field 11.6 s wall (36 cpu-s), device 11.8 s (19.7 without prefilter); client 383.9 s (500 cpu-s)
+  b57 43926999893042801193: join 9.8 s (51 cpu-s), device 9.6 (14.1); client 375.1 s (542 cpu-s)
+  b57 65042299893042801193: join 10.3 s; device 10.1 (16.6)
+  b60 793163612114824200908: join 6.1 s (20 cpu-s), device 5.8; client 56.4 s (212 cpu-s)
+  b60 1901287712114824200908: join 7.7 s (39 cpu-s), device 8.9; client 105.3 s (369 cpu-s)
+  (full table: python3 -c "import json;[print(json.loads(l)) for l in open('results/bench_gpu.jsonl')]")
+  CPU-only context: attack/d5-client-join/bench_pair.jsonl (same fields, 1 thread): b57 client ~15000 s, join ~2000 s.
+NEXT COMMANDS (after the benchmark finishes)
+  1. export RUSTUP_HOME=/private/tmp/nice-rust/rustup CARGO_HOME=/private/tmp/nice-rust/cargo PATH=/private/tmp/nice-rust/cargo/bin:$PATH CARGO_TARGET_DIR=/private/tmp/nice-rust/target-gpu
+     cd overlap-join/gpu && cargo build --release   (fix compile errors in the devtops code)
+  2. python3 scripts/verify_gpu.py  (final binary, host tops)  ;  mv results/verify_parts.jsonl results/verify_parts_prev3.jsonl; python3 scripts/verify_parts.py
+  3. JOIN_DEVTOPS=1 .../overlap_join_gpu verify-parts 57 79228699893042801193 79228799893042801193 9 6 2 2 11 ; then VERIFY_OUT=verify_gpu_devtops.json JOIN_DEVTOPS=1 python3 scripts/verify_gpu.py
+  4. if devtops exact: timing JOIN_DEVTOPS=1 overlap_join_gpu field-full B S E T K P 9 4 on the bench fields (add a devtops method to bench_gpu.py)
+  5. summarize results (device vs host per field, ratio, host cores to feed GPU, sampling error across rounds), CUDA design note, report.
+
+UPDATE 2026-09-29 23:26 RESUMED (pause cancelled by coordinator)
+- bench_gpu.py (preliminary, bench1 binary) still running; round 0 complete: ratios client/join ~36x (57), ~12x (60), ~21x (64).
+- Written (not yet run): scripts/client_decomp.py (pinned-floor sweep + client_count256 op counts -> per-op client costs),
+  scripts/client_fullfield.py (whole-field client runs vs stratified estimate; optional cubecl-metal build),
+  scripts/bench_final.py (METHODS=join,join-devtops,client[,client-metal]; BENCH_OUT=...), scripts/summarize_bench.py.
+- Device/host seed rule aligned (top_kernel takes full_floor; mid_mirror uses the host rule).
+- Join per-op device costs (b57 stage probe): AND 4.5 ps, survivor walk+stage 0.32 ns, prefilter 0.41 ns, full check 1.34 ns.
+PLAN (coordinator order): finish bench -> build+test devtops -> rerun verify_gpu.py + verify_parts.py on final build ->
+  client scrutiny (decomp, fullfield, metal) -> final interleaved benchmark (bench_final.py) -> CUDA note + report.
+
+UPDATE 2026-09-30 00:03
+- Preliminary bench (bench1 binary) COMPLETE: results/bench_prelim.jsonl (copy of bench_gpu.jsonl), 90 records, 3 rounds:
+  client/join per 1e14 field: b57 31.6x (28.8-33.7), b60 12.8x (8.5-15.6), b64 20.8x (17.1-24.3).
+- Device tops (JOIN_DEVTOPS=1) compiled + EXACT (device tops == host tops, survivors, matches, prefilter, n, hits) on base 10/20 and
+  4 prod partitions each at 57/60/64. Timing (256 parts): host cpu/field 38 -> 1.1 (57); device 12.0 -> 13.6 s (57), 7.2->9.2 (60), 14.2->14.7 (64).
+- FINAL BINARY frozen: /private/tmp/nice-rust/overlap_join_gpu.final (from target-gpu/release). Old verify results moved to results/prev_build/.
+NEXT: verify_gpu.py (+ VERIFY_OUT=verify_gpu_devtops.json JOIN_DEVTOPS=1), verify_parts.py (+ devtops), then metal build of client,
+  client_decomp.py, client_fullfield.py, bench_final.py (METHODS=join,join-devtops,client).
+
+UPDATE 2026-09-30 00:11
+- BUG FOUND + FIXED by the rerun: join_kernel_v2/v3 padded empty entry slots with an all-ones mask; against a top with a ZERO
+  certificate (possible at small t, e.g. b20 t=2) the padded slot passed -> bogus extra survivors (b20 (2,3,1): 3696 vs 1666).
+  Superset only (no hit could be lost); production tops never have zero masks (prod partitions were exact). Fix: explicit per-slot
+  validity mask (v3) / out-of-range r0 sentinel (v2). The preliminary bench (bench_prelim.jsonl) used the buggy binary.
+- FINAL BINARY (sha256 2a8adc4f3f5f549a...) /private/tmp/nice-rust/overlap_join_gpu.final
+- FINAL VERIFICATION, all exact:
+  results/verify_gpu.json (21/21 PASS, host tops, brute force on all 21), results/verify_gpu_devtops.json (21/21, device tops),
+  results/verify_parts.jsonl + results/verify_parts_devtops.jsonl (15 fields x 8 = 120 prod partitions each; 1.531e8 survivors,
+  1.136e10 matches, 9.66e6 prefilter survivors; device tops == host tops, 2,276,198 tops).
+NEXT: client scrutiny: (a) maintainer's own M4 harness pipeline_throughput_fixed_fields (b54), (b) cubecl-metal build,
+  (c) client_decomp.py pinned floors, (d) client_fullfield.py whole fields; then bench_final.py.
+
+UPDATE 2026-09-30 07:55
+- Client's own test suite on Metal (built out of tree in /private/tmp/nice-rust/target-clienttest, clone untouched):
+  cubecl_niceonly_finds_69_in_base_10, cubecl_matches_cpu_niceonly, cubecl_cross_filter_survivors_match_the_host_mirror: ok.
+- Maintainer's harness pipeline_throughput_fixed_fields (b54 Anvil region, 10 x 1e13 fields) -> results/client_m54_harness.txt:
+  pinned 250k 5.15e11 n/s, pinned 62.5k 6.53e11, steered 6.54e11 (maintainer's M4 notes in gpu_niceonly.rs: 6.3e11 @250k, 7.9e11 @60k).
+- cubecl-metal (direct MSL) build: /private/tmp/nice-rust/overlap_join_gpu.msl (target-gpu-msl); finds 69 (client and join).
+NEXT: msl vs wgsl quick compare at b57; client_decomp.py; client_fullfield.py (JOIN_GPU_METAL=...msl); bench_final.py.
+
+UPDATE 2026-09-30 07:59
+- msl vs wgsl (b57, client-strat 50 pieces x2): client 416-418 (wgsl) vs 420-426 (msl) s/field; join dev 11.6 vs 11.8 -> no Metal-compiler handicap.
+- client_decomp.py running (JOIN_GPU=.final, NCOUNT=20000) -> results/client_decomp.jsonl, logs/client_decomp.log.
+  Early: b57 pinned floor 15625 -> 356 s/field vs ~415 steered (steered is clamped at MSD_FLOOR_MIN=62500): ~14% client handicap
+  from the clamp at b57 on this M4. Report client both as fleet-default (steered) and best pinned floor.
+- CPU-only modes (cpu-client, cpu-join) added in main.rs; binary /private/tmp/nice-rust/overlap_join_gpu.cpumodes (GPU work stays on .final).
+
+UPDATE 2026-09-30 08:10
+- client_decomp DONE (results/client_decomp.jsonl, logs/client_decomp.log). b57 fit (6 floors, <=4% err): 0.251 ns/stride visit,
+  0.728 ns/full check (M4). b60/b64 collinear -> quote all-in s/visit. Best pinned floors: 57:15625 (356 s vs 412 steered),
+  60:31250 (128 vs 144), 64:15625 (316 vs 380). Steered floor clamps at 62500 -> client handicap 11-17% on this M4 at 57-64.
+- Running: client_fullfield.py (whole fields, wgsl) -> results/client_fullfield.jsonl. Then:
+  JOIN_GPU=/private/tmp/nice-rust/overlap_join_gpu.final METHODS=join,join-devtops,client,client-pinned PINNED=57:15625,60:31250,64:15625 BENCH_OUT=bench_final.jsonl python3 scripts/bench_final.py
+
+UPDATE 2026-09-30 08:29
+- client_fullfield DONE: whole-field client (steered, wgsl): 57 446.6 s, 60 131.1 s, 64 370.5 s (within +-9% of stratified estimates).
+- FINAL BENCH RUNNING (pid 52752): bench_final.py, binary .final, METHODS join,join-devtops,client,client-pinned
+  (PINNED 57:15625,60:31250,64:15625), 3 rounds x 15 fields, method order rotated per (round, field) -> results/bench_final.jsonl,
+  log logs/bench_final.log. Resume: same command (checkpointed). Est ~2 h. Keep GPU/CPU otherwise idle.
+
+UPDATE 2026-09-30 08:32
+- bench_final running (pid 52752);        6 of 180 records.
+- Written: scripts/report_tables.py (tables from bench_final + fullfield), scripts/cpu_context.py (run AFTER bench:
+  JOIN_GPU_CPU=/private/tmp/nice-rust/overlap_join_gpu.cpumodes python3 scripts/cpu_context.py -> results/cpu_context.jsonl).
+- Report draft composed in conversation context (harness blocks .md writes); final text goes in the handback message.
+  Sources to cite: chipsandcheese RTX 4090 (72 MB L2), NVIDIA A100 whitepaper (40 MB L2).
+
+UPDATE 2026-09-30 17:38
+- bench_final DONE: 180 records, 0 errors (results/bench_final.jsonl). report_tables.py run.
+  Ratios client(default)/join(host tops): 57 29.9x (28.8-31.4), 60 12.1x (7.8-15.9), 64 20.7x (16.9-24.3).
+- Possible bias: whole-field client vs stratified: b57 446.6 vs 443.9; b60 131.1 vs 160.7; b64 370.5 vs 410.5 -> checking with
+  whole-field client runs on all b60/b64 fields (client_fullfield2) after cpu_context.py.
+
+UPDATE 2026-09-30 18:00
+- cpu_context DONE (results/cpu_context.jsonl): 10-thread CPU ratio client/join 57 7.3x, 60 4.9x, 64 2.9x;
+  GPU/CPU(10thr) speedup: client 3.8x/5.6x/2.5x, join 15.3x/14.1x/18.2x.
+- BIAS FOUND: stratified client estimate (100 x 1e11 pieces) is ~19-21% HIGH at b60 and 10-19% at b64 vs whole-field runs
+  (b57 agrees within 1%). Running whole-field client on ALL 15 fields (client_fullfield.py ALLFIELDS=1) -> results/client_fullfield.jsonl;
+  headline ratio will use whole-field client vs whole-field join (no sampling either side).
+
+UPDATE 2026-09-30 18:21
+- CUDA_NOTE.txt written (design note, untested). Whole-field b57 runs in progress (fullfield3), then repeat of b57 79228699893042801193
+  -> results/client_fullfield_repeat_57.json. Then: final stage_probe on .final (b57) and write-up.
+
+UPDATE 2026-09-30 22:08  -- ALL RUNS COMPLETE
+- Whole-field client runs on all 15 fields (results/client_fullfield.jsonl). Stratified estimate biased high +10% (57), +24% (60),
+  +20% (64) (per-piece pipeline overhead of 1e11 pieces); HEADLINE uses whole-field client vs whole-field join (results/report_tables.txt):
+  client/join(host tops): 57 27.2x (25.6-29.6, sd 1.9), 60 9.8x (6.2-13.0, sd 2.4), 64 17.4x (14.2-21.9, sd 3.2);
+  client/join(device tops): 30.5x, 10.9x, 18.0x. Client at best pinned floor: 25.3x, 10.3x, 15.8x.
+- Repeat of b57 whole field skipped (whole field 446.6 s == stratified 444 +- 21 on that field).
+- Stage probe on final binary: results/stage_probe_final.txt (11.2-12.4 s/field device, b57).
+- results/bench_gpu.jsonl removed (identical copy kept as results/bench_prelim.jsonl, buggy-binary preliminary run).
+- Report returned to coordinator in the final message (harness blocks .md).

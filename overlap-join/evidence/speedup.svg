@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+<title id="t">Speedup of the overlap join over the public client</title>
+<desc id="d">Client time divided by join time on the same production fields. base 57: CPU, 1 thread 7.6x (range 6.9-8.5), CPU, 10 threads 7.3x (range 6.3-8.1), GPU (Apple M4) 27.2x (range 25.6-29.6); base 60: CPU, 1 thread 6.2x (range 5.0-8.0), CPU, 10 threads 4.9x (range 2.8-5.7), GPU (Apple M4) 9.8x (range 6.2-13.0); base 64: CPU, 1 thread 3.6x (range 2.1-4.7), CPU, 10 threads 2.9x (range 2.2-3.4), GPU (Apple M4) 17.4x (range 14.2-21.9).</desc>
+<style>
+  .bg{fill:#fcfcfb} .ink{fill:#0b0b0b} .ink2{fill:#52514e} .muted{fill:#898781}
+  .grid{stroke:#e1e0d9} .axis{stroke:#c3c2b7} .whisk{stroke:#52514e}
+  .s1{fill:#2a78d6} .s2{fill:#eb6834} .s3{fill:#1baf7a}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19} .ink{fill:#ffffff} .ink2{fill:#c3c2b7}
+    .grid{stroke:#2c2c2a} .axis{stroke:#383835} .whisk{stroke:#c3c2b7}
+    .s1{fill:#3987e5} .s2{fill:#d95926} .s3{fill:#199e70}
+  }
+</style>
+<rect class="bg" width="720" height="400" rx="8"/>
+<text class="ink" x="64" y="30" font-size="16" font-weight="600">How much faster the overlap join is than the client</text>
+<text class="ink2" x="64" y="50" font-size="12">Client time ÷ join time on the same 1e14 production fields. Bar: mean over 5 fields; whisker: range.</text>
+<rect class="s1" x="64" y="64" width="12" height="12" rx="2"/>
+<text class="ink2" x="82" y="74" font-size="12">CPU, 1 thread</text>
+<rect class="s2" x="199.60000000000002" y="64" width="12" height="12" rx="2"/>
+<text class="ink2" x="217.60000000000002" y="74" font-size="12">CPU, 10 threads</text>
+<rect class="s3" x="349.6" y="64" width="12" height="12" rx="2"/>
+<text class="ink2" x="367.6" y="74" font-size="12">GPU (Apple M4)</text>
+<line class="axis" x1="64" x2="696" y1="344.0" y2="344.0" stroke-width="1"/>
+<text class="muted" x="56" y="348.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">0×</text>
+<line class="grid" x1="64" x2="696" y1="308.0" y2="308.0" stroke-width="1"/>
+<text class="muted" x="56" y="312.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">5×</text>
+<line class="grid" x1="64" x2="696" y1="272.0" y2="272.0" stroke-width="1"/>
+<text class="muted" x="56" y="276.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">10×</text>
+<line class="grid" x1="64" x2="696" y1="236.0" y2="236.0" stroke-width="1"/>
+<text class="muted" x="56" y="240.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">15×</text>
+<line class="grid" x1="64" x2="696" y1="200.0" y2="200.0" stroke-width="1"/>
+<text class="muted" x="56" y="204.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">20×</text>
+<line class="grid" x1="64" x2="696" y1="164.0" y2="164.0" stroke-width="1"/>
+<text class="muted" x="56" y="168.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">25×</text>
+<line class="grid" x1="64" x2="696" y1="128.0" y2="128.0" stroke-width="1"/>
+<text class="muted" x="56" y="132.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">30×</text>
+<line class="grid" x1="64" x2="696" y1="92.0" y2="92.0" stroke-width="1"/>
+<text class="muted" x="56" y="96.0" font-size="11" text-anchor="end" style="font-variant-numeric:tabular-nums">35×</text>
+<path class="s1" d="M131.3,344.0 V293.2 Q131.3,289.2 135.3,289.2 H151.3 Q155.3,289.2 155.3,293.2 V344.0 Z"><title>CPU, 1 thread, base 57: 7.6× (range 6.9–8.5×)</title></path>
+<line class="whisk" x1="143.3" x2="143.3" y1="283.0" y2="294.2" stroke-width="1.5"/>
+<line class="whisk" x1="139.3" x2="147.3" y1="294.2" y2="294.2" stroke-width="1.5"/>
+<line class="whisk" x1="139.3" x2="147.3" y1="283.0" y2="283.0" stroke-width="1.5"/>
+<text class="ink" x="143.3" y="277.0" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">7.6×</text>
+<path class="s2" d="M157.3,344.0 V295.4 Q157.3,291.4 161.3,291.4 H177.3 Q181.3,291.4 181.3,295.4 V344.0 Z"><title>CPU, 10 threads, base 57: 7.3× (range 6.3–8.1×)</title></path>
+<line class="whisk" x1="169.3" x2="169.3" y1="285.7" y2="298.6" stroke-width="1.5"/>
+<line class="whisk" x1="165.3" x2="173.3" y1="298.6" y2="298.6" stroke-width="1.5"/>
+<line class="whisk" x1="165.3" x2="173.3" y1="285.7" y2="285.7" stroke-width="1.5"/>
+<text class="ink" x="169.3" y="279.7" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">7.3×</text>
+<path class="s3" d="M183.3,344.0 V152.2 Q183.3,148.2 187.3,148.2 H203.3 Q207.3,148.2 207.3,152.2 V344.0 Z"><title>GPU (Apple M4), base 57: 27.2× (range 25.6–29.6×)</title></path>
+<line class="whisk" x1="195.3" x2="195.3" y1="130.9" y2="159.7" stroke-width="1.5"/>
+<line class="whisk" x1="191.3" x2="199.3" y1="159.7" y2="159.7" stroke-width="1.5"/>
+<line class="whisk" x1="191.3" x2="199.3" y1="130.9" y2="130.9" stroke-width="1.5"/>
+<text class="ink" x="195.3" y="124.9" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">27.2×</text>
+<text class="ink2" x="169.3" y="366.0" font-size="12" text-anchor="middle">Base 57</text>
+<path class="s1" d="M342.0,344.0 V303.6 Q342.0,299.6 346.0,299.6 H362.0 Q366.0,299.6 366.0,303.6 V344.0 Z"><title>CPU, 1 thread, base 60: 6.2× (range 5.0–8.0×)</title></path>
+<line class="whisk" x1="354.0" x2="354.0" y1="286.4" y2="308.2" stroke-width="1.5"/>
+<line class="whisk" x1="350.0" x2="358.0" y1="308.2" y2="308.2" stroke-width="1.5"/>
+<line class="whisk" x1="350.0" x2="358.0" y1="286.4" y2="286.4" stroke-width="1.5"/>
+<text class="ink" x="354.0" y="280.4" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">6.2×</text>
+<path class="s2" d="M368.0,344.0 V312.7 Q368.0,308.7 372.0,308.7 H388.0 Q392.0,308.7 392.0,312.7 V344.0 Z"><title>CPU, 10 threads, base 60: 4.9× (range 2.8–5.7×)</title></path>
+<line class="whisk" x1="380.0" x2="380.0" y1="303.0" y2="323.8" stroke-width="1.5"/>
+<line class="whisk" x1="376.0" x2="384.0" y1="323.8" y2="323.8" stroke-width="1.5"/>
+<line class="whisk" x1="376.0" x2="384.0" y1="303.0" y2="303.0" stroke-width="1.5"/>
+<text class="ink" x="380.0" y="297.0" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">4.9×</text>
+<path class="s3" d="M394.0,344.0 V277.4 Q394.0,273.4 398.0,273.4 H414.0 Q418.0,273.4 418.0,277.4 V344.0 Z"><title>GPU (Apple M4), base 60: 9.8× (range 6.2–13.0×)</title></path>
+<line class="whisk" x1="406.0" x2="406.0" y1="250.4" y2="299.4" stroke-width="1.5"/>
+<line class="whisk" x1="402.0" x2="410.0" y1="299.4" y2="299.4" stroke-width="1.5"/>
+<line class="whisk" x1="402.0" x2="410.0" y1="250.4" y2="250.4" stroke-width="1.5"/>
+<text class="ink" x="406.0" y="244.4" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">9.8×</text>
+<text class="ink2" x="380.0" y="366.0" font-size="12" text-anchor="middle">Base 60</text>
+<path class="s1" d="M552.7,344.0 V321.8 Q552.7,317.8 556.7,317.8 H572.7 Q576.7,317.8 576.7,321.8 V344.0 Z"><title>CPU, 1 thread, base 64: 3.6× (range 2.1–4.7×)</title></path>
+<line class="whisk" x1="564.7" x2="564.7" y1="310.2" y2="328.7" stroke-width="1.5"/>
+<line class="whisk" x1="560.7" x2="568.7" y1="328.7" y2="328.7" stroke-width="1.5"/>
+<line class="whisk" x1="560.7" x2="568.7" y1="310.2" y2="310.2" stroke-width="1.5"/>
+<text class="ink" x="564.7" y="304.2" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">3.6×</text>
+<path class="s2" d="M578.7,344.0 V327.1 Q578.7,323.1 582.7,323.1 H598.7 Q602.7,323.1 602.7,327.1 V344.0 Z"><title>CPU, 10 threads, base 64: 2.9× (range 2.2–3.4×)</title></path>
+<line class="whisk" x1="590.7" x2="590.7" y1="319.5" y2="328.2" stroke-width="1.5"/>
+<line class="whisk" x1="586.7" x2="594.7" y1="328.2" y2="328.2" stroke-width="1.5"/>
+<line class="whisk" x1="586.7" x2="594.7" y1="319.5" y2="319.5" stroke-width="1.5"/>
+<text class="ink" x="590.7" y="313.5" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">2.9×</text>
+<path class="s3" d="M604.7,344.0 V222.7 Q604.7,218.7 608.7,218.7 H624.7 Q628.7,218.7 628.7,222.7 V344.0 Z"><title>GPU (Apple M4), base 64: 17.4× (range 14.2–21.9×)</title></path>
+<line class="whisk" x1="616.7" x2="616.7" y1="186.3" y2="241.8" stroke-width="1.5"/>
+<line class="whisk" x1="612.7" x2="620.7" y1="241.8" y2="241.8" stroke-width="1.5"/>
+<line class="whisk" x1="612.7" x2="620.7" y1="186.3" y2="186.3" stroke-width="1.5"/>
+<text class="ink" x="616.7" y="180.3" font-size="11" text-anchor="middle" style="font-variant-numeric:tabular-nums">17.4×</text>
+<text class="ink2" x="590.7" y="366.0" font-size="12" text-anchor="middle">Base 64</text>
+<text class="muted" x="64" y="390" font-size="11">One Apple M4 laptop. GPU: whole-field client run vs. join (mean of 3 rounds). NVIDIA untested.</text>
+</svg>

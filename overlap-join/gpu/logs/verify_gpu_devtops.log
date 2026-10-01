@@ -1,0 +1,22 @@
+PASS  {'base': 10, 'start': '47', 't': 2, 'k': 1, 'p': 0, 'parts': 1, 'gpu_survivors': 1, 'cpu_survivors': 1, 'gpu_matches': 1, 'cpu_matches': 1, 'gpu_hits': ['69']} brute
+PASS  {'base': 20, 'start': '58945', 't': 3, 'k': 2, 'p': 0, 'parts': 1, 'gpu_survivors': 1604, 'cpu_survivors': 1604, 'gpu_matches': 4397, 'cpu_matches': 4397, 'gpu_hits': []} brute
+PASS  {'base': 20, 'start': '58945', 't': 3, 'k': 2, 'p': 1, 'parts': 20, 'gpu_survivors': 1604, 'cpu_survivors': 1604, 'gpu_matches': 4397, 'cpu_matches': 4397, 'gpu_hits': []} brute
+PASS  {'base': 20, 'start': '58945', 't': 2, 'k': 3, 'p': 1, 'parts': 20, 'gpu_survivors': 1666, 'cpu_survivors': 1666, 'gpu_matches': 3412, 'cpu_matches': 3412, 'gpu_hits': []} brute
+PASS  {'base': 20, 'start': '60001', 't': 2, 'k': 3, 'p': 1, 'parts': 20, 'gpu_survivors': 1512, 'cpu_survivors': 1512, 'gpu_matches': 3137, 'cpu_matches': 3137, 'gpu_hits': []} brute
+PASS  {'base': 25, 'start': '3339797', 't': 4, 'k': 3, 'p': 1, 'parts': 25, 'gpu_survivors': 5716, 'cpu_survivors': 5716, 'gpu_matches': 46131, 'cpu_matches': 46131, 'gpu_hits': []} brute
+PASS  {'base': 25, 'start': '5000123', 't': 3, 'k': 4, 'p': 2, 'parts': 625, 'gpu_survivors': 6307, 'cpu_survivors': 6307, 'gpu_matches': 34378, 'cpu_matches': 34378, 'gpu_hits': []} brute
+PASS  {'base': 30, 'start': '300000000', 't': 5, 'k': 4, 'p': 2, 'parts': 900, 'gpu_survivors': 0, 'cpu_survivors': 0, 'gpu_matches': 0, 'cpu_matches': 0, 'gpu_hits': []} brute
+PASS  {'base': 34, 'start': '12000000017', 't': 5, 'k': 5, 'p': 2, 'parts': 1156, 'gpu_survivors': 0, 'cpu_survivors': 0, 'gpu_matches': 0, 'cpu_matches': 0, 'gpu_hits': []} brute
+PASS  {'base': 40, 'start': '3000000000000', 't': 6, 'k': 5, 'p': 2, 'parts': 1600, 'gpu_survivors': 102, 'cpu_survivors': 102, 'gpu_matches': 3045, 'cpu_matches': 3045, 'gpu_hits': []} brute
+PASS  {'base': 40, 'start': '3000000000000', 't': 7, 'k': 4, 'p': 2, 'parts': 1600, 'gpu_survivors': 102, 'cpu_survivors': 102, 'gpu_matches': 2425, 'cpu_matches': 2425, 'gpu_hits': []} brute
+PASS  {'base': 57, 'start': '30000000000000000000', 't': 10, 'k': 4, 'p': 1, 'parts': 57, 'gpu_survivors': 0, 'cpu_survivors': 0, 'gpu_matches': 0, 'cpu_matches': 0, 'gpu_hits': []} brute
+PASS  {'base': 57, 'start': '20635899893042801193', 't': 9, 'k': 5, 'p': 1, 'parts': 57, 'gpu_survivors': 0, 'cpu_survivors': 0, 'gpu_matches': 0, 'cpu_matches': 0, 'gpu_hits': []} brute
+PASS  {'base': 58, 'start': '150000000000000000123', 't': 10, 'k': 4, 'p': 2, 'parts': 3364, 'gpu_survivors': 0, 'cpu_survivors': 0, 'gpu_matches': 0, 'cpu_matches': 0, 'gpu_hits': []} brute
+PASS  {'base': 64, 'start': '50000000000000000000000', 't': 11, 'k': 4, 'p': 2, 'parts': 4096, 'gpu_survivors': 0, 'cpu_survivors': 0, 'gpu_matches': 0, 'cpu_matches': 0, 'gpu_hits': []} brute
+PASS  {'base': 57, 'start': '78920310198429586458', 't': 10, 'k': 4, 'p': 1, 'parts': 57, 'gpu_survivors': 561, 'cpu_survivors': 561, 'gpu_matches': 12821, 'cpu_matches': 12821, 'gpu_hits': []} brute
+PASS  {'base': 57, 'start': '78920310198429586458', 't': 9, 'k': 5, 'p': 2, 'parts': 3249, 'gpu_survivors': 405, 'cpu_survivors': 405, 'gpu_matches': 24600, 'cpu_matches': 24600, 'gpu_hits': []} brute
+PASS  {'base': 58, 'start': '114041927169846138720', 't': 10, 'k': 4, 'p': 2, 'parts': 3364, 'gpu_survivors': 207, 'cpu_survivors': 207, 'gpu_matches': 5051, 'cpu_matches': 5051, 'gpu_hits': []} brute
+PASS  {'base': 60, 'start': '1573714731429953349518', 't': 10, 'k': 4, 'p': 2, 'parts': 3600, 'gpu_survivors': 0, 'cpu_survivors': 0, 'gpu_matches': 0, 'cpu_matches': 0, 'gpu_hits': []} brute
+PASS  {'base': 62, 'start': '11098052380541596298900', 't': 11, 'k': 4, 'p': 2, 'parts': 3844, 'gpu_survivors': 92, 'cpu_survivors': 92, 'gpu_matches': 2098, 'cpu_matches': 2098, 'gpu_hits': []} brute
+PASS  {'base': 64, 'start': '52125117810081128433988', 't': 11, 'k': 4, 'p': 2, 'parts': 4096, 'gpu_survivors': 411, 'cpu_survivors': 411, 'gpu_matches': 11916, 'cpu_matches': 11916, 'gpu_hits': []} brute
+ALL PASS
